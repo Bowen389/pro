@@ -1,0 +1,131 @@
+{
+  "version": "leader-backend-v0.2",
+  "market_date": "2026-10-21",
+  "target_date": "2026-10-22",
+  "created_at": "2026-10-21T20:58:48.871623+08:00",
+  "data_scope": "source_limit_up_pool_only",
+  "source_updated_at": "2026-10-21 20:56:51+08:00",
+  "status": "RESEARCH_ONLY",
+  "rule_status": "UNVALIDATED_HEURISTICS",
+  "source_snapshot_hash": "cb3d6bd2ffd2a2c98ed3c9d591abf0184435a5e06892b5ec03f5e2b0a7cb99c4",
+  "candidates": [
+    {
+      "symbol": "002076",
+      "name": "星光股份",
+      "support": [
+        "首封09:30:00",
+        "开板0次",
+        "连续2板"
+      ],
+      "counterevidence": [
+        "未取得真实队列与成交能力",
+        "未验证相对历史预期和分钟带动性"
+      ],
+      "classification": "研究观察：盘中确认待补",
+      "expected": "自身保持相对强势，相关题材出现跟随而非独立冲高",
+      "invalid": "核心走弱且同题材承接失败；数据不可用",
+      "buy_signal": false
+    },
+    {
+      "symbol": "600293",
+      "name": "三峡新材",
+      "support": [
+        "首封09:25:00",
+        "开板0次",
+        "连续2板"
+      ],
+      "counterevidence": [
+        "未取得真实队列与成交能力",
+        "未验证相对历史预期和分钟带动性"
+      ],
+      "classification": "强度观察：可成交性待核验",
+      "expected": "自身保持相对强势，相关题材出现跟随而非独立冲高",
+      "invalid": "核心走弱且同题材承接失败；数据不可用",
+      "buy_signal": false
+    },
+    {
+      "symbol": "002835",
+      "name": "同为股份",
+      "support": [
+        "首封09:25:00",
+        "开板1次",
+        "连续2板"
+      ],
+      "counterevidence": [
+        "未取得真实队列与成交能力",
+        "未验证相对历史预期和分钟带动性"
+      ],
+      "classification": "研究观察：盘中确认待补",
+      "expected": "自身保持相对强势，相关题材出现跟随而非独立冲高",
+      "invalid": "核心走弱且同题材承接失败；数据不可用",
+      "buy_signal": false
+    },
+    {
+      "symbol": "002347",
+      "name": "泰尔股份",
+      "support": [
+        "首封09:25:00",
+        "开板0次",
+        "连续2板"
+      ],
+      "counterevidence": [
+        "未取得真实队列与成交能力",
+        "未验证相对历史预期和分钟带动性"
+      ],
+      "classification": "强度观察：可成交性待核验",
+      "expected": "自身保持相对强势，相关题材出现跟随而非独立冲高",
+      "invalid": "核心走弱且同题材承接失败；数据不可用",
+      "buy_signal": false
+    },
+    {
+      "symbol": "002696",
+      "name": "百洋股份",
+      "support": [
+        "首封09:36:03",
+        "开板0次",
+        "连续2板"
+      ],
+      "counterevidence": [
+        "未取得真实队列与成交能力",
+        "未验证相对历史预期和分钟带动性"
+      ],
+      "classification": "研究观察：盘中确认待补",
+      "expected": "自身保持相对强势，相关题材出现跟随而非独立冲高",
+      "invalid": "核心走弱且同题材承接失败；数据不可用",
+      "buy_signal": false
+    },
+    {
+      "symbol": "002313",
+      "name": "日海智能",
+      "support": [
+        "首封09:25:00",
+        "开板0次",
+        "连续2板"
+      ],
+      "counterevidence": [
+        "未取得真实队列与成交能力",
+        "未验证相对历史预期和分钟带动性"
+      ],
+      "classification": "强度观察：可成交性待核验",
+      "expected": "自身保持相对强势，相关题材出现跟随而非独立冲高",
+      "invalid": "核心走弱且同题材承接失败；数据不可用",
+      "buy_signal": false
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H01",
+      "claim": "早封且封板稳定的标的能否获得次日持续性",
+      "status": "pending",
+      "evaluation": "次日收盘与开盘表现，分组记录失败样本，不假设涨停可成交"
+    },
+    {
+      "id": "H02",
+      "claim": "强度锚与板块扩散是否共同出现",
+      "status": "pending",
+      "evaluation": "缺分钟数据，当前只能对照题材标签与存续数量，不能宣称因果带动"
+    }
+  ],
+  "calendar_status": "weekday_estimate_not_exchange_calendar",
+  "auto_orders": false
+}

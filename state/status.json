@@ -1,8 +1,8 @@
 {
-  "run_key": "20261021T181231_close_39582863797_1",
+  "run_key": "20261021T205834_close_39603936846_1",
   "phase": "close",
-  "started_at": "2026-10-21T18:12:31.524065+08:00",
-  "run_url": "https://github.com/Bowen389/pro/actions/runs/39582863797",
+  "started_at": "2026-10-21T20:58:34.519966+08:00",
+  "run_url": "https://github.com/Bowen389/pro/actions/runs/39603936846",
   "system_status": "DEVELOPMENT_VALIDATION",
   "market_status": "collected_public_limit_pool",
   "source_status": "collected_public_excerpts",
@@ -17,9 +17,9 @@
   "market_count": 50,
   "source_posts": 9,
   "source_readable": 9,
-  "report_path": "reports/2026-10-21/20261021T181231_close_39582863797_1.md",
-  "plan_path": "state/plans/2026-10-22/20261021T181231_close_39582863797_1.json",
+  "report_path": "reports/2026-10-21/20261021T205834_close_39603936846_1.md",
+  "plan_path": "state/plans/2026-10-22/20261021T205834_close_39603936846_1.json",
   "plans_checked": 0,
   "result": "success",
-  "finished_at": "2026-10-21T18:12:45.432852+08:00"
+  "finished_at": "2026-10-21T20:58:48.872815+08:00"
 }
