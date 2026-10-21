@@ -1,0 +1,79 @@
+name: 龙头研究后台
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'tests/**'
+      - 'config/**'
+      - '.github/workflows/research.yml'
+  workflow_dispatch:
+    inputs:
+      phase:
+        description: 采集阶段
+        type: choice
+        options: [auto, morning, midday, close]
+        default: auto
+  schedule:
+    - cron: '5 1 * * 1-5'
+    - cron: '37 3 * * 1-5'
+    - cron: '37 7 * * 1-5'
+    - cron: '17 12 * * 1-5'
+permissions:
+  contents: write
+concurrency:
+  group: leader-research-main
+  cancel-in-progress: false
+jobs:
+  collect-and-review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify core behavior
+        run: python -m unittest discover -s tests -v
+      - name: Select scheduled phase
+        id: phase
+        env:
+          REQUESTED_PHASE: ${{ inputs.phase }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          phase="${REQUESTED_PHASE:-auto}"
+          case "$EVENT_SCHEDULE" in
+            '5 1 * * 1-5') phase=morning ;;
+            '37 3 * * 1-5') phase=midday ;;
+            '37 7 * * 1-5'|'17 12 * * 1-5') phase=close ;;
+          esac
+          echo "phase=$phase" >> "$GITHUB_OUTPUT"
+      - name: Capture public data and create research records
+        id: capture
+        env:
+          RESEARCH_PHASE: ${{ steps.phase.outputs.phase }}
+        run: python src/pipeline.py --phase "$RESEARCH_PHASE"
+      - name: Persist snapshots and reports, including failures
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- state reports
+          if ! git diff --cached --quiet; then
+            git commit -m 'Archive research run and public data snapshots [skip ci]'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Retain downloadable run outputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: research-run-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            state/
+            reports/
+          retention-days: 90
+          if-no-files-found: warn

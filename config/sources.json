@@ -1,0 +1,10 @@
+{
+  "authors": [
+    {"name":"期末50分","blog":"https://www.tgb.cn/blog/6673164"},
+    {"name":"橘子洲炒家实战","blog":"https://www.tgb.cn/blog/13145799"},
+    {"name":"庄哥说股","blog":"https://www.tgb.cn/blog/12066054"},
+    {"name":"延边刺客","blog":"https://www.tgb.cn/blog/5894557"}
+  ],
+  "posts_per_author": 2,
+  "seed_posts": [{"url":"https://www.tgb.cn/a/2tGG34CnvkD","author":"期末50分"}]
+}
