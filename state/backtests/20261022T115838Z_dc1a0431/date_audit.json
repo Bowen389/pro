@@ -1,0 +1,337 @@
+[
+  {
+    "date": "2026-09-01",
+    "status": "rejected_incomplete_or_mismatched",
+    "provider_qdate": "20261022",
+    "eligible_rows": 0,
+    "validated_signals": 0,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-09-02",
+    "status": "rejected_incomplete_or_mismatched",
+    "provider_qdate": "20261022",
+    "eligible_rows": 0,
+    "validated_signals": 0,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-09-03",
+    "status": "rejected_incomplete_or_mismatched",
+    "provider_qdate": "20261022",
+    "eligible_rows": 0,
+    "validated_signals": 0,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-09-04",
+    "status": "rejected_incomplete_or_mismatched",
+    "provider_qdate": "20261022",
+    "eligible_rows": 0,
+    "validated_signals": 0,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-09-07",
+    "status": "rejected_incomplete_or_mismatched",
+    "provider_qdate": "20261022",
+    "eligible_rows": 0,
+    "validated_signals": 0,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-09-08",
+    "status": "rejected_incomplete_or_mismatched",
+    "provider_qdate": "20261022",
+    "eligible_rows": 0,
+    "validated_signals": 0,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-09-09",
+    "status": "rejected_incomplete_or_mismatched",
+    "provider_qdate": "20261022",
+    "eligible_rows": 0,
+    "validated_signals": 0,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-09-10",
+    "status": "rejected_incomplete_or_mismatched",
+    "provider_qdate": "20261022",
+    "eligible_rows": 0,
+    "validated_signals": 0,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-09-11",
+    "status": "rejected_incomplete_or_mismatched",
+    "provider_qdate": "20261022",
+    "eligible_rows": 0,
+    "validated_signals": 0,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-09-14",
+    "status": "rejected_incomplete_or_mismatched",
+    "provider_qdate": "20261022",
+    "eligible_rows": 0,
+    "validated_signals": 0,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-09-15",
+    "status": "rejected_incomplete_or_mismatched",
+    "provider_qdate": "20261022",
+    "eligible_rows": 0,
+    "validated_signals": 0,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-09-16",
+    "status": "rejected_incomplete_or_mismatched",
+    "provider_qdate": "20261022",
+    "eligible_rows": 0,
+    "validated_signals": 0,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-09-17",
+    "status": "rejected_incomplete_or_mismatched",
+    "provider_qdate": "20261022",
+    "eligible_rows": 0,
+    "validated_signals": 0,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-09-18",
+    "status": "rejected_incomplete_or_mismatched",
+    "provider_qdate": "20261022",
+    "eligible_rows": 0,
+    "validated_signals": 0,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-09-21",
+    "status": "rejected_incomplete_or_mismatched",
+    "provider_qdate": "20261022",
+    "eligible_rows": 0,
+    "validated_signals": 0,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-09-22",
+    "status": "rejected_incomplete_or_mismatched",
+    "provider_qdate": "20261022",
+    "eligible_rows": 0,
+    "validated_signals": 0,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-09-23",
+    "status": "rejected_incomplete_or_mismatched",
+    "provider_qdate": "20261022",
+    "eligible_rows": 0,
+    "validated_signals": 0,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-09-24",
+    "status": "rejected_incomplete_or_mismatched",
+    "provider_qdate": "20261022",
+    "eligible_rows": 46,
+    "validated_signals": 43,
+    "errors": [
+      "002264:not_10pct_limit_by_daily"
+    ],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-09-25",
+    "status": "rejected_incomplete_or_mismatched",
+    "provider_qdate": "20261022",
+    "eligible_rows": 0,
+    "validated_signals": 0,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-09-28",
+    "status": "verified_mainboard_subset",
+    "provider_qdate": "20261022",
+    "eligible_rows": 31,
+    "validated_signals": 30,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-09-29",
+    "status": "verified_mainboard_subset",
+    "provider_qdate": "20261022",
+    "eligible_rows": 51,
+    "validated_signals": 50,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-09-30",
+    "status": "verified_mainboard_subset",
+    "provider_qdate": "20261022",
+    "eligible_rows": 48,
+    "validated_signals": 48,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-10-01",
+    "status": "rejected_incomplete_or_mismatched",
+    "provider_qdate": "20261022",
+    "eligible_rows": 0,
+    "validated_signals": 0,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-10-02",
+    "status": "rejected_incomplete_or_mismatched",
+    "provider_qdate": "20261022",
+    "eligible_rows": 0,
+    "validated_signals": 0,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-10-05",
+    "status": "rejected_incomplete_or_mismatched",
+    "provider_qdate": "20261022",
+    "eligible_rows": 0,
+    "validated_signals": 0,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-10-06",
+    "status": "rejected_incomplete_or_mismatched",
+    "provider_qdate": "20261022",
+    "eligible_rows": 0,
+    "validated_signals": 0,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-10-07",
+    "status": "rejected_incomplete_or_mismatched",
+    "provider_qdate": "20261022",
+    "eligible_rows": 0,
+    "validated_signals": 0,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-10-08",
+    "status": "verified_mainboard_subset",
+    "provider_qdate": "20261022",
+    "eligible_rows": 38,
+    "validated_signals": 38,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-10-09",
+    "status": "verified_mainboard_subset",
+    "provider_qdate": "20261022",
+    "eligible_rows": 62,
+    "validated_signals": 60,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-10-12",
+    "status": "verified_mainboard_subset",
+    "provider_qdate": "20261022",
+    "eligible_rows": 39,
+    "validated_signals": 38,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-10-13",
+    "status": "verified_mainboard_subset",
+    "provider_qdate": "20261022",
+    "eligible_rows": 63,
+    "validated_signals": 63,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-10-14",
+    "status": "verified_mainboard_subset",
+    "provider_qdate": "20261022",
+    "eligible_rows": 34,
+    "validated_signals": 33,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-10-15",
+    "status": "verified_mainboard_subset",
+    "provider_qdate": "20261022",
+    "eligible_rows": 34,
+    "validated_signals": 34,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-10-16",
+    "status": "verified_mainboard_subset",
+    "provider_qdate": "20261022",
+    "eligible_rows": 53,
+    "validated_signals": 51,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-10-19",
+    "status": "verified_mainboard_subset",
+    "provider_qdate": "20261022",
+    "eligible_rows": 39,
+    "validated_signals": 39,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-10-20",
+    "status": "verified_mainboard_subset",
+    "provider_qdate": "20261022",
+    "eligible_rows": 46,
+    "validated_signals": 45,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  },
+  {
+    "date": "2026-10-21",
+    "status": "verified_mainboard_subset",
+    "provider_qdate": "20261022",
+    "eligible_rows": 44,
+    "validated_signals": 40,
+    "errors": [],
+    "scope": "仅验证主板非ST子集；不能证明全历史池完整"
+  }
+]

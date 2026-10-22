@@ -1,0 +1,7 @@
+{
+  "input_archive": "inputs.json.gz",
+  "sha256": "287d51ce5319b6f445e2150e229902b3697f1c13aa5ae005ef5fba5d8a26f954",
+  "decompressed_sha256": "1d1ce826671d5acea05ee43c7b47697148eef3bda86515877cecd1323ce36800",
+  "expected_result_hash": "d48036f30b8794cf00aa5c6bc4f5063483b4b3b81a841d9e1f78c922ef437c4a",
+  "protocol_hash": "dc1a043153266205b81605a1d3c029042fe6930ef27a32e23ca02dc06f90498f"
+}

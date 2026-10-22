@@ -1,0 +1,5086 @@
+{
+  "engine_sha256": "468769bd1cb3d2744de2225136077c518a9834fcd407a8b72b81e1bf20ce5a37",
+  "run_id": "20261022T115838Z_dc1a0431",
+  "protocol_hash": "dc1a043153266205b81605a1d3c029042fe6930ef27a32e23ca02dc06f90498f",
+  "input_hash": "ecfd75e39df12da85c369f8c5656b39ae98e1b314592f90b843940aceda9f9f0",
+  "signal_count": 569,
+  "verified_dates": [
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30",
+    "2026-10-08",
+    "2026-10-09",
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-15",
+    "2026-10-16",
+    "2026-10-19",
+    "2026-10-20",
+    "2026-10-21"
+  ],
+  "requested_dates": 37,
+  "data_fetches": [
+    {
+      "name": "000002",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000002,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:48.692023+08:00"
+    },
+    {
+      "name": "000011",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000011,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:48.644739+08:00"
+    },
+    {
+      "name": "000020",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000020,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:48.781984+08:00"
+    },
+    {
+      "name": "000036",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000036,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:48.627238+08:00"
+    },
+    {
+      "name": "000068",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000068,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:48.590615+08:00"
+    },
+    {
+      "name": "000099",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000099,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:48.609479+08:00"
+    },
+    {
+      "name": "000420",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000420,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:49.555819+08:00"
+    },
+    {
+      "name": "000498",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000498,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:49.584594+08:00"
+    },
+    {
+      "name": "000503",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000503,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:49.646494+08:00"
+    },
+    {
+      "name": "000504",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000504,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:49.611835+08:00"
+    },
+    {
+      "name": "000513",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000513,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:49.844835+08:00"
+    },
+    {
+      "name": "000518",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000518,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:49.783566+08:00"
+    },
+    {
+      "name": "000530",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000530,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:50.513086+08:00"
+    },
+    {
+      "name": "000546",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000546,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:50.542408+08:00"
+    },
+    {
+      "name": "000558",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000558,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:50.572691+08:00"
+    },
+    {
+      "name": "000573",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000573,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:50.642646+08:00"
+    },
+    {
+      "name": "000576",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000576,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:50.821028+08:00"
+    },
+    {
+      "name": "000592",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000592,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:50.868535+08:00"
+    },
+    {
+      "name": "000601",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000601,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:51.503806+08:00"
+    },
+    {
+      "name": "000607",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000607,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:51.511477+08:00"
+    },
+    {
+      "name": "000626",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000626,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:51.550133+08:00"
+    },
+    {
+      "name": "000668",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000668,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:51.622133+08:00"
+    },
+    {
+      "name": "000678",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000678,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:51.813804+08:00"
+    },
+    {
+      "name": "000692",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000692,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:51.985611+08:00"
+    },
+    {
+      "name": "000701",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000701,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:52.461146+08:00"
+    },
+    {
+      "name": "000710",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000710,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:52.469790+08:00"
+    },
+    {
+      "name": "000715",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000715,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:52.675040+08:00"
+    },
+    {
+      "name": "000722",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000722,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:52.711480+08:00"
+    },
+    {
+      "name": "000736",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000736,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:52.755728+08:00"
+    },
+    {
+      "name": "000753",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000753,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:53.025464+08:00"
+    },
+    {
+      "name": "000788",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000788,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:53.459720+08:00"
+    },
+    {
+      "name": "000790",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000790,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:53.419165+08:00"
+    },
+    {
+      "name": "000823",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000823,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:53.829149+08:00"
+    },
+    {
+      "name": "000833",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000833,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:53.657396+08:00"
+    },
+    {
+      "name": "000850",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000850,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:53.704531+08:00"
+    },
+    {
+      "name": "000869",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000869,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:54.148393+08:00"
+    },
+    {
+      "name": "000887",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000887,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:54.364607+08:00"
+    },
+    {
+      "name": "000892",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000892,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:54.416052+08:00"
+    },
+    {
+      "name": "000905",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000905,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:54.660664+08:00"
+    },
+    {
+      "name": "000980",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000980,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:54.703917+08:00"
+    },
+    {
+      "name": "000995",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz000995,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:54.786605+08:00"
+    },
+    {
+      "name": "001201",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz001201,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:55.100028+08:00"
+    },
+    {
+      "name": "001206",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz001206,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:55.508037+08:00"
+    },
+    {
+      "name": "001211",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz001211,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:55.542613+08:00"
+    },
+    {
+      "name": "001216",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz001216,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:55.788520+08:00"
+    },
+    {
+      "name": "001225",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz001225,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:55.669739+08:00"
+    },
+    {
+      "name": "001229",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz001229,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:55.926830+08:00"
+    },
+    {
+      "name": "001231",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz001231,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:56.074036+08:00"
+    },
+    {
+      "name": "001234",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz001234,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:56.506784+08:00"
+    },
+    {
+      "name": "001239",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz001239,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:56.492358+08:00"
+    },
+    {
+      "name": "001266",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz001266,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:56.652619+08:00"
+    },
+    {
+      "name": "001283",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz001283,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:56.732830+08:00"
+    },
+    {
+      "name": "001288",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz001288,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:57.077991+08:00"
+    },
+    {
+      "name": "001299",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz001299,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:57.039453+08:00"
+    },
+    {
+      "name": "001300",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz001300,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:57.443960+08:00"
+    },
+    {
+      "name": "001318",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz001318,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:57.460274+08:00"
+    },
+    {
+      "name": "001319",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz001319,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:57.799725+08:00"
+    },
+    {
+      "name": "001323",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz001323,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:57.684391+08:00"
+    },
+    {
+      "name": "001330",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz001330,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:57.991997+08:00"
+    },
+    {
+      "name": "001336",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz001336,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:58.039174+08:00"
+    },
+    {
+      "name": "001358",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz001358,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:58.398689+08:00"
+    },
+    {
+      "name": "001368",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz001368,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:58.415610+08:00"
+    },
+    {
+      "name": "001388",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz001388,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:58.625360+08:00"
+    },
+    {
+      "name": "001696",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz001696,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:58.943299+08:00"
+    },
+    {
+      "name": "002029",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002029,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:58.971542+08:00"
+    },
+    {
+      "name": "002041",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002041,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:59.038653+08:00"
+    },
+    {
+      "name": "002058",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002058,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:59.388604+08:00"
+    },
+    {
+      "name": "002074",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002074,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:59.364312+08:00"
+    },
+    {
+      "name": "002076",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002076,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:59.579932+08:00"
+    },
+    {
+      "name": "002085",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002085,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:00.085684+08:00"
+    },
+    {
+      "name": "002086",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002086,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:59.921207+08:00"
+    },
+    {
+      "name": "002088",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002088,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:58:59.986119+08:00"
+    },
+    {
+      "name": "002103",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002103,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:00.312015+08:00"
+    },
+    {
+      "name": "002112",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002112,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:00.518556+08:00"
+    },
+    {
+      "name": "002119",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002119,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:00.568123+08:00"
+    },
+    {
+      "name": "002134",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002134,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:00.860298+08:00"
+    },
+    {
+      "name": "002164",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002164,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:00.981640+08:00"
+    },
+    {
+      "name": "002172",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002172,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:01.029728+08:00"
+    },
+    {
+      "name": "002181",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002181,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:01.308940+08:00"
+    },
+    {
+      "name": "002184",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002184,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:01.467749+08:00"
+    },
+    {
+      "name": "002188",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002188,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:01.524076+08:00"
+    },
+    {
+      "name": "002205",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002205,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:01.805342+08:00"
+    },
+    {
+      "name": "002212",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002212,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:01.927750+08:00"
+    },
+    {
+      "name": "002226",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002226,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:01.994527+08:00"
+    },
+    {
+      "name": "002232",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002232,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:02.449951+08:00"
+    },
+    {
+      "name": "002238",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002238,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:02.458150+08:00"
+    },
+    {
+      "name": "002242",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002242,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:02.467673+08:00"
+    },
+    {
+      "name": "002244",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002244,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:02.752093+08:00"
+    },
+    {
+      "name": "002264",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002264,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:02.883546+08:00"
+    },
+    {
+      "name": "002303",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002303,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:02.986092+08:00"
+    },
+    {
+      "name": "002313",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002313,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:03.399603+08:00"
+    },
+    {
+      "name": "002316",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002316,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:03.408138+08:00"
+    },
+    {
+      "name": "002317",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002317,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:03.624109+08:00"
+    },
+    {
+      "name": "002321",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002321,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:03.708632+08:00"
+    },
+    {
+      "name": "002322",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002322,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:04.017451+08:00"
+    },
+    {
+      "name": "002342",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002342,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:03.970503+08:00"
+    },
+    {
+      "name": "002343",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002343,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:04.395730+08:00"
+    },
+    {
+      "name": "002347",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002347,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:04.351511+08:00"
+    },
+    {
+      "name": "002368",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002368,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:04.776445+08:00"
+    },
+    {
+      "name": "002388",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002388,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:04.668262+08:00"
+    },
+    {
+      "name": "002395",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002395,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:04.926728+08:00"
+    },
+    {
+      "name": "002403",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002403,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:04.971289+08:00"
+    },
+    {
+      "name": "002413",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002413,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:05.298156+08:00"
+    },
+    {
+      "name": "002419",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002419,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:05.359106+08:00"
+    },
+    {
+      "name": "002430",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002430,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:05.619180+08:00"
+    },
+    {
+      "name": "002441",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002441,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:05.736953+08:00"
+    },
+    {
+      "name": "002454",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002454,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:05.864093+08:00"
+    },
+    {
+      "name": "002469",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002469,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:05.933200+08:00"
+    },
+    {
+      "name": "002479",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002479,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:06.245184+08:00"
+    },
+    {
+      "name": "002480",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002480,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:06.355147+08:00"
+    },
+    {
+      "name": "002490",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002490,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:06.575527+08:00"
+    },
+    {
+      "name": "002494",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002494,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:06.694705+08:00"
+    },
+    {
+      "name": "002510",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002510,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:06.813671+08:00"
+    },
+    {
+      "name": "002531",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002531,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:06.886668+08:00"
+    },
+    {
+      "name": "002535",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002535,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:07.188932+08:00"
+    },
+    {
+      "name": "002543",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002543,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:07.302659+08:00"
+    },
+    {
+      "name": "002549",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002549,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:07.522301+08:00"
+    },
+    {
+      "name": "002552",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002552,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:07.650797+08:00"
+    },
+    {
+      "name": "002565",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002565,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:07.773810+08:00"
+    },
+    {
+      "name": "002576",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002576,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:08.013652+08:00"
+    },
+    {
+      "name": "002579",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002579,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:08.134008+08:00"
+    },
+    {
+      "name": "002587",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002587,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:08.243240+08:00"
+    },
+    {
+      "name": "002591",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002591,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:08.650120+08:00"
+    },
+    {
+      "name": "002596",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002596,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:08.593096+08:00"
+    },
+    {
+      "name": "002614",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002614,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:08.734999+08:00"
+    },
+    {
+      "name": "002622",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002622,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:08.966872+08:00"
+    },
+    {
+      "name": "002623",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002623,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:09.261058+08:00"
+    },
+    {
+      "name": "002626",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002626,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:09.201090+08:00"
+    },
+    {
+      "name": "002639",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002639,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:09.553650+08:00"
+    },
+    {
+      "name": "002640",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002640,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:09.601249+08:00"
+    },
+    {
+      "name": "002675",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002675,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:09.689371+08:00"
+    },
+    {
+      "name": "002679",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002679,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:09.912837+08:00"
+    },
+    {
+      "name": "002683",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002683,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:10.142419+08:00"
+    },
+    {
+      "name": "002687",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002687,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:10.212520+08:00"
+    },
+    {
+      "name": "002692",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002692,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:10.503869+08:00"
+    },
+    {
+      "name": "002693",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002693,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:10.569318+08:00"
+    },
+    {
+      "name": "002696",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002696,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:10.632426+08:00"
+    },
+    {
+      "name": "002702",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002702,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:10.870866+08:00"
+    },
+    {
+      "name": "002724",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002724,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:11.116602+08:00"
+    },
+    {
+      "name": "002733",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002733,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:11.341052+08:00"
+    },
+    {
+      "name": "002748",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002748,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:11.508401+08:00"
+    },
+    {
+      "name": "002755",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002755,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:11.705310+08:00"
+    },
+    {
+      "name": "002767",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002767,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:11.767501+08:00"
+    },
+    {
+      "name": "002774",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002774,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:11.826091+08:00"
+    },
+    {
+      "name": "002792",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002792,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:12.076177+08:00"
+    },
+    {
+      "name": "002799",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002799,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:12.291868+08:00"
+    },
+    {
+      "name": "002805",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002805,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:12.513978+08:00"
+    },
+    {
+      "name": "002811",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002811,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:12.832491+08:00"
+    },
+    {
+      "name": "002813",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002813,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:12.720971+08:00"
+    },
+    {
+      "name": "002815",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002815,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:12.815178+08:00"
+    },
+    {
+      "name": "002819",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002819,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:13.080121+08:00"
+    },
+    {
+      "name": "002835",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002835,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:13.439933+08:00"
+    },
+    {
+      "name": "002836",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002836,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:13.463629+08:00"
+    },
+    {
+      "name": "002846",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002846,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:13.669674+08:00"
+    },
+    {
+      "name": "002852",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002852,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:13.750715+08:00"
+    },
+    {
+      "name": "002860",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002860,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:13.797173+08:00"
+    },
+    {
+      "name": "002862",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002862,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:14.224836+08:00"
+    },
+    {
+      "name": "002866",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002866,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:14.391339+08:00"
+    },
+    {
+      "name": "002869",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002869,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:14.599760+08:00"
+    },
+    {
+      "name": "002878",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002878,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:14.801081+08:00"
+    },
+    {
+      "name": "002881",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002881,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:14.896918+08:00"
+    },
+    {
+      "name": "002882",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002882,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:14.748495+08:00"
+    },
+    {
+      "name": "002889",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002889,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:15.380988+08:00"
+    },
+    {
+      "name": "002908",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002908,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:15.339323+08:00"
+    },
+    {
+      "name": "002909",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002909,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:15.552889+08:00"
+    },
+    {
+      "name": "002912",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002912,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:15.689928+08:00"
+    },
+    {
+      "name": "002913",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002913,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:15.920013+08:00"
+    },
+    {
+      "name": "002917",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002917,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:15.842616+08:00"
+    },
+    {
+      "name": "002929",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002929,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:16.489175+08:00"
+    },
+    {
+      "name": "002933",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002933,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:16.332108+08:00"
+    },
+    {
+      "name": "002940",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002940,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:16.509626+08:00"
+    },
+    {
+      "name": "002945",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002945,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:16.633280+08:00"
+    },
+    {
+      "name": "002949",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002949,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:16.796500+08:00"
+    },
+    {
+      "name": "002951",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002951,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:16.905804+08:00"
+    },
+    {
+      "name": "002962",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002962,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:17.276343+08:00"
+    },
+    {
+      "name": "002979",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002979,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:17.449973+08:00"
+    },
+    {
+      "name": "002980",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002980,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:17.469724+08:00"
+    },
+    {
+      "name": "002990",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz002990,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:17.597415+08:00"
+    },
+    {
+      "name": "003021",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz003021,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:17.923469+08:00"
+    },
+    {
+      "name": "003029",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz003029,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:18.035349+08:00"
+    },
+    {
+      "name": "003037",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sz003037,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:18.243059+08:00"
+    },
+    {
+      "name": "600026",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600026,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:18.596216+08:00"
+    },
+    {
+      "name": "600032",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600032,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:18.437786+08:00"
+    },
+    {
+      "name": "600059",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600059,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:18.549590+08:00"
+    },
+    {
+      "name": "600072",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600072,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:19.047430+08:00"
+    },
+    {
+      "name": "600081",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600081,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:19.033055+08:00"
+    },
+    {
+      "name": "600097",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600097,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:19.192550+08:00"
+    },
+    {
+      "name": "600121",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600121,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:19.402453+08:00"
+    },
+    {
+      "name": "600127",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600127,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:19.507757+08:00"
+    },
+    {
+      "name": "600131",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600131,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:19.544593+08:00"
+    },
+    {
+      "name": "600148",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600148,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:19.983206+08:00"
+    },
+    {
+      "name": "600152",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600152,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:20.003314+08:00"
+    },
+    {
+      "name": "600178",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600178,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:20.159272+08:00"
+    },
+    {
+      "name": "600189",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600189,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:20.352444+08:00"
+    },
+    {
+      "name": "600192",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600192,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:20.476228+08:00"
+    },
+    {
+      "name": "600199",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600199,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:20.507164+08:00"
+    },
+    {
+      "name": "600202",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600202,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:20.931960+08:00"
+    },
+    {
+      "name": "600207",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600207,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:20.944492+08:00"
+    },
+    {
+      "name": "600228",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600228,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:21.124400+08:00"
+    },
+    {
+      "name": "600237",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600237,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:21.305822+08:00"
+    },
+    {
+      "name": "600241",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600241,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:21.426604+08:00"
+    },
+    {
+      "name": "600252",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600252,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:21.480306+08:00"
+    },
+    {
+      "name": "600267",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600267,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:21.932989+08:00"
+    },
+    {
+      "name": "600271",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600271,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:21.894759+08:00"
+    },
+    {
+      "name": "600281",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600281,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:22.069032+08:00"
+    },
+    {
+      "name": "600293",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600293,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:22.260370+08:00"
+    },
+    {
+      "name": "600310",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600310,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:22.411777+08:00"
+    },
+    {
+      "name": "600319",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600319,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:22.427204+08:00"
+    },
+    {
+      "name": "600325",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600325,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:22.846834+08:00"
+    },
+    {
+      "name": "600329",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600329,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:23.069111+08:00"
+    },
+    {
+      "name": "600354",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600354,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:23.047144+08:00"
+    },
+    {
+      "name": "600356",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600356,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:23.245940+08:00"
+    },
+    {
+      "name": "600358",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600358,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:23.381943+08:00"
+    },
+    {
+      "name": "600371",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600371,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:23.390197+08:00"
+    },
+    {
+      "name": "600391",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600391,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:24.005066+08:00"
+    },
+    {
+      "name": "600400",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600400,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:23.995831+08:00"
+    },
+    {
+      "name": "600408",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600408,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:24.043067+08:00"
+    },
+    {
+      "name": "600418",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600418,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:24.380273+08:00"
+    },
+    {
+      "name": "600478",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600478,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:24.334758+08:00"
+    },
+    {
+      "name": "600487",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600487,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:24.520910+08:00"
+    },
+    {
+      "name": "600488",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600488,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:24.985958+08:00"
+    },
+    {
+      "name": "600501",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600501,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:25.133443+08:00"
+    },
+    {
+      "name": "600513",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600513,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:25.030628+08:00"
+    },
+    {
+      "name": "600560",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600560,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:25.475034+08:00"
+    },
+    {
+      "name": "600592",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600592,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:25.509711+08:00"
+    },
+    {
+      "name": "600593",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600593,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:25.652110+08:00"
+    },
+    {
+      "name": "600617",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600617,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:25.946797+08:00"
+    },
+    {
+      "name": "600621",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600621,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:26.170038+08:00"
+    },
+    {
+      "name": "600629",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600629,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:26.108449+08:00"
+    },
+    {
+      "name": "600657",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600657,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:26.433302+08:00"
+    },
+    {
+      "name": "600661",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600661,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:26.466664+08:00"
+    },
+    {
+      "name": "600663",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600663,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:26.616022+08:00"
+    },
+    {
+      "name": "600668",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600668,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:26.894168+08:00"
+    },
+    {
+      "name": "600686",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600686,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:27.053929+08:00"
+    },
+    {
+      "name": "600693",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600693,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:27.116417+08:00"
+    },
+    {
+      "name": "600699",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600699,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:27.574877+08:00"
+    },
+    {
+      "name": "600712",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600712,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:27.420897+08:00"
+    },
+    {
+      "name": "600715",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600715,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:27.571871+08:00"
+    },
+    {
+      "name": "600721",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600721,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:27.842962+08:00"
+    },
+    {
+      "name": "600722",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600722,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:28.023369+08:00"
+    },
+    {
+      "name": "600792",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600792,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:28.115114+08:00"
+    },
+    {
+      "name": "600802",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600802,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:28.368773+08:00"
+    },
+    {
+      "name": "600812",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600812,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:28.510078+08:00"
+    },
+    {
+      "name": "600815",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600815,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:28.534823+08:00"
+    },
+    {
+      "name": "600825",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600825,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:28.802729+08:00"
+    },
+    {
+      "name": "600831",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600831,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:28.970202+08:00"
+    },
+    {
+      "name": "600838",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600838,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:29.070354+08:00"
+    },
+    {
+      "name": "600843",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600843,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:29.322296+08:00"
+    },
+    {
+      "name": "600847",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600847,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:29.454912+08:00"
+    },
+    {
+      "name": "600851",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600851,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:29.477622+08:00"
+    },
+    {
+      "name": "600853",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600853,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:29.751371+08:00"
+    },
+    {
+      "name": "600860",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600860,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:29.918883+08:00"
+    },
+    {
+      "name": "600865",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600865,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:30.013609+08:00"
+    },
+    {
+      "name": "600882",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600882,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:30.283304+08:00"
+    },
+    {
+      "name": "600982",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh600982,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:30.402122+08:00"
+    },
+    {
+      "name": "601069",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601069,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:30.479120+08:00"
+    },
+    {
+      "name": "601086",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601086,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:30.757066+08:00"
+    },
+    {
+      "name": "601118",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601118,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:30.914042+08:00"
+    },
+    {
+      "name": "601127",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601127,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:31.168026+08:00"
+    },
+    {
+      "name": "601188",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601188,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:31.255007+08:00"
+    },
+    {
+      "name": "601218",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601218,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:31.360063+08:00"
+    },
+    {
+      "name": "601238",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601238,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:31.420977+08:00"
+    },
+    {
+      "name": "601519",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601519,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:31.715257+08:00"
+    },
+    {
+      "name": "601566",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601566,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:31.855121+08:00"
+    },
+    {
+      "name": "601567",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601567,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:32.125415+08:00"
+    },
+    {
+      "name": "601579",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601579,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:32.426553+08:00"
+    },
+    {
+      "name": "601595",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601595,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:32.307662+08:00"
+    },
+    {
+      "name": "601606",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601606,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:32.549301+08:00"
+    },
+    {
+      "name": "601778",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601778,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:32.662994+08:00"
+    },
+    {
+      "name": "601811",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601811,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:32.816927+08:00"
+    },
+    {
+      "name": "601858",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601858,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:33.274891+08:00"
+    },
+    {
+      "name": "601929",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601929,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:33.317818+08:00"
+    },
+    {
+      "name": "601949",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601949,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:33.375560+08:00"
+    },
+    {
+      "name": "601956",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601956,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:33.496840+08:00"
+    },
+    {
+      "name": "601975",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601975,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:33.620340+08:00"
+    },
+    {
+      "name": "601999",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh601999,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:33.772532+08:00"
+    },
+    {
+      "name": "603001",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603001,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:34.235566+08:00"
+    },
+    {
+      "name": "603013",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603013,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:34.465472+08:00"
+    },
+    {
+      "name": "603015",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603015,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:34.375420+08:00"
+    },
+    {
+      "name": "603032",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603032,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:34.624908+08:00"
+    },
+    {
+      "name": "603040",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603040,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:34.747429+08:00"
+    },
+    {
+      "name": "603042",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603042,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:34.909835+08:00"
+    },
+    {
+      "name": "603065",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603065,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:35.186761+08:00"
+    },
+    {
+      "name": "603067",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603067,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:35.338997+08:00"
+    },
+    {
+      "name": "603068",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603068,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:35.411075+08:00"
+    },
+    {
+      "name": "603073",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603073,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:35.626227+08:00"
+    },
+    {
+      "name": "603096",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603096,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:35.686806+08:00"
+    },
+    {
+      "name": "603099",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603099,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:36.039643+08:00"
+    },
+    {
+      "name": "603101",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603101,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:36.133402+08:00"
+    },
+    {
+      "name": "603119",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603119,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:36.287154+08:00"
+    },
+    {
+      "name": "603122",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603122,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:36.413950+08:00"
+    },
+    {
+      "name": "603127",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603127,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:36.605666+08:00"
+    },
+    {
+      "name": "603137",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603137,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:36.822424+08:00"
+    },
+    {
+      "name": "603138",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603138,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:37.034171+08:00"
+    },
+    {
+      "name": "603155",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603155,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:37.260093+08:00"
+    },
+    {
+      "name": "603168",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603168,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:37.278601+08:00"
+    },
+    {
+      "name": "603172",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603172,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:37.390052+08:00"
+    },
+    {
+      "name": "603173",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603173,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:37.733359+08:00"
+    },
+    {
+      "name": "603185",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603185,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:37.766461+08:00"
+    },
+    {
+      "name": "603188",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603188,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:37.993055+08:00"
+    },
+    {
+      "name": "603197",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603197,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:38.407712+08:00"
+    },
+    {
+      "name": "603200",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603200,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:38.217428+08:00"
+    },
+    {
+      "name": "603216",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603216,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:38.350623+08:00"
+    },
+    {
+      "name": "603230",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603230,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:38.874259+08:00"
+    },
+    {
+      "name": "603232",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603232,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:38.907279+08:00"
+    },
+    {
+      "name": "603236",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603236,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:38.977813+08:00"
+    },
+    {
+      "name": "603237",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603237,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:39.352171+08:00"
+    },
+    {
+      "name": "603239",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603239,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:39.340098+08:00"
+    },
+    {
+      "name": "603258",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603258,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:39.360170+08:00"
+    },
+    {
+      "name": "603278",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603278,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:39.814917+08:00"
+    },
+    {
+      "name": "603286",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603286,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:39.856188+08:00"
+    },
+    {
+      "name": "603305",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603305,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:40.115444+08:00"
+    },
+    {
+      "name": "603322",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603322,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:40.301252+08:00"
+    },
+    {
+      "name": "603328",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603328,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:40.311261+08:00"
+    },
+    {
+      "name": "603329",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603329,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:40.320318+08:00"
+    },
+    {
+      "name": "603330",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603330,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:40.777988+08:00"
+    },
+    {
+      "name": "603332",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603332,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:40.803456+08:00"
+    },
+    {
+      "name": "603336",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603336,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:41.069598+08:00"
+    },
+    {
+      "name": "603341",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603341,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:41.262213+08:00"
+    },
+    {
+      "name": "603348",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603348,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:41.452623+08:00"
+    },
+    {
+      "name": "603353",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603353,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:41.308286+08:00"
+    },
+    {
+      "name": "603366",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603366,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:41.725262+08:00"
+    },
+    {
+      "name": "603375",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603375,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:41.775839+08:00"
+    },
+    {
+      "name": "603386",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603386,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:42.208528+08:00"
+    },
+    {
+      "name": "603396",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603396,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:42.220342+08:00"
+    },
+    {
+      "name": "603400",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603400,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:42.257811+08:00"
+    },
+    {
+      "name": "603407",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603407,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:42.217431+08:00"
+    },
+    {
+      "name": "603466",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603466,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:42.674086+08:00"
+    },
+    {
+      "name": "603500",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603500,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:42.736571+08:00"
+    },
+    {
+      "name": "603528",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603528,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:43.156675+08:00"
+    },
+    {
+      "name": "603533",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603533,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:43.166225+08:00"
+    },
+    {
+      "name": "603535",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603535,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:43.176031+08:00"
+    },
+    {
+      "name": "603538",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603538,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:43.430510+08:00"
+    },
+    {
+      "name": "603590",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603590,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:43.811890+08:00"
+    },
+    {
+      "name": "603598",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603598,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:43.692460+08:00"
+    },
+    {
+      "name": "603602",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603602,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:44.100479+08:00"
+    },
+    {
+      "name": "603626",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603626,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:44.127734+08:00"
+    },
+    {
+      "name": "603629",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603629,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:44.329512+08:00"
+    },
+    {
+      "name": "603630",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603630,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:44.368723+08:00"
+    },
+    {
+      "name": "603636",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603636,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:44.639421+08:00"
+    },
+    {
+      "name": "603656",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603656,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:44.776933+08:00"
+    },
+    {
+      "name": "603657",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603657,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:45.093089+08:00"
+    },
+    {
+      "name": "603668",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603668,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:45.078034+08:00"
+    },
+    {
+      "name": "603683",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603683,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:45.478252+08:00"
+    },
+    {
+      "name": "603690",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603690,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:45.317028+08:00"
+    },
+    {
+      "name": "603693",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603693,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:45.597999+08:00"
+    },
+    {
+      "name": "603696",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603696,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:45.731089+08:00"
+    },
+    {
+      "name": "603721",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603721,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:46.023318+08:00"
+    },
+    {
+      "name": "603739",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603739,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:46.245032+08:00"
+    },
+    {
+      "name": "603767",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603767,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:46.274264+08:00"
+    },
+    {
+      "name": "603788",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603788,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:46.659727+08:00"
+    },
+    {
+      "name": "603859",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603859,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:46.544685+08:00"
+    },
+    {
+      "name": "603863",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603863,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:46.867616+08:00"
+    },
+    {
+      "name": "603893",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603893,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:47.157147+08:00"
+    },
+    {
+      "name": "603906",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603906,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:47.192951+08:00"
+    },
+    {
+      "name": "603919",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603919,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:47.426288+08:00"
+    },
+    {
+      "name": "603928",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603928,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:47.490994+08:00"
+    },
+    {
+      "name": "603948",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603948,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:47.617580+08:00"
+    },
+    {
+      "name": "603949",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603949,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:47.825110+08:00"
+    },
+    {
+      "name": "603955",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603955,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:48.111442+08:00"
+    },
+    {
+      "name": "603956",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603956,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:48.331637+08:00"
+    },
+    {
+      "name": "603968",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603968,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:48.387419+08:00"
+    },
+    {
+      "name": "603970",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603970,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:48.451503+08:00"
+    },
+    {
+      "name": "603980",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603980,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:48.580367+08:00"
+    },
+    {
+      "name": "603992",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603992,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:48.770904+08:00"
+    },
+    {
+      "name": "603999",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh603999,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:49.064700+08:00"
+    },
+    {
+      "name": "605003",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh605003,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:49.281544+08:00"
+    },
+    {
+      "name": "605011",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh605011,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:49.373346+08:00"
+    },
+    {
+      "name": "605018",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh605018,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:49.413558+08:00"
+    },
+    {
+      "name": "605058",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh605058,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:49.531125+08:00"
+    },
+    {
+      "name": "605136",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh605136,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:49.768189+08:00"
+    },
+    {
+      "name": "605168",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh605168,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:50.011016+08:00"
+    },
+    {
+      "name": "605177",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh605177,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:50.245093+08:00"
+    },
+    {
+      "name": "605178",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh605178,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:50.321755+08:00"
+    },
+    {
+      "name": "605188",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh605188,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:50.390027+08:00"
+    },
+    {
+      "name": "605189",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh605189,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:50.499055+08:00"
+    },
+    {
+      "name": "605198",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh605198,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:50.717525+08:00"
+    },
+    {
+      "name": "605255",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh605255,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:51.137059+08:00"
+    },
+    {
+      "name": "605258",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh605258,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:51.213776+08:00"
+    },
+    {
+      "name": "605287",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh605287,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:51.464206+08:00"
+    },
+    {
+      "name": "605288",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh605288,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:51.350803+08:00"
+    },
+    {
+      "name": "605298",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh605298,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:51.437994+08:00"
+    },
+    {
+      "name": "605303",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh605303,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:51.668026+08:00"
+    },
+    {
+      "name": "605366",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh605366,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:52.088523+08:00"
+    },
+    {
+      "name": "605378",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh605378,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:52.165427+08:00"
+    },
+    {
+      "name": "605388",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh605388,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:52.298390+08:00"
+    },
+    {
+      "name": "605389",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh605389,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:52.381422+08:00"
+    },
+    {
+      "name": "605399",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh605399,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:52.614370+08:00"
+    },
+    {
+      "name": "605488",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh605488,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:52.802523+08:00"
+    },
+    {
+      "name": "605577",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh605577,day,,,640,",
+      "attempts": 1,
+      "observed_at": "2026-10-22T19:59:53.084019+08:00"
+    }
+  ],
+  "results": [
+    {
+      "variant": "height_baseline",
+      "phase": "train",
+      "closed_trades": 2,
+      "open_positions": [
+        {
+          "symbol": "603949",
+          "name": "雪龙集团",
+          "signal_date": "2026-09-29",
+          "streak": 4,
+          "close": 20.45,
+          "ma20": 14.889500000000002,
+          "volume_price_proxy": 72002405.0,
+          "entry_date": "2026-09-30",
+          "entry_index": 20,
+          "entry_price": 20.47023,
+          "qty": 1600,
+          "entry_cost": 32762.193710400003,
+          "scheduled_exit_index": 22,
+          "last_mark": 16.57
+        }
+      ],
+      "unresolved_positions": 1,
+      "total_return": -0.08710621552899989,
+      "max_drawdown": -0.08710621552899989,
+      "win_rate": 0.5,
+      "trades": [
+        {
+          "symbol": "603396",
+          "name": "金辰股份",
+          "signal_date": "2026-09-28",
+          "streak": 3,
+          "close": 39.2,
+          "ma20": 29.569499999999998,
+          "volume_price_proxy": 921627280.0000001,
+          "entry_date": "2026-09-29",
+          "entry_index": 19,
+          "entry_price": 38.529255,
+          "qty": 800,
+          "entry_cost": 30832.6510212,
+          "scheduled_exit_index": 21,
+          "last_mark": 31.91,
+          "exit_date": "2026-10-08",
+          "exit_price": 31.894045000000002,
+          "net_pnl": -5337.8272099999995,
+          "net_return": -0.17312255136056254,
+          "phase": "train",
+          "variant": "height_baseline",
+          "fill_type": "daily_open_close_proxy_not_broker_fill"
+        },
+        {
+          "symbol": "600802",
+          "name": "福建水泥",
+          "signal_date": "2026-09-28",
+          "streak": 3,
+          "close": 7.28,
+          "ma20": 5.566,
+          "volume_price_proxy": 623577864.0,
+          "entry_date": "2026-09-29",
+          "entry_index": 19,
+          "entry_price": 6.553274999999999,
+          "qty": 5000,
+          "entry_cost": 32776.2049125,
+          "scheduled_exit_index": 21,
+          "last_mark": 7.14,
+          "exit_date": "2026-10-08",
+          "exit_price": 7.13643,
+          "net_pnl": 2877.3993675000092,
+          "net_return": 0.08778927808089954,
+          "phase": "train",
+          "variant": "height_baseline",
+          "fill_type": "daily_open_close_proxy_not_broker_fill"
+        }
+      ],
+      "events": [
+        {
+          "symbol": "600825",
+          "name": "新华传媒",
+          "signal_date": "2026-09-28",
+          "streak": 5,
+          "close": 8.55,
+          "ma20": 5.5875,
+          "volume_price_proxy": 42985125.0,
+          "date": "2026-09-29",
+          "status": "skipped",
+          "reason": "open_at_upper_limit"
+        },
+        {
+          "symbol": "600825",
+          "name": "新华传媒",
+          "signal_date": "2026-09-29",
+          "streak": 6,
+          "close": 9.41,
+          "ma20": 5.8045,
+          "volume_price_proxy": 147280615.0,
+          "date": "2026-09-30",
+          "status": "skipped",
+          "reason": "open_at_upper_limit"
+        },
+        {
+          "symbol": "000678",
+          "name": "襄阳轴承",
+          "signal_date": "2026-09-29",
+          "streak": 3,
+          "close": 11.72,
+          "ma20": 9.298,
+          "volume_price_proxy": 110756344.0,
+          "date": "2026-09-30",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "600825",
+          "name": "新华传媒",
+          "signal_date": "2026-09-30",
+          "streak": 7,
+          "close": 10.35,
+          "ma20": 6.069999999999999,
+          "volume_price_proxy": 144749925.0,
+          "date": "2026-10-08",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "000678",
+          "name": "襄阳轴承",
+          "signal_date": "2026-09-30",
+          "streak": 4,
+          "close": 12.89,
+          "ma20": 9.4855,
+          "volume_price_proxy": 1164196442.0,
+          "date": "2026-10-08",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "000011",
+          "name": "深物业A",
+          "signal_date": "2026-09-30",
+          "streak": 3,
+          "close": 12.24,
+          "ma20": 9.282,
+          "volume_price_proxy": 1100093256.0,
+          "date": "2026-10-08",
+          "status": "skipped",
+          "reason": "position_cap"
+        }
+      ],
+      "equity": [
+        {
+          "date": "2026-09-01",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-02",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-03",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-04",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-07",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-08",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-09",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-10",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-11",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-14",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-15",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-16",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-17",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-18",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-21",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-22",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-23",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-24",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-28",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-29",
+          "equity": 99315.14406630001,
+          "cash": 36391.1440663,
+          "positions": 2
+        },
+        {
+          "date": "2026-09-30",
+          "equity": 96084.9503559,
+          "cash": 3628.9503559000004,
+          "positions": 3
+        },
+        {
+          "date": "2026-10-08",
+          "equity": 91289.37844710001,
+          "cash": 64777.37844710001,
+          "positions": 1
+        }
+      ],
+      "pending_signal_count": 0,
+      "interpretation": "含未平仓估值的模拟净值；非已实现收益，未结清持仓必须单列"
+    },
+    {
+      "variant": "height_baseline",
+      "phase": "holdout",
+      "closed_trades": 6,
+      "open_positions": [
+        {
+          "symbol": "003029",
+          "name": "吉大正元",
+          "signal_date": "2026-10-20",
+          "streak": 4,
+          "close": 26.61,
+          "ma20": 18.909,
+          "volume_price_proxy": 1128990453.0,
+          "entry_date": "2026-10-21",
+          "entry_index": 30,
+          "entry_price": 28.784384999999997,
+          "qty": 1100,
+          "entry_cost": 31672.322347049994,
+          "scheduled_exit_index": 32,
+          "last_mark": 23.7
+        },
+        {
+          "symbol": "600148",
+          "name": "长春一东",
+          "signal_date": "2026-10-20",
+          "streak": 3,
+          "close": 19.7,
+          "ma20": 15.984,
+          "volume_price_proxy": 613262970.0,
+          "entry_date": "2026-10-21",
+          "entry_index": 30,
+          "entry_price": 19.059525,
+          "qty": 1500,
+          "entry_cost": 28597.864286250002,
+          "scheduled_exit_index": 32,
+          "last_mark": 16.52
+        },
+        {
+          "symbol": "600178",
+          "name": "东安动力",
+          "signal_date": "2026-10-21",
+          "streak": 4,
+          "close": 13.65,
+          "ma20": 10.147499999999999,
+          "volume_price_proxy": 609319620.0,
+          "entry_date": "2026-10-22",
+          "entry_index": 31,
+          "entry_price": 12.90645,
+          "qty": 2500,
+          "entry_cost": 32275.8048375,
+          "scheduled_exit_index": 33,
+          "last_mark": 12.29
+        }
+      ],
+      "unresolved_positions": 3,
+      "total_return": -0.14233486434649967,
+      "max_drawdown": -0.20630958001959576,
+      "win_rate": 0.5,
+      "trades": [
+        {
+          "symbol": "600241",
+          "name": "时代万恒",
+          "signal_date": "2026-10-09",
+          "streak": 5,
+          "close": 11.76,
+          "ma20": 7.960500000000001,
+          "volume_price_proxy": 68939472.0,
+          "entry_date": "2026-10-12",
+          "entry_index": 23,
+          "entry_price": 12.48624,
+          "qty": 2600,
+          "entry_cost": 32473.9632672,
+          "scheduled_exit_index": 25,
+          "last_mark": 13.21,
+          "exit_date": "2026-10-14",
+          "exit_price": 13.203395000000002,
+          "net_pnl": 1827.4006712000046,
+          "net_return": 0.05627279479760183,
+          "phase": "holdout",
+          "variant": "height_baseline",
+          "fill_type": "daily_open_close_proxy_not_broker_fill"
+        },
+        {
+          "symbol": "002242",
+          "name": "九阳股份",
+          "signal_date": "2026-10-12",
+          "streak": 6,
+          "close": 16.64,
+          "ma20": 10.469,
+          "volume_price_proxy": 2036649472.0,
+          "entry_date": "2026-10-13",
+          "entry_index": 24,
+          "entry_price": 15.82791,
+          "qty": 2100,
+          "entry_cost": 33248.5825833,
+          "scheduled_exit_index": 26,
+          "last_mark": 17.31,
+          "exit_date": "2026-10-15",
+          "exit_price": 17.301345,
+          "net_pnl": 3055.1756571000005,
+          "net_return": 0.09188889930708033,
+          "phase": "holdout",
+          "variant": "height_baseline",
+          "fill_type": "daily_open_close_proxy_not_broker_fill"
+        },
+        {
+          "symbol": "605577",
+          "name": "龙版传媒",
+          "signal_date": "2026-10-13",
+          "streak": 3,
+          "close": 19.6,
+          "ma20": 16.137,
+          "volume_price_proxy": 1142350720.0,
+          "entry_date": "2026-10-14",
+          "entry_index": 25,
+          "entry_price": 17.64882,
+          "qty": 1800,
+          "entry_cost": 31777.4063628,
+          "scheduled_exit_index": 27,
+          "last_mark": 16.51,
+          "exit_date": "2026-10-16",
+          "exit_price": 16.501745000000003,
+          "net_pnl": -2098.0278755999934,
+          "net_return": -0.06602262788998525,
+          "phase": "holdout",
+          "variant": "height_baseline",
+          "fill_type": "daily_open_close_proxy_not_broker_fill"
+        },
+        {
+          "symbol": "603096",
+          "name": "新经典",
+          "signal_date": "2026-10-14",
+          "streak": 4,
+          "close": 23.07,
+          "ma20": 16.5485,
+          "volume_price_proxy": 783738654.0,
+          "entry_date": "2026-10-15",
+          "entry_index": 26,
+          "entry_price": 21.870929999999998,
+          "qty": 1500,
+          "entry_cost": 32816.2369185,
+          "scheduled_exit_index": 28,
+          "last_mark": 17.28,
+          "unresolved_reason": "close_at_lower_limit",
+          "exit_date": "2026-10-20",
+          "exit_price": 17.27136,
+          "net_pnl": -6929.922550499996,
+          "net_return": -0.21117358969922861,
+          "phase": "holdout",
+          "variant": "height_baseline",
+          "fill_type": "daily_open_close_proxy_not_broker_fill"
+        },
+        {
+          "symbol": "002696",
+          "name": "百洋股份",
+          "signal_date": "2026-10-15",
+          "streak": 5,
+          "close": 10.73,
+          "ma20": 7.272499999999999,
+          "volume_price_proxy": 802296049.0,
+          "entry_date": "2026-10-16",
+          "entry_index": 27,
+          "entry_price": 10.035015,
+          "qty": 3300,
+          "entry_cost": 33125.48416485,
+          "scheduled_exit_index": 29,
+          "last_mark": 9.56,
+          "exit_date": "2026-10-20",
+          "exit_price": 9.55522,
+          "net_pnl": -1618.4839456500013,
+          "net_return": -0.04885917855858546,
+          "phase": "holdout",
+          "variant": "height_baseline",
+          "fill_type": "daily_open_close_proxy_not_broker_fill"
+        },
+        {
+          "symbol": "600825",
+          "name": "新华传媒",
+          "signal_date": "2026-10-16",
+          "streak": 11,
+          "close": 15.16,
+          "ma20": 7.730499999999999,
+          "volume_price_proxy": 247220184.0,
+          "entry_date": "2026-10-19",
+          "entry_index": 28,
+          "entry_price": 15.007499999999999,
+          "qty": 2200,
+          "entry_cost": 33026.40495,
+          "scheduled_exit_index": 30,
+          "last_mark": 16.17,
+          "exit_date": "2026-10-21",
+          "exit_price": 16.161915000000004,
+          "net_pnl": 2501.3630796000143,
+          "net_return": 0.07573827921588583,
+          "phase": "holdout",
+          "variant": "height_baseline",
+          "fill_type": "daily_open_close_proxy_not_broker_fill"
+        }
+      ],
+      "events": [
+        {
+          "symbol": "600825",
+          "name": "新华传媒",
+          "signal_date": "2026-10-09",
+          "streak": 9,
+          "close": 12.53,
+          "ma20": 6.774500000000001,
+          "volume_price_proxy": 625610370.0,
+          "date": "2026-10-12",
+          "status": "skipped",
+          "reason": "open_at_upper_limit"
+        },
+        {
+          "symbol": "002242",
+          "name": "九阳股份",
+          "signal_date": "2026-10-09",
+          "streak": 5,
+          "close": 15.13,
+          "ma20": 10.055,
+          "volume_price_proxy": 2106540822.0,
+          "date": "2026-10-12",
+          "status": "skipped",
+          "reason": "open_at_upper_limit"
+        },
+        {
+          "symbol": "600825",
+          "name": "新华传媒",
+          "signal_date": "2026-10-12",
+          "streak": 10,
+          "close": 13.78,
+          "ma20": 7.216499999999999,
+          "volume_price_proxy": 487084416.0,
+          "date": "2026-10-13",
+          "status": "skipped",
+          "reason": "missing_or_suspended_entry"
+        },
+        {
+          "symbol": "600241",
+          "name": "时代万恒",
+          "signal_date": "2026-10-12",
+          "streak": 6,
+          "close": 12.94,
+          "ma20": 8.234,
+          "volume_price_proxy": 1218870360.0,
+          "date": "2026-10-13",
+          "status": "skipped",
+          "reason": "already_held"
+        },
+        {
+          "symbol": "605136",
+          "name": "丽人丽妆",
+          "signal_date": "2026-10-13",
+          "streak": 3,
+          "close": 11.42,
+          "ma20": 8.8345,
+          "volume_price_proxy": 361269416.0,
+          "date": "2026-10-14",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "002696",
+          "name": "百洋股份",
+          "signal_date": "2026-10-13",
+          "streak": 3,
+          "close": 8.86,
+          "ma20": 7.014,
+          "volume_price_proxy": 321321190.0,
+          "date": "2026-10-14",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "002343",
+          "name": "慈文传媒",
+          "signal_date": "2026-10-14",
+          "streak": 4,
+          "close": 8.1,
+          "ma20": 5.974,
+          "volume_price_proxy": 458214570.0,
+          "date": "2026-10-15",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "002696",
+          "name": "百洋股份",
+          "signal_date": "2026-10-14",
+          "streak": 4,
+          "close": 9.75,
+          "ma20": 7.124,
+          "volume_price_proxy": 32450925.0,
+          "date": "2026-10-15",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "002343",
+          "name": "慈文传媒",
+          "signal_date": "2026-10-15",
+          "streak": 5,
+          "close": 8.91,
+          "ma20": 6.121,
+          "volume_price_proxy": 682544313.0,
+          "date": "2026-10-16",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "000530",
+          "name": "冰山冷热",
+          "signal_date": "2026-10-15",
+          "streak": 3,
+          "close": 6.93,
+          "ma20": 5.3605,
+          "volume_price_proxy": 1707173622.0,
+          "date": "2026-10-16",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "000530",
+          "name": "冰山冷热",
+          "signal_date": "2026-10-16",
+          "streak": 4,
+          "close": 7.62,
+          "ma20": 5.4784999999999995,
+          "volume_price_proxy": 1520017026.0,
+          "date": "2026-10-19",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "601811",
+          "name": "新华文轩",
+          "signal_date": "2026-10-16",
+          "streak": 3,
+          "close": 28.14,
+          "ma20": 18.305,
+          "volume_price_proxy": 1724889138.0,
+          "date": "2026-10-19",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "603096",
+          "date": "2026-10-19",
+          "status": "exit_deferred",
+          "reason": "close_at_lower_limit"
+        },
+        {
+          "symbol": "002889",
+          "name": "东方嘉盛",
+          "signal_date": "2026-10-19",
+          "streak": 3,
+          "close": 15.74,
+          "ma20": 12.2795,
+          "volume_price_proxy": 810133078.0,
+          "date": "2026-10-20",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "003029",
+          "name": "吉大正元",
+          "signal_date": "2026-10-19",
+          "streak": 3,
+          "close": 24.19,
+          "ma20": 18.493000000000002,
+          "volume_price_proxy": 174390548.0,
+          "date": "2026-10-20",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "002085",
+          "name": "万丰奥威",
+          "signal_date": "2026-10-19",
+          "streak": 2,
+          "close": 10.9,
+          "ma20": 9.5455,
+          "volume_price_proxy": 1114732100.0,
+          "date": "2026-10-20",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "002724",
+          "name": "海洋王",
+          "signal_date": "2026-10-20",
+          "streak": 3,
+          "close": 9.26,
+          "ma20": 7.289499999999999,
+          "volume_price_proxy": 569131638.0,
+          "date": "2026-10-21",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "603278",
+          "name": "大业股份",
+          "signal_date": "2026-10-21",
+          "streak": 4,
+          "close": 13.19,
+          "ma20": 9.9985,
+          "volume_price_proxy": 73724186.0,
+          "date": "2026-10-22",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "002724",
+          "name": "海洋王",
+          "signal_date": "2026-10-21",
+          "streak": 4,
+          "close": 10.19,
+          "ma20": 7.468500000000001,
+          "volume_price_proxy": 47186833.0,
+          "date": "2026-10-22",
+          "status": "skipped",
+          "reason": "position_cap"
+        }
+      ],
+      "equity": [
+        {
+          "date": "2026-10-09",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-10-12",
+          "equity": 101170.0367328,
+          "cash": 67526.0367328,
+          "positions": 1
+        },
+        {
+          "date": "2026-10-13",
+          "equity": 104820.4541495,
+          "cash": 34277.4541495,
+          "positions": 2
+        },
+        {
+          "date": "2026-10-14",
+          "equity": 108060.41172510001,
+          "cash": 36801.411725100006,
+          "positions": 2
+        },
+        {
+          "date": "2026-10-15",
+          "equity": 106051.933047,
+          "cash": 40288.933047000006,
+          "positions": 2
+        },
+        {
+          "date": "2026-10-16",
+          "equity": 100220.82736935001,
+          "cash": 36842.82736935001,
+          "positions": 2
+        },
+        {
+          "date": "2026-10-19",
+          "equity": 95119.42241935001,
+          "cash": 3816.422419350012,
+          "positions": 3
+        },
+        {
+          "date": "2026-10-20",
+          "equity": 94627.73700655001,
+          "cash": 61209.737006550014,
+          "positions": 1
+        },
+        {
+          "date": "2026-10-21",
+          "equity": 91588.31840285003,
+          "cash": 36467.318402850025,
+          "positions": 2
+        },
+        {
+          "date": "2026-10-22",
+          "equity": 85766.51356535003,
+          "cash": 4191.513565350026,
+          "positions": 3
+        }
+      ],
+      "pending_signal_count": 0,
+      "interpretation": "含未平仓估值的模拟净值；非已实现收益，未结清持仓必须单列"
+    },
+    {
+      "variant": "two_board",
+      "phase": "train",
+      "closed_trades": 2,
+      "open_positions": [
+        {
+          "symbol": "603949",
+          "name": "雪龙集团",
+          "signal_date": "2026-09-29",
+          "streak": 4,
+          "close": 20.45,
+          "ma20": 14.889500000000002,
+          "volume_price_proxy": 72002405.0,
+          "entry_date": "2026-09-30",
+          "entry_index": 20,
+          "entry_price": 20.47023,
+          "qty": 1600,
+          "entry_cost": 32762.193710400003,
+          "scheduled_exit_index": 22,
+          "last_mark": 16.57
+        }
+      ],
+      "unresolved_positions": 1,
+      "total_return": -0.08710621552899989,
+      "max_drawdown": -0.08710621552899989,
+      "win_rate": 0.5,
+      "trades": [
+        {
+          "symbol": "603396",
+          "name": "金辰股份",
+          "signal_date": "2026-09-28",
+          "streak": 3,
+          "close": 39.2,
+          "ma20": 29.569499999999998,
+          "volume_price_proxy": 921627280.0000001,
+          "entry_date": "2026-09-29",
+          "entry_index": 19,
+          "entry_price": 38.529255,
+          "qty": 800,
+          "entry_cost": 30832.6510212,
+          "scheduled_exit_index": 21,
+          "last_mark": 31.91,
+          "exit_date": "2026-10-08",
+          "exit_price": 31.894045000000002,
+          "net_pnl": -5337.8272099999995,
+          "net_return": -0.17312255136056254,
+          "phase": "train",
+          "variant": "two_board",
+          "fill_type": "daily_open_close_proxy_not_broker_fill"
+        },
+        {
+          "symbol": "600802",
+          "name": "福建水泥",
+          "signal_date": "2026-09-28",
+          "streak": 3,
+          "close": 7.28,
+          "ma20": 5.566,
+          "volume_price_proxy": 623577864.0,
+          "entry_date": "2026-09-29",
+          "entry_index": 19,
+          "entry_price": 6.553274999999999,
+          "qty": 5000,
+          "entry_cost": 32776.2049125,
+          "scheduled_exit_index": 21,
+          "last_mark": 7.14,
+          "exit_date": "2026-10-08",
+          "exit_price": 7.13643,
+          "net_pnl": 2877.3993675000092,
+          "net_return": 0.08778927808089954,
+          "phase": "train",
+          "variant": "two_board",
+          "fill_type": "daily_open_close_proxy_not_broker_fill"
+        }
+      ],
+      "events": [
+        {
+          "symbol": "600825",
+          "name": "新华传媒",
+          "signal_date": "2026-09-28",
+          "streak": 5,
+          "close": 8.55,
+          "ma20": 5.5875,
+          "volume_price_proxy": 42985125.0,
+          "date": "2026-09-29",
+          "status": "skipped",
+          "reason": "open_at_upper_limit"
+        },
+        {
+          "symbol": "600825",
+          "name": "新华传媒",
+          "signal_date": "2026-09-29",
+          "streak": 6,
+          "close": 9.41,
+          "ma20": 5.8045,
+          "volume_price_proxy": 147280615.0,
+          "date": "2026-09-30",
+          "status": "skipped",
+          "reason": "open_at_upper_limit"
+        },
+        {
+          "symbol": "000678",
+          "name": "襄阳轴承",
+          "signal_date": "2026-09-29",
+          "streak": 3,
+          "close": 11.72,
+          "ma20": 9.298,
+          "volume_price_proxy": 110756344.0,
+          "date": "2026-09-30",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "600825",
+          "name": "新华传媒",
+          "signal_date": "2026-09-30",
+          "streak": 7,
+          "close": 10.35,
+          "ma20": 6.069999999999999,
+          "volume_price_proxy": 144749925.0,
+          "date": "2026-10-08",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "000678",
+          "name": "襄阳轴承",
+          "signal_date": "2026-09-30",
+          "streak": 4,
+          "close": 12.89,
+          "ma20": 9.4855,
+          "volume_price_proxy": 1164196442.0,
+          "date": "2026-10-08",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "000011",
+          "name": "深物业A",
+          "signal_date": "2026-09-30",
+          "streak": 3,
+          "close": 12.24,
+          "ma20": 9.282,
+          "volume_price_proxy": 1100093256.0,
+          "date": "2026-10-08",
+          "status": "skipped",
+          "reason": "position_cap"
+        }
+      ],
+      "equity": [
+        {
+          "date": "2026-09-01",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-02",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-03",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-04",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-07",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-08",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-09",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-10",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-11",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-14",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-15",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-16",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-17",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-18",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-21",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-22",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-23",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-24",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-28",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-29",
+          "equity": 99315.14406630001,
+          "cash": 36391.1440663,
+          "positions": 2
+        },
+        {
+          "date": "2026-09-30",
+          "equity": 96084.9503559,
+          "cash": 3628.9503559000004,
+          "positions": 3
+        },
+        {
+          "date": "2026-10-08",
+          "equity": 91289.37844710001,
+          "cash": 64777.37844710001,
+          "positions": 1
+        }
+      ],
+      "pending_signal_count": 0,
+      "interpretation": "含未平仓估值的模拟净值；非已实现收益，未结清持仓必须单列"
+    },
+    {
+      "variant": "two_board",
+      "phase": "holdout",
+      "closed_trades": 6,
+      "open_positions": [
+        {
+          "symbol": "003029",
+          "name": "吉大正元",
+          "signal_date": "2026-10-20",
+          "streak": 4,
+          "close": 26.61,
+          "ma20": 18.909,
+          "volume_price_proxy": 1128990453.0,
+          "entry_date": "2026-10-21",
+          "entry_index": 30,
+          "entry_price": 28.784384999999997,
+          "qty": 1100,
+          "entry_cost": 31672.322347049994,
+          "scheduled_exit_index": 32,
+          "last_mark": 23.7
+        },
+        {
+          "symbol": "600148",
+          "name": "长春一东",
+          "signal_date": "2026-10-20",
+          "streak": 3,
+          "close": 19.7,
+          "ma20": 15.984,
+          "volume_price_proxy": 613262970.0,
+          "entry_date": "2026-10-21",
+          "entry_index": 30,
+          "entry_price": 19.059525,
+          "qty": 1500,
+          "entry_cost": 28597.864286250002,
+          "scheduled_exit_index": 32,
+          "last_mark": 16.52
+        },
+        {
+          "symbol": "600178",
+          "name": "东安动力",
+          "signal_date": "2026-10-21",
+          "streak": 4,
+          "close": 13.65,
+          "ma20": 10.147499999999999,
+          "volume_price_proxy": 609319620.0,
+          "entry_date": "2026-10-22",
+          "entry_index": 31,
+          "entry_price": 12.90645,
+          "qty": 2500,
+          "entry_cost": 32275.8048375,
+          "scheduled_exit_index": 33,
+          "last_mark": 12.29
+        }
+      ],
+      "unresolved_positions": 3,
+      "total_return": -0.14233486434649967,
+      "max_drawdown": -0.20630958001959576,
+      "win_rate": 0.5,
+      "trades": [
+        {
+          "symbol": "600241",
+          "name": "时代万恒",
+          "signal_date": "2026-10-09",
+          "streak": 5,
+          "close": 11.76,
+          "ma20": 7.960500000000001,
+          "volume_price_proxy": 68939472.0,
+          "entry_date": "2026-10-12",
+          "entry_index": 23,
+          "entry_price": 12.48624,
+          "qty": 2600,
+          "entry_cost": 32473.9632672,
+          "scheduled_exit_index": 25,
+          "last_mark": 13.21,
+          "exit_date": "2026-10-14",
+          "exit_price": 13.203395000000002,
+          "net_pnl": 1827.4006712000046,
+          "net_return": 0.05627279479760183,
+          "phase": "holdout",
+          "variant": "two_board",
+          "fill_type": "daily_open_close_proxy_not_broker_fill"
+        },
+        {
+          "symbol": "002242",
+          "name": "九阳股份",
+          "signal_date": "2026-10-12",
+          "streak": 6,
+          "close": 16.64,
+          "ma20": 10.469,
+          "volume_price_proxy": 2036649472.0,
+          "entry_date": "2026-10-13",
+          "entry_index": 24,
+          "entry_price": 15.82791,
+          "qty": 2100,
+          "entry_cost": 33248.5825833,
+          "scheduled_exit_index": 26,
+          "last_mark": 17.31,
+          "exit_date": "2026-10-15",
+          "exit_price": 17.301345,
+          "net_pnl": 3055.1756571000005,
+          "net_return": 0.09188889930708033,
+          "phase": "holdout",
+          "variant": "two_board",
+          "fill_type": "daily_open_close_proxy_not_broker_fill"
+        },
+        {
+          "symbol": "605577",
+          "name": "龙版传媒",
+          "signal_date": "2026-10-13",
+          "streak": 3,
+          "close": 19.6,
+          "ma20": 16.137,
+          "volume_price_proxy": 1142350720.0,
+          "entry_date": "2026-10-14",
+          "entry_index": 25,
+          "entry_price": 17.64882,
+          "qty": 1800,
+          "entry_cost": 31777.4063628,
+          "scheduled_exit_index": 27,
+          "last_mark": 16.51,
+          "exit_date": "2026-10-16",
+          "exit_price": 16.501745000000003,
+          "net_pnl": -2098.0278755999934,
+          "net_return": -0.06602262788998525,
+          "phase": "holdout",
+          "variant": "two_board",
+          "fill_type": "daily_open_close_proxy_not_broker_fill"
+        },
+        {
+          "symbol": "603096",
+          "name": "新经典",
+          "signal_date": "2026-10-14",
+          "streak": 4,
+          "close": 23.07,
+          "ma20": 16.5485,
+          "volume_price_proxy": 783738654.0,
+          "entry_date": "2026-10-15",
+          "entry_index": 26,
+          "entry_price": 21.870929999999998,
+          "qty": 1500,
+          "entry_cost": 32816.2369185,
+          "scheduled_exit_index": 28,
+          "last_mark": 17.28,
+          "unresolved_reason": "close_at_lower_limit",
+          "exit_date": "2026-10-20",
+          "exit_price": 17.27136,
+          "net_pnl": -6929.922550499996,
+          "net_return": -0.21117358969922861,
+          "phase": "holdout",
+          "variant": "two_board",
+          "fill_type": "daily_open_close_proxy_not_broker_fill"
+        },
+        {
+          "symbol": "002696",
+          "name": "百洋股份",
+          "signal_date": "2026-10-15",
+          "streak": 5,
+          "close": 10.73,
+          "ma20": 7.272499999999999,
+          "volume_price_proxy": 802296049.0,
+          "entry_date": "2026-10-16",
+          "entry_index": 27,
+          "entry_price": 10.035015,
+          "qty": 3300,
+          "entry_cost": 33125.48416485,
+          "scheduled_exit_index": 29,
+          "last_mark": 9.56,
+          "exit_date": "2026-10-20",
+          "exit_price": 9.55522,
+          "net_pnl": -1618.4839456500013,
+          "net_return": -0.04885917855858546,
+          "phase": "holdout",
+          "variant": "two_board",
+          "fill_type": "daily_open_close_proxy_not_broker_fill"
+        },
+        {
+          "symbol": "600825",
+          "name": "新华传媒",
+          "signal_date": "2026-10-16",
+          "streak": 11,
+          "close": 15.16,
+          "ma20": 7.730499999999999,
+          "volume_price_proxy": 247220184.0,
+          "entry_date": "2026-10-19",
+          "entry_index": 28,
+          "entry_price": 15.007499999999999,
+          "qty": 2200,
+          "entry_cost": 33026.40495,
+          "scheduled_exit_index": 30,
+          "last_mark": 16.17,
+          "exit_date": "2026-10-21",
+          "exit_price": 16.161915000000004,
+          "net_pnl": 2501.3630796000143,
+          "net_return": 0.07573827921588583,
+          "phase": "holdout",
+          "variant": "two_board",
+          "fill_type": "daily_open_close_proxy_not_broker_fill"
+        }
+      ],
+      "events": [
+        {
+          "symbol": "600825",
+          "name": "新华传媒",
+          "signal_date": "2026-10-09",
+          "streak": 9,
+          "close": 12.53,
+          "ma20": 6.774500000000001,
+          "volume_price_proxy": 625610370.0,
+          "date": "2026-10-12",
+          "status": "skipped",
+          "reason": "open_at_upper_limit"
+        },
+        {
+          "symbol": "002242",
+          "name": "九阳股份",
+          "signal_date": "2026-10-09",
+          "streak": 5,
+          "close": 15.13,
+          "ma20": 10.055,
+          "volume_price_proxy": 2106540822.0,
+          "date": "2026-10-12",
+          "status": "skipped",
+          "reason": "open_at_upper_limit"
+        },
+        {
+          "symbol": "600825",
+          "name": "新华传媒",
+          "signal_date": "2026-10-12",
+          "streak": 10,
+          "close": 13.78,
+          "ma20": 7.216499999999999,
+          "volume_price_proxy": 487084416.0,
+          "date": "2026-10-13",
+          "status": "skipped",
+          "reason": "missing_or_suspended_entry"
+        },
+        {
+          "symbol": "600241",
+          "name": "时代万恒",
+          "signal_date": "2026-10-12",
+          "streak": 6,
+          "close": 12.94,
+          "ma20": 8.234,
+          "volume_price_proxy": 1218870360.0,
+          "date": "2026-10-13",
+          "status": "skipped",
+          "reason": "already_held"
+        },
+        {
+          "symbol": "605136",
+          "name": "丽人丽妆",
+          "signal_date": "2026-10-13",
+          "streak": 3,
+          "close": 11.42,
+          "ma20": 8.8345,
+          "volume_price_proxy": 361269416.0,
+          "date": "2026-10-14",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "002696",
+          "name": "百洋股份",
+          "signal_date": "2026-10-13",
+          "streak": 3,
+          "close": 8.86,
+          "ma20": 7.014,
+          "volume_price_proxy": 321321190.0,
+          "date": "2026-10-14",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "002343",
+          "name": "慈文传媒",
+          "signal_date": "2026-10-14",
+          "streak": 4,
+          "close": 8.1,
+          "ma20": 5.974,
+          "volume_price_proxy": 458214570.0,
+          "date": "2026-10-15",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "002696",
+          "name": "百洋股份",
+          "signal_date": "2026-10-14",
+          "streak": 4,
+          "close": 9.75,
+          "ma20": 7.124,
+          "volume_price_proxy": 32450925.0,
+          "date": "2026-10-15",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "002343",
+          "name": "慈文传媒",
+          "signal_date": "2026-10-15",
+          "streak": 5,
+          "close": 8.91,
+          "ma20": 6.121,
+          "volume_price_proxy": 682544313.0,
+          "date": "2026-10-16",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "000530",
+          "name": "冰山冷热",
+          "signal_date": "2026-10-15",
+          "streak": 3,
+          "close": 6.93,
+          "ma20": 5.3605,
+          "volume_price_proxy": 1707173622.0,
+          "date": "2026-10-16",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "000530",
+          "name": "冰山冷热",
+          "signal_date": "2026-10-16",
+          "streak": 4,
+          "close": 7.62,
+          "ma20": 5.4784999999999995,
+          "volume_price_proxy": 1520017026.0,
+          "date": "2026-10-19",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "601811",
+          "name": "新华文轩",
+          "signal_date": "2026-10-16",
+          "streak": 3,
+          "close": 28.14,
+          "ma20": 18.305,
+          "volume_price_proxy": 1724889138.0,
+          "date": "2026-10-19",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "603096",
+          "date": "2026-10-19",
+          "status": "exit_deferred",
+          "reason": "close_at_lower_limit"
+        },
+        {
+          "symbol": "002889",
+          "name": "东方嘉盛",
+          "signal_date": "2026-10-19",
+          "streak": 3,
+          "close": 15.74,
+          "ma20": 12.2795,
+          "volume_price_proxy": 810133078.0,
+          "date": "2026-10-20",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "003029",
+          "name": "吉大正元",
+          "signal_date": "2026-10-19",
+          "streak": 3,
+          "close": 24.19,
+          "ma20": 18.493000000000002,
+          "volume_price_proxy": 174390548.0,
+          "date": "2026-10-20",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "002085",
+          "name": "万丰奥威",
+          "signal_date": "2026-10-19",
+          "streak": 2,
+          "close": 10.9,
+          "ma20": 9.5455,
+          "volume_price_proxy": 1114732100.0,
+          "date": "2026-10-20",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "002724",
+          "name": "海洋王",
+          "signal_date": "2026-10-20",
+          "streak": 3,
+          "close": 9.26,
+          "ma20": 7.289499999999999,
+          "volume_price_proxy": 569131638.0,
+          "date": "2026-10-21",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "603278",
+          "name": "大业股份",
+          "signal_date": "2026-10-21",
+          "streak": 4,
+          "close": 13.19,
+          "ma20": 9.9985,
+          "volume_price_proxy": 73724186.0,
+          "date": "2026-10-22",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "002724",
+          "name": "海洋王",
+          "signal_date": "2026-10-21",
+          "streak": 4,
+          "close": 10.19,
+          "ma20": 7.468500000000001,
+          "volume_price_proxy": 47186833.0,
+          "date": "2026-10-22",
+          "status": "skipped",
+          "reason": "position_cap"
+        }
+      ],
+      "equity": [
+        {
+          "date": "2026-10-09",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-10-12",
+          "equity": 101170.0367328,
+          "cash": 67526.0367328,
+          "positions": 1
+        },
+        {
+          "date": "2026-10-13",
+          "equity": 104820.4541495,
+          "cash": 34277.4541495,
+          "positions": 2
+        },
+        {
+          "date": "2026-10-14",
+          "equity": 108060.41172510001,
+          "cash": 36801.411725100006,
+          "positions": 2
+        },
+        {
+          "date": "2026-10-15",
+          "equity": 106051.933047,
+          "cash": 40288.933047000006,
+          "positions": 2
+        },
+        {
+          "date": "2026-10-16",
+          "equity": 100220.82736935001,
+          "cash": 36842.82736935001,
+          "positions": 2
+        },
+        {
+          "date": "2026-10-19",
+          "equity": 95119.42241935001,
+          "cash": 3816.422419350012,
+          "positions": 3
+        },
+        {
+          "date": "2026-10-20",
+          "equity": 94627.73700655001,
+          "cash": 61209.737006550014,
+          "positions": 1
+        },
+        {
+          "date": "2026-10-21",
+          "equity": 91588.31840285003,
+          "cash": 36467.318402850025,
+          "positions": 2
+        },
+        {
+          "date": "2026-10-22",
+          "equity": 85766.51356535003,
+          "cash": 4191.513565350026,
+          "positions": 3
+        }
+      ],
+      "pending_signal_count": 0,
+      "interpretation": "含未平仓估值的模拟净值；非已实现收益，未结清持仓必须单列"
+    },
+    {
+      "variant": "two_board_ma20",
+      "phase": "train",
+      "closed_trades": 2,
+      "open_positions": [
+        {
+          "symbol": "603949",
+          "name": "雪龙集团",
+          "signal_date": "2026-09-29",
+          "streak": 4,
+          "close": 20.45,
+          "ma20": 14.889500000000002,
+          "volume_price_proxy": 72002405.0,
+          "entry_date": "2026-09-30",
+          "entry_index": 20,
+          "entry_price": 20.47023,
+          "qty": 1600,
+          "entry_cost": 32762.193710400003,
+          "scheduled_exit_index": 22,
+          "last_mark": 16.57
+        }
+      ],
+      "unresolved_positions": 1,
+      "total_return": -0.08710621552899989,
+      "max_drawdown": -0.08710621552899989,
+      "win_rate": 0.5,
+      "trades": [
+        {
+          "symbol": "603396",
+          "name": "金辰股份",
+          "signal_date": "2026-09-28",
+          "streak": 3,
+          "close": 39.2,
+          "ma20": 29.569499999999998,
+          "volume_price_proxy": 921627280.0000001,
+          "entry_date": "2026-09-29",
+          "entry_index": 19,
+          "entry_price": 38.529255,
+          "qty": 800,
+          "entry_cost": 30832.6510212,
+          "scheduled_exit_index": 21,
+          "last_mark": 31.91,
+          "exit_date": "2026-10-08",
+          "exit_price": 31.894045000000002,
+          "net_pnl": -5337.8272099999995,
+          "net_return": -0.17312255136056254,
+          "phase": "train",
+          "variant": "two_board_ma20",
+          "fill_type": "daily_open_close_proxy_not_broker_fill"
+        },
+        {
+          "symbol": "600802",
+          "name": "福建水泥",
+          "signal_date": "2026-09-28",
+          "streak": 3,
+          "close": 7.28,
+          "ma20": 5.566,
+          "volume_price_proxy": 623577864.0,
+          "entry_date": "2026-09-29",
+          "entry_index": 19,
+          "entry_price": 6.553274999999999,
+          "qty": 5000,
+          "entry_cost": 32776.2049125,
+          "scheduled_exit_index": 21,
+          "last_mark": 7.14,
+          "exit_date": "2026-10-08",
+          "exit_price": 7.13643,
+          "net_pnl": 2877.3993675000092,
+          "net_return": 0.08778927808089954,
+          "phase": "train",
+          "variant": "two_board_ma20",
+          "fill_type": "daily_open_close_proxy_not_broker_fill"
+        }
+      ],
+      "events": [
+        {
+          "symbol": "600825",
+          "name": "新华传媒",
+          "signal_date": "2026-09-28",
+          "streak": 5,
+          "close": 8.55,
+          "ma20": 5.5875,
+          "volume_price_proxy": 42985125.0,
+          "date": "2026-09-29",
+          "status": "skipped",
+          "reason": "open_at_upper_limit"
+        },
+        {
+          "symbol": "600825",
+          "name": "新华传媒",
+          "signal_date": "2026-09-29",
+          "streak": 6,
+          "close": 9.41,
+          "ma20": 5.8045,
+          "volume_price_proxy": 147280615.0,
+          "date": "2026-09-30",
+          "status": "skipped",
+          "reason": "open_at_upper_limit"
+        },
+        {
+          "symbol": "000678",
+          "name": "襄阳轴承",
+          "signal_date": "2026-09-29",
+          "streak": 3,
+          "close": 11.72,
+          "ma20": 9.298,
+          "volume_price_proxy": 110756344.0,
+          "date": "2026-09-30",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "600825",
+          "name": "新华传媒",
+          "signal_date": "2026-09-30",
+          "streak": 7,
+          "close": 10.35,
+          "ma20": 6.069999999999999,
+          "volume_price_proxy": 144749925.0,
+          "date": "2026-10-08",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "000678",
+          "name": "襄阳轴承",
+          "signal_date": "2026-09-30",
+          "streak": 4,
+          "close": 12.89,
+          "ma20": 9.4855,
+          "volume_price_proxy": 1164196442.0,
+          "date": "2026-10-08",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "000011",
+          "name": "深物业A",
+          "signal_date": "2026-09-30",
+          "streak": 3,
+          "close": 12.24,
+          "ma20": 9.282,
+          "volume_price_proxy": 1100093256.0,
+          "date": "2026-10-08",
+          "status": "skipped",
+          "reason": "position_cap"
+        }
+      ],
+      "equity": [
+        {
+          "date": "2026-09-01",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-02",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-03",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-04",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-07",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-08",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-09",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-10",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-11",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-14",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-15",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-16",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-17",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-18",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-21",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-22",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-23",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-24",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-28",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-09-29",
+          "equity": 99315.14406630001,
+          "cash": 36391.1440663,
+          "positions": 2
+        },
+        {
+          "date": "2026-09-30",
+          "equity": 96084.9503559,
+          "cash": 3628.9503559000004,
+          "positions": 3
+        },
+        {
+          "date": "2026-10-08",
+          "equity": 91289.37844710001,
+          "cash": 64777.37844710001,
+          "positions": 1
+        }
+      ],
+      "pending_signal_count": 0,
+      "interpretation": "含未平仓估值的模拟净值；非已实现收益，未结清持仓必须单列"
+    },
+    {
+      "variant": "two_board_ma20",
+      "phase": "holdout",
+      "closed_trades": 6,
+      "open_positions": [
+        {
+          "symbol": "003029",
+          "name": "吉大正元",
+          "signal_date": "2026-10-20",
+          "streak": 4,
+          "close": 26.61,
+          "ma20": 18.909,
+          "volume_price_proxy": 1128990453.0,
+          "entry_date": "2026-10-21",
+          "entry_index": 30,
+          "entry_price": 28.784384999999997,
+          "qty": 1100,
+          "entry_cost": 31672.322347049994,
+          "scheduled_exit_index": 32,
+          "last_mark": 23.7
+        },
+        {
+          "symbol": "600148",
+          "name": "长春一东",
+          "signal_date": "2026-10-20",
+          "streak": 3,
+          "close": 19.7,
+          "ma20": 15.984,
+          "volume_price_proxy": 613262970.0,
+          "entry_date": "2026-10-21",
+          "entry_index": 30,
+          "entry_price": 19.059525,
+          "qty": 1500,
+          "entry_cost": 28597.864286250002,
+          "scheduled_exit_index": 32,
+          "last_mark": 16.52
+        },
+        {
+          "symbol": "600178",
+          "name": "东安动力",
+          "signal_date": "2026-10-21",
+          "streak": 4,
+          "close": 13.65,
+          "ma20": 10.147499999999999,
+          "volume_price_proxy": 609319620.0,
+          "entry_date": "2026-10-22",
+          "entry_index": 31,
+          "entry_price": 12.90645,
+          "qty": 2500,
+          "entry_cost": 32275.8048375,
+          "scheduled_exit_index": 33,
+          "last_mark": 12.29
+        }
+      ],
+      "unresolved_positions": 3,
+      "total_return": -0.14233486434649967,
+      "max_drawdown": -0.20630958001959576,
+      "win_rate": 0.5,
+      "trades": [
+        {
+          "symbol": "600241",
+          "name": "时代万恒",
+          "signal_date": "2026-10-09",
+          "streak": 5,
+          "close": 11.76,
+          "ma20": 7.960500000000001,
+          "volume_price_proxy": 68939472.0,
+          "entry_date": "2026-10-12",
+          "entry_index": 23,
+          "entry_price": 12.48624,
+          "qty": 2600,
+          "entry_cost": 32473.9632672,
+          "scheduled_exit_index": 25,
+          "last_mark": 13.21,
+          "exit_date": "2026-10-14",
+          "exit_price": 13.203395000000002,
+          "net_pnl": 1827.4006712000046,
+          "net_return": 0.05627279479760183,
+          "phase": "holdout",
+          "variant": "two_board_ma20",
+          "fill_type": "daily_open_close_proxy_not_broker_fill"
+        },
+        {
+          "symbol": "002242",
+          "name": "九阳股份",
+          "signal_date": "2026-10-12",
+          "streak": 6,
+          "close": 16.64,
+          "ma20": 10.469,
+          "volume_price_proxy": 2036649472.0,
+          "entry_date": "2026-10-13",
+          "entry_index": 24,
+          "entry_price": 15.82791,
+          "qty": 2100,
+          "entry_cost": 33248.5825833,
+          "scheduled_exit_index": 26,
+          "last_mark": 17.31,
+          "exit_date": "2026-10-15",
+          "exit_price": 17.301345,
+          "net_pnl": 3055.1756571000005,
+          "net_return": 0.09188889930708033,
+          "phase": "holdout",
+          "variant": "two_board_ma20",
+          "fill_type": "daily_open_close_proxy_not_broker_fill"
+        },
+        {
+          "symbol": "605577",
+          "name": "龙版传媒",
+          "signal_date": "2026-10-13",
+          "streak": 3,
+          "close": 19.6,
+          "ma20": 16.137,
+          "volume_price_proxy": 1142350720.0,
+          "entry_date": "2026-10-14",
+          "entry_index": 25,
+          "entry_price": 17.64882,
+          "qty": 1800,
+          "entry_cost": 31777.4063628,
+          "scheduled_exit_index": 27,
+          "last_mark": 16.51,
+          "exit_date": "2026-10-16",
+          "exit_price": 16.501745000000003,
+          "net_pnl": -2098.0278755999934,
+          "net_return": -0.06602262788998525,
+          "phase": "holdout",
+          "variant": "two_board_ma20",
+          "fill_type": "daily_open_close_proxy_not_broker_fill"
+        },
+        {
+          "symbol": "603096",
+          "name": "新经典",
+          "signal_date": "2026-10-14",
+          "streak": 4,
+          "close": 23.07,
+          "ma20": 16.5485,
+          "volume_price_proxy": 783738654.0,
+          "entry_date": "2026-10-15",
+          "entry_index": 26,
+          "entry_price": 21.870929999999998,
+          "qty": 1500,
+          "entry_cost": 32816.2369185,
+          "scheduled_exit_index": 28,
+          "last_mark": 17.28,
+          "unresolved_reason": "close_at_lower_limit",
+          "exit_date": "2026-10-20",
+          "exit_price": 17.27136,
+          "net_pnl": -6929.922550499996,
+          "net_return": -0.21117358969922861,
+          "phase": "holdout",
+          "variant": "two_board_ma20",
+          "fill_type": "daily_open_close_proxy_not_broker_fill"
+        },
+        {
+          "symbol": "002696",
+          "name": "百洋股份",
+          "signal_date": "2026-10-15",
+          "streak": 5,
+          "close": 10.73,
+          "ma20": 7.272499999999999,
+          "volume_price_proxy": 802296049.0,
+          "entry_date": "2026-10-16",
+          "entry_index": 27,
+          "entry_price": 10.035015,
+          "qty": 3300,
+          "entry_cost": 33125.48416485,
+          "scheduled_exit_index": 29,
+          "last_mark": 9.56,
+          "exit_date": "2026-10-20",
+          "exit_price": 9.55522,
+          "net_pnl": -1618.4839456500013,
+          "net_return": -0.04885917855858546,
+          "phase": "holdout",
+          "variant": "two_board_ma20",
+          "fill_type": "daily_open_close_proxy_not_broker_fill"
+        },
+        {
+          "symbol": "600825",
+          "name": "新华传媒",
+          "signal_date": "2026-10-16",
+          "streak": 11,
+          "close": 15.16,
+          "ma20": 7.730499999999999,
+          "volume_price_proxy": 247220184.0,
+          "entry_date": "2026-10-19",
+          "entry_index": 28,
+          "entry_price": 15.007499999999999,
+          "qty": 2200,
+          "entry_cost": 33026.40495,
+          "scheduled_exit_index": 30,
+          "last_mark": 16.17,
+          "exit_date": "2026-10-21",
+          "exit_price": 16.161915000000004,
+          "net_pnl": 2501.3630796000143,
+          "net_return": 0.07573827921588583,
+          "phase": "holdout",
+          "variant": "two_board_ma20",
+          "fill_type": "daily_open_close_proxy_not_broker_fill"
+        }
+      ],
+      "events": [
+        {
+          "symbol": "600825",
+          "name": "新华传媒",
+          "signal_date": "2026-10-09",
+          "streak": 9,
+          "close": 12.53,
+          "ma20": 6.774500000000001,
+          "volume_price_proxy": 625610370.0,
+          "date": "2026-10-12",
+          "status": "skipped",
+          "reason": "open_at_upper_limit"
+        },
+        {
+          "symbol": "002242",
+          "name": "九阳股份",
+          "signal_date": "2026-10-09",
+          "streak": 5,
+          "close": 15.13,
+          "ma20": 10.055,
+          "volume_price_proxy": 2106540822.0,
+          "date": "2026-10-12",
+          "status": "skipped",
+          "reason": "open_at_upper_limit"
+        },
+        {
+          "symbol": "600825",
+          "name": "新华传媒",
+          "signal_date": "2026-10-12",
+          "streak": 10,
+          "close": 13.78,
+          "ma20": 7.216499999999999,
+          "volume_price_proxy": 487084416.0,
+          "date": "2026-10-13",
+          "status": "skipped",
+          "reason": "missing_or_suspended_entry"
+        },
+        {
+          "symbol": "600241",
+          "name": "时代万恒",
+          "signal_date": "2026-10-12",
+          "streak": 6,
+          "close": 12.94,
+          "ma20": 8.234,
+          "volume_price_proxy": 1218870360.0,
+          "date": "2026-10-13",
+          "status": "skipped",
+          "reason": "already_held"
+        },
+        {
+          "symbol": "605136",
+          "name": "丽人丽妆",
+          "signal_date": "2026-10-13",
+          "streak": 3,
+          "close": 11.42,
+          "ma20": 8.8345,
+          "volume_price_proxy": 361269416.0,
+          "date": "2026-10-14",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "002696",
+          "name": "百洋股份",
+          "signal_date": "2026-10-13",
+          "streak": 3,
+          "close": 8.86,
+          "ma20": 7.014,
+          "volume_price_proxy": 321321190.0,
+          "date": "2026-10-14",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "002343",
+          "name": "慈文传媒",
+          "signal_date": "2026-10-14",
+          "streak": 4,
+          "close": 8.1,
+          "ma20": 5.974,
+          "volume_price_proxy": 458214570.0,
+          "date": "2026-10-15",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "002696",
+          "name": "百洋股份",
+          "signal_date": "2026-10-14",
+          "streak": 4,
+          "close": 9.75,
+          "ma20": 7.124,
+          "volume_price_proxy": 32450925.0,
+          "date": "2026-10-15",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "002343",
+          "name": "慈文传媒",
+          "signal_date": "2026-10-15",
+          "streak": 5,
+          "close": 8.91,
+          "ma20": 6.121,
+          "volume_price_proxy": 682544313.0,
+          "date": "2026-10-16",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "000530",
+          "name": "冰山冷热",
+          "signal_date": "2026-10-15",
+          "streak": 3,
+          "close": 6.93,
+          "ma20": 5.3605,
+          "volume_price_proxy": 1707173622.0,
+          "date": "2026-10-16",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "000530",
+          "name": "冰山冷热",
+          "signal_date": "2026-10-16",
+          "streak": 4,
+          "close": 7.62,
+          "ma20": 5.4784999999999995,
+          "volume_price_proxy": 1520017026.0,
+          "date": "2026-10-19",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "601811",
+          "name": "新华文轩",
+          "signal_date": "2026-10-16",
+          "streak": 3,
+          "close": 28.14,
+          "ma20": 18.305,
+          "volume_price_proxy": 1724889138.0,
+          "date": "2026-10-19",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "603096",
+          "date": "2026-10-19",
+          "status": "exit_deferred",
+          "reason": "close_at_lower_limit"
+        },
+        {
+          "symbol": "002889",
+          "name": "东方嘉盛",
+          "signal_date": "2026-10-19",
+          "streak": 3,
+          "close": 15.74,
+          "ma20": 12.2795,
+          "volume_price_proxy": 810133078.0,
+          "date": "2026-10-20",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "003029",
+          "name": "吉大正元",
+          "signal_date": "2026-10-19",
+          "streak": 3,
+          "close": 24.19,
+          "ma20": 18.493000000000002,
+          "volume_price_proxy": 174390548.0,
+          "date": "2026-10-20",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "002085",
+          "name": "万丰奥威",
+          "signal_date": "2026-10-19",
+          "streak": 2,
+          "close": 10.9,
+          "ma20": 9.5455,
+          "volume_price_proxy": 1114732100.0,
+          "date": "2026-10-20",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "002724",
+          "name": "海洋王",
+          "signal_date": "2026-10-20",
+          "streak": 3,
+          "close": 9.26,
+          "ma20": 7.289499999999999,
+          "volume_price_proxy": 569131638.0,
+          "date": "2026-10-21",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "603278",
+          "name": "大业股份",
+          "signal_date": "2026-10-21",
+          "streak": 4,
+          "close": 13.19,
+          "ma20": 9.9985,
+          "volume_price_proxy": 73724186.0,
+          "date": "2026-10-22",
+          "status": "skipped",
+          "reason": "position_cap"
+        },
+        {
+          "symbol": "002724",
+          "name": "海洋王",
+          "signal_date": "2026-10-21",
+          "streak": 4,
+          "close": 10.19,
+          "ma20": 7.468500000000001,
+          "volume_price_proxy": 47186833.0,
+          "date": "2026-10-22",
+          "status": "skipped",
+          "reason": "position_cap"
+        }
+      ],
+      "equity": [
+        {
+          "date": "2026-10-09",
+          "equity": 100000,
+          "cash": 100000,
+          "positions": 0
+        },
+        {
+          "date": "2026-10-12",
+          "equity": 101170.0367328,
+          "cash": 67526.0367328,
+          "positions": 1
+        },
+        {
+          "date": "2026-10-13",
+          "equity": 104820.4541495,
+          "cash": 34277.4541495,
+          "positions": 2
+        },
+        {
+          "date": "2026-10-14",
+          "equity": 108060.41172510001,
+          "cash": 36801.411725100006,
+          "positions": 2
+        },
+        {
+          "date": "2026-10-15",
+          "equity": 106051.933047,
+          "cash": 40288.933047000006,
+          "positions": 2
+        },
+        {
+          "date": "2026-10-16",
+          "equity": 100220.82736935001,
+          "cash": 36842.82736935001,
+          "positions": 2
+        },
+        {
+          "date": "2026-10-19",
+          "equity": 95119.42241935001,
+          "cash": 3816.422419350012,
+          "positions": 3
+        },
+        {
+          "date": "2026-10-20",
+          "equity": 94627.73700655001,
+          "cash": 61209.737006550014,
+          "positions": 1
+        },
+        {
+          "date": "2026-10-21",
+          "equity": 91588.31840285003,
+          "cash": 36467.318402850025,
+          "positions": 2
+        },
+        {
+          "date": "2026-10-22",
+          "equity": 85766.51356535003,
+          "cash": 4191.513565350026,
+          "positions": 3
+        }
+      ],
+      "pending_signal_count": 0,
+      "interpretation": "含未平仓估值的模拟净值；非已实现收益，未结清持仓必须单列"
+    }
+  ],
+  "status": "EXPLORATORY_ONLY",
+  "automatic_adoption": false,
+  "limitations": [
+    "历史池成员来源完整性和历史ST/退市状态未独立保证",
+    "日线无法验证封单、排队与实际开盘成交",
+    "除权及特殊涨跌幅仅保守剔除异常，未重建全部公司行为",
+    "训练/样本外仅时间隔离，样本不足不作有效性结论",
+    "全部固定方案并列报告，不按样本外结果挑赢家",
+    "不是原龙头框架完整复现，未纳入历史题材或作者观点"
+  ]
+}

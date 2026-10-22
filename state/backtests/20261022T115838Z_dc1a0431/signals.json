@@ -1,0 +1,5123 @@
+[
+  {
+    "symbol": "001330",
+    "name": "博纳影业",
+    "signal_date": "2026-09-28",
+    "streak": 1,
+    "close": 6.36,
+    "ma20": 5.767,
+    "volume_price_proxy": 261050016.0
+  },
+  {
+    "symbol": "600825",
+    "name": "新华传媒",
+    "signal_date": "2026-09-28",
+    "streak": 5,
+    "close": 8.55,
+    "ma20": 5.5875,
+    "volume_price_proxy": 42985125.0
+  },
+  {
+    "symbol": "603949",
+    "name": "雪龙集团",
+    "signal_date": "2026-09-28",
+    "streak": 3,
+    "close": 18.59,
+    "ma20": 14.592500000000001,
+    "volume_price_proxy": 304626894.0
+  },
+  {
+    "symbol": "603396",
+    "name": "金辰股份",
+    "signal_date": "2026-09-28",
+    "streak": 3,
+    "close": 39.2,
+    "ma20": 29.569499999999998,
+    "volume_price_proxy": 921627280.0000001
+  },
+  {
+    "symbol": "002912",
+    "name": "中新赛克",
+    "signal_date": "2026-09-28",
+    "streak": 1,
+    "close": 26.47,
+    "ma20": 22.904,
+    "volume_price_proxy": 210852079.0
+  },
+  {
+    "symbol": "601579",
+    "name": "会稽山",
+    "signal_date": "2026-09-28",
+    "streak": 1,
+    "close": 41.84,
+    "ma20": 27.8565,
+    "volume_price_proxy": 2255832888.0
+  },
+  {
+    "symbol": "603278",
+    "name": "大业股份",
+    "signal_date": "2026-09-28",
+    "streak": 2,
+    "close": 10.78,
+    "ma20": 9.309000000000001,
+    "volume_price_proxy": 696089394.0
+  },
+  {
+    "symbol": "000678",
+    "name": "襄阳轴承",
+    "signal_date": "2026-09-28",
+    "streak": 2,
+    "close": 10.65,
+    "ma20": 9.1645,
+    "volume_price_proxy": 372597705.0
+  },
+  {
+    "symbol": "002640",
+    "name": "跨境通",
+    "signal_date": "2026-09-28",
+    "streak": 1,
+    "close": 3.96,
+    "ma20": 3.5355,
+    "volume_price_proxy": 1059582348.0
+  },
+  {
+    "symbol": "000503",
+    "name": "国新健康",
+    "signal_date": "2026-09-28",
+    "streak": 1,
+    "close": 7.44,
+    "ma20": 6.9465,
+    "volume_price_proxy": 365600856.0
+  },
+  {
+    "symbol": "002242",
+    "name": "九阳股份",
+    "signal_date": "2026-09-28",
+    "streak": 1,
+    "close": 10.33,
+    "ma20": 9.11,
+    "volume_price_proxy": 254408273.0
+  },
+  {
+    "symbol": "000513",
+    "name": "丽珠集团",
+    "signal_date": "2026-09-28",
+    "streak": 1,
+    "close": 30.34,
+    "ma20": 27.003500000000003,
+    "volume_price_proxy": 847784552.0
+  },
+  {
+    "symbol": "002962",
+    "name": "五方光电",
+    "signal_date": "2026-09-28",
+    "streak": 1,
+    "close": 14.76,
+    "ma20": 13.300999999999998,
+    "volume_price_proxy": 461856636.0
+  },
+  {
+    "symbol": "600802",
+    "name": "福建水泥",
+    "signal_date": "2026-09-28",
+    "streak": 3,
+    "close": 7.28,
+    "ma20": 5.566,
+    "volume_price_proxy": 623577864.0
+  },
+  {
+    "symbol": "002347",
+    "name": "泰尔股份",
+    "signal_date": "2026-09-28",
+    "streak": 1,
+    "close": 6.42,
+    "ma20": 6.08,
+    "volume_price_proxy": 315963510.0
+  },
+  {
+    "symbol": "000011",
+    "name": "深物业A",
+    "signal_date": "2026-09-28",
+    "streak": 1,
+    "close": 10.12,
+    "ma20": 9.075,
+    "volume_price_proxy": 190672944.0
+  },
+  {
+    "symbol": "600032",
+    "name": "浙江新能",
+    "signal_date": "2026-09-28",
+    "streak": 1,
+    "close": 7.43,
+    "ma20": 6.9944999999999995,
+    "volume_price_proxy": 452172711.0
+  },
+  {
+    "symbol": "000020",
+    "name": "深华发Ａ",
+    "signal_date": "2026-09-28",
+    "streak": 1,
+    "close": 14.64,
+    "ma20": 13.198500000000001,
+    "volume_price_proxy": 209385672.0
+  },
+  {
+    "symbol": "002480",
+    "name": "新筑股份",
+    "signal_date": "2026-09-28",
+    "streak": 1,
+    "close": 5.65,
+    "ma20": 5.3395,
+    "volume_price_proxy": 166129210.0
+  },
+  {
+    "symbol": "600241",
+    "name": "时代万恒",
+    "signal_date": "2026-09-28",
+    "streak": 1,
+    "close": 8.04,
+    "ma20": 7.4305,
+    "volume_price_proxy": 147241343.99999997
+  },
+  {
+    "symbol": "600418",
+    "name": "江淮汽车",
+    "signal_date": "2026-09-28",
+    "streak": 1,
+    "close": 25.22,
+    "ma20": 20.556,
+    "volume_price_proxy": 4526657096.0
+  },
+  {
+    "symbol": "001201",
+    "name": "东瑞股份",
+    "signal_date": "2026-09-28",
+    "streak": 1,
+    "close": 16.13,
+    "ma20": 13.981,
+    "volume_price_proxy": 222869823.0
+  },
+  {
+    "symbol": "002342",
+    "name": "巨力索具",
+    "signal_date": "2026-09-28",
+    "streak": 1,
+    "close": 8.68,
+    "ma20": 7.934,
+    "volume_price_proxy": 2072128660.0
+  },
+  {
+    "symbol": "002232",
+    "name": "启明信息",
+    "signal_date": "2026-09-28",
+    "streak": 1,
+    "close": 16.28,
+    "ma20": 15.074000000000002,
+    "volume_price_proxy": 405901100.0
+  },
+  {
+    "symbol": "600488",
+    "name": "津药药业",
+    "signal_date": "2026-09-28",
+    "streak": 1,
+    "close": 6.27,
+    "ma20": 5.6985,
+    "volume_price_proxy": 644810562.0
+  },
+  {
+    "symbol": "002852",
+    "name": "道道全",
+    "signal_date": "2026-09-28",
+    "streak": 1,
+    "close": 8.9,
+    "ma20": 8.545,
+    "volume_price_proxy": 249772270.0
+  },
+  {
+    "symbol": "601218",
+    "name": "吉鑫科技",
+    "signal_date": "2026-09-28",
+    "streak": 2,
+    "close": 6.05,
+    "ma20": 4.965999999999999,
+    "volume_price_proxy": 1602024875.0
+  },
+  {
+    "symbol": "605366",
+    "name": "宏柏新材",
+    "signal_date": "2026-09-28",
+    "streak": 1,
+    "close": 10.14,
+    "ma20": 8.373000000000001,
+    "volume_price_proxy": 1059937242.0
+  },
+  {
+    "symbol": "603968",
+    "name": "醋化股份",
+    "signal_date": "2026-09-28",
+    "streak": 1,
+    "close": 11.63,
+    "ma20": 10.741,
+    "volume_price_proxy": 118913261.00000001
+  },
+  {
+    "symbol": "001368",
+    "name": "通达创智",
+    "signal_date": "2026-09-28",
+    "streak": 1,
+    "close": 41.8,
+    "ma20": 29.4415,
+    "volume_price_proxy": 480240199.99999994
+  },
+  {
+    "symbol": "000011",
+    "name": "深物业A",
+    "signal_date": "2026-09-29",
+    "streak": 2,
+    "close": 11.13,
+    "ma20": 9.128,
+    "volume_price_proxy": 469044912.00000006
+  },
+  {
+    "symbol": "000678",
+    "name": "襄阳轴承",
+    "signal_date": "2026-09-29",
+    "streak": 3,
+    "close": 11.72,
+    "ma20": 9.298,
+    "volume_price_proxy": 110756344.0
+  },
+  {
+    "symbol": "600825",
+    "name": "新华传媒",
+    "signal_date": "2026-09-29",
+    "streak": 6,
+    "close": 9.41,
+    "ma20": 5.8045,
+    "volume_price_proxy": 147280615.0
+  },
+  {
+    "symbol": "603949",
+    "name": "雪龙集团",
+    "signal_date": "2026-09-29",
+    "streak": 4,
+    "close": 20.45,
+    "ma20": 14.889500000000002,
+    "volume_price_proxy": 72002405.0
+  },
+  {
+    "symbol": "601238",
+    "name": "广汽集团",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 5.6,
+    "ma20": 5.1995,
+    "volume_price_proxy": 45556000.0
+  },
+  {
+    "symbol": "600241",
+    "name": "时代万恒",
+    "signal_date": "2026-09-29",
+    "streak": 2,
+    "close": 8.84,
+    "ma20": 7.4935,
+    "volume_price_proxy": 151675836.0
+  },
+  {
+    "symbol": "605303",
+    "name": "园林股份",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 26.05,
+    "ma20": 23.4955,
+    "volume_price_proxy": 6608885.0
+  },
+  {
+    "symbol": "600488",
+    "name": "津药药业",
+    "signal_date": "2026-09-29",
+    "streak": 2,
+    "close": 6.9,
+    "ma20": 5.7775,
+    "volume_price_proxy": 969514170.0
+  },
+  {
+    "symbol": "002242",
+    "name": "九阳股份",
+    "signal_date": "2026-09-29",
+    "streak": 2,
+    "close": 11.36,
+    "ma20": 9.2485,
+    "volume_price_proxy": 217190704.0
+  },
+  {
+    "symbol": "603200",
+    "name": "上海洗霸",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 40.67,
+    "ma20": 39.7695,
+    "volume_price_proxy": 151918718.0
+  },
+  {
+    "symbol": "600657",
+    "name": "信达地产",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 3.38,
+    "ma20": 3.0875,
+    "volume_price_proxy": 257243012.0
+  },
+  {
+    "symbol": "600982",
+    "name": "宁波能源",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 5.49,
+    "ma20": 5.0475,
+    "volume_price_proxy": 268318809.0
+  },
+  {
+    "symbol": "600032",
+    "name": "浙江新能",
+    "signal_date": "2026-09-29",
+    "streak": 2,
+    "close": 8.17,
+    "ma20": 7.063,
+    "volume_price_proxy": 462242260.0
+  },
+  {
+    "symbol": "600189",
+    "name": "泉阳泉",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 9.01,
+    "ma20": 8.080499999999999,
+    "volume_price_proxy": 181561411.0
+  },
+  {
+    "symbol": "002912",
+    "name": "中新赛克",
+    "signal_date": "2026-09-29",
+    "streak": 2,
+    "close": 29.12,
+    "ma20": 23.365000000000002,
+    "volume_price_proxy": 808010112.0
+  },
+  {
+    "symbol": "603328",
+    "name": "依顿电子",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 14.44,
+    "ma20": 12.7025,
+    "volume_price_proxy": 414383236.0
+  },
+  {
+    "symbol": "002205",
+    "name": "国统股份",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 12.76,
+    "ma20": 11.128499999999999,
+    "volume_price_proxy": 326611340.0
+  },
+  {
+    "symbol": "002866",
+    "name": "传艺科技",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 15.36,
+    "ma20": 14.494,
+    "volume_price_proxy": 191887872.0
+  },
+  {
+    "symbol": "002074",
+    "name": "国轩高科",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 28.68,
+    "ma20": 26.252499999999998,
+    "volume_price_proxy": 1323409920.0
+  },
+  {
+    "symbol": "002058",
+    "name": "紫竹高科",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 18.36,
+    "ma20": 16.7825,
+    "volume_price_proxy": 93929760.0
+  },
+  {
+    "symbol": "002882",
+    "name": "金龙羽",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 24.51,
+    "ma20": 23.145500000000002,
+    "volume_price_proxy": 452530581.0
+  },
+  {
+    "symbol": "002913",
+    "name": "奥士康",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 91.08,
+    "ma20": 75.905,
+    "volume_price_proxy": 819310140.0
+  },
+  {
+    "symbol": "002846",
+    "name": "英联股份",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 11.88,
+    "ma20": 11.28,
+    "volume_price_proxy": 271459188.0
+  },
+  {
+    "symbol": "000068",
+    "name": "华控赛格",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 3.54,
+    "ma20": 3.2700000000000005,
+    "volume_price_proxy": 123532902.0
+  },
+  {
+    "symbol": "000036",
+    "name": "华联控股",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 4.21,
+    "ma20": 3.9314999999999998,
+    "volume_price_proxy": 206185171.0
+  },
+  {
+    "symbol": "603188",
+    "name": "亚邦股份",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 4.91,
+    "ma20": 4.703,
+    "volume_price_proxy": 121626592.0
+  },
+  {
+    "symbol": "603533",
+    "name": "掌阅科技",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 23.65,
+    "ma20": 23.6665,
+    "volume_price_proxy": 608079340.0
+  },
+  {
+    "symbol": "002799",
+    "name": "环球印务",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 7.55,
+    "ma20": 6.897499999999999,
+    "volume_price_proxy": 126878505.0
+  },
+  {
+    "symbol": "000002",
+    "name": "万  科Ａ",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 4.08,
+    "ma20": 3.343,
+    "volume_price_proxy": 3272610840.0
+  },
+  {
+    "symbol": "603636",
+    "name": "南威软件",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 7.87,
+    "ma20": 7.1965,
+    "volume_price_proxy": 552564505.0
+  },
+  {
+    "symbol": "002494",
+    "name": "华斯股份",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 5.32,
+    "ma20": 4.7995,
+    "volume_price_proxy": 156085076.0
+  },
+  {
+    "symbol": "000823",
+    "name": "超声电子",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 24.4,
+    "ma20": 20.832,
+    "volume_price_proxy": 2840008720.0
+  },
+  {
+    "symbol": "601519",
+    "name": "大智慧",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 9.01,
+    "ma20": 8.583499999999999,
+    "volume_price_proxy": 460351534.0
+  },
+  {
+    "symbol": "600152",
+    "name": "维科技术",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 8.32,
+    "ma20": 8.025,
+    "volume_price_proxy": 297714560.0
+  },
+  {
+    "symbol": "601811",
+    "name": "新华文轩",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 20.37,
+    "ma20": 13.8445,
+    "volume_price_proxy": 1029844053.0
+  },
+  {
+    "symbol": "000607",
+    "name": "华媒控股",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 4.13,
+    "ma20": 4.0245,
+    "volume_price_proxy": 399374304.0
+  },
+  {
+    "symbol": "603598",
+    "name": "引力传媒",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 19.13,
+    "ma20": 17.988,
+    "volume_price_proxy": 571822482.0
+  },
+  {
+    "symbol": "603322",
+    "name": "超讯科技",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 29.1,
+    "ma20": 29.807,
+    "volume_price_proxy": 214429170.0
+  },
+  {
+    "symbol": "002244",
+    "name": "滨江集团",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 9.46,
+    "ma20": 8.4345,
+    "volume_price_proxy": 787505268.0000001
+  },
+  {
+    "symbol": "002815",
+    "name": "崇达技术",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 24.44,
+    "ma20": 20.2825,
+    "volume_price_proxy": 1994220904.0
+  },
+  {
+    "symbol": "601949",
+    "name": "中国出版",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 6.01,
+    "ma20": 6.0575,
+    "volume_price_proxy": 526069123.0
+  },
+  {
+    "symbol": "002813",
+    "name": "路畅科技",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 26.38,
+    "ma20": 22.204,
+    "volume_price_proxy": 238261522.0
+  },
+  {
+    "symbol": "603980",
+    "name": "吉华集团",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 8.84,
+    "ma20": 8.144499999999999,
+    "volume_price_proxy": 447643456.0
+  },
+  {
+    "symbol": "603602",
+    "name": "纵横通信",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 12.71,
+    "ma20": 11.669500000000001,
+    "volume_price_proxy": 137386203.0
+  },
+  {
+    "symbol": "605058",
+    "name": "澳弘电子",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 59.6,
+    "ma20": 40.6455,
+    "volume_price_proxy": 1311587400.0
+  },
+  {
+    "symbol": "605258",
+    "name": "协和电子",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 44.01,
+    "ma20": 35.671499999999995,
+    "volume_price_proxy": 412290081.0
+  },
+  {
+    "symbol": "603630",
+    "name": "拉芳家化",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 15.57,
+    "ma20": 14.122499999999999,
+    "volume_price_proxy": 230917113.0
+  },
+  {
+    "symbol": "002303",
+    "name": "美盈森",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 6.7,
+    "ma20": 5.738,
+    "volume_price_proxy": 981071620.0
+  },
+  {
+    "symbol": "605198",
+    "name": "安德利",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 65.68,
+    "ma20": 72.6505,
+    "volume_price_proxy": 412339040.00000006
+  },
+  {
+    "symbol": "605388",
+    "name": "均瑶健康",
+    "signal_date": "2026-09-29",
+    "streak": 1,
+    "close": 6.72,
+    "ma20": 6.156499999999999,
+    "volume_price_proxy": 135282336.0
+  },
+  {
+    "symbol": "600825",
+    "name": "新华传媒",
+    "signal_date": "2026-09-30",
+    "streak": 7,
+    "close": 10.35,
+    "ma20": 6.069999999999999,
+    "volume_price_proxy": 144749925.0
+  },
+  {
+    "symbol": "600241",
+    "name": "时代万恒",
+    "signal_date": "2026-09-30",
+    "streak": 3,
+    "close": 9.72,
+    "ma20": 7.594499999999999,
+    "volume_price_proxy": 74661264.0
+  },
+  {
+    "symbol": "002242",
+    "name": "九阳股份",
+    "signal_date": "2026-09-30",
+    "streak": 3,
+    "close": 12.5,
+    "ma20": 9.443,
+    "volume_price_proxy": 437010000.0
+  },
+  {
+    "symbol": "002058",
+    "name": "紫竹高科",
+    "signal_date": "2026-09-30",
+    "streak": 2,
+    "close": 20.2,
+    "ma20": 16.945500000000003,
+    "volume_price_proxy": 51136300.0
+  },
+  {
+    "symbol": "605388",
+    "name": "均瑶健康",
+    "signal_date": "2026-09-30",
+    "streak": 2,
+    "close": 7.39,
+    "ma20": 6.2105,
+    "volume_price_proxy": 84984261.0
+  },
+  {
+    "symbol": "605303",
+    "name": "园林股份",
+    "signal_date": "2026-09-30",
+    "streak": 2,
+    "close": 28.66,
+    "ma20": 23.817,
+    "volume_price_proxy": 4940984.0
+  },
+  {
+    "symbol": "001206",
+    "name": "依依股份",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 18.62,
+    "ma20": 16.746000000000002,
+    "volume_price_proxy": 86484314.0
+  },
+  {
+    "symbol": "002866",
+    "name": "传艺科技",
+    "signal_date": "2026-09-30",
+    "streak": 2,
+    "close": 16.9,
+    "ma20": 14.586500000000001,
+    "volume_price_proxy": 579284680.0
+  },
+  {
+    "symbol": "601118",
+    "name": "海南橡胶",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 6.37,
+    "ma20": 6.627,
+    "volume_price_proxy": 401957192.0
+  },
+  {
+    "symbol": "605577",
+    "name": "龙版传媒",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 16.28,
+    "ma20": 14.9595,
+    "volume_price_proxy": 167294908.0
+  },
+  {
+    "symbol": "600059",
+    "name": "古越龙山",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 12.27,
+    "ma20": 9.9055,
+    "volume_price_proxy": 1103945397.0
+  },
+  {
+    "symbol": "002388",
+    "name": "新亚制程",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 9.1,
+    "ma20": 7.0525,
+    "volume_price_proxy": 324756250.0
+  },
+  {
+    "symbol": "000011",
+    "name": "深物业A",
+    "signal_date": "2026-09-30",
+    "streak": 3,
+    "close": 12.24,
+    "ma20": 9.282,
+    "volume_price_proxy": 1100093256.0
+  },
+  {
+    "symbol": "603188",
+    "name": "亚邦股份",
+    "signal_date": "2026-09-30",
+    "streak": 2,
+    "close": 5.4,
+    "ma20": 4.7195,
+    "volume_price_proxy": 177475320.0
+  },
+  {
+    "symbol": "600356",
+    "name": "恒丰纸业",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 11.46,
+    "ma20": 9.8615,
+    "volume_price_proxy": 176225004.0
+  },
+  {
+    "symbol": "002316",
+    "name": "亚联发展",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 4.95,
+    "ma20": 4.4655000000000005,
+    "volume_price_proxy": 146799180.0
+  },
+  {
+    "symbol": "000710",
+    "name": "贝瑞基因",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 10.87,
+    "ma20": 9.192499999999999,
+    "volume_price_proxy": 274315320.0
+  },
+  {
+    "symbol": "603948",
+    "name": "建业股份",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 21.36,
+    "ma20": 19.5505,
+    "volume_price_proxy": 42747768.0
+  },
+  {
+    "symbol": "600072",
+    "name": "中船科技",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 9.7,
+    "ma20": 8.9715,
+    "volume_price_proxy": 429999059.99999994
+  },
+  {
+    "symbol": "600081",
+    "name": "东风科技",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 11.89,
+    "ma20": 10.516,
+    "volume_price_proxy": 197471498.0
+  },
+  {
+    "symbol": "605011",
+    "name": "杭州热电",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 19.21,
+    "ma20": 17.8955,
+    "volume_price_proxy": 234922932.0
+  },
+  {
+    "symbol": "603928",
+    "name": "兴业股份",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 13.07,
+    "ma20": 11.8635,
+    "volume_price_proxy": 133859019.0
+  },
+  {
+    "symbol": "000692",
+    "name": "惠天热电",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 4.59,
+    "ma20": 4.246,
+    "volume_price_proxy": 173140308.0
+  },
+  {
+    "symbol": "603538",
+    "name": "美诺华",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 28.59,
+    "ma20": 26.8735,
+    "volume_price_proxy": 1359508821.0
+  },
+  {
+    "symbol": "603739",
+    "name": "蔚蓝生物",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 14.04,
+    "ma20": 12.8315,
+    "volume_price_proxy": 129405275.99999999
+  },
+  {
+    "symbol": "002962",
+    "name": "五方光电",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 16.17,
+    "ma20": 13.528,
+    "volume_price_proxy": 577037769.0000001
+  },
+  {
+    "symbol": "603590",
+    "name": "康辰药业",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 32.11,
+    "ma20": 29.525,
+    "volume_price_proxy": 196895309.0
+  },
+  {
+    "symbol": "605288",
+    "name": "凯迪股份",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 71.83,
+    "ma20": 66.625,
+    "volume_price_proxy": 212106807.0
+  },
+  {
+    "symbol": "600592",
+    "name": "龙溪股份",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 16.2,
+    "ma20": 14.881499999999999,
+    "volume_price_proxy": 305489880.0
+  },
+  {
+    "symbol": "002164",
+    "name": "宁波东力",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 13.26,
+    "ma20": 11.1365,
+    "volume_price_proxy": 662342304.0
+  },
+  {
+    "symbol": "000678",
+    "name": "襄阳轴承",
+    "signal_date": "2026-09-30",
+    "streak": 4,
+    "close": 12.89,
+    "ma20": 9.4855,
+    "volume_price_proxy": 1164196442.0
+  },
+  {
+    "symbol": "002226",
+    "name": "江南化工",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 5.34,
+    "ma20": 5.119,
+    "volume_price_proxy": 418721148.0
+  },
+  {
+    "symbol": "002454",
+    "name": "松芝股份",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 5.61,
+    "ma20": 5.096,
+    "volume_price_proxy": 123949023.0
+  },
+  {
+    "symbol": "603200",
+    "name": "上海洗霸",
+    "signal_date": "2026-09-30",
+    "streak": 2,
+    "close": 44.74,
+    "ma20": 39.8655,
+    "volume_price_proxy": 1089208722.0
+  },
+  {
+    "symbol": "603906",
+    "name": "龙蟠科技",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 19.04,
+    "ma20": 18.193,
+    "volume_price_proxy": 704348624.0
+  },
+  {
+    "symbol": "605287",
+    "name": "德才股份",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 37.39,
+    "ma20": 36.3975,
+    "volume_price_proxy": 286594350.0
+  },
+  {
+    "symbol": "000504",
+    "name": "南华生物",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 12.42,
+    "ma20": 9.868500000000001,
+    "volume_price_proxy": 920223882.0
+  },
+  {
+    "symbol": "002755",
+    "name": "奥赛康",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 13.55,
+    "ma20": 11.983500000000001,
+    "volume_price_proxy": 255422920.0
+  },
+  {
+    "symbol": "603127",
+    "name": "昭衍新药",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 49.3,
+    "ma20": 44.5835,
+    "volume_price_proxy": 2731308740.0
+  },
+  {
+    "symbol": "002188",
+    "name": "中天服务",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 6.4,
+    "ma20": 5.6025,
+    "volume_price_proxy": 150431360.0
+  },
+  {
+    "symbol": "600663",
+    "name": "陆家嘴",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 10.11,
+    "ma20": 9.0405,
+    "volume_price_proxy": 369161595.0
+  },
+  {
+    "symbol": "002419",
+    "name": "天虹股份",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 5.09,
+    "ma20": 4.729,
+    "volume_price_proxy": 261771065.0
+  },
+  {
+    "symbol": "001318",
+    "name": "阳光乳业",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 13.04,
+    "ma20": 11.753499999999999,
+    "volume_price_proxy": 129995759.99999999
+  },
+  {
+    "symbol": "002041",
+    "name": "登海种业",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 10.23,
+    "ma20": 10.5,
+    "volume_price_proxy": 352917609.0
+  },
+  {
+    "symbol": "603185",
+    "name": "弘元绿能",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 15.15,
+    "ma20": 14.395500000000002,
+    "volume_price_proxy": 254709375.0
+  },
+  {
+    "symbol": "603919",
+    "name": "金徽酒",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 17.4,
+    "ma20": 16.803,
+    "volume_price_proxy": 221923079.99999997
+  },
+  {
+    "symbol": "001266",
+    "name": "宏英智能",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 39.96,
+    "ma20": 34.275,
+    "volume_price_proxy": 320439240.0
+  },
+  {
+    "symbol": "600131",
+    "name": "国网信通",
+    "signal_date": "2026-09-30",
+    "streak": 1,
+    "close": 15.39,
+    "ma20": 14.501500000000002,
+    "volume_price_proxy": 414269559.0
+  },
+  {
+    "symbol": "600825",
+    "name": "新华传媒",
+    "signal_date": "2026-10-08",
+    "streak": 8,
+    "close": 11.39,
+    "ma20": 6.3955,
+    "volume_price_proxy": 64325025.0
+  },
+  {
+    "symbol": "002242",
+    "name": "九阳股份",
+    "signal_date": "2026-10-08",
+    "streak": 4,
+    "close": 13.75,
+    "ma20": 9.713,
+    "volume_price_proxy": 151184000.0
+  },
+  {
+    "symbol": "002058",
+    "name": "紫竹高科",
+    "signal_date": "2026-10-08",
+    "streak": 3,
+    "close": 22.22,
+    "ma20": 17.223,
+    "volume_price_proxy": 104976168.0
+  },
+  {
+    "symbol": "600812",
+    "name": "华北制药",
+    "signal_date": "2026-10-08",
+    "streak": 1,
+    "close": 5.48,
+    "ma20": 4.8645000000000005,
+    "volume_price_proxy": 495046760.00000006
+  },
+  {
+    "symbol": "605303",
+    "name": "园林股份",
+    "signal_date": "2026-10-08",
+    "streak": 3,
+    "close": 31.53,
+    "ma20": 24.369999999999997,
+    "volume_price_proxy": 10140048.0
+  },
+  {
+    "symbol": "002687",
+    "name": "乔治白",
+    "signal_date": "2026-10-08",
+    "streak": 1,
+    "close": 6.14,
+    "ma20": 6.0875,
+    "volume_price_proxy": 129879420.0
+  },
+  {
+    "symbol": "600663",
+    "name": "陆家嘴",
+    "signal_date": "2026-10-08",
+    "streak": 2,
+    "close": 11.12,
+    "ma20": 9.1435,
+    "volume_price_proxy": 436220919.99999994
+  },
+  {
+    "symbol": "600513",
+    "name": "联环药业",
+    "signal_date": "2026-10-08",
+    "streak": 1,
+    "close": 16.6,
+    "ma20": 15.149000000000001,
+    "volume_price_proxy": 757517760.0000001
+  },
+  {
+    "symbol": "002951",
+    "name": "金时科技",
+    "signal_date": "2026-10-08",
+    "streak": 1,
+    "close": 17.17,
+    "ma20": 16.038,
+    "volume_price_proxy": 104956776.00000001
+  },
+  {
+    "symbol": "600026",
+    "name": "中远海能",
+    "signal_date": "2026-10-08",
+    "streak": 1,
+    "close": 22.62,
+    "ma20": 21.153,
+    "volume_price_proxy": 875133870.0
+  },
+  {
+    "symbol": "600617",
+    "name": "国新能源",
+    "signal_date": "2026-10-08",
+    "streak": 1,
+    "close": 3.74,
+    "ma20": 3.379,
+    "volume_price_proxy": 195707468.0
+  },
+  {
+    "symbol": "600241",
+    "name": "时代万恒",
+    "signal_date": "2026-10-08",
+    "streak": 4,
+    "close": 10.69,
+    "ma20": 7.7465,
+    "volume_price_proxy": 342427425.0
+  },
+  {
+    "symbol": "002733",
+    "name": "雄韬股份",
+    "signal_date": "2026-10-08",
+    "streak": 1,
+    "close": 18.89,
+    "ma20": 17.943,
+    "volume_price_proxy": 307625539.0
+  },
+  {
+    "symbol": "002866",
+    "name": "传艺科技",
+    "signal_date": "2026-10-08",
+    "streak": 3,
+    "close": 18.59,
+    "ma20": 14.775,
+    "volume_price_proxy": 702675974.0
+  },
+  {
+    "symbol": "002774",
+    "name": "快意电梯",
+    "signal_date": "2026-10-08",
+    "streak": 1,
+    "close": 19.04,
+    "ma20": 16.5345,
+    "volume_price_proxy": 137756304.0
+  },
+  {
+    "symbol": "603928",
+    "name": "兴业股份",
+    "signal_date": "2026-10-08",
+    "streak": 2,
+    "close": 14.38,
+    "ma20": 11.9925,
+    "volume_price_proxy": 370402916.0
+  },
+  {
+    "symbol": "603863",
+    "name": "松炀资源",
+    "signal_date": "2026-10-08",
+    "streak": 1,
+    "close": 13.62,
+    "ma20": 12.3705,
+    "volume_price_proxy": 117336300.0
+  },
+  {
+    "symbol": "002565",
+    "name": "顺灏股份",
+    "signal_date": "2026-10-08",
+    "streak": 1,
+    "close": 9.28,
+    "ma20": 8.7,
+    "volume_price_proxy": 1583069632.0
+  },
+  {
+    "symbol": "603137",
+    "name": "恒尚节能",
+    "signal_date": "2026-10-08",
+    "streak": 1,
+    "close": 19.56,
+    "ma20": 19.423499999999997,
+    "volume_price_proxy": 142801692.0
+  },
+  {
+    "symbol": "605378",
+    "name": "野马电池",
+    "signal_date": "2026-10-08",
+    "streak": 1,
+    "close": 17.27,
+    "ma20": 14.812000000000001,
+    "volume_price_proxy": 278349225.0
+  },
+  {
+    "symbol": "002805",
+    "name": "丰元股份",
+    "signal_date": "2026-10-08",
+    "streak": 1,
+    "close": 17.67,
+    "ma20": 16.726,
+    "volume_price_proxy": 434052948.00000006
+  },
+  {
+    "symbol": "605298",
+    "name": "必得科技",
+    "signal_date": "2026-10-08",
+    "streak": 1,
+    "close": 44.97,
+    "ma20": 44.559,
+    "volume_price_proxy": 38867571.0
+  },
+  {
+    "symbol": "601975",
+    "name": "招商南油",
+    "signal_date": "2026-10-08",
+    "streak": 1,
+    "close": 4.97,
+    "ma20": 4.59,
+    "volume_price_proxy": 1477463708.0
+  },
+  {
+    "symbol": "002869",
+    "name": "金溢科技",
+    "signal_date": "2026-10-08",
+    "streak": 1,
+    "close": 19.14,
+    "ma20": 16.3475,
+    "volume_price_proxy": 169572744.0
+  },
+  {
+    "symbol": "001300",
+    "name": "三柏硕",
+    "signal_date": "2026-10-08",
+    "streak": 1,
+    "close": 13.51,
+    "ma20": 12.1935,
+    "volume_price_proxy": 115833389.0
+  },
+  {
+    "symbol": "600408",
+    "name": "安泰集团",
+    "signal_date": "2026-10-08",
+    "streak": 1,
+    "close": 3.44,
+    "ma20": 3.117,
+    "volume_price_proxy": 222542888.0
+  },
+  {
+    "symbol": "600722",
+    "name": "金牛化工",
+    "signal_date": "2026-10-08",
+    "streak": 1,
+    "close": 16.19,
+    "ma20": 16.7585,
+    "volume_price_proxy": 1335030638.0
+  },
+  {
+    "symbol": "601956",
+    "name": "东贝集团",
+    "signal_date": "2026-10-08",
+    "streak": 1,
+    "close": 5.52,
+    "ma20": 4.971,
+    "volume_price_proxy": 66844991.99999999
+  },
+  {
+    "symbol": "603073",
+    "name": "彩蝶实业",
+    "signal_date": "2026-10-08",
+    "streak": 1,
+    "close": 22.97,
+    "ma20": 17.5745,
+    "volume_price_proxy": 496285226.0
+  },
+  {
+    "symbol": "001336",
+    "name": "楚环科技",
+    "signal_date": "2026-10-08",
+    "streak": 1,
+    "close": 20.65,
+    "ma20": 18.811500000000002,
+    "volume_price_proxy": 126406909.99999999
+  },
+  {
+    "symbol": "603200",
+    "name": "上海洗霸",
+    "signal_date": "2026-10-08",
+    "streak": 3,
+    "close": 49.21,
+    "ma20": 40.245,
+    "volume_price_proxy": 1582229446.0
+  },
+  {
+    "symbol": "600310",
+    "name": "广西能源",
+    "signal_date": "2026-10-08",
+    "streak": 1,
+    "close": 4.97,
+    "ma20": 4.6395,
+    "volume_price_proxy": 411778913.0
+  },
+  {
+    "symbol": "600400",
+    "name": "红豆股份",
+    "signal_date": "2026-10-08",
+    "streak": 1,
+    "close": 3.62,
+    "ma20": 3.25,
+    "volume_price_proxy": 398889610.0
+  },
+  {
+    "symbol": "000869",
+    "name": "张  裕Ａ",
+    "signal_date": "2026-10-08",
+    "streak": 1,
+    "close": 18.76,
+    "ma20": 16.609,
+    "volume_price_proxy": 144296292.0
+  },
+  {
+    "symbol": "603788",
+    "name": "宁波高发",
+    "signal_date": "2026-10-08",
+    "streak": 1,
+    "close": 15.0,
+    "ma20": 13.7,
+    "volume_price_proxy": 164250000.0
+  },
+  {
+    "symbol": "603906",
+    "name": "龙蟠科技",
+    "signal_date": "2026-10-08",
+    "streak": 2,
+    "close": 20.94,
+    "ma20": 18.309,
+    "volume_price_proxy": 1755021186.0
+  },
+  {
+    "symbol": "002702",
+    "name": "海欣食品",
+    "signal_date": "2026-10-08",
+    "streak": 1,
+    "close": 5.92,
+    "ma20": 5.6315,
+    "volume_price_proxy": 390864448.0
+  },
+  {
+    "symbol": "002490",
+    "name": "山东墨龙",
+    "signal_date": "2026-10-08",
+    "streak": 1,
+    "close": 7.6,
+    "ma20": 7.470999999999999,
+    "volume_price_proxy": 514500240.0
+  },
+  {
+    "symbol": "600825",
+    "name": "新华传媒",
+    "signal_date": "2026-10-09",
+    "streak": 9,
+    "close": 12.53,
+    "ma20": 6.774500000000001,
+    "volume_price_proxy": 625610370.0
+  },
+  {
+    "symbol": "600241",
+    "name": "时代万恒",
+    "signal_date": "2026-10-09",
+    "streak": 5,
+    "close": 11.76,
+    "ma20": 7.960500000000001,
+    "volume_price_proxy": 68939472.0
+  },
+  {
+    "symbol": "002058",
+    "name": "紫竹高科",
+    "signal_date": "2026-10-09",
+    "streak": 4,
+    "close": 24.44,
+    "ma20": 17.6265,
+    "volume_price_proxy": 100793004.0
+  },
+  {
+    "symbol": "001300",
+    "name": "三柏硕",
+    "signal_date": "2026-10-09",
+    "streak": 2,
+    "close": 14.86,
+    "ma20": 12.317499999999999,
+    "volume_price_proxy": 123507404.0
+  },
+  {
+    "symbol": "002242",
+    "name": "九阳股份",
+    "signal_date": "2026-10-09",
+    "streak": 5,
+    "close": 15.13,
+    "ma20": 10.055,
+    "volume_price_proxy": 2106540822.0
+  },
+  {
+    "symbol": "600812",
+    "name": "华北制药",
+    "signal_date": "2026-10-09",
+    "streak": 2,
+    "close": 6.03,
+    "ma20": 4.931,
+    "volume_price_proxy": 698709366.0
+  },
+  {
+    "symbol": "002733",
+    "name": "雄韬股份",
+    "signal_date": "2026-10-09",
+    "streak": 2,
+    "close": 20.78,
+    "ma20": 18.054,
+    "volume_price_proxy": 437645502.0
+  },
+  {
+    "symbol": "002692",
+    "name": "远程股份",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 4.76,
+    "ma20": 4.362,
+    "volume_price_proxy": 81524520.0
+  },
+  {
+    "symbol": "601811",
+    "name": "新华文轩",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 20.91,
+    "ma20": 15.180000000000001,
+    "volume_price_proxy": 1237048146.0
+  },
+  {
+    "symbol": "605136",
+    "name": "丽人丽妆",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 9.44,
+    "ma20": 8.614,
+    "volume_price_proxy": 161051120.0
+  },
+  {
+    "symbol": "600207",
+    "name": "安彩高科",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 5.6,
+    "ma20": 4.9285000000000005,
+    "volume_price_proxy": 276246880.0
+  },
+  {
+    "symbol": "605399",
+    "name": "晨光新材",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 13.06,
+    "ma20": 11.558,
+    "volume_price_proxy": 79288566.0
+  },
+  {
+    "symbol": "002805",
+    "name": "丰元股份",
+    "signal_date": "2026-10-09",
+    "streak": 2,
+    "close": 19.44,
+    "ma20": 16.794999999999998,
+    "volume_price_proxy": 615948624.0
+  },
+  {
+    "symbol": "001336",
+    "name": "楚环科技",
+    "signal_date": "2026-10-09",
+    "streak": 2,
+    "close": 22.72,
+    "ma20": 19.0155,
+    "volume_price_proxy": 352491712.0
+  },
+  {
+    "symbol": "600478",
+    "name": "科力远",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 5.1,
+    "ma20": 4.6585,
+    "volume_price_proxy": 313051260.0
+  },
+  {
+    "symbol": "603155",
+    "name": "新亚强",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 15.43,
+    "ma20": 14.4285,
+    "volume_price_proxy": 459261606.0
+  },
+  {
+    "symbol": "600843",
+    "name": "上工申贝",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 8.18,
+    "ma20": 7.297499999999999,
+    "volume_price_proxy": 300530746.0
+  },
+  {
+    "symbol": "600127",
+    "name": "金健米业",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 15.18,
+    "ma20": 14.219,
+    "volume_price_proxy": 3065446164.0
+  },
+  {
+    "symbol": "600629",
+    "name": "华建集团",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 18.02,
+    "ma20": 16.815,
+    "volume_price_proxy": 638756742.0
+  },
+  {
+    "symbol": "601086",
+    "name": "国芳集团",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 14.94,
+    "ma20": 15.370500000000002,
+    "volume_price_proxy": 1051057386.0
+  },
+  {
+    "symbol": "600371",
+    "name": "万向德农",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 14.97,
+    "ma20": 14.788,
+    "volume_price_proxy": 978973629.0
+  },
+  {
+    "symbol": "603101",
+    "name": "汇嘉时代",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 7.99,
+    "ma20": 7.5495,
+    "volume_price_proxy": 149834872.0
+  },
+  {
+    "symbol": "002675",
+    "name": "东诚药业",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 13.89,
+    "ma20": 12.7145,
+    "volume_price_proxy": 531921717.0
+  },
+  {
+    "symbol": "600408",
+    "name": "安泰集团",
+    "signal_date": "2026-10-09",
+    "streak": 2,
+    "close": 3.78,
+    "ma20": 3.1544999999999996,
+    "volume_price_proxy": 795928896.0
+  },
+  {
+    "symbol": "000546",
+    "name": "金圆股份",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 4.77,
+    "ma20": 4.5065,
+    "volume_price_proxy": 119146490.99999999
+  },
+  {
+    "symbol": "002480",
+    "name": "新筑股份",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 6.0,
+    "ma20": 5.373,
+    "volume_price_proxy": 294627600.0
+  },
+  {
+    "symbol": "600865",
+    "name": "百大集团",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 11.51,
+    "ma20": 11.711,
+    "volume_price_proxy": 469815180.0
+  },
+  {
+    "symbol": "600882",
+    "name": "妙可蓝多",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 21.13,
+    "ma20": 19.643,
+    "volume_price_proxy": 329906916.0
+  },
+  {
+    "symbol": "002212",
+    "name": "天融信",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 7.56,
+    "ma20": 7.052,
+    "volume_price_proxy": 931574196.0
+  },
+  {
+    "symbol": "605188",
+    "name": "国光连锁",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 13.84,
+    "ma20": 13.299000000000001,
+    "volume_price_proxy": 323631792.0
+  },
+  {
+    "symbol": "603067",
+    "name": "振华股份",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 42.31,
+    "ma20": 37.697500000000005,
+    "volume_price_proxy": 1761712242.0
+  },
+  {
+    "symbol": "601069",
+    "name": "西部黄金",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 26.55,
+    "ma20": 27.502499999999998,
+    "volume_price_proxy": 747289575.0
+  },
+  {
+    "symbol": "600354",
+    "name": "敦煌种业",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 9.99,
+    "ma20": 9.804,
+    "volume_price_proxy": 1248206544.0
+  },
+  {
+    "symbol": "000420",
+    "name": "吉林化纤",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 3.81,
+    "ma20": 3.5869999999999997,
+    "volume_price_proxy": 914087199.0
+  },
+  {
+    "symbol": "600621",
+    "name": "华鑫股份",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 14.48,
+    "ma20": 13.506499999999999,
+    "volume_price_proxy": 725064280.0
+  },
+  {
+    "symbol": "601519",
+    "name": "大智慧",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 9.17,
+    "ma20": 8.562000000000001,
+    "volume_price_proxy": 884900415.0
+  },
+  {
+    "symbol": "002912",
+    "name": "中新赛克",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 28.55,
+    "ma20": 24.4075,
+    "volume_price_proxy": 724893065.0
+  },
+  {
+    "symbol": "605177",
+    "name": "东亚药业",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 28.29,
+    "ma20": 24.4695,
+    "volume_price_proxy": 429524241.0
+  },
+  {
+    "symbol": "002811",
+    "name": "郑中设计",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 18.4,
+    "ma20": 15.5795,
+    "volume_price_proxy": 380381360.0
+  },
+  {
+    "symbol": "601566",
+    "name": "九牧王",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 10.14,
+    "ma20": 9.5255,
+    "volume_price_proxy": 407638140.0
+  },
+  {
+    "symbol": "605287",
+    "name": "德才股份",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 40.18,
+    "ma20": 36.348,
+    "volume_price_proxy": 371769468.0
+  },
+  {
+    "symbol": "605577",
+    "name": "龙版传媒",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 16.2,
+    "ma20": 15.492500000000001,
+    "volume_price_proxy": 627638220.0
+  },
+  {
+    "symbol": "601595",
+    "name": "上海电影",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 24.74,
+    "ma20": 22.9265,
+    "volume_price_proxy": 310524110.0
+  },
+  {
+    "symbol": "603096",
+    "name": "新经典",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 17.33,
+    "ma20": 15.7955,
+    "volume_price_proxy": 74766819.0
+  },
+  {
+    "symbol": "000710",
+    "name": "贝瑞基因",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 11.3,
+    "ma20": 9.378499999999999,
+    "volume_price_proxy": 866682880.0
+  },
+  {
+    "symbol": "000892",
+    "name": "欢瑞世纪",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 4.85,
+    "ma20": 4.753,
+    "volume_price_proxy": 649175895.0
+  },
+  {
+    "symbol": "603232",
+    "name": "格尔软件",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 16.98,
+    "ma20": 15.794,
+    "volume_price_proxy": 425374470.0
+  },
+  {
+    "symbol": "002317",
+    "name": "众生药业",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 25.49,
+    "ma20": 24.463,
+    "volume_price_proxy": 1259585801.0
+  },
+  {
+    "symbol": "603533",
+    "name": "掌阅科技",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 25.44,
+    "ma20": 23.674500000000002,
+    "volume_price_proxy": 936558336.0
+  },
+  {
+    "symbol": "002181",
+    "name": "粤 传 媒",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 9.39,
+    "ma20": 9.362,
+    "volume_price_proxy": 813098880.0
+  },
+  {
+    "symbol": "001330",
+    "name": "博纳影业",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 6.97,
+    "ma20": 5.9245,
+    "volume_price_proxy": 1695943188.0
+  },
+  {
+    "symbol": "002343",
+    "name": "慈文传媒",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 6.08,
+    "ma20": 5.733,
+    "volume_price_proxy": 147208352.0
+  },
+  {
+    "symbol": "002696",
+    "name": "百洋股份",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 7.32,
+    "ma20": 6.853,
+    "volume_price_proxy": 224657388.0
+  },
+  {
+    "symbol": "002979",
+    "name": "雷赛智能",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 55.58,
+    "ma20": 53.088499999999996,
+    "volume_price_proxy": 736373862.0
+  },
+  {
+    "symbol": "605168",
+    "name": "三人行",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 52.1,
+    "ma20": 50.956,
+    "volume_price_proxy": 450050220.0
+  },
+  {
+    "symbol": "603216",
+    "name": "梦天家居",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 24.1,
+    "ma20": 22.1755,
+    "volume_price_proxy": 214415290.0
+  },
+  {
+    "symbol": "000736",
+    "name": "中交发展",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 5.21,
+    "ma20": 4.6435,
+    "volume_price_proxy": 295573720.0
+  },
+  {
+    "symbol": "605058",
+    "name": "澳弘电子",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 53.35,
+    "ma20": 44.2585,
+    "volume_price_proxy": 1130438485.0
+  },
+  {
+    "symbol": "600400",
+    "name": "红豆股份",
+    "signal_date": "2026-10-09",
+    "streak": 2,
+    "close": 3.98,
+    "ma20": 3.304,
+    "volume_price_proxy": 775977018.0
+  },
+  {
+    "symbol": "601118",
+    "name": "海南橡胶",
+    "signal_date": "2026-10-09",
+    "streak": 1,
+    "close": 7.16,
+    "ma20": 6.646000000000001,
+    "volume_price_proxy": 2035537880.0
+  },
+  {
+    "symbol": "002242",
+    "name": "九阳股份",
+    "signal_date": "2026-10-12",
+    "streak": 6,
+    "close": 16.64,
+    "ma20": 10.469,
+    "volume_price_proxy": 2036649472.0
+  },
+  {
+    "symbol": "600812",
+    "name": "华北制药",
+    "signal_date": "2026-10-12",
+    "streak": 3,
+    "close": 6.63,
+    "ma20": 5.0280000000000005,
+    "volume_price_proxy": 1004285217.0
+  },
+  {
+    "symbol": "603096",
+    "name": "新经典",
+    "signal_date": "2026-10-12",
+    "streak": 2,
+    "close": 19.06,
+    "ma20": 15.963,
+    "volume_price_proxy": 70752626.0
+  },
+  {
+    "symbol": "605136",
+    "name": "丽人丽妆",
+    "signal_date": "2026-10-12",
+    "streak": 2,
+    "close": 10.38,
+    "ma20": 8.698,
+    "volume_price_proxy": 42698130.0
+  },
+  {
+    "symbol": "605287",
+    "name": "德才股份",
+    "signal_date": "2026-10-12",
+    "streak": 2,
+    "close": 44.2,
+    "ma20": 36.64,
+    "volume_price_proxy": 103640160.0
+  },
+  {
+    "symbol": "600831",
+    "name": "广电网络",
+    "signal_date": "2026-10-12",
+    "streak": 1,
+    "close": 3.91,
+    "ma20": 3.412,
+    "volume_price_proxy": 155535890.0
+  },
+  {
+    "symbol": "600825",
+    "name": "新华传媒",
+    "signal_date": "2026-10-12",
+    "streak": 10,
+    "close": 13.78,
+    "ma20": 7.216499999999999,
+    "volume_price_proxy": 487084416.0
+  },
+  {
+    "symbol": "600693",
+    "name": "东百集团",
+    "signal_date": "2026-10-12",
+    "streak": 1,
+    "close": 11.18,
+    "ma20": 9.95,
+    "volume_price_proxy": 302865082.0
+  },
+  {
+    "symbol": "002343",
+    "name": "慈文传媒",
+    "signal_date": "2026-10-12",
+    "streak": 2,
+    "close": 6.69,
+    "ma20": 5.792,
+    "volume_price_proxy": 189692943.0
+  },
+  {
+    "symbol": "605577",
+    "name": "龙版传媒",
+    "signal_date": "2026-10-12",
+    "streak": 2,
+    "close": 17.82,
+    "ma20": 15.7995,
+    "volume_price_proxy": 252985194.0
+  },
+  {
+    "symbol": "001330",
+    "name": "博纳影业",
+    "signal_date": "2026-10-12",
+    "streak": 2,
+    "close": 7.67,
+    "ma20": 6.0195,
+    "volume_price_proxy": 1587631708.0
+  },
+  {
+    "symbol": "002696",
+    "name": "百洋股份",
+    "signal_date": "2026-10-12",
+    "streak": 2,
+    "close": 8.05,
+    "ma20": 6.922499999999999,
+    "volume_price_proxy": 104769140.00000001
+  },
+  {
+    "symbol": "600241",
+    "name": "时代万恒",
+    "signal_date": "2026-10-12",
+    "streak": 6,
+    "close": 12.94,
+    "ma20": 8.234,
+    "volume_price_proxy": 1218870360.0
+  },
+  {
+    "symbol": "600851",
+    "name": "海欣股份",
+    "signal_date": "2026-10-12",
+    "streak": 1,
+    "close": 8.6,
+    "ma20": 8.2705,
+    "volume_price_proxy": 266286100.0
+  },
+  {
+    "symbol": "000892",
+    "name": "欢瑞世纪",
+    "signal_date": "2026-10-12",
+    "streak": 2,
+    "close": 5.34,
+    "ma20": 4.7405,
+    "volume_price_proxy": 1283144328.0
+  },
+  {
+    "symbol": "603528",
+    "name": "多伦科技",
+    "signal_date": "2026-10-12",
+    "streak": 1,
+    "close": 7.05,
+    "ma20": 6.445,
+    "volume_price_proxy": 108689145.0
+  },
+  {
+    "symbol": "600192",
+    "name": "长城电工",
+    "signal_date": "2026-10-12",
+    "streak": 1,
+    "close": 7.93,
+    "ma20": 7.580500000000001,
+    "volume_price_proxy": 153319413.0
+  },
+  {
+    "symbol": "603032",
+    "name": "德新科技",
+    "signal_date": "2026-10-12",
+    "streak": 1,
+    "close": 20.42,
+    "ma20": 18.5785,
+    "volume_price_proxy": 662369666.0
+  },
+  {
+    "symbol": "002441",
+    "name": "众业达",
+    "signal_date": "2026-10-12",
+    "streak": 1,
+    "close": 9.21,
+    "ma20": 8.245000000000001,
+    "volume_price_proxy": 256394427.00000003
+  },
+  {
+    "symbol": "002576",
+    "name": "通达动力",
+    "signal_date": "2026-10-12",
+    "streak": 1,
+    "close": 16.07,
+    "ma20": 14.499,
+    "volume_price_proxy": 142627678.0
+  },
+  {
+    "symbol": "002531",
+    "name": "天顺风能",
+    "signal_date": "2026-10-12",
+    "streak": 1,
+    "close": 8.27,
+    "ma20": 7.443,
+    "volume_price_proxy": 864119895.0
+  },
+  {
+    "symbol": "002692",
+    "name": "远程股份",
+    "signal_date": "2026-10-12",
+    "streak": 2,
+    "close": 5.24,
+    "ma20": 4.4115,
+    "volume_price_proxy": 279272612.0
+  },
+  {
+    "symbol": "002990",
+    "name": "盛视科技",
+    "signal_date": "2026-10-12",
+    "streak": 1,
+    "close": 55.95,
+    "ma20": 50.769999999999996,
+    "volume_price_proxy": 697606980.0
+  },
+  {
+    "symbol": "600560",
+    "name": "金自天正",
+    "signal_date": "2026-10-12",
+    "streak": 1,
+    "close": 12.53,
+    "ma20": 11.346,
+    "volume_price_proxy": 82164222.0
+  },
+  {
+    "symbol": "601811",
+    "name": "新华文轩",
+    "signal_date": "2026-10-12",
+    "streak": 2,
+    "close": 23.0,
+    "ma20": 15.755500000000001,
+    "volume_price_proxy": 1323702900.0
+  },
+  {
+    "symbol": "603500",
+    "name": "祥和实业",
+    "signal_date": "2026-10-12",
+    "streak": 1,
+    "close": 11.04,
+    "ma20": 9.7075,
+    "volume_price_proxy": 476892671.99999994
+  },
+  {
+    "symbol": "603533",
+    "name": "掌阅科技",
+    "signal_date": "2026-10-12",
+    "streak": 2,
+    "close": 27.98,
+    "ma20": 23.8735,
+    "volume_price_proxy": 2190310774.0
+  },
+  {
+    "symbol": "002264",
+    "name": "新 华 都",
+    "signal_date": "2026-10-12",
+    "streak": 1,
+    "close": 8.14,
+    "ma20": 7.4590000000000005,
+    "volume_price_proxy": 1149947568.0
+  },
+  {
+    "symbol": "601595",
+    "name": "上海电影",
+    "signal_date": "2026-10-12",
+    "streak": 2,
+    "close": 27.21,
+    "ma20": 23.3495,
+    "volume_price_proxy": 774045591.0
+  },
+  {
+    "symbol": "603992",
+    "name": "松霖科技",
+    "signal_date": "2026-10-12",
+    "streak": 1,
+    "close": 20.94,
+    "ma20": 19.7825,
+    "volume_price_proxy": 160584672.0
+  },
+  {
+    "symbol": "603232",
+    "name": "格尔软件",
+    "signal_date": "2026-10-12",
+    "streak": 2,
+    "close": 18.68,
+    "ma20": 15.931000000000001,
+    "volume_price_proxy": 780818396.0
+  },
+  {
+    "symbol": "002908",
+    "name": "德生科技",
+    "signal_date": "2026-10-12",
+    "streak": 1,
+    "close": 8.02,
+    "ma20": 7.109999999999999,
+    "volume_price_proxy": 240028174.0
+  },
+  {
+    "symbol": "001231",
+    "name": "农心科技",
+    "signal_date": "2026-10-12",
+    "streak": 1,
+    "close": 25.61,
+    "ma20": 22.2245,
+    "volume_price_proxy": 202634003.0
+  },
+  {
+    "symbol": "603336",
+    "name": "宏辉果蔬",
+    "signal_date": "2026-10-12",
+    "streak": 1,
+    "close": 10.45,
+    "ma20": 10.037,
+    "volume_price_proxy": 340308430.0
+  },
+  {
+    "symbol": "603230",
+    "name": "内蒙新华",
+    "signal_date": "2026-10-12",
+    "streak": 1,
+    "close": 14.63,
+    "ma20": 13.0375,
+    "volume_price_proxy": 874866685.0
+  },
+  {
+    "symbol": "603968",
+    "name": "醋化股份",
+    "signal_date": "2026-10-12",
+    "streak": 1,
+    "close": 13.05,
+    "ma20": 11.022499999999999,
+    "volume_price_proxy": 342875700.0
+  },
+  {
+    "symbol": "002591",
+    "name": "恒大高新",
+    "signal_date": "2026-10-12",
+    "streak": 1,
+    "close": 7.16,
+    "ma20": 6.4455,
+    "volume_price_proxy": 272065680.0
+  },
+  {
+    "symbol": "601127",
+    "name": "赛力斯",
+    "signal_date": "2026-10-12",
+    "streak": 1,
+    "close": 51.24,
+    "ma20": 47.364,
+    "volume_price_proxy": 2808597624.0
+  },
+  {
+    "symbol": "603096",
+    "name": "新经典",
+    "signal_date": "2026-10-13",
+    "streak": 3,
+    "close": 20.97,
+    "ma20": 16.2195,
+    "volume_price_proxy": 90108090.0
+  },
+  {
+    "symbol": "002343",
+    "name": "慈文传媒",
+    "signal_date": "2026-10-13",
+    "streak": 3,
+    "close": 7.36,
+    "ma20": 5.8785,
+    "volume_price_proxy": 117455296.0
+  },
+  {
+    "symbol": "000668",
+    "name": "荣丰控股",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 20.56,
+    "ma20": 20.068,
+    "volume_price_proxy": 18497832.0
+  },
+  {
+    "symbol": "002917",
+    "name": "金奥博",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 11.0,
+    "ma20": 10.227,
+    "volume_price_proxy": 143328900.0
+  },
+  {
+    "symbol": "600693",
+    "name": "东百集团",
+    "signal_date": "2026-10-13",
+    "streak": 2,
+    "close": 12.3,
+    "ma20": 9.9905,
+    "volume_price_proxy": 2110479510.0000002
+  },
+  {
+    "symbol": "002322",
+    "name": "理工能科",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 13.08,
+    "ma20": 12.041500000000001,
+    "volume_price_proxy": 322646976.0
+  },
+  {
+    "symbol": "605577",
+    "name": "龙版传媒",
+    "signal_date": "2026-10-13",
+    "streak": 3,
+    "close": 19.6,
+    "ma20": 16.137,
+    "volume_price_proxy": 1142350720.0
+  },
+  {
+    "symbol": "001231",
+    "name": "农心科技",
+    "signal_date": "2026-10-13",
+    "streak": 2,
+    "close": 28.17,
+    "ma20": 22.519,
+    "volume_price_proxy": 275454711.0
+  },
+  {
+    "symbol": "605136",
+    "name": "丽人丽妆",
+    "signal_date": "2026-10-13",
+    "streak": 3,
+    "close": 11.42,
+    "ma20": 8.8345,
+    "volume_price_proxy": 361269416.0
+  },
+  {
+    "symbol": "000995",
+    "name": "皇台酒业",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 12.25,
+    "ma20": 11.35,
+    "volume_price_proxy": 169003450.0
+  },
+  {
+    "symbol": "000823",
+    "name": "超声电子",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 22.32,
+    "ma20": 22.532999999999998,
+    "volume_price_proxy": 921574944.0
+  },
+  {
+    "symbol": "002184",
+    "name": "海得控制",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 11.07,
+    "ma20": 9.89,
+    "volume_price_proxy": 188550882.0
+  },
+  {
+    "symbol": "603188",
+    "name": "亚邦股份",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 5.46,
+    "ma20": 4.7675,
+    "volume_price_proxy": 171473484.0
+  },
+  {
+    "symbol": "600802",
+    "name": "福建水泥",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 7.16,
+    "ma20": 6.1915,
+    "volume_price_proxy": 707160980.0
+  },
+  {
+    "symbol": "002696",
+    "name": "百洋股份",
+    "signal_date": "2026-10-13",
+    "streak": 3,
+    "close": 8.86,
+    "ma20": 7.014,
+    "volume_price_proxy": 321321190.0
+  },
+  {
+    "symbol": "000833",
+    "name": "粤桂股份",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 20.65,
+    "ma20": 20.060499999999998,
+    "volume_price_proxy": 732106515.0
+  },
+  {
+    "symbol": "600847",
+    "name": "万里股份",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 14.03,
+    "ma20": 12.855,
+    "volume_price_proxy": 77417540.0
+  },
+  {
+    "symbol": "603767",
+    "name": "中马传动",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 15.72,
+    "ma20": 14.059999999999999,
+    "volume_price_proxy": 210407484.0
+  },
+  {
+    "symbol": "003037",
+    "name": "三和管桩",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 6.45,
+    "ma20": 5.8335,
+    "volume_price_proxy": 76408635.0
+  },
+  {
+    "symbol": "603968",
+    "name": "醋化股份",
+    "signal_date": "2026-10-13",
+    "streak": 2,
+    "close": 14.36,
+    "ma20": 11.2005,
+    "volume_price_proxy": 413040988.0
+  },
+  {
+    "symbol": "600831",
+    "name": "广电网络",
+    "signal_date": "2026-10-13",
+    "streak": 2,
+    "close": 4.3,
+    "ma20": 3.4545000000000003,
+    "volume_price_proxy": 332340120.0
+  },
+  {
+    "symbol": "600199",
+    "name": "金种子酒",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 7.6,
+    "ma20": 7.119,
+    "volume_price_proxy": 463222280.0
+  },
+  {
+    "symbol": "600851",
+    "name": "海欣股份",
+    "signal_date": "2026-10-13",
+    "streak": 2,
+    "close": 9.46,
+    "ma20": 8.318999999999999,
+    "volume_price_proxy": 526256016.00000006
+  },
+  {
+    "symbol": "002549",
+    "name": "凯美特气",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 14.25,
+    "ma20": 13.177000000000001,
+    "volume_price_proxy": 927421350.0
+  },
+  {
+    "symbol": "002693",
+    "name": "双成药业",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 10.32,
+    "ma20": 9.0755,
+    "volume_price_proxy": 329742576.0
+  },
+  {
+    "symbol": "000530",
+    "name": "冰山冷热",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 5.73,
+    "ma20": 5.235,
+    "volume_price_proxy": 293404650.0
+  },
+  {
+    "symbol": "002640",
+    "name": "跨境通",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 3.89,
+    "ma20": 3.6369999999999996,
+    "volume_price_proxy": 1025938097.0
+  },
+  {
+    "symbol": "002748",
+    "name": "世龙实业",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 13.1,
+    "ma20": 12.206,
+    "volume_price_proxy": 177975290.0
+  },
+  {
+    "symbol": "605058",
+    "name": "澳弘电子",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 60.39,
+    "ma20": 47.222500000000004,
+    "volume_price_proxy": 1117595457.0
+  },
+  {
+    "symbol": "600202",
+    "name": "哈空调",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 5.59,
+    "ma20": 5.121,
+    "volume_price_proxy": 160455360.0
+  },
+  {
+    "symbol": "605258",
+    "name": "协和电子",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 40.55,
+    "ma20": 37.8235,
+    "volume_price_proxy": 224148234.99999997
+  },
+  {
+    "symbol": "601188",
+    "name": "龙江交通",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 3.21,
+    "ma20": 2.9115,
+    "volume_price_proxy": 230020254.0
+  },
+  {
+    "symbol": "000715",
+    "name": "中兴商业",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 5.78,
+    "ma20": 5.4425,
+    "volume_price_proxy": 159435520.0
+  },
+  {
+    "symbol": "600593",
+    "name": "大连圣亚",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 49.83,
+    "ma20": 44.878499999999995,
+    "volume_price_proxy": 587171805.0
+  },
+  {
+    "symbol": "603328",
+    "name": "依顿电子",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 13.34,
+    "ma20": 13.2785,
+    "volume_price_proxy": 745157726.0
+  },
+  {
+    "symbol": "600853",
+    "name": "龙建股份",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 3.65,
+    "ma20": 3.3259999999999996,
+    "volume_price_proxy": 253875385.0
+  },
+  {
+    "symbol": "603386",
+    "name": "骏亚科技",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 17.47,
+    "ma20": 17.308500000000002,
+    "volume_price_proxy": 203708935.0
+  },
+  {
+    "symbol": "002639",
+    "name": "雪人集团",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 14.59,
+    "ma20": 13.848499999999998,
+    "volume_price_proxy": 1360648810.0
+  },
+  {
+    "symbol": "001229",
+    "name": "魅视科技",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 41.76,
+    "ma20": 38.2915,
+    "volume_price_proxy": 301139712.0
+  },
+  {
+    "symbol": "603956",
+    "name": "威派格",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 8.15,
+    "ma20": 6.8870000000000005,
+    "volume_price_proxy": 628167770.0
+  },
+  {
+    "symbol": "002579",
+    "name": "中京电子",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 16.43,
+    "ma20": 17.8405,
+    "volume_price_proxy": 1348359167.0
+  },
+  {
+    "symbol": "002949",
+    "name": "华阳国际",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 14.32,
+    "ma20": 12.947,
+    "volume_price_proxy": 182559952.0
+  },
+  {
+    "symbol": "603353",
+    "name": "和顺石油",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 37.9,
+    "ma20": 41.0195,
+    "volume_price_proxy": 364162150.0
+  },
+  {
+    "symbol": "600237",
+    "name": "铜峰电子",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 9.03,
+    "ma20": 9.1005,
+    "volume_price_proxy": 463440368.99999994
+  },
+  {
+    "symbol": "600228",
+    "name": "返利科技",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 10.14,
+    "ma20": 10.4665,
+    "volume_price_proxy": 253595316.0
+  },
+  {
+    "symbol": "603466",
+    "name": "风语筑",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 13.57,
+    "ma20": 12.4895,
+    "volume_price_proxy": 1372636711.0
+  },
+  {
+    "symbol": "002862",
+    "name": "实丰文化",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 15.95,
+    "ma20": 15.375499999999999,
+    "volume_price_proxy": 165969320.0
+  },
+  {
+    "symbol": "603001",
+    "name": "奥康国际",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 11.91,
+    "ma20": 10.4885,
+    "volume_price_proxy": 165246486.0
+  },
+  {
+    "symbol": "603099",
+    "name": "长白山",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 45.85,
+    "ma20": 40.122,
+    "volume_price_proxy": 1106851095.0
+  },
+  {
+    "symbol": "603980",
+    "name": "吉华集团",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 10.67,
+    "ma20": 8.604,
+    "volume_price_proxy": 1063486369.0
+  },
+  {
+    "symbol": "002980",
+    "name": "华盛昌",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 116.05,
+    "ma20": 116.4595,
+    "volume_price_proxy": 1892496980.0
+  },
+  {
+    "symbol": "002878",
+    "name": "元隆雅图",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 14.33,
+    "ma20": 12.784,
+    "volume_price_proxy": 314951905.0
+  },
+  {
+    "symbol": "001318",
+    "name": "阳光乳业",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 14.03,
+    "ma20": 12.049,
+    "volume_price_proxy": 371534042.0
+  },
+  {
+    "symbol": "600391",
+    "name": "航发科技",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 38.78,
+    "ma20": 40.9645,
+    "volume_price_proxy": 846687618.0
+  },
+  {
+    "symbol": "002587",
+    "name": "奥拓电子",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 5.76,
+    "ma20": 5.3305,
+    "volume_price_proxy": 356880384.0
+  },
+  {
+    "symbol": "603042",
+    "name": "华脉科技",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 16.12,
+    "ma20": 16.8945,
+    "volume_price_proxy": 436802028.0
+  },
+  {
+    "symbol": "000558",
+    "name": "天府文旅",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 3.84,
+    "ma20": 3.6765,
+    "volume_price_proxy": 209464320.0
+  },
+  {
+    "symbol": "600712",
+    "name": "南宁百货",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 5.91,
+    "ma20": 5.6955,
+    "volume_price_proxy": 164439249.0
+  },
+  {
+    "symbol": "600281",
+    "name": "华阳新材",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 4.98,
+    "ma20": 4.7235,
+    "volume_price_proxy": 138297588.0
+  },
+  {
+    "symbol": "002430",
+    "name": "杭氧股份",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 27.52,
+    "ma20": 25.671,
+    "volume_price_proxy": 1268149120.0
+  },
+  {
+    "symbol": "002172",
+    "name": "澳洋健康",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 5.92,
+    "ma20": 5.2835,
+    "volume_price_proxy": 957841792.0
+  },
+  {
+    "symbol": "002811",
+    "name": "郑中设计",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 20.27,
+    "ma20": 16.049500000000002,
+    "volume_price_proxy": 522293036.0
+  },
+  {
+    "symbol": "002623",
+    "name": "亚玛顿",
+    "signal_date": "2026-10-13",
+    "streak": 1,
+    "close": 19.23,
+    "ma20": 17.676,
+    "volume_price_proxy": 240757677.0
+  },
+  {
+    "symbol": "002696",
+    "name": "百洋股份",
+    "signal_date": "2026-10-14",
+    "streak": 4,
+    "close": 9.75,
+    "ma20": 7.124,
+    "volume_price_proxy": 32450925.0
+  },
+  {
+    "symbol": "000668",
+    "name": "荣丰控股",
+    "signal_date": "2026-10-14",
+    "streak": 2,
+    "close": 22.62,
+    "ma20": 20.0805,
+    "volume_price_proxy": 46913880.0
+  },
+  {
+    "symbol": "600202",
+    "name": "哈空调",
+    "signal_date": "2026-10-14",
+    "streak": 2,
+    "close": 6.15,
+    "ma20": 5.167,
+    "volume_price_proxy": 353933115.0
+  },
+  {
+    "symbol": "002860",
+    "name": "星帅尔",
+    "signal_date": "2026-10-14",
+    "streak": 2,
+    "close": 20.23,
+    "ma20": 16.887999999999998,
+    "volume_price_proxy": 51157624.0
+  },
+  {
+    "symbol": "000823",
+    "name": "超声电子",
+    "signal_date": "2026-10-14",
+    "streak": 2,
+    "close": 24.55,
+    "ma20": 22.934,
+    "volume_price_proxy": 741721785.0
+  },
+  {
+    "symbol": "001318",
+    "name": "阳光乳业",
+    "signal_date": "2026-10-14",
+    "streak": 2,
+    "close": 15.43,
+    "ma20": 12.2065,
+    "volume_price_proxy": 621170139.0
+  },
+  {
+    "symbol": "000530",
+    "name": "冰山冷热",
+    "signal_date": "2026-10-14",
+    "streak": 2,
+    "close": 6.3,
+    "ma20": 5.281000000000001,
+    "volume_price_proxy": 114023700.0
+  },
+  {
+    "symbol": "002552",
+    "name": "宝鼎科技",
+    "signal_date": "2026-10-14",
+    "streak": 1,
+    "close": 45.8,
+    "ma20": 49.076,
+    "volume_price_proxy": 220861340.0
+  },
+  {
+    "symbol": "605189",
+    "name": "富春染织",
+    "signal_date": "2026-10-14",
+    "streak": 1,
+    "close": 16.23,
+    "ma20": 14.104,
+    "volume_price_proxy": 96854148.0
+  },
+  {
+    "symbol": "002343",
+    "name": "慈文传媒",
+    "signal_date": "2026-10-14",
+    "streak": 4,
+    "close": 8.1,
+    "ma20": 5.974,
+    "volume_price_proxy": 458214570.0
+  },
+  {
+    "symbol": "601188",
+    "name": "龙江交通",
+    "signal_date": "2026-10-14",
+    "streak": 2,
+    "close": 3.53,
+    "ma20": 2.939,
+    "volume_price_proxy": 682455606.0
+  },
+  {
+    "symbol": "603968",
+    "name": "醋化股份",
+    "signal_date": "2026-10-14",
+    "streak": 3,
+    "close": 15.8,
+    "ma20": 11.4345,
+    "volume_price_proxy": 606102220.0
+  },
+  {
+    "symbol": "002917",
+    "name": "金奥博",
+    "signal_date": "2026-10-14",
+    "streak": 2,
+    "close": 12.1,
+    "ma20": 10.2995,
+    "volume_price_proxy": 282605180.0
+  },
+  {
+    "symbol": "603096",
+    "name": "新经典",
+    "signal_date": "2026-10-14",
+    "streak": 4,
+    "close": 23.07,
+    "ma20": 16.5485,
+    "volume_price_proxy": 783738654.0
+  },
+  {
+    "symbol": "600097",
+    "name": "开创国际",
+    "signal_date": "2026-10-14",
+    "streak": 1,
+    "close": 10.2,
+    "ma20": 9.374500000000001,
+    "volume_price_proxy": 140345880.0
+  },
+  {
+    "symbol": "002469",
+    "name": "三维化学",
+    "signal_date": "2026-10-14",
+    "streak": 1,
+    "close": 6.86,
+    "ma20": 6.165,
+    "volume_price_proxy": 171036950.0
+  },
+  {
+    "symbol": "600847",
+    "name": "万里股份",
+    "signal_date": "2026-10-14",
+    "streak": 2,
+    "close": 15.43,
+    "ma20": 12.984,
+    "volume_price_proxy": 173527323.0
+  },
+  {
+    "symbol": "603258",
+    "name": "电魂网络",
+    "signal_date": "2026-10-14",
+    "streak": 1,
+    "close": 16.15,
+    "ma20": 13.952000000000002,
+    "volume_price_proxy": 180335744.99999997
+  },
+  {
+    "symbol": "000601",
+    "name": "韶能股份",
+    "signal_date": "2026-10-14",
+    "streak": 1,
+    "close": 6.82,
+    "ma20": 6.2255,
+    "volume_price_proxy": 1090229514.0
+  },
+  {
+    "symbol": "600121",
+    "name": "郑州煤电",
+    "signal_date": "2026-10-14",
+    "streak": 1,
+    "close": 5.86,
+    "ma20": 5.2335,
+    "volume_price_proxy": 1402548222.0
+  },
+  {
+    "symbol": "002813",
+    "name": "路畅科技",
+    "signal_date": "2026-10-14",
+    "streak": 2,
+    "close": 29.02,
+    "ma20": 22.565,
+    "volume_price_proxy": 308543542.0
+  },
+  {
+    "symbol": "001299",
+    "name": "美能能源",
+    "signal_date": "2026-10-14",
+    "streak": 1,
+    "close": 10.92,
+    "ma20": 10.3505,
+    "volume_price_proxy": 190194732.0
+  },
+  {
+    "symbol": "603533",
+    "name": "掌阅科技",
+    "signal_date": "2026-10-14",
+    "streak": 1,
+    "close": 29.92,
+    "ma20": 24.259,
+    "volume_price_proxy": 2006435200.0
+  },
+  {
+    "symbol": "600391",
+    "name": "航发科技",
+    "signal_date": "2026-10-14",
+    "streak": 2,
+    "close": 42.66,
+    "ma20": 41.038,
+    "volume_price_proxy": 815906627.9999999
+  },
+  {
+    "symbol": "603656",
+    "name": "泰禾智能",
+    "signal_date": "2026-10-14",
+    "streak": 1,
+    "close": 19.06,
+    "ma20": 17.3605,
+    "volume_price_proxy": 188410006.0
+  },
+  {
+    "symbol": "603598",
+    "name": "引力传媒",
+    "signal_date": "2026-10-14",
+    "streak": 1,
+    "close": 21.91,
+    "ma20": 18.4065,
+    "volume_price_proxy": 1196474426.0
+  },
+  {
+    "symbol": "000573",
+    "name": "粤宏远Ａ",
+    "signal_date": "2026-10-14",
+    "streak": 1,
+    "close": 4.33,
+    "ma20": 3.8265000000000002,
+    "volume_price_proxy": 220929590.0
+  },
+  {
+    "symbol": "601858",
+    "name": "中国科传",
+    "signal_date": "2026-10-14",
+    "streak": 1,
+    "close": 26.11,
+    "ma20": 21.351,
+    "volume_price_proxy": 941064453.0
+  },
+  {
+    "symbol": "601811",
+    "name": "新华文轩",
+    "signal_date": "2026-10-14",
+    "streak": 1,
+    "close": 23.25,
+    "ma20": 16.785,
+    "volume_price_proxy": 1535760150.0
+  },
+  {
+    "symbol": "002029",
+    "name": "七 匹 狼",
+    "signal_date": "2026-10-14",
+    "streak": 1,
+    "close": 10.58,
+    "ma20": 8.921,
+    "volume_price_proxy": 501474014.0
+  },
+  {
+    "symbol": "600408",
+    "name": "安泰集团",
+    "signal_date": "2026-10-14",
+    "streak": 1,
+    "close": 4.06,
+    "ma20": 3.251,
+    "volume_price_proxy": 1188983180.0
+  },
+  {
+    "symbol": "001216",
+    "name": "华瓷股份",
+    "signal_date": "2026-10-14",
+    "streak": 1,
+    "close": 23.99,
+    "ma20": 22.086,
+    "volume_price_proxy": 1064743371.9999999
+  },
+  {
+    "symbol": "603992",
+    "name": "松霖科技",
+    "signal_date": "2026-10-14",
+    "streak": 1,
+    "close": 24.61,
+    "ma20": 20.0955,
+    "volume_price_proxy": 479727652.0
+  },
+  {
+    "symbol": "002815",
+    "name": "崇达技术",
+    "signal_date": "2026-10-15",
+    "streak": 1,
+    "close": 23.25,
+    "ma20": 22.483,
+    "volume_price_proxy": 321342900.0
+  },
+  {
+    "symbol": "002696",
+    "name": "百洋股份",
+    "signal_date": "2026-10-15",
+    "streak": 5,
+    "close": 10.73,
+    "ma20": 7.272499999999999,
+    "volume_price_proxy": 802296049.0
+  },
+  {
+    "symbol": "000626",
+    "name": "远大控股",
+    "signal_date": "2026-10-15",
+    "streak": 1,
+    "close": 9.15,
+    "ma20": 8.9225,
+    "volume_price_proxy": 355230450.0
+  },
+  {
+    "symbol": "002343",
+    "name": "慈文传媒",
+    "signal_date": "2026-10-15",
+    "streak": 5,
+    "close": 8.91,
+    "ma20": 6.121,
+    "volume_price_proxy": 682544313.0
+  },
+  {
+    "symbol": "000530",
+    "name": "冰山冷热",
+    "signal_date": "2026-10-15",
+    "streak": 3,
+    "close": 6.93,
+    "ma20": 5.3605,
+    "volume_price_proxy": 1707173622.0
+  },
+  {
+    "symbol": "605189",
+    "name": "富春染织",
+    "signal_date": "2026-10-15",
+    "streak": 2,
+    "close": 17.85,
+    "ma20": 14.300999999999998,
+    "volume_price_proxy": 727278615.0
+  },
+  {
+    "symbol": "001318",
+    "name": "阳光乳业",
+    "signal_date": "2026-10-15",
+    "streak": 3,
+    "close": 16.97,
+    "ma20": 12.447,
+    "volume_price_proxy": 303769788.0
+  },
+  {
+    "symbol": "603999",
+    "name": "读者传媒",
+    "signal_date": "2026-10-15",
+    "streak": 1,
+    "close": 7.62,
+    "ma20": 6.6765,
+    "volume_price_proxy": 143054070.0
+  },
+  {
+    "symbol": "001225",
+    "name": "和泰机电",
+    "signal_date": "2026-10-15",
+    "streak": 1,
+    "close": 38.5,
+    "ma20": 40.045,
+    "volume_price_proxy": 227169250.0
+  },
+  {
+    "symbol": "000722",
+    "name": "湖南发展",
+    "signal_date": "2026-10-15",
+    "streak": 1,
+    "close": 13.95,
+    "ma20": 13.729499999999998,
+    "volume_price_proxy": 352549980.0
+  },
+  {
+    "symbol": "002103",
+    "name": "广博股份",
+    "signal_date": "2026-10-15",
+    "streak": 1,
+    "close": 7.5,
+    "ma20": 6.688,
+    "volume_price_proxy": 297274500.0
+  },
+  {
+    "symbol": "002134",
+    "name": "天津普林",
+    "signal_date": "2026-10-15",
+    "streak": 1,
+    "close": 24.34,
+    "ma20": 24.285999999999998,
+    "volume_price_proxy": 658581984.0
+  },
+  {
+    "symbol": "000995",
+    "name": "皇台酒业",
+    "signal_date": "2026-10-15",
+    "streak": 1,
+    "close": 13.37,
+    "ma20": 11.455,
+    "volume_price_proxy": 355195442.0
+  },
+  {
+    "symbol": "002543",
+    "name": "万和电气",
+    "signal_date": "2026-10-15",
+    "streak": 1,
+    "close": 7.88,
+    "ma20": 7.419499999999999,
+    "volume_price_proxy": 289892592.0
+  },
+  {
+    "symbol": "600721",
+    "name": "百花医药",
+    "signal_date": "2026-10-15",
+    "streak": 1,
+    "close": 12.05,
+    "ma20": 12.119499999999999,
+    "volume_price_proxy": 695636860.0
+  },
+  {
+    "symbol": "603230",
+    "name": "内蒙新华",
+    "signal_date": "2026-10-15",
+    "streak": 1,
+    "close": 14.52,
+    "ma20": 13.569999999999999,
+    "volume_price_proxy": 962009532.0
+  },
+  {
+    "symbol": "003029",
+    "name": "吉大正元",
+    "signal_date": "2026-10-15",
+    "streak": 1,
+    "close": 19.99,
+    "ma20": 17.9905,
+    "volume_price_proxy": 296339756.0
+  },
+  {
+    "symbol": "603237",
+    "name": "五芳斋",
+    "signal_date": "2026-10-15",
+    "streak": 1,
+    "close": 16.47,
+    "ma20": 15.121,
+    "volume_price_proxy": 144231084.0
+  },
+  {
+    "symbol": "603386",
+    "name": "骏亚科技",
+    "signal_date": "2026-10-15",
+    "streak": 1,
+    "close": 20.25,
+    "ma20": 17.771,
+    "volume_price_proxy": 500930325.0
+  },
+  {
+    "symbol": "600281",
+    "name": "华阳新材",
+    "signal_date": "2026-10-15",
+    "streak": 1,
+    "close": 5.21,
+    "ma20": 4.729,
+    "volume_price_proxy": 283509965.0
+  },
+  {
+    "symbol": "600668",
+    "name": "尖峰集团",
+    "signal_date": "2026-10-15",
+    "streak": 1,
+    "close": 7.99,
+    "ma20": 7.3515,
+    "volume_price_proxy": 273925165.0
+  },
+  {
+    "symbol": "603690",
+    "name": "至纯科技",
+    "signal_date": "2026-10-15",
+    "streak": 1,
+    "close": 23.77,
+    "ma20": 23.182499999999997,
+    "volume_price_proxy": 939609084.0
+  },
+  {
+    "symbol": "605058",
+    "name": "澳弘电子",
+    "signal_date": "2026-10-15",
+    "streak": 1,
+    "close": 70.49,
+    "ma20": 51.0325,
+    "volume_price_proxy": 1544379508.0
+  },
+  {
+    "symbol": "600812",
+    "name": "华北制药",
+    "signal_date": "2026-10-15",
+    "streak": 1,
+    "close": 6.57,
+    "ma20": 5.2345,
+    "volume_price_proxy": 2196282672.0
+  },
+  {
+    "symbol": "002889",
+    "name": "东方嘉盛",
+    "signal_date": "2026-10-15",
+    "streak": 1,
+    "close": 13.01,
+    "ma20": 11.9565,
+    "volume_price_proxy": 163821920.0
+  },
+  {
+    "symbol": "002945",
+    "name": "华林证券",
+    "signal_date": "2026-10-15",
+    "streak": 1,
+    "close": 15.39,
+    "ma20": 14.232,
+    "volume_price_proxy": 1251230085.0
+  },
+  {
+    "symbol": "002836",
+    "name": "新宏泽",
+    "signal_date": "2026-10-15",
+    "streak": 1,
+    "close": 11.85,
+    "ma20": 11.133,
+    "volume_price_proxy": 105705555.0
+  },
+  {
+    "symbol": "603535",
+    "name": "嘉诚国际",
+    "signal_date": "2026-10-15",
+    "streak": 1,
+    "close": 6.73,
+    "ma20": 6.2365,
+    "volume_price_proxy": 128116991.00000001
+  },
+  {
+    "symbol": "605003",
+    "name": "众望布艺",
+    "signal_date": "2026-10-15",
+    "streak": 1,
+    "close": 25.96,
+    "ma20": 24.1845,
+    "volume_price_proxy": 67540132.0
+  },
+  {
+    "symbol": "603329",
+    "name": "上海雅仕",
+    "signal_date": "2026-10-15",
+    "streak": 1,
+    "close": 11.33,
+    "ma20": 10.155,
+    "volume_price_proxy": 242442739.0
+  },
+  {
+    "symbol": "002748",
+    "name": "世龙实业",
+    "signal_date": "2026-10-15",
+    "streak": 1,
+    "close": 13.65,
+    "ma20": 12.263,
+    "volume_price_proxy": 432445650.0
+  },
+  {
+    "symbol": "603172",
+    "name": "万丰股份",
+    "signal_date": "2026-10-15",
+    "streak": 1,
+    "close": 20.53,
+    "ma20": 19.1635,
+    "volume_price_proxy": 103990609.0
+  },
+  {
+    "symbol": "603200",
+    "name": "上海洗霸",
+    "signal_date": "2026-10-15",
+    "streak": 1,
+    "close": 53.35,
+    "ma20": 42.903000000000006,
+    "volume_price_proxy": 1367109755.0
+  },
+  {
+    "symbol": "601811",
+    "name": "新华文轩",
+    "signal_date": "2026-10-15",
+    "streak": 2,
+    "close": 25.58,
+    "ma20": 17.482499999999998,
+    "volume_price_proxy": 1639718928.0
+  },
+  {
+    "symbol": "600825",
+    "name": "新华传媒",
+    "signal_date": "2026-10-16",
+    "streak": 11,
+    "close": 15.16,
+    "ma20": 7.730499999999999,
+    "volume_price_proxy": 247220184.0
+  },
+  {
+    "symbol": "002889",
+    "name": "东方嘉盛",
+    "signal_date": "2026-10-16",
+    "streak": 2,
+    "close": 14.31,
+    "ma20": 12.076,
+    "volume_price_proxy": 78178392.0
+  },
+  {
+    "symbol": "603636",
+    "name": "南威软件",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 8.04,
+    "ma20": 7.4425,
+    "volume_price_proxy": 88549343.99999999
+  },
+  {
+    "symbol": "000607",
+    "name": "华媒控股",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 4.61,
+    "ma20": 4.1375,
+    "volume_price_proxy": 90360610.0
+  },
+  {
+    "symbol": "000573",
+    "name": "粤宏远Ａ",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 4.47,
+    "ma20": 3.8705,
+    "volume_price_proxy": 35396589.0
+  },
+  {
+    "symbol": "603999",
+    "name": "读者传媒",
+    "signal_date": "2026-10-16",
+    "streak": 2,
+    "close": 8.38,
+    "ma20": 6.7715000000000005,
+    "volume_price_proxy": 147476268.0
+  },
+  {
+    "symbol": "601999",
+    "name": "出版传媒",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 8.25,
+    "ma20": 7.032500000000001,
+    "volume_price_proxy": 185683575.0
+  },
+  {
+    "symbol": "003029",
+    "name": "吉大正元",
+    "signal_date": "2026-10-16",
+    "streak": 2,
+    "close": 21.99,
+    "ma20": 18.1735,
+    "volume_price_proxy": 811371627.0
+  },
+  {
+    "symbol": "603197",
+    "name": "保隆科技",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 29.39,
+    "ma20": 28.8245,
+    "volume_price_proxy": 108981059.0
+  },
+  {
+    "symbol": "001358",
+    "name": "兴欣新材",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 24.92,
+    "ma20": 24.124000000000002,
+    "volume_price_proxy": 38264660.0
+  },
+  {
+    "symbol": "600418",
+    "name": "江淮汽车",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 22.37,
+    "ma20": 21.861,
+    "volume_price_proxy": 1458271219.0
+  },
+  {
+    "symbol": "600668",
+    "name": "尖峰集团",
+    "signal_date": "2026-10-16",
+    "streak": 2,
+    "close": 8.79,
+    "ma20": 7.4174999999999995,
+    "volume_price_proxy": 544902648.0
+  },
+  {
+    "symbol": "603278",
+    "name": "大业股份",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 9.91,
+    "ma20": 9.5525,
+    "volume_price_proxy": 160893805.0
+  },
+  {
+    "symbol": "601606",
+    "name": "长城军工",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 31.92,
+    "ma20": 31.77,
+    "volume_price_proxy": 748300560.0
+  },
+  {
+    "symbol": "002724",
+    "name": "海洋王",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 7.65,
+    "ma20": 7.083,
+    "volume_price_proxy": 359711415.0
+  },
+  {
+    "symbol": "002917",
+    "name": "金奥博",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 11.98,
+    "ma20": 10.3915,
+    "volume_price_proxy": 314163520.0
+  },
+  {
+    "symbol": "600319",
+    "name": "亚星化学",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 6.9,
+    "ma20": 6.308,
+    "volume_price_proxy": 147989820.0
+  },
+  {
+    "symbol": "002767",
+    "name": "先锋电子",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 18.04,
+    "ma20": 17.854499999999998,
+    "volume_price_proxy": 112594856.0
+  },
+  {
+    "symbol": "002085",
+    "name": "万丰奥威",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 9.91,
+    "ma20": 9.506499999999999,
+    "volume_price_proxy": 652518004.0
+  },
+  {
+    "symbol": "002683",
+    "name": "广东宏大",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 27.9,
+    "ma20": 27.6365,
+    "volume_price_proxy": 425832120.0
+  },
+  {
+    "symbol": "002933",
+    "name": "新兴装备",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 27.75,
+    "ma20": 27.026999999999997,
+    "volume_price_proxy": 74603100.0
+  },
+  {
+    "symbol": "603015",
+    "name": "弘讯科技",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 10.8,
+    "ma20": 10.469,
+    "volume_price_proxy": 115938000.00000001
+  },
+  {
+    "symbol": "000576",
+    "name": "甘化科工",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 8.77,
+    "ma20": 8.274,
+    "volume_price_proxy": 141902108.0
+  },
+  {
+    "symbol": "600148",
+    "name": "长春一东",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 16.28,
+    "ma20": 15.7025,
+    "volume_price_proxy": 66179828.00000001
+  },
+  {
+    "symbol": "002949",
+    "name": "华阳国际",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 14.14,
+    "ma20": 12.962,
+    "volume_price_proxy": 152270832.0
+  },
+  {
+    "symbol": "603668",
+    "name": "天马科技",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 7.55,
+    "ma20": 11.0915,
+    "volume_price_proxy": 402972945.0
+  },
+  {
+    "symbol": "600501",
+    "name": "航天晨光",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 15.33,
+    "ma20": 14.7085,
+    "volume_price_proxy": 324505440.0
+  },
+  {
+    "symbol": "601811",
+    "name": "新华文轩",
+    "signal_date": "2026-10-16",
+    "streak": 3,
+    "close": 28.14,
+    "ma20": 18.305,
+    "volume_price_proxy": 1724889138.0
+  },
+  {
+    "symbol": "000701",
+    "name": "厦门信达",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 5.36,
+    "ma20": 5.154,
+    "volume_price_proxy": 204763792.0
+  },
+  {
+    "symbol": "600802",
+    "name": "福建水泥",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 6.78,
+    "ma20": 6.365,
+    "volume_price_proxy": 517366206.0
+  },
+  {
+    "symbol": "603168",
+    "name": "莎普爱思",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 6.24,
+    "ma20": 5.8515,
+    "volume_price_proxy": 146281200.0
+  },
+  {
+    "symbol": "000530",
+    "name": "冰山冷热",
+    "signal_date": "2026-10-16",
+    "streak": 4,
+    "close": 7.62,
+    "ma20": 5.4784999999999995,
+    "volume_price_proxy": 1520017026.0
+  },
+  {
+    "symbol": "002614",
+    "name": "奥佳华",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 8.77,
+    "ma20": 7.229000000000001,
+    "volume_price_proxy": 431282290.0
+  },
+  {
+    "symbol": "603955",
+    "name": "大千生态",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 23.57,
+    "ma20": 23.606,
+    "volume_price_proxy": 68159726.0
+  },
+  {
+    "symbol": "002869",
+    "name": "金溢科技",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 20.58,
+    "ma20": 17.598499999999998,
+    "volume_price_proxy": 213468107.99999997
+  },
+  {
+    "symbol": "600860",
+    "name": "京城股份",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 7.91,
+    "ma20": 7.714,
+    "volume_price_proxy": 161965951.0
+  },
+  {
+    "symbol": "603173",
+    "name": "福斯达",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 30.05,
+    "ma20": 29.117,
+    "volume_price_proxy": 89921620.0
+  },
+  {
+    "symbol": "605178",
+    "name": "时空科技",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 61.44,
+    "ma20": 64.75800000000001,
+    "volume_price_proxy": 258404352.0
+  },
+  {
+    "symbol": "600699",
+    "name": "均胜电子",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 20.3,
+    "ma20": 20.595,
+    "volume_price_proxy": 1404766090.0
+  },
+  {
+    "symbol": "000887",
+    "name": "中鼎股份",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 17.72,
+    "ma20": 18.464,
+    "volume_price_proxy": 1143909284.0
+  },
+  {
+    "symbol": "001696",
+    "name": "宗申动力",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 15.87,
+    "ma20": 15.2895,
+    "volume_price_proxy": 1075654317.0
+  },
+  {
+    "symbol": "001319",
+    "name": "铭科精技",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 21.4,
+    "ma20": 21.344,
+    "volume_price_proxy": 86496660.0
+  },
+  {
+    "symbol": "002510",
+    "name": "天汽模",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 5.96,
+    "ma20": 5.6805,
+    "volume_price_proxy": 395976440.0
+  },
+  {
+    "symbol": "000099",
+    "name": "中信海直",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 14.75,
+    "ma20": 13.101500000000001,
+    "volume_price_proxy": 695188150.0
+  },
+  {
+    "symbol": "603348",
+    "name": "文灿股份",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 15.31,
+    "ma20": 14.334999999999999,
+    "volume_price_proxy": 120185031.0
+  },
+  {
+    "symbol": "600843",
+    "name": "上工申贝",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 8.94,
+    "ma20": 7.603,
+    "volume_price_proxy": 476817582.0
+  },
+  {
+    "symbol": "600178",
+    "name": "东安动力",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 10.25,
+    "ma20": 9.76,
+    "volume_price_proxy": 236702225.0
+  },
+  {
+    "symbol": "603305",
+    "name": "旭升集团",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 10.88,
+    "ma20": 10.859,
+    "volume_price_proxy": 381406016.0
+  },
+  {
+    "symbol": "603013",
+    "name": "亚普股份",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 15.0,
+    "ma20": 14.272,
+    "volume_price_proxy": 108486000.0
+  },
+  {
+    "symbol": "000420",
+    "name": "吉林化纤",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 3.88,
+    "ma20": 3.5814999999999997,
+    "volume_price_proxy": 659616296.0
+  },
+  {
+    "symbol": "603239",
+    "name": "浙江仙通",
+    "signal_date": "2026-10-16",
+    "streak": 1,
+    "close": 14.43,
+    "ma20": 13.8475,
+    "volume_price_proxy": 130336089.0
+  },
+  {
+    "symbol": "003029",
+    "name": "吉大正元",
+    "signal_date": "2026-10-19",
+    "streak": 3,
+    "close": 24.19,
+    "ma20": 18.493000000000002,
+    "volume_price_proxy": 174390548.0
+  },
+  {
+    "symbol": "002724",
+    "name": "海洋王",
+    "signal_date": "2026-10-19",
+    "streak": 2,
+    "close": 8.42,
+    "ma20": 7.165000000000001,
+    "volume_price_proxy": 55986264.0
+  },
+  {
+    "symbol": "002929",
+    "name": "润建股份",
+    "signal_date": "2026-10-19",
+    "streak": 1,
+    "close": 46.4,
+    "ma20": 47.302499999999995,
+    "volume_price_proxy": 233354880.0
+  },
+  {
+    "symbol": "603197",
+    "name": "保隆科技",
+    "signal_date": "2026-10-19",
+    "streak": 2,
+    "close": 32.33,
+    "ma20": 29.0185,
+    "volume_price_proxy": 127764927.0
+  },
+  {
+    "symbol": "600148",
+    "name": "长春一东",
+    "signal_date": "2026-10-19",
+    "streak": 2,
+    "close": 17.91,
+    "ma20": 15.8035,
+    "volume_price_proxy": 38391876.0
+  },
+  {
+    "symbol": "600860",
+    "name": "京城股份",
+    "signal_date": "2026-10-19",
+    "streak": 2,
+    "close": 8.7,
+    "ma20": 7.737,
+    "volume_price_proxy": 60002159.99999999
+  },
+  {
+    "symbol": "600267",
+    "name": "海正药业",
+    "signal_date": "2026-10-19",
+    "streak": 1,
+    "close": 12.06,
+    "ma20": 11.5385,
+    "volume_price_proxy": 118360458.0
+  },
+  {
+    "symbol": "600178",
+    "name": "东安动力",
+    "signal_date": "2026-10-19",
+    "streak": 2,
+    "close": 11.28,
+    "ma20": 9.822,
+    "volume_price_proxy": 176579376.0
+  },
+  {
+    "symbol": "603348",
+    "name": "文灿股份",
+    "signal_date": "2026-10-19",
+    "streak": 2,
+    "close": 16.84,
+    "ma20": 14.4745,
+    "volume_price_proxy": 157718388.0
+  },
+  {
+    "symbol": "000576",
+    "name": "甘化科工",
+    "signal_date": "2026-10-19",
+    "streak": 2,
+    "close": 9.65,
+    "ma20": 8.328,
+    "volume_price_proxy": 561961960.0
+  },
+  {
+    "symbol": "002085",
+    "name": "万丰奥威",
+    "signal_date": "2026-10-19",
+    "streak": 2,
+    "close": 10.9,
+    "ma20": 9.5455,
+    "volume_price_proxy": 1114732100.0
+  },
+  {
+    "symbol": "002626",
+    "name": "金达威",
+    "signal_date": "2026-10-19",
+    "streak": 1,
+    "close": 18.38,
+    "ma20": 16.202,
+    "volume_price_proxy": 654000836.0
+  },
+  {
+    "symbol": "002368",
+    "name": "太极股份",
+    "signal_date": "2026-10-19",
+    "streak": 1,
+    "close": 12.75,
+    "ma20": 12.757,
+    "volume_price_proxy": 162497475.0
+  },
+  {
+    "symbol": "001323",
+    "name": "慕思股份",
+    "signal_date": "2026-10-19",
+    "streak": 1,
+    "close": 20.21,
+    "ma20": 18.148,
+    "volume_price_proxy": 65969482.0
+  },
+  {
+    "symbol": "603188",
+    "name": "亚邦股份",
+    "signal_date": "2026-10-19",
+    "streak": 1,
+    "close": 5.56,
+    "ma20": 4.86,
+    "volume_price_proxy": 521278911.99999994
+  },
+  {
+    "symbol": "603693",
+    "name": "江苏新能",
+    "signal_date": "2026-10-19",
+    "streak": 1,
+    "close": 13.53,
+    "ma20": 12.3695,
+    "volume_price_proxy": 379845279.0
+  },
+  {
+    "symbol": "600032",
+    "name": "浙江新能",
+    "signal_date": "2026-10-19",
+    "streak": 1,
+    "close": 7.79,
+    "ma20": 7.3075,
+    "volume_price_proxy": 465422119.0
+  },
+  {
+    "symbol": "600686",
+    "name": "金龙汽车",
+    "signal_date": "2026-10-19",
+    "streak": 1,
+    "close": 10.35,
+    "ma20": 10.78,
+    "volume_price_proxy": 361685925.0
+  },
+  {
+    "symbol": "002889",
+    "name": "东方嘉盛",
+    "signal_date": "2026-10-19",
+    "streak": 3,
+    "close": 15.74,
+    "ma20": 12.2795,
+    "volume_price_proxy": 810133078.0
+  },
+  {
+    "symbol": "603330",
+    "name": "天洋新材",
+    "signal_date": "2026-10-19",
+    "streak": 1,
+    "close": 9.43,
+    "ma20": 9.273,
+    "volume_price_proxy": 287841320.0
+  },
+  {
+    "symbol": "600487",
+    "name": "亨通光电",
+    "signal_date": "2026-10-19",
+    "streak": 1,
+    "close": 50.25,
+    "ma20": 58.93150000000001,
+    "volume_price_proxy": 10135862175.0
+  },
+  {
+    "symbol": "601778",
+    "name": "晶科科技",
+    "signal_date": "2026-10-19",
+    "streak": 1,
+    "close": 3.58,
+    "ma20": 3.4325,
+    "volume_price_proxy": 716271006.0
+  },
+  {
+    "symbol": "001216",
+    "name": "华瓷股份",
+    "signal_date": "2026-10-19",
+    "streak": 1,
+    "close": 24.31,
+    "ma20": 23.4285,
+    "volume_price_proxy": 1045852665.0
+  },
+  {
+    "symbol": "600329",
+    "name": "达仁堂",
+    "signal_date": "2026-10-19",
+    "streak": 1,
+    "close": 40.92,
+    "ma20": 35.6145,
+    "volume_price_proxy": 535650984.0
+  },
+  {
+    "symbol": "605258",
+    "name": "协和电子",
+    "signal_date": "2026-10-19",
+    "streak": 1,
+    "close": 42.9,
+    "ma20": 39.689,
+    "volume_price_proxy": 421024890.0
+  },
+  {
+    "symbol": "605058",
+    "name": "澳弘电子",
+    "signal_date": "2026-10-19",
+    "streak": 1,
+    "close": 72.41,
+    "ma20": 54.765,
+    "volume_price_proxy": 1719744741.0
+  },
+  {
+    "symbol": "605488",
+    "name": "福莱新材",
+    "signal_date": "2026-10-19",
+    "streak": 1,
+    "close": 28.17,
+    "ma20": 28.732499999999998,
+    "volume_price_proxy": 235720926.0
+  },
+  {
+    "symbol": "603626",
+    "name": "科森科技",
+    "signal_date": "2026-10-19",
+    "streak": 1,
+    "close": 22.21,
+    "ma20": 22.2045,
+    "volume_price_proxy": 864464283.0
+  },
+  {
+    "symbol": "603859",
+    "name": "能科科技",
+    "signal_date": "2026-10-19",
+    "streak": 1,
+    "close": 38.82,
+    "ma20": 37.978500000000004,
+    "volume_price_proxy": 277194210.0
+  },
+  {
+    "symbol": "002164",
+    "name": "宁波东力",
+    "signal_date": "2026-10-19",
+    "streak": 1,
+    "close": 14.69,
+    "ma20": 12.265,
+    "volume_price_proxy": 738629359.0
+  },
+  {
+    "symbol": "603278",
+    "name": "大业股份",
+    "signal_date": "2026-10-19",
+    "streak": 2,
+    "close": 10.9,
+    "ma20": 9.641,
+    "volume_price_proxy": 523001620.0
+  },
+  {
+    "symbol": "603278",
+    "name": "大业股份",
+    "signal_date": "2026-10-19",
+    "streak": 2,
+    "close": 10.9,
+    "ma20": 9.641,
+    "volume_price_proxy": 523001620.0
+  },
+  {
+    "symbol": "603040",
+    "name": "新坐标",
+    "signal_date": "2026-10-19",
+    "streak": 1,
+    "close": 40.6,
+    "ma20": 43.7505,
+    "volume_price_proxy": 161770700.0
+  },
+  {
+    "symbol": "603119",
+    "name": "浙江荣泰",
+    "signal_date": "2026-10-19",
+    "streak": 1,
+    "close": 45.87,
+    "ma20": 50.6865,
+    "volume_price_proxy": 543761328.0
+  },
+  {
+    "symbol": "603286",
+    "name": "日盈电子",
+    "signal_date": "2026-10-19",
+    "streak": 1,
+    "close": 42.74,
+    "ma20": 42.820499999999996,
+    "volume_price_proxy": 210451760.0
+  },
+  {
+    "symbol": "003021",
+    "name": "兆威机电",
+    "signal_date": "2026-10-19",
+    "streak": 1,
+    "close": 67.22,
+    "ma20": 67.3515,
+    "volume_price_proxy": 343870632.0
+  },
+  {
+    "symbol": "605255",
+    "name": "天普股份",
+    "signal_date": "2026-10-19",
+    "streak": 1,
+    "close": 55.88,
+    "ma20": 57.42100000000001,
+    "volume_price_proxy": 59881008.0
+  },
+  {
+    "symbol": "001211",
+    "name": "双枪科技",
+    "signal_date": "2026-10-19",
+    "streak": 1,
+    "close": 28.74,
+    "ma20": 26.378499999999995,
+    "volume_price_proxy": 335964852.0
+  },
+  {
+    "symbol": "002343",
+    "name": "慈文传媒",
+    "signal_date": "2026-10-19",
+    "streak": 1,
+    "close": 10.26,
+    "ma20": 6.511,
+    "volume_price_proxy": 2261051604.0
+  },
+  {
+    "symbol": "003029",
+    "name": "吉大正元",
+    "signal_date": "2026-10-20",
+    "streak": 4,
+    "close": 26.61,
+    "ma20": 18.909,
+    "volume_price_proxy": 1128990453.0
+  },
+  {
+    "symbol": "600661",
+    "name": "昂立教育",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 10.12,
+    "ma20": 9.132,
+    "volume_price_proxy": 155071796.0
+  },
+  {
+    "symbol": "002835",
+    "name": "同为股份",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 14.16,
+    "ma20": 13.084,
+    "volume_price_proxy": 33842400.0
+  },
+  {
+    "symbol": "600178",
+    "name": "东安动力",
+    "signal_date": "2026-10-20",
+    "streak": 3,
+    "close": 12.41,
+    "ma20": 9.947,
+    "volume_price_proxy": 94031811.0
+  },
+  {
+    "symbol": "603278",
+    "name": "大业股份",
+    "signal_date": "2026-10-20",
+    "streak": 3,
+    "close": 11.99,
+    "ma20": 9.785,
+    "volume_price_proxy": 101347873.0
+  },
+  {
+    "symbol": "600293",
+    "name": "三峡新材",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 4.32,
+    "ma20": 3.287,
+    "volume_price_proxy": 41462496.0
+  },
+  {
+    "symbol": "001323",
+    "name": "慕思股份",
+    "signal_date": "2026-10-20",
+    "streak": 2,
+    "close": 22.23,
+    "ma20": 18.367,
+    "volume_price_proxy": 129434175.0
+  },
+  {
+    "symbol": "002479",
+    "name": "富春环保",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 6.01,
+    "ma20": 5.7924999999999995,
+    "volume_price_proxy": 86101063.0
+  },
+  {
+    "symbol": "600148",
+    "name": "长春一东",
+    "signal_date": "2026-10-20",
+    "streak": 3,
+    "close": 19.7,
+    "ma20": 15.984,
+    "volume_price_proxy": 613262970.0
+  },
+  {
+    "symbol": "605488",
+    "name": "福莱新材",
+    "signal_date": "2026-10-20",
+    "streak": 2,
+    "close": 30.99,
+    "ma20": 28.857499999999998,
+    "volume_price_proxy": 148578456.0
+  },
+  {
+    "symbol": "002724",
+    "name": "海洋王",
+    "signal_date": "2026-10-20",
+    "streak": 3,
+    "close": 9.26,
+    "ma20": 7.289499999999999,
+    "volume_price_proxy": 569131638.0
+  },
+  {
+    "symbol": "600267",
+    "name": "海正药业",
+    "signal_date": "2026-10-20",
+    "streak": 2,
+    "close": 13.27,
+    "ma20": 11.631499999999999,
+    "volume_price_proxy": 770863589.0
+  },
+  {
+    "symbol": "600860",
+    "name": "京城股份",
+    "signal_date": "2026-10-20",
+    "streak": 3,
+    "close": 9.57,
+    "ma20": 7.8075,
+    "volume_price_proxy": 488263314.0
+  },
+  {
+    "symbol": "002181",
+    "name": "粤 传 媒",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 10.13,
+    "ma20": 9.4205,
+    "volume_price_proxy": 458501021.00000006
+  },
+  {
+    "symbol": "002242",
+    "name": "九阳股份",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 20.56,
+    "ma20": 13.266,
+    "volume_price_proxy": 2430117984.0
+  },
+  {
+    "symbol": "002164",
+    "name": "宁波东力",
+    "signal_date": "2026-10-20",
+    "streak": 2,
+    "close": 16.16,
+    "ma20": 12.5555,
+    "volume_price_proxy": 1006894048.0
+  },
+  {
+    "symbol": "002088",
+    "name": "鲁阳节能",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 8.49,
+    "ma20": 7.9864999999999995,
+    "volume_price_proxy": 98161380.0
+  },
+  {
+    "symbol": "603386",
+    "name": "骏亚科技",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 21.71,
+    "ma20": 18.343,
+    "volume_price_proxy": 556859329.0
+  },
+  {
+    "symbol": "002347",
+    "name": "泰尔股份",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 6.61,
+    "ma20": 6.0705,
+    "volume_price_proxy": 265234843.0
+  },
+  {
+    "symbol": "002313",
+    "name": "日海智能",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 8.8,
+    "ma20": 8.5375,
+    "volume_price_proxy": 137325760.0
+  },
+  {
+    "symbol": "603626",
+    "name": "科森科技",
+    "signal_date": "2026-10-20",
+    "streak": 2,
+    "close": 24.43,
+    "ma20": 22.4285,
+    "volume_price_proxy": 898469439.0
+  },
+  {
+    "symbol": "001239",
+    "name": "永达股份",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 13.4,
+    "ma20": 12.206999999999999,
+    "volume_price_proxy": 74802820.0
+  },
+  {
+    "symbol": "603119",
+    "name": "浙江荣泰",
+    "signal_date": "2026-10-20",
+    "streak": 2,
+    "close": 50.46,
+    "ma20": 50.525999999999996,
+    "volume_price_proxy": 773047200.0
+  },
+  {
+    "symbol": "603236",
+    "name": "移远通信",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 76.11,
+    "ma20": 71.2095,
+    "volume_price_proxy": 2248921113.0
+  },
+  {
+    "symbol": "603341",
+    "name": "龙旗科技",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 38.26,
+    "ma20": 35.413,
+    "volume_price_proxy": 996600306.0
+  },
+  {
+    "symbol": "002881",
+    "name": "美格智能",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 38.51,
+    "ma20": 40.582499999999996,
+    "volume_price_proxy": 647950005.0
+  },
+  {
+    "symbol": "603407",
+    "name": "长裕集团",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 48.29,
+    "ma20": 54.645500000000006,
+    "volume_price_proxy": 186669824.0
+  },
+  {
+    "symbol": "002403",
+    "name": "爱仕达",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 11.15,
+    "ma20": 10.098,
+    "volume_price_proxy": 322472495.0
+  },
+  {
+    "symbol": "001388",
+    "name": "信通电子",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 20.37,
+    "ma20": 19.7245,
+    "volume_price_proxy": 215005350.0
+  },
+  {
+    "symbol": "605389",
+    "name": "长龄液压",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 57.97,
+    "ma20": 60.0955,
+    "volume_price_proxy": 73361035.0
+  },
+  {
+    "symbol": "603068",
+    "name": "博通集成",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 41.67,
+    "ma20": 41.909499999999994,
+    "volume_price_proxy": 523571049.0
+  },
+  {
+    "symbol": "001283",
+    "name": "豪鹏科技",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 51.06,
+    "ma20": 47.791000000000004,
+    "volume_price_proxy": 393800250.0
+  },
+  {
+    "symbol": "603893",
+    "name": "瑞芯微",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 189.04,
+    "ma20": 197.1095,
+    "volume_price_proxy": 3965700024.0
+  },
+  {
+    "symbol": "605177",
+    "name": "东亚药业",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 24.4,
+    "ma20": 24.811500000000002,
+    "volume_price_proxy": 185884080.0
+  },
+  {
+    "symbol": "001288",
+    "name": "运机集团",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 30.48,
+    "ma20": 30.698500000000003,
+    "volume_price_proxy": 168749472.0
+  },
+  {
+    "symbol": "603696",
+    "name": "安记食品",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 13.6,
+    "ma20": 13.535,
+    "volume_price_proxy": 142650400.0
+  },
+  {
+    "symbol": "603657",
+    "name": "春光科技",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 32.74,
+    "ma20": 34.4555,
+    "volume_price_proxy": 157217480.0
+  },
+  {
+    "symbol": "603683",
+    "name": "晶华新材",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 14.64,
+    "ma20": 15.122,
+    "volume_price_proxy": 367819752.0
+  },
+  {
+    "symbol": "603400",
+    "name": "华之杰",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 42.46,
+    "ma20": 46.7055,
+    "volume_price_proxy": 177690854.0
+  },
+  {
+    "symbol": "002940",
+    "name": "昂利康",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 23.63,
+    "ma20": 22.6645,
+    "volume_price_proxy": 352084637.0
+  },
+  {
+    "symbol": "002596",
+    "name": "海南瑞泽",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 3.43,
+    "ma20": 3.2825,
+    "volume_price_proxy": 260295840.0
+  },
+  {
+    "symbol": "603366",
+    "name": "日出东方",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 7.84,
+    "ma20": 7.284999999999999,
+    "volume_price_proxy": 573158096.0
+  },
+  {
+    "symbol": "002696",
+    "name": "百洋股份",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 9.56,
+    "ma20": 7.616,
+    "volume_price_proxy": 916041112.0
+  },
+  {
+    "symbol": "603636",
+    "name": "南威软件",
+    "signal_date": "2026-10-20",
+    "streak": 1,
+    "close": 8.89,
+    "ma20": 7.609999999999999,
+    "volume_price_proxy": 708485883.0
+  },
+  {
+    "symbol": "002929",
+    "name": "润建股份",
+    "signal_date": "2026-10-20",
+    "streak": 2,
+    "close": 51.04,
+    "ma20": 47.414,
+    "volume_price_proxy": 1707997456.0
+  },
+  {
+    "symbol": "002835",
+    "name": "同为股份",
+    "signal_date": "2026-10-21",
+    "streak": 2,
+    "close": 15.58,
+    "ma20": 13.242500000000001,
+    "volume_price_proxy": 215187844.0
+  },
+  {
+    "symbol": "002313",
+    "name": "日海智能",
+    "signal_date": "2026-10-21",
+    "streak": 2,
+    "close": 9.68,
+    "ma20": 8.617,
+    "volume_price_proxy": 64604320.0
+  },
+  {
+    "symbol": "002347",
+    "name": "泰尔股份",
+    "signal_date": "2026-10-21",
+    "streak": 2,
+    "close": 7.27,
+    "ma20": 6.1445,
+    "volume_price_proxy": 90872819.0
+  },
+  {
+    "symbol": "600178",
+    "name": "东安动力",
+    "signal_date": "2026-10-21",
+    "streak": 4,
+    "close": 13.65,
+    "ma20": 10.147499999999999,
+    "volume_price_proxy": 609319620.0
+  },
+  {
+    "symbol": "002724",
+    "name": "海洋王",
+    "signal_date": "2026-10-21",
+    "streak": 4,
+    "close": 10.19,
+    "ma20": 7.468500000000001,
+    "volume_price_proxy": 47186833.0
+  },
+  {
+    "symbol": "603278",
+    "name": "大业股份",
+    "signal_date": "2026-10-21",
+    "streak": 4,
+    "close": 13.19,
+    "ma20": 9.9985,
+    "volume_price_proxy": 73724186.0
+  },
+  {
+    "symbol": "600293",
+    "name": "三峡新材",
+    "signal_date": "2026-10-21",
+    "streak": 2,
+    "close": 4.75,
+    "ma20": 3.372,
+    "volume_price_proxy": 14355925.0
+  },
+  {
+    "symbol": "603332",
+    "name": "苏州龙杰",
+    "signal_date": "2026-10-21",
+    "streak": 1,
+    "close": 12.69,
+    "ma20": 11.802,
+    "volume_price_proxy": 47553237.0
+  },
+  {
+    "symbol": "001239",
+    "name": "永达股份",
+    "signal_date": "2026-10-21",
+    "streak": 2,
+    "close": 14.74,
+    "ma20": 12.3605,
+    "volume_price_proxy": 405565204.0
+  },
+  {
+    "symbol": "603138",
+    "name": "海量数据",
+    "signal_date": "2026-10-21",
+    "streak": 1,
+    "close": 15.38,
+    "ma20": 14.375,
+    "volume_price_proxy": 235566232.0
+  },
+  {
+    "symbol": "601999",
+    "name": "出版传媒",
+    "signal_date": "2026-10-21",
+    "streak": 1,
+    "close": 7.8,
+    "ma20": 7.1129999999999995,
+    "volume_price_proxy": 139227660.0
+  },
+  {
+    "symbol": "002565",
+    "name": "顺灏股份",
+    "signal_date": "2026-10-21",
+    "streak": 1,
+    "close": 8.48,
+    "ma20": 8.5925,
+    "volume_price_proxy": 391411360.0
+  },
+  {
+    "symbol": "002181",
+    "name": "粤 传 媒",
+    "signal_date": "2026-10-21",
+    "streak": 2,
+    "close": 11.14,
+    "ma20": 9.5215,
+    "volume_price_proxy": 609089526.0
+  },
+  {
+    "symbol": "002591",
+    "name": "恒大高新",
+    "signal_date": "2026-10-21",
+    "streak": 1,
+    "close": 6.88,
+    "ma20": 6.435,
+    "volume_price_proxy": 253507360.0
+  },
+  {
+    "symbol": "002929",
+    "name": "润建股份",
+    "signal_date": "2026-10-21",
+    "streak": 3,
+    "close": 56.14,
+    "ma20": 47.782,
+    "volume_price_proxy": 1078022736.0
+  },
+  {
+    "symbol": "002696",
+    "name": "百洋股份",
+    "signal_date": "2026-10-21",
+    "streak": 2,
+    "close": 10.52,
+    "ma20": 7.8180000000000005,
+    "volume_price_proxy": 549767836.0
+  },
+  {
+    "symbol": "603330",
+    "name": "天洋新材",
+    "signal_date": "2026-10-21",
+    "streak": 1,
+    "close": 10.09,
+    "ma20": 9.3285,
+    "volume_price_proxy": 662789902.0
+  },
+  {
+    "symbol": "601566",
+    "name": "九牧王",
+    "signal_date": "2026-10-21",
+    "streak": 1,
+    "close": 10.24,
+    "ma20": 9.393,
+    "volume_price_proxy": 268360704.0
+  },
+  {
+    "symbol": "600802",
+    "name": "福建水泥",
+    "signal_date": "2026-10-21",
+    "streak": 1,
+    "close": 7.04,
+    "ma20": 6.537000000000001,
+    "volume_price_proxy": 402719680.0
+  },
+  {
+    "symbol": "600838",
+    "name": "上海九百",
+    "signal_date": "2026-10-21",
+    "streak": 1,
+    "close": 9.09,
+    "ma20": 8.3395,
+    "volume_price_proxy": 305473995.0
+  },
+  {
+    "symbol": "603236",
+    "name": "移远通信",
+    "signal_date": "2026-10-21",
+    "streak": 2,
+    "close": 83.72,
+    "ma20": 72.053,
+    "volume_price_proxy": 4528481776.0
+  },
+  {
+    "symbol": "001201",
+    "name": "东瑞股份",
+    "signal_date": "2026-10-21",
+    "streak": 1,
+    "close": 15.96,
+    "ma20": 14.945500000000001,
+    "volume_price_proxy": 253203804.0
+  },
+  {
+    "symbol": "002792",
+    "name": "通宇通讯",
+    "signal_date": "2026-10-21",
+    "streak": 1,
+    "close": 32.09,
+    "ma20": 29.7385,
+    "volume_price_proxy": 1548008764.0000002
+  },
+  {
+    "symbol": "001216",
+    "name": "华瓷股份",
+    "signal_date": "2026-10-21",
+    "streak": 1,
+    "close": 25.2,
+    "ma20": 24.2655,
+    "volume_price_proxy": 658791000.0
+  },
+  {
+    "symbol": "603629",
+    "name": "利通电子",
+    "signal_date": "2026-10-21",
+    "streak": 1,
+    "close": 92.03,
+    "ma20": 97.9835,
+    "volume_price_proxy": 3889739980.0
+  },
+  {
+    "symbol": "603696",
+    "name": "安记食品",
+    "signal_date": "2026-10-21",
+    "streak": 2,
+    "close": 14.96,
+    "ma20": 13.6095,
+    "volume_price_proxy": 412571368.0
+  },
+  {
+    "symbol": "002639",
+    "name": "雪人集团",
+    "signal_date": "2026-10-21",
+    "streak": 1,
+    "close": 15.18,
+    "ma20": 14.253,
+    "volume_price_proxy": 1250271858.0
+  },
+  {
+    "symbol": "600202",
+    "name": "哈空调",
+    "signal_date": "2026-10-21",
+    "streak": 1,
+    "close": 5.57,
+    "ma20": 5.2405,
+    "volume_price_proxy": 313756986.0
+  },
+  {
+    "symbol": "002811",
+    "name": "郑中设计",
+    "signal_date": "2026-10-21",
+    "streak": 1,
+    "close": 24.16,
+    "ma20": 18.2025,
+    "volume_price_proxy": 521597488.0
+  },
+  {
+    "symbol": "605388",
+    "name": "均瑶健康",
+    "signal_date": "2026-10-21",
+    "streak": 1,
+    "close": 7.32,
+    "ma20": 6.5205,
+    "volume_price_proxy": 199560768.0
+  },
+  {
+    "symbol": "002238",
+    "name": "天威视讯",
+    "signal_date": "2026-10-21",
+    "streak": 1,
+    "close": 7.61,
+    "ma20": 7.1,
+    "volume_price_proxy": 231866807.0
+  },
+  {
+    "symbol": "603636",
+    "name": "南威软件",
+    "signal_date": "2026-10-21",
+    "streak": 2,
+    "close": 9.78,
+    "ma20": 7.7645,
+    "volume_price_proxy": 903427500.0
+  },
+  {
+    "symbol": "000518",
+    "name": "四环生物",
+    "signal_date": "2026-10-21",
+    "streak": 1,
+    "close": 3.63,
+    "ma20": 3.5895,
+    "volume_price_proxy": 248015757.0
+  },
+  {
+    "symbol": "600271",
+    "name": "航天信息",
+    "signal_date": "2026-10-21",
+    "streak": 1,
+    "close": 7.4,
+    "ma20": 6.7284999999999995,
+    "volume_price_proxy": 249127660.0
+  },
+  {
+    "symbol": "002368",
+    "name": "太极股份",
+    "signal_date": "2026-10-21",
+    "streak": 1,
+    "close": 14.67,
+    "ma20": 12.7995,
+    "volume_price_proxy": 784924218.0
+  },
+  {
+    "symbol": "603999",
+    "name": "读者传媒",
+    "signal_date": "2026-10-21",
+    "streak": 1,
+    "close": 7.47,
+    "ma20": 6.904999999999999,
+    "volume_price_proxy": 501412545.0
+  },
+  {
+    "symbol": "000788",
+    "name": "北大医药",
+    "signal_date": "2026-10-21",
+    "streak": 1,
+    "close": 5.86,
+    "ma20": 5.4555,
+    "volume_price_proxy": 339284624.0
+  },
+  {
+    "symbol": "002112",
+    "name": "三变科技",
+    "signal_date": "2026-10-21",
+    "streak": 1,
+    "close": 14.43,
+    "ma20": 13.9025,
+    "volume_price_proxy": 458114982.0
+  },
+  {
+    "symbol": "002242",
+    "name": "九阳股份",
+    "signal_date": "2026-10-21",
+    "streak": 2,
+    "close": 22.62,
+    "ma20": 13.925,
+    "volume_price_proxy": 3250082316.0
+  },
+  {
+    "symbol": "603721",
+    "name": "中广天择",
+    "signal_date": "2026-10-21",
+    "streak": 1,
+    "close": 20.82,
+    "ma20": 18.909,
+    "volume_price_proxy": 255513450.0
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "version": "public-daily-proxy-v1",
+  "signal_start": "2026-09-01",
+  "signal_end": "2026-10-21",
+  "data_end": "2026-10-22",
+  "train_end": "2026-10-08",
+  "holdout_start": "2026-10-09",
+  "initial_cash": 100000,
+  "max_positions": 3,
+  "max_new_per_day": 3,
+  "commission_bps": 3,
+  "minimum_commission_yuan": 5,
+  "sell_stamp_bps": 5,
+  "slippage_bps": 5,
+  "holding_sessions": 3,
+  "variants": [
+    "height_baseline",
+    "two_board",
+    "two_board_ma20"
+  ],
+  "selection_rule": "signal-day streak descending, volume*close descending, symbol ascending; top3 frozen before next open",
+  "eligibility": "沪深主板、源历史名称不含ST/退、至少60根历史日线；价格≥3元",
+  "purpose": "公开历史池与日线机制验证；不是完整龙头战法或正式样本外有效性结论"
+}
