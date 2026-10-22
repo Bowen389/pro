@@ -8,11 +8,11 @@
     "started_at": "2026-10-22T14:20:44.254033+08:00"
   },
   "validation": {
-    "run_key": "20261022T142408_validation_39733692717_1",
-    "report_path": "reports/2026-10-22/20261022T142408_validation_39733692717_1.md",
+    "run_key": "20261022T142512_validation_39733798464_1",
+    "report_path": "reports/2026-10-22/20261022T142512_validation_39733798464_1.md",
     "market_date": "2026-10-22",
     "phase": "validation",
     "result": "partial",
-    "started_at": "2026-10-22T14:24:08.397419+08:00"
+    "started_at": "2026-10-22T14:25:12.169157+08:00"
   }
 }
