@@ -1,0 +1,58 @@
+{
+  "plan_file": "state/plans/2026-10-22/20261021T181231_close_39582863797_1.json",
+  "target_date": "2026-10-22",
+  "evaluated_at": "2026-10-22T20:58:34.475520+08:00",
+  "timing": "prospective",
+  "outcomes": [
+    {
+      "symbol": "002076",
+      "name": "星光股份",
+      "in_today_limit_pool": true,
+      "streak": 3,
+      "condition_result": "UNRESOLVED_NO_INTRADAY_SERIES",
+      "note": "收盘在池不等于预案触发或买入成交；不在池不等于亏损"
+    },
+    {
+      "symbol": "600293",
+      "name": "三峡新材",
+      "in_today_limit_pool": true,
+      "streak": 3,
+      "condition_result": "UNRESOLVED_NO_INTRADAY_SERIES",
+      "note": "收盘在池不等于预案触发或买入成交；不在池不等于亏损"
+    },
+    {
+      "symbol": "002835",
+      "name": "同为股份",
+      "in_today_limit_pool": false,
+      "streak": null,
+      "condition_result": "UNRESOLVED_NO_INTRADAY_SERIES",
+      "note": "收盘在池不等于预案触发或买入成交；不在池不等于亏损"
+    },
+    {
+      "symbol": "002347",
+      "name": "泰尔股份",
+      "in_today_limit_pool": false,
+      "streak": null,
+      "condition_result": "UNRESOLVED_NO_INTRADAY_SERIES",
+      "note": "收盘在池不等于预案触发或买入成交；不在池不等于亏损"
+    },
+    {
+      "symbol": "002696",
+      "name": "百洋股份",
+      "in_today_limit_pool": false,
+      "streak": null,
+      "condition_result": "UNRESOLVED_NO_INTRADAY_SERIES",
+      "note": "收盘在池不等于预案触发或买入成交；不在池不等于亏损"
+    },
+    {
+      "symbol": "002313",
+      "name": "日海智能",
+      "in_today_limit_pool": false,
+      "streak": null,
+      "condition_result": "UNRESOLVED_NO_INTRADAY_SERIES",
+      "note": "收盘在池不等于预案触发或买入成交；不在池不等于亏损"
+    }
+  ],
+  "pnl": null,
+  "interpretation": "只核对涨停池出现情况，缺失行情不推断收益、胜率或因果带动"
+}

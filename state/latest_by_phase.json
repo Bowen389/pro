@@ -1,11 +1,11 @@
 {
   "evening": {
-    "run_key": "20261022T202754_evening_39733342951_3",
-    "report_path": "reports/2026-10-22/20261022T202754_evening_39733342951_3.md",
+    "run_key": "20261022T205834_evening_39782801165_1",
+    "report_path": "reports/2026-10-22/20261022T205834_evening_39782801165_1.md",
     "market_date": "2026-10-22",
     "phase": "evening",
     "result": "partial",
-    "started_at": "2026-10-22T20:27:54.259065+08:00"
+    "started_at": "2026-10-22T20:58:34.475520+08:00"
   },
   "validation": {
     "run_key": "20261022T202646_validation_39778380184_1",

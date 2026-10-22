@@ -1,0 +1,187 @@
+{
+  "version": "leader-evidence-v1.2",
+  "market_date": "2026-10-22",
+  "target_date": "2026-10-23",
+  "created_at": "2026-10-22T20:59:24.537597+08:00",
+  "data_scope": "source_limit_up_pool_only",
+  "source_updated_at": "2026-10-22 20:54:04+08:00",
+  "status": "CLOSE_OBSERVATION_POOL_NOT_PREMARKET_PLAN",
+  "rule_status": "UNVALIDATED_HEURISTICS",
+  "source_snapshot_hash": "79c67d58fa6464686ea7e1664b20cae59d6c48e5da8d34acb3b63e66dd51a86c",
+  "candidates": [
+    {
+      "symbol": "001360",
+      "name": "南矿集团",
+      "support": [
+        "连续1板",
+        "同题材池内最多4只",
+        "首封09:25:00"
+      ],
+      "counterevidence": [
+        "缺少全题材非涨停样本与因果验证"
+      ],
+      "classification": "同题材跟随观察",
+      "expected": "等待题材核心保持强势后，再观察自身能否维持强度",
+      "invalid": "核心走弱或自身反复开板，原跟随假设失效",
+      "research_score": 55.0,
+      "score_components": {
+        "early_seal": 20,
+        "seal_stability": 15.0,
+        "seal_ratio": 10,
+        "low_board_bonus": 10
+      },
+      "score_status": "unvalidated_baseline",
+      "score_version": "legacy-strength-v1",
+      "baseline_rank": 1,
+      "buy_signal": false
+    },
+    {
+      "symbol": "600293",
+      "name": "三峡新材",
+      "support": [
+        "连续3板",
+        "同题材池内最多2只",
+        "首封09:25:00"
+      ],
+      "counterevidence": [
+        "缺少全题材非涨停样本与因果验证"
+      ],
+      "classification": "独立强势观察",
+      "expected": "等待题材核心保持强势后，再观察自身能否维持强度",
+      "invalid": "核心走弱或自身反复开板，原跟随假设失效",
+      "research_score": 55.0,
+      "score_components": {
+        "early_seal": 20,
+        "seal_stability": 15.0,
+        "seal_ratio": 10,
+        "low_board_bonus": 10
+      },
+      "score_status": "unvalidated_baseline",
+      "score_version": "legacy-strength-v1",
+      "baseline_rank": 2,
+      "buy_signal": false
+    },
+    {
+      "symbol": "603350",
+      "name": "安乃达",
+      "support": [
+        "连续1板",
+        "同题材池内最多15只",
+        "首封09:34:45"
+      ],
+      "counterevidence": [
+        "缺少全题材非涨停样本与因果验证"
+      ],
+      "classification": "同题材跟随观察",
+      "expected": "等待题材核心保持强势后，再观察自身能否维持强度",
+      "invalid": "核心走弱或自身反复开板，原跟随假设失效",
+      "research_score": 52.84,
+      "score_components": {
+        "early_seal": 20,
+        "seal_stability": 14.0,
+        "seal_ratio": 8.84,
+        "low_board_bonus": 10
+      },
+      "score_status": "unvalidated_baseline",
+      "score_version": "legacy-strength-v1",
+      "baseline_rank": 3,
+      "buy_signal": false
+    },
+    {
+      "symbol": "603028",
+      "name": "赛福天",
+      "support": [
+        "连续1板",
+        "同题材池内最多15只",
+        "首封09:32:16"
+      ],
+      "counterevidence": [
+        "缺少全题材非涨停样本与因果验证"
+      ],
+      "classification": "同题材跟随观察",
+      "expected": "等待题材核心保持强势后，再观察自身能否维持强度",
+      "invalid": "核心走弱或自身反复开板，原跟随假设失效",
+      "research_score": 48.94,
+      "score_components": {
+        "early_seal": 20,
+        "seal_stability": 15.0,
+        "seal_ratio": 3.94,
+        "low_board_bonus": 10
+      },
+      "score_status": "unvalidated_baseline",
+      "score_version": "legacy-strength-v1",
+      "baseline_rank": 4,
+      "buy_signal": false
+    },
+    {
+      "symbol": "002249",
+      "name": "大洋电机",
+      "support": [
+        "连续1板",
+        "同题材池内最多15只",
+        "首封09:36:00"
+      ],
+      "counterevidence": [
+        "缺少全题材非涨停样本与因果验证"
+      ],
+      "classification": "同题材跟随观察",
+      "expected": "等待题材核心保持强势后，再观察自身能否维持强度",
+      "invalid": "核心走弱或自身反复开板，原跟随假设失效",
+      "research_score": 48.3,
+      "score_components": {
+        "early_seal": 20,
+        "seal_stability": 15.0,
+        "seal_ratio": 3.3,
+        "low_board_bonus": 10
+      },
+      "score_status": "unvalidated_baseline",
+      "score_version": "legacy-strength-v1",
+      "baseline_rank": 5,
+      "buy_signal": false
+    },
+    {
+      "symbol": "002535",
+      "name": "林州重机",
+      "support": [
+        "连续1板",
+        "同题材池内最多15只",
+        "首封09:31:48"
+      ],
+      "counterevidence": [
+        "缺少全题材非涨停样本与因果验证"
+      ],
+      "classification": "同题材跟随观察",
+      "expected": "等待题材核心保持强势后，再观察自身能否维持强度",
+      "invalid": "核心走弱或自身反复开板，原跟随假设失效",
+      "research_score": 48.22,
+      "score_components": {
+        "early_seal": 20,
+        "seal_stability": 14.0,
+        "seal_ratio": 4.22,
+        "low_board_bonus": 10
+      },
+      "score_status": "unvalidated_baseline",
+      "score_version": "legacy-strength-v1",
+      "baseline_rank": 6,
+      "buy_signal": false
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H01",
+      "claim": "早封且封板稳定的标的能否获得次日持续性",
+      "status": "pending",
+      "evaluation": "次日收盘与开盘表现，分组记录失败样本，不假设涨停可成交"
+    },
+    {
+      "id": "H02",
+      "claim": "强度锚与板块扩散是否共同出现",
+      "status": "pending",
+      "evaluation": "缺分钟数据，当前只能对照题材标签与存续数量，不能宣称因果带动"
+    }
+  ],
+  "calendar_status": "weekday_estimate_not_exchange_calendar",
+  "auto_orders": false,
+  "selection_basis": "legacy_strength_baseline_with_role_context",
+  "baseline_score_version": "legacy-strength-v1"
+}
