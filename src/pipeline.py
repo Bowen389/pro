@@ -232,6 +232,15 @@ def perform(root,phase,now=None,source_loader=collect_sources,market_loader=None
             data=json.loads(l2.read_text(encoding='utf-8'))
             if dt.datetime.fromisoformat(data['exported_at'])<=dt.datetime.now(TZ):l2_records.append({'path':str(l2.relative_to(root)),'summary':data.get('summary',[])})
         enrichment['l2_imports']=l2_records
+        breadth_data=enrichment.get('datasets',{}).get('breadth',{}).get('data',{})
+        universe=breadth_data.pop('rows',[])
+        if universe:
+            chunks=[]
+            for offset in range(0,len(universe),500):
+                chunk=root/'state/universe'/day/(run_key+'_'+str(offset//500)+'.json')
+                write_json(chunk,{'observed_at':enrichment['observed_at'],'rows':universe[offset:offset+500]})
+                chunks.append(str(chunk.relative_to(root)))
+            breadth_data['row_files']=chunks
         study=build_study(snapshot,history,enrichment)
         learning=ledger(root,snapshot,observed,enrichment)
         learning['iteration']=learning_summary(root,learning)
