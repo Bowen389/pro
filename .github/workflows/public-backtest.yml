@@ -1,0 +1,66 @@
+name: 公开数据日线研究回测
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'src/public_backtest.py'
+      - 'tests/test_public_backtest.py'
+      - 'config/public_backtest.json'
+      - '.github/workflows/public-backtest.yml'
+permissions:
+  contents: write
+concurrency:
+  group: public-daily-backtest
+  cancel-in-progress: false
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify engine and data-time constraints
+        run: python -m unittest discover -s tests -v
+      - name: Collect public history and run frozen protocol
+        run: python src/public_backtest.py
+      - name: Verify offline replay
+        run: |
+          python - <<'PY'
+          import json,sys
+          from pathlib import Path
+          sys.path.insert(0,'src')
+          from public_backtest import replay
+          latest=json.loads(Path('state/backtests/LATEST.json').read_text())
+          folder=Path('state/backtests')/latest['run_id']
+          result=replay(folder/'inputs.json.gz',folder/'replay_manifest.json')
+          print(json.dumps(result,ensure_ascii=False))
+          Path('replay_check.json').write_text(json.dumps(result,ensure_ascii=False))
+          PY
+      - name: Archive complete inputs and results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: public-backtest-${{ github.run_id }}
+          path: |
+            state/backtests/
+            reports/backtests/
+            replay_check.json
+          retention-days: 90
+      - name: Persist compact replay archive and all outcomes
+        if: success()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          find state/backtests -type f \( -name protocol.json -o -name result.json -o -name date_audit.json -o -name signals.json -o -name replay_manifest.json -o -name inputs.json.gz -o -name LATEST.json \) -print0 | xargs -0 git add --
+          git add -- reports/backtests
+          if ! git diff --cached --quiet; then
+            git commit -m 'Archive frozen public-data backtest and replay evidence [skip ci]'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
