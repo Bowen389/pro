@@ -13,6 +13,9 @@ from collector import collect
 from quant import database
 from public_sources import collect_sources
 from research_report import condition_plan
+from research_data import collect as collect_research,minute
+from author_analysis import analyze as analyze_authors
+from leader_study import build as build_study,apply_plan,ledger,render as render_study
 from phase_reports import render_midday,render_close
 from external_context import collect_external,overlay,render_external
 
@@ -96,7 +99,12 @@ def external_run(root,phase,now,run_key,status,history,loader):
         snapshot=max(closes,key=lambda s:s['source_updated_at'])
         if (now.date()-dt.date.fromisoformat(snapshot['date'])).days>4:raise ValueError('Prior close snapshot stale')
         created_at=dt.datetime.now(TZ).isoformat()
-        plan=condition_plan(snapshot,day,created_at);plan['version']='leader-backend-v0.3'
+        plan=condition_plan(snapshot,day,created_at)
+        studies=[]
+        for p in (root/'state/research'/snapshot['date']).glob('*.json'):
+            saved_study=json.loads(p.read_text(encoding='utf-8'))
+            if saved_study.get('study'):studies.append(saved_study)
+        if studies:apply_plan(plan,max(studies,key=lambda x:x['observed_at'])['study'])
         revision=overlay(plan,context,evening)
         plan['external_revision']=revision;plan['external_context_path']=str(context_path.relative_to(root))
         plan['evening_context_path']=str(evening_path.relative_to(root)) if evening_path else None
@@ -138,12 +146,30 @@ def evening_run(root,now,run_key,status,source_loader,market_loader,external_loa
     report_path=root/'reports'/now.date().isoformat()/(run_key+'.md')
     report_path.parent.mkdir(parents=True,exist_ok=True)
     report_path.write_text('# 晚间综合复盘：A股收盘、外盘与事件\n\n'+domestic_text+'\n---\n\n'+external_text,encoding='utf-8')
-    for key in ('market_date','market_count','source_posts','source_readable','plans_checked'):
+    for key in ('market_date','market_count','source_posts','source_readable','plans_checked','research_datasets','author_analysis_status'):
         if key in domestic:status[key]=domestic[key]
     partial=domestic.get('result')!='success' or not external_ok or status.get('result')=='partial'
     status.update({'result':'partial' if partial else 'success','report_path':str(report_path.relative_to(root)),'report_status':'combined_evening_review','market_status':domestic['market_status'],'domestic_result':domestic['result'],'product':'evening'})
     status['warnings']+=domestic.get('warnings',[])
     publish_latest(root,status)
+    return status
+
+
+def track_run(root,now,run_key,status):
+    day=now.date().isoformat();plans=[]
+    for path in (root/'state/plans'/day).glob('*.json'):
+        p=json.loads(path.read_text(encoding='utf-8'))
+        if dt.datetime.fromisoformat(p['created_at'])<=now:plans.append(p)
+    if not plans:
+        status.update({'result':'skipped','market_status':'no_frozen_plan','report_status':'no_report_data_capture_only'})
+        return status
+    plan=max(plans,key=lambda p:p['created_at'])
+    import concurrent.futures
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
+        records=list(pool.map(lambda c:minute(c['symbol'],day,now.isoformat()),plan['candidates']))
+    write_json(root/'state/minutes'/day/(run_key+'.json'),{'observed_at':now.isoformat(),'plan_created_at':plan['created_at'],'records':records})
+    ok=sum(r['status']=='ok' for r in records)
+    status.update({'result':'success' if ok==len(records) else 'partial','market_status':'minute_capture','market_count':ok,'report_status':'no_report_data_capture_only'})
     return status
 
 
@@ -157,6 +183,8 @@ def perform(root,phase,now=None,source_loader=collect_sources,market_loader=None
             status.update({'market_status':'skipped_weekend','source_status':'skipped','report_status':'skipped','result':'skipped'})
             return status
         history=load_snapshots(root)
+        if phase=='track':
+            return track_run(root,now,run_key,status)
         if phase=='evening':
             return evening_run(root,now,run_key,status,source_loader,market_loader,external_loader)
         if phase=='morning':
@@ -191,8 +219,24 @@ def perform(root,phase,now=None,source_loader=collect_sources,market_loader=None
         status['source_readable']=sum(x.get('status') in ('public_excerpt','partial_login_required') for x in batch.get('posts',[]))
         failures=sum(x.get('status') in ('fetch_failed','unparsed') for x in batch.get('posts',[]))+sum(x.get('status')=='failed' for x in batch.get('catalogues',[]))
         status['source_status']='partial' if failures or not status['source_readable'] else 'collected_public_excerpts'
+        analysis=analyze_authors(batch.get('posts',[]),observed)
+        for post in batch.get('posts',[]):post.pop('_analysis_text',None)
+        batch['analysis']=analysis
         write_json(root/'state/sources'/day/(run_key+'.json'),batch)
-        plan=condition_plan(snapshot,target,dt.datetime.now(TZ).isoformat())
+        frozen_symbols=[]
+        for frozen in (root/'state/plans'/day).glob('*.json'):
+            frozen_symbols.extend(c['symbol'] for c in json.loads(frozen.read_text(encoding='utf-8'))['candidates'])
+        enrichment=collect_research(snapshot,dt.datetime.now(TZ).isoformat(),frozen_symbols)
+        l2_records=[]
+        for l2 in (root/'state/l2'/day).glob('*.json'):
+            data=json.loads(l2.read_text(encoding='utf-8'))
+            if dt.datetime.fromisoformat(data['exported_at'])<=dt.datetime.now(TZ):l2_records.append({'path':str(l2.relative_to(root)),'summary':data.get('summary',[])})
+        enrichment['l2_imports']=l2_records
+        study=build_study(snapshot,history,enrichment)
+        learning=ledger(root,snapshot,observed,enrichment)
+        write_json(root/'state/research'/day/(run_key+'.json'),{'observed_at':observed,'enrichment':enrichment,'study':study,'author_analysis':analysis})
+        write_json(root/'state/learning'/day/(run_key+'.json'),learning)
+        plan=apply_plan(condition_plan(snapshot,target,dt.datetime.now(TZ).isoformat()),study)
         evaluations=evaluate(root,snapshot,observed) if phase=='close' else []
         if phase=='midday':
             plan['status']='INTRADAY_DRAFT_NOT_FROZEN_PREMARKET'
@@ -202,10 +246,16 @@ def perform(root,phase,now=None,source_loader=collect_sources,market_loader=None
             plan['status']='CLOSE_OBSERVATION_POOL_NOT_PREMARKET_PLAN'
             write_json(root/'state/close_observations'/day/(run_key+'.json'),plan)
             report=render_close(snapshot,history,batch,plan,evaluations)
+        report=report.replace('未取得全市场涨跌分布、指数、炸板池及完整分钟序列，不能单独以此判定市场情绪。','市场环境补充、数据可用性及分钟覆盖见下文研究记录；仅用本涨停池不能判定市场情绪。').replace('尚未完成模型语义分析，不根据标题或摘录自动给作者贴看多/看空标签。','作者语义分析的本次状态见下文；不根据标题猜测看多/看空。').replace('模型接口可选；当前未配置时仅有确定性研究稿。','模型运行状态见本次作者分析记录。')
+        report+='\n'+render_study(study,enrichment,analysis,learning)
+        status['research_datasets']={k:(v.get('status') if isinstance(v,dict) else str(sum(x.get('status')=='ok' for x in v))+'/'+str(len(v))) for k,v in enrichment.get('datasets',{}).items()}
+        research_partial=any(v.get('status')!='ok' if isinstance(v,dict) else any(x.get('status')!='ok' for x in v) for v in enrichment.get('datasets',{}).values())
+        status['author_analysis_status']=analysis['status']
+        if analysis['status']!='analyzed':status['warnings'].append('作者语义分析：'+analysis['status'])
         report_path=root/'reports'/day/(run_key+'.md');report_path.parent.mkdir(parents=True,exist_ok=True);report_path.write_text(report,encoding='utf-8')
-        status.update({'report_status':'generated_research_draft','report_path':str(report_path.relative_to(root)),'plan_path':None,'plans_checked':len(evaluations),'result':'partial' if status['source_status']=='partial' else 'success'})
+        status.update({'report_status':'generated_research_draft','report_path':str(report_path.relative_to(root)),'plan_path':None,'plans_checked':len(evaluations),'result':'partial' if status['source_status']=='partial' or analysis['status']!='analyzed' or research_partial else 'success'})
         publish_latest(root,status)
-        status['warnings']+=['仅有涨停池；全市场指数、炸板池、历史分钟和L2未接通','自动研究分未验证；模型未配置时不进行语义观点提炼','工作日为近似交易日历；节假日数据可能陈旧并报错']
+        status['warnings']+=['研究数据覆盖以research_datasets及归档记录为准；L2尚未实接','角色排序未验证收益；模型未配置时不进行语义观点提炼','工作日为近似交易日历；节假日数据可能陈旧并报错']
     except Exception as exc:
         status.update({'result':'failed','exit_code':1,'error_type':type(exc).__name__,'error':str(exc)[:400],'report_status':'not_generated'})
     finally:
@@ -216,7 +266,7 @@ def perform(root,phase,now=None,source_loader=collect_sources,market_loader=None
 
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--phase',choices=['auto','morning','midday','close','evening'],default='auto');a=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('--phase',choices=['auto','morning','midday','close','evening','track'],default='auto');a=p.parse_args()
     root=Path(__file__).resolve().parents[1];status=perform(root,a.phase)
     print(json.dumps(status,ensure_ascii=False,indent=2))
     summary=os.environ.get('GITHUB_STEP_SUMMARY')

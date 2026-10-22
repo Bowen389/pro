@@ -2,6 +2,7 @@ import datetime as dt
 import json
 import tempfile
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 import sys
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
@@ -19,8 +20,9 @@ def external(phase,observed,start):
     return {'phase':phase,'observed_at':observed,'news_window_start':start,'markets':[], 'events':[], 'news_sources':[{'source':'test','url':'https://example.com','status':'ok'}]}
 class PipelineChecks(unittest.TestCase):
     def setUp(self):
+        self.patch=patch('pipeline.collect_research',return_value={'datasets':{}});self.patch.start()
         self.tmp=tempfile.TemporaryDirectory();self.root=Path(self.tmp.name);(self.root/'config').mkdir();write_json(self.root/'config/sources.json',{'authors':[]})
-    def tearDown(self):self.tmp.cleanup()
+    def tearDown(self):self.patch.stop();self.tmp.cleanup()
     def test_real_state_paths(self):
         r=perform(self.root,'close',dt.datetime(2026,10,21,16,tzinfo=TZ),sources,market)
         self.assertEqual(r['exit_code'],0);self.assertTrue((self.root/r['report_path']).is_file());self.assertEqual(len(load_snapshots(self.root)),1)

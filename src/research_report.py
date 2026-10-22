@@ -10,18 +10,13 @@ def esc(text):return str(text).replace('|','／').replace('\n',' ')
 
 
 def rank(snapshot):
-    ranked=[]
-    for item in snapshot['rows']:
-        r=dict(item)
-        r['research_score']=round((20 if r['first_limit_time']<'10:00:00' else 10 if r['first_limit_time']<'11:30:00' else 0)+max(0,15-min(r['break_count'],15))+min(r['seal_ratio_pct'],5)*2+(10 if r['streak'] in (1,2,3) else 0),2)
-        r['early_low_turnover']=r['first_limit_time']=='09:25:00' and r['turnover_pct']<3
-        r['classification']='强度观察：可成交性待核验' if r['early_low_turnover'] else '研究观察：盘中确认待补'
-        r['support']=['首封'+r['first_limit_time'],'开板'+str(r['break_count'])+'次','连续'+str(r['streak'])+'板']
-        r['counterevidence']=['未取得真实队列与成交能力','未验证相对历史预期和分钟带动性']
-        if r['first_limit_time']>='14:00:00':r['counterevidence'].append('首次封板较晚')
-        if r['break_count']>=3:r['counterevidence'].append('反复开板，需验证承接')
-        ranked.append(r)
-    return sorted(ranked,key=lambda r:(-r['research_score'],r['symbol']))
+    from leader_study import build
+    study=build(snapshot,[],{})
+    result=[]
+    for row in study['roles']:
+        r=dict(row);r['research_score']='不再使用';r['early_low_turnover']=r['first_limit_time']=='09:25:00' and r['turnover_pct']<3
+        result.append(r)
+    return result
 
 
 def condition_plan(snapshot,target,created_at):
@@ -35,7 +30,7 @@ def render(snapshot,history,source_batch,plan,phase):
     midday=max(same,key=lambda x:x['source_updated_at']) if same else None
     earlier=[x for x in history if x['date']<snapshot['date'] and x.get('phase')=='close']
     previous=max(earlier,key=lambda x:x['source_updated_at']) if earlier else None
-    lines=[f"# {snapshot['date']} 龙头研究 · {phase}",'',f"采集：{snapshot.get('observed_at')}；数据源更新：{snapshot['source_updated_at']}",'','**状态：真实公开涨停池已采集；报告为待验证研究稿，尚未通过完整交付验收。**','','## 一、数据覆盖与缺口','',f"本次涨停池 {len(rows)} 只。未取得全市场涨跌分布、指数、炸板池及完整分钟序列，不能单独以此判定市场情绪。",'封单比与封单留存率不同；09:25早封不能证明全天一字、也不能证明买不到。以下强度排序只是未校准的观察工具。','','## 二、快照比较','','|时点|涨停池数量|数据状态|','|---|---:|---|',f"|前一交易日收盘|{previous['count'] if previous else '缺失'}|{'已保存' if previous else '尚未积累同源快照'}|",f"|本日午间|{midday['count'] if midday else '缺失'}|{'已保存' if midday else '没有当时采集，不能拿收盘倒推'}|",f"|本次|{len(rows)}|本次公开数据|"]
+    lines=[f"# {snapshot['date']} 龙头研究 · {phase}",'',f"采集：{snapshot.get('observed_at')}；数据源更新：{snapshot['source_updated_at']}",'','**状态：真实公开涨停池已采集；报告为待验证研究稿，尚未通过完整交付验收。**','','## 一、数据覆盖与缺口','',f"本次涨停池 {len(rows)} 只。未取得全市场涨跌分布、指数、炸板池及完整分钟序列，不能单独以此判定市场情绪。",'封单比与封单留存率不同；09:25早封不能证明全天一字、也不能证明买不到。以下角色排序只用于观察，不是经验证的收益预测。','','## 二、快照比较','','|时点|涨停池数量|数据状态|','|---|---:|---|',f"|前一交易日收盘|{previous['count'] if previous else '缺失'}|{'已保存' if previous else '尚未积累同源快照'}|",f"|本日午间|{midday['count'] if midday else '缺失'}|{'已保存' if midday else '没有当时采集，不能拿收盘倒推'}|",f"|本次|{len(rows)}|本次公开数据|"]
     lines+=['','## 三、梯队及晋级','','|连续板数|当前数量|','|---|---:|']
     for n,c in sorted(heights.items(),reverse=True):lines.append(f'|{n}|{c}|')
     if previous:
@@ -53,7 +48,7 @@ def render(snapshot,history,source_batch,plan,phase):
     lines+=['','## 四、题材结构','','|来源标签|涨停样本数|最高板|样本|','|---|---:|---:|---|']
     for theme,items in sorted(themes.items(),key=lambda kv:(-len(kv[1]),kv[0]))[:12]:
         lines.append(f"|{esc(theme)}|{len(items)}|{max(r['streak'] for r in items)}|{esc('、'.join(r['name'] for r in items[:5]))}|")
-    lines+=['','标签存在交叉及归类误差，不能把行数相加作为市场总数。没有题材全量成交占比与连续多日扩散证据，暂不宣布唯一主线。','','## 五、观察池与反证','','|标的|板数|首封|开板|封单比|换手|研究分|定位|','|---|---:|---|---:|---:|---:|---:|---|']
+    lines+=['','标签存在交叉及归类误差，不能把行数相加作为市场总数。没有题材全量成交占比与连续多日扩散证据，暂不宣布唯一主线。','','## 五、观察池与反证','','|标的|板数|首封|开板|封单比|换手|旧研究分已停用|定位|','|---|---:|---|---:|---:|---:|---:|---|']
     for r in pool[:10]:lines.append(f"|{esc(r['name'])} {r['symbol']}|{r['streak']}|{r['first_limit_time']}|{r['break_count']}|{r['seal_ratio_pct']:.2f}%|{r['turnover_pct']:.2f}%|{r['research_score']}|{r['classification']}|")
     for c in plan['candidates']:
         lines+=['',f"### {c['name']} {c['symbol']}",'依据：'+'；'.join(c['support']),'反证/缺口：'+'；'.join(c['counterevidence']),'待验证：'+c['expected'],'失效：'+c['invalid']]

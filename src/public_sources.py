@@ -62,7 +62,7 @@ def parse_post(url,body,author,observed):
     # Preserve a short public excerpt only; quotes are never automatically promoted to rules.
     excerpt=' '.join(public.split())[:40]
     status='partial_login_required' if gate else 'public_excerpt' if excerpt else 'unparsed'
-    return {'url':url,'author':author,'title':title,'published_at':published[1].replace(' ','T')+':00+08:00' if published else None,'collected_at':observed,'available_at':observed,'status':status,'excerpt':excerpt,'body_sha256':hashlib.sha256(body.encode()).hexdigest(),'evidence_level':'public_author_material_not_independently_verified','semantic_analysis':'pending'}
+    return {'url':url,'author':author,'title':title,'published_at':published[1].replace(' ','T')+':00+08:00' if published else None,'collected_at':observed,'available_at':observed,'status':status,'excerpt':excerpt,'body_sha256':hashlib.sha256(body.encode()).hexdigest(),'evidence_level':'public_author_material_not_independently_verified','semantic_analysis':'pending','_analysis_text':public[:8000]}
 
 
 def collect_sources(config,observed):

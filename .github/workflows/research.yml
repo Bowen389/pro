@@ -12,12 +12,13 @@ on:
       phase:
         description: 采集阶段
         type: choice
-        options: [auto, morning, midday, close, evening]
+        options: [auto, morning, midday, close, evening, track]
         default: auto
   schedule:
     - cron: '5 1 * * 1-5'
     - cron: '37 3 * * 1-5'
     - cron: '17 12 * * 1-5'
+    - cron: '5 2,3,6 * * 1-5'
 permissions:
   contents: write
 concurrency:
@@ -50,11 +51,14 @@ jobs:
             '5 1 * * 1-5') phase=morning ;;
             '37 3 * * 1-5') phase=midday ;;
             '17 12 * * 1-5') phase=evening ;;
+            '5 2,3,6 * * 1-5') phase=track ;;
           esac
           echo "phase=$phase" >> "$GITHUB_OUTPUT"
       - name: Capture public data and create research records
         id: capture
         env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          RESEARCH_MODEL: ${{ vars.RESEARCH_MODEL }}
           RESEARCH_PHASE: ${{ steps.phase.outputs.phase }}
         run: python src/pipeline.py --phase "$RESEARCH_PHASE"
       - name: Persist snapshots and reports, including failures
