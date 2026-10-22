@@ -1,0 +1,125 @@
+{
+  "version": "leader-evidence-v1.1",
+  "market_date": "2026-10-22",
+  "target_date": "2026-10-23",
+  "created_at": "2026-10-22T20:17:47.063801+08:00",
+  "data_scope": "source_limit_up_pool_only",
+  "source_updated_at": "2026-10-22 20:15:08+08:00",
+  "status": "CLOSE_OBSERVATION_POOL_NOT_PREMARKET_PLAN",
+  "rule_status": "UNVALIDATED_HEURISTICS",
+  "source_snapshot_hash": "7a9db16a6fc114df156d4647d5fc191d0042fabf08a23262d0cab1caf15c96aa",
+  "candidates": [
+    {
+      "symbol": "603278",
+      "name": "大业股份",
+      "support": [
+        "连续5板",
+        "同题材池内最多15只",
+        "首封09:30:19"
+      ],
+      "counterevidence": [
+        "缺少全题材非涨停样本与因果验证"
+      ],
+      "classification": "市场高度锚",
+      "expected": "高度锚保持相对强势，观察同题材15只样本是否继续跟随",
+      "invalid": "高度锚走弱且后排无接替；缺分钟数据时不判触发",
+      "buy_signal": false
+    },
+    {
+      "symbol": "002724",
+      "name": "海洋王",
+      "support": [
+        "连续5板",
+        "同题材池内最多3只",
+        "首封09:25:00"
+      ],
+      "counterevidence": [
+        "缺少全题材非涨停样本与因果验证"
+      ],
+      "classification": "市场高度锚",
+      "expected": "高度锚保持相对强势，观察同题材3只样本是否继续跟随",
+      "invalid": "高度锚走弱且后排无接替；缺分钟数据时不判触发",
+      "buy_signal": false
+    },
+    {
+      "symbol": "600293",
+      "name": "三峡新材",
+      "support": [
+        "连续3板",
+        "同题材池内最多2只",
+        "首封09:25:00"
+      ],
+      "counterevidence": [
+        "缺少全题材非涨停样本与因果验证"
+      ],
+      "classification": "独立强势观察",
+      "expected": "等待题材核心保持强势后，再观察自身能否维持强度",
+      "invalid": "核心走弱或自身反复开板，原跟随假设失效",
+      "buy_signal": false
+    },
+    {
+      "symbol": "002076",
+      "name": "星光股份",
+      "support": [
+        "连续3板",
+        "同题材池内最多1只",
+        "首封09:25:00"
+      ],
+      "counterevidence": [
+        "缺少全题材非涨停样本与因果验证"
+      ],
+      "classification": "独立强势观察",
+      "expected": "等待题材核心保持强势后，再观察自身能否维持强度",
+      "invalid": "核心走弱或自身反复开板，原跟随假设失效",
+      "buy_signal": false
+    },
+    {
+      "symbol": "603138",
+      "name": "海量数据",
+      "support": [
+        "连续2板",
+        "同题材池内最多2只",
+        "首封09:25:00"
+      ],
+      "counterevidence": [
+        "缺少全题材非涨停样本与因果验证"
+      ],
+      "classification": "独立强势观察",
+      "expected": "等待题材核心保持强势后，再观察自身能否维持强度",
+      "invalid": "核心走弱或自身反复开板，原跟随假设失效",
+      "buy_signal": false
+    },
+    {
+      "symbol": "601999",
+      "name": "出版传媒",
+      "support": [
+        "连续2板",
+        "同题材池内最多2只",
+        "首封09:30:54"
+      ],
+      "counterevidence": [
+        "缺少全题材非涨停样本与因果验证"
+      ],
+      "classification": "独立强势观察",
+      "expected": "等待题材核心保持强势后，再观察自身能否维持强度",
+      "invalid": "核心走弱或自身反复开板，原跟随假设失效",
+      "buy_signal": false
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H01",
+      "claim": "早封且封板稳定的标的能否获得次日持续性",
+      "status": "pending",
+      "evaluation": "次日收盘与开盘表现，分组记录失败样本，不假设涨停可成交"
+    },
+    {
+      "id": "H02",
+      "claim": "强度锚与板块扩散是否共同出现",
+      "status": "pending",
+      "evaluation": "缺分钟数据，当前只能对照题材标签与存续数量，不能宣称因果带动"
+    }
+  ],
+  "calendar_status": "weekday_estimate_not_exchange_calendar",
+  "auto_orders": false
+}

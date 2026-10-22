@@ -1,23 +1,33 @@
 {
-  "run_key": "20261022T200300_validation_39775209272_1",
-  "phase": "validation",
-  "started_at": "2026-10-22T20:03:00.577735+08:00",
-  "run_url": "https://github.com/Bowen389/pro/actions/runs/39775209272",
+  "run_key": "20261022T201704_evening_39733342951_2",
+  "phase": "evening",
+  "started_at": "2026-10-22T20:17:04.747368+08:00",
+  "run_url": "https://github.com/Bowen389/pro/actions/runs/39733342951",
   "system_status": "DEVELOPMENT_VALIDATION",
   "market_status": "collected_public_limit_pool",
-  "source_status": "collected_public_excerpts",
-  "report_status": "generated_research_draft",
+  "source_status": "collected_external",
+  "report_status": "combined_evening_review",
   "warnings": [
+    "外盘可能延迟，按报价时间及当地交易状态解读",
+    "新闻源有限，标题事件与A股映射仍待核验",
     "作者语义分析：not_configured",
     "研究数据覆盖以research_datasets及归档记录为准；L2尚未实接",
     "角色排序未验证收益；模型未配置时不进行语义观点提炼",
     "工作日为近似交易日历；节假日数据可能陈旧并报错"
   ],
   "exit_code": 0,
+  "external_market_count": 11,
+  "news_source_count": 3,
+  "news_event_count": 53,
+  "report_path": "reports/2026-10-22/20261022T201704_evening_39733342951_2.md",
+  "external_context_path": "state/external/2026-10-22/20261022T201704_evening_39733342951_2.json",
+  "result": "partial",
+  "product": "evening",
   "market_date": "2026-10-22",
   "market_count": 33,
   "source_posts": 9,
   "source_readable": 9,
+  "plans_checked": 3,
   "research_datasets": {
     "indices": "ok",
     "breadth": "ok",
@@ -28,9 +38,6 @@
     "notices": "16/16"
   },
   "author_analysis_status": "not_configured",
-  "report_path": "reports/2026-10-22/20261022T200300_validation_39775209272_1.md",
-  "plan_path": null,
-  "plans_checked": 0,
-  "result": "partial",
-  "finished_at": "2026-10-22T20:03:53.344340+08:00"
+  "domestic_result": "partial",
+  "finished_at": "2026-10-22T20:17:49.924555+08:00"
 }

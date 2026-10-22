@@ -1,0 +1,4505 @@
+{
+  "observed_at": "2026-10-22T20:17:19.077475+08:00",
+  "rows": [
+    {
+      "symbol": "000636",
+      "name": "风华高科",
+      "price": 39.58,
+      "previous": 41.02,
+      "change_pct": -3.51,
+      "amount_yuan": 3001074697.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000637",
+      "name": "茂化实华",
+      "price": 4.01,
+      "previous": 3.93,
+      "change_pct": 2.036,
+      "amount_yuan": 211411127.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000639",
+      "name": "ST西王",
+      "price": 1.52,
+      "previous": 1.58,
+      "change_pct": -3.797,
+      "amount_yuan": 74814669.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000650",
+      "name": "仁和药业",
+      "price": 5.04,
+      "previous": 5.12,
+      "change_pct": -1.563,
+      "amount_yuan": 74718368.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000651",
+      "name": "格力电器",
+      "price": 37.43,
+      "previous": 37.13,
+      "change_pct": 0.808,
+      "amount_yuan": 2381999497.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000652",
+      "name": "泰达股份",
+      "price": 3.11,
+      "previous": 3.18,
+      "change_pct": -2.201,
+      "amount_yuan": 28837826.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000655",
+      "name": "金岭矿业",
+      "price": 6.51,
+      "previous": 6.68,
+      "change_pct": -2.545,
+      "amount_yuan": 24843876.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000656",
+      "name": "金科股份",
+      "price": 1.08,
+      "previous": 1.11,
+      "change_pct": -2.703,
+      "amount_yuan": 191166489.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000657",
+      "name": "中钨高新",
+      "price": 41.64,
+      "previous": 44.0,
+      "change_pct": -5.364,
+      "amount_yuan": 1607893889.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000659",
+      "name": "珠海中富",
+      "price": 2.56,
+      "previous": 2.65,
+      "change_pct": -3.396,
+      "amount_yuan": 41776565.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000661",
+      "name": "长春高新",
+      "price": 68.39,
+      "previous": 69.15,
+      "change_pct": -1.099,
+      "amount_yuan": 218617522.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000663",
+      "name": "永安林业",
+      "price": 5.47,
+      "previous": 5.68,
+      "change_pct": -3.697,
+      "amount_yuan": 36770057.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000665",
+      "name": "湖北广电",
+      "price": 4.01,
+      "previous": 4.3,
+      "change_pct": -6.744,
+      "amount_yuan": 140779106.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000668",
+      "name": "荣丰控股",
+      "price": 15.71,
+      "previous": 17.13,
+      "change_pct": -8.29,
+      "amount_yuan": 79549609.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000669",
+      "name": "ST金鸿",
+      "price": 3.54,
+      "previous": 3.65,
+      "change_pct": -3.014,
+      "amount_yuan": 13412688.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000670",
+      "name": "盈方微",
+      "price": 6.34,
+      "previous": 6.28,
+      "change_pct": 0.955,
+      "amount_yuan": 278126144.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000672",
+      "name": "上峰材料",
+      "price": 13.73,
+      "previous": 14.03,
+      "change_pct": -2.138,
+      "amount_yuan": 124546887.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000676",
+      "name": "智度股份",
+      "price": 6.09,
+      "previous": 6.48,
+      "change_pct": -6.019,
+      "amount_yuan": 331210273.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000677",
+      "name": "ST海龙",
+      "price": 1.6,
+      "previous": 1.63,
+      "change_pct": -1.84,
+      "amount_yuan": 26952577.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000678",
+      "name": "襄阳轴承",
+      "price": 12.03,
+      "previous": 10.94,
+      "change_pct": 9.963,
+      "amount_yuan": 857281477.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000679",
+      "name": "大连友谊",
+      "price": 6.01,
+      "previous": 6.17,
+      "change_pct": -2.593,
+      "amount_yuan": 28265059.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000680",
+      "name": "山推股份",
+      "price": 8.71,
+      "previous": 8.71,
+      "change_pct": 0.0,
+      "amount_yuan": 117111592.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000681",
+      "name": "视觉中国",
+      "price": 15.51,
+      "previous": 16.33,
+      "change_pct": -5.021,
+      "amount_yuan": 331458357.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000682",
+      "name": "东方电子",
+      "price": 10.48,
+      "previous": 10.55,
+      "change_pct": -0.664,
+      "amount_yuan": 78385717.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000683",
+      "name": "博源化工",
+      "price": 5.22,
+      "previous": 5.35,
+      "change_pct": -2.43,
+      "amount_yuan": 213737762.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000685",
+      "name": "中山公用",
+      "price": 10.17,
+      "previous": 10.32,
+      "change_pct": -1.453,
+      "amount_yuan": 75785906.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000686",
+      "name": "东北证券",
+      "price": 7.26,
+      "previous": 7.33,
+      "change_pct": -0.955,
+      "amount_yuan": 89344677.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000688",
+      "name": "国城矿业",
+      "price": 20.66,
+      "previous": 21.9,
+      "change_pct": -5.662,
+      "amount_yuan": 336246683.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000690",
+      "name": "宝新能源",
+      "price": 5.45,
+      "previous": 5.48,
+      "change_pct": -0.547,
+      "amount_yuan": 510486245.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000691",
+      "name": "亚太实业",
+      "price": 7.71,
+      "previous": 8.21,
+      "change_pct": -6.09,
+      "amount_yuan": 55886529.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000692",
+      "name": "惠天热电",
+      "price": 4.1,
+      "previous": 4.38,
+      "change_pct": -6.393,
+      "amount_yuan": 131664352.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000695",
+      "name": "滨海能源",
+      "price": 11.46,
+      "previous": 11.69,
+      "change_pct": -1.967,
+      "amount_yuan": 37194468.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000697",
+      "name": "炼石航空",
+      "price": 8.6,
+      "previous": 8.83,
+      "change_pct": -2.605,
+      "amount_yuan": 69111747.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000698",
+      "name": "ST沈化",
+      "price": 3.45,
+      "previous": 3.51,
+      "change_pct": -1.709,
+      "amount_yuan": 10622120.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000700",
+      "name": "模塑科技",
+      "price": 10.8,
+      "previous": 10.96,
+      "change_pct": -1.46,
+      "amount_yuan": 601819641.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000701",
+      "name": "厦门信达",
+      "price": 5.27,
+      "previous": 5.34,
+      "change_pct": -1.311,
+      "amount_yuan": 242594728.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000702",
+      "name": "正虹科技",
+      "price": 5.28,
+      "previous": 5.52,
+      "change_pct": -4.348,
+      "amount_yuan": 53585568.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000703",
+      "name": "恒逸石化",
+      "price": 12.69,
+      "previous": 13.5,
+      "change_pct": -6.0,
+      "amount_yuan": 965332984.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000705",
+      "name": "浙江震元",
+      "price": 6.6,
+      "previous": 6.76,
+      "change_pct": -2.367,
+      "amount_yuan": 25375642.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000707",
+      "name": "双环科技",
+      "price": 4.31,
+      "previous": 4.4,
+      "change_pct": -2.045,
+      "amount_yuan": 24032339.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000708",
+      "name": "中信特钢",
+      "price": 12.65,
+      "previous": 13.01,
+      "change_pct": -2.767,
+      "amount_yuan": 168011276.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000709",
+      "name": "河钢股份",
+      "price": 1.98,
+      "previous": 2.0,
+      "change_pct": -1.0,
+      "amount_yuan": 140876465.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000710",
+      "name": "贝瑞基因",
+      "price": 9.96,
+      "previous": 10.74,
+      "change_pct": -7.263,
+      "amount_yuan": 376269161.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000711",
+      "name": "京蓝科技",
+      "price": 3.71,
+      "previous": 3.81,
+      "change_pct": -2.625,
+      "amount_yuan": 348666231.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000712",
+      "name": "锦龙股份",
+      "price": 8.73,
+      "previous": 9.7,
+      "change_pct": -10.0,
+      "amount_yuan": 828423248.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000713",
+      "name": "国投丰乐",
+      "price": 5.67,
+      "previous": 5.87,
+      "change_pct": -3.407,
+      "amount_yuan": 59113823.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000715",
+      "name": "中兴商业",
+      "price": 5.21,
+      "previous": 5.3,
+      "change_pct": -1.698,
+      "amount_yuan": 64840803.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000716",
+      "name": "黑芝麻",
+      "price": 4.77,
+      "previous": 4.89,
+      "change_pct": -2.454,
+      "amount_yuan": 54678197.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000717",
+      "name": "中南股份",
+      "price": 2.1,
+      "previous": 2.13,
+      "change_pct": -1.408,
+      "amount_yuan": 24060561.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000718",
+      "name": "苏宁环球",
+      "price": 1.86,
+      "previous": 1.92,
+      "change_pct": -3.125,
+      "amount_yuan": 45812949.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000719",
+      "name": "中原传媒",
+      "price": 12.21,
+      "previous": 12.64,
+      "change_pct": -3.402,
+      "amount_yuan": 106114738.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000720",
+      "name": "新能泰山",
+      "price": 3.27,
+      "previous": 3.37,
+      "change_pct": -2.967,
+      "amount_yuan": 51685912.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000721",
+      "name": "西安饮食",
+      "price": 5.87,
+      "previous": 6.02,
+      "change_pct": -2.492,
+      "amount_yuan": 34319555.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000722",
+      "name": "湖南发展",
+      "price": 12.08,
+      "previous": 12.54,
+      "change_pct": -3.668,
+      "amount_yuan": 199829482.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000723",
+      "name": "美锦能源",
+      "price": 3.28,
+      "previous": 3.37,
+      "change_pct": -2.671,
+      "amount_yuan": 134556733.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000725",
+      "name": "京东方Ａ",
+      "price": 4.86,
+      "previous": 5.05,
+      "change_pct": -3.762,
+      "amount_yuan": 5047212787.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000726",
+      "name": "鲁 泰Ａ",
+      "price": 5.71,
+      "previous": 5.76,
+      "change_pct": -0.868,
+      "amount_yuan": 24477359.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000727",
+      "name": "冠捷科技",
+      "price": 2.1,
+      "previous": 2.13,
+      "change_pct": -1.408,
+      "amount_yuan": 140320226.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000728",
+      "name": "国元证券",
+      "price": 7.0,
+      "previous": 7.08,
+      "change_pct": -1.13,
+      "amount_yuan": 135783117.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000729",
+      "name": "燕京啤酒",
+      "price": 10.92,
+      "previous": 11.07,
+      "change_pct": -1.355,
+      "amount_yuan": 146255875.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000731",
+      "name": "四川美丰",
+      "price": 7.19,
+      "previous": 7.53,
+      "change_pct": -4.515,
+      "amount_yuan": 63935208.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000733",
+      "name": "振华科技",
+      "price": 37.25,
+      "previous": 37.59,
+      "change_pct": -0.904,
+      "amount_yuan": 238856843.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000735",
+      "name": "罗 牛 山",
+      "price": 5.2,
+      "previous": 5.36,
+      "change_pct": -2.985,
+      "amount_yuan": 155721998.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000736",
+      "name": "中交发展",
+      "price": 4.28,
+      "previous": 4.45,
+      "change_pct": -3.82,
+      "amount_yuan": 69050250.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000737",
+      "name": "北方铜业",
+      "price": 11.5,
+      "previous": 12.09,
+      "change_pct": -4.88,
+      "amount_yuan": 564216227.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000738",
+      "name": "航发控制",
+      "price": 18.48,
+      "previous": 18.96,
+      "change_pct": -2.532,
+      "amount_yuan": 178323715.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000739",
+      "name": "普洛药业",
+      "price": 20.88,
+      "previous": 21.18,
+      "change_pct": -1.416,
+      "amount_yuan": 266076727.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000750",
+      "name": "国海证券",
+      "price": 3.49,
+      "previous": 3.53,
+      "change_pct": -1.133,
+      "amount_yuan": 119587350.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000751",
+      "name": "锌业股份",
+      "price": 4.06,
+      "previous": 4.13,
+      "change_pct": -1.695,
+      "amount_yuan": 57689916.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000752",
+      "name": "*ST西发",
+      "price": 8.02,
+      "previous": 8.21,
+      "change_pct": -2.314,
+      "amount_yuan": 6539116.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000753",
+      "name": "漳州发展",
+      "price": 4.71,
+      "previous": 4.9,
+      "change_pct": -3.878,
+      "amount_yuan": 192356590.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000755",
+      "name": "山西高速",
+      "price": 4.49,
+      "previous": 4.55,
+      "change_pct": -1.319,
+      "amount_yuan": 14480714.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000756",
+      "name": "新华制药",
+      "price": 12.62,
+      "previous": 13.12,
+      "change_pct": -3.811,
+      "amount_yuan": 200006828.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000757",
+      "name": "浩物股份",
+      "price": 4.19,
+      "previous": 4.38,
+      "change_pct": -4.338,
+      "amount_yuan": 62582548.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000758",
+      "name": "中色股份",
+      "price": 5.62,
+      "previous": 5.61,
+      "change_pct": 0.178,
+      "amount_yuan": 122491261.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000759",
+      "name": "中百集团",
+      "price": 5.72,
+      "previous": 5.97,
+      "change_pct": -4.188,
+      "amount_yuan": 258684810.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000761",
+      "name": "本钢板材",
+      "price": 2.19,
+      "previous": 2.26,
+      "change_pct": -3.097,
+      "amount_yuan": 33914579.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000762",
+      "name": "西藏矿业",
+      "price": 18.53,
+      "previous": 19.07,
+      "change_pct": -2.832,
+      "amount_yuan": 168013333.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000766",
+      "name": "通化金马",
+      "price": 15.03,
+      "previous": 15.35,
+      "change_pct": -2.085,
+      "amount_yuan": 167016260.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000767",
+      "name": "晋控电力",
+      "price": 3.1,
+      "previous": 3.16,
+      "change_pct": -1.899,
+      "amount_yuan": 134365412.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000768",
+      "name": "中航西飞",
+      "price": 22.8,
+      "previous": 23.05,
+      "change_pct": -1.085,
+      "amount_yuan": 401975052.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000776",
+      "name": "广发证券",
+      "price": 18.55,
+      "previous": 18.68,
+      "change_pct": -0.696,
+      "amount_yuan": 884962740.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000777",
+      "name": "中核科技",
+      "price": 15.5,
+      "previous": 15.87,
+      "change_pct": -2.331,
+      "amount_yuan": 46301195.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000778",
+      "name": "新兴铸管",
+      "price": 3.51,
+      "previous": 3.56,
+      "change_pct": -1.404,
+      "amount_yuan": 105100869.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000779",
+      "name": "甘咨询",
+      "price": 7.76,
+      "previous": 8.05,
+      "change_pct": -3.602,
+      "amount_yuan": 92767942.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000782",
+      "name": "恒申新材",
+      "price": 7.6,
+      "previous": 7.81,
+      "change_pct": -2.689,
+      "amount_yuan": 58749359.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000783",
+      "name": "长江证券",
+      "price": 7.43,
+      "previous": 7.56,
+      "change_pct": -1.72,
+      "amount_yuan": 326241271.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000785",
+      "name": "居然智家",
+      "price": 2.06,
+      "previous": 2.15,
+      "change_pct": -4.186,
+      "amount_yuan": 107616076.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000786",
+      "name": "北新建材",
+      "price": 16.3,
+      "previous": 16.37,
+      "change_pct": -0.428,
+      "amount_yuan": 186342443.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000788",
+      "name": "北大医药",
+      "price": 5.7,
+      "previous": 5.86,
+      "change_pct": -2.73,
+      "amount_yuan": 336375599.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000789",
+      "name": "万年青",
+      "price": 4.01,
+      "previous": 4.06,
+      "change_pct": -1.232,
+      "amount_yuan": 14821702.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000790",
+      "name": "华神科技",
+      "price": 3.7,
+      "previous": 3.86,
+      "change_pct": -4.145,
+      "amount_yuan": 93006937.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000791",
+      "name": "甘肃能源",
+      "price": 6.59,
+      "previous": 6.74,
+      "change_pct": -2.226,
+      "amount_yuan": 69434300.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000792",
+      "name": "盐湖股份",
+      "price": 21.67,
+      "previous": 22.53,
+      "change_pct": -3.817,
+      "amount_yuan": 1448167535.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000793",
+      "name": "ST华闻",
+      "price": 1.88,
+      "previous": 1.93,
+      "change_pct": -2.591,
+      "amount_yuan": 19958388.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000795",
+      "name": "英洛华",
+      "price": 8.22,
+      "previous": 8.23,
+      "change_pct": -0.122,
+      "amount_yuan": 79032548.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000796",
+      "name": "凯撒旅业",
+      "price": 3.21,
+      "previous": 3.33,
+      "change_pct": -3.604,
+      "amount_yuan": 83043318.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000797",
+      "name": "中国武夷",
+      "price": 2.29,
+      "previous": 2.4,
+      "change_pct": -4.583,
+      "amount_yuan": 65729189.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000798",
+      "name": "中水渔业",
+      "price": 8.8,
+      "previous": 9.4,
+      "change_pct": -6.383,
+      "amount_yuan": 172307630.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000799",
+      "name": "酒鬼酒",
+      "price": 34.61,
+      "previous": 36.15,
+      "change_pct": -4.26,
+      "amount_yuan": 213484008.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000800",
+      "name": "一汽解放",
+      "price": 5.65,
+      "previous": 5.72,
+      "change_pct": -1.224,
+      "amount_yuan": 52826604.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000801",
+      "name": "四川九洲",
+      "price": 11.39,
+      "previous": 11.68,
+      "change_pct": -2.483,
+      "amount_yuan": 104476914.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000802",
+      "name": "北京文化",
+      "price": 3.56,
+      "previous": 3.84,
+      "change_pct": -7.292,
+      "amount_yuan": 272030943.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000803",
+      "name": "山高环能",
+      "price": 6.46,
+      "previous": 6.73,
+      "change_pct": -4.012,
+      "amount_yuan": 62899150.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000807",
+      "name": "云铝股份",
+      "price": 24.65,
+      "previous": 24.93,
+      "change_pct": -1.123,
+      "amount_yuan": 970985413.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000809",
+      "name": "和展能源",
+      "price": 3.12,
+      "previous": 3.25,
+      "change_pct": -4.0,
+      "amount_yuan": 34973237.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000810",
+      "name": "创维数字",
+      "price": 9.11,
+      "previous": 9.16,
+      "change_pct": -0.546,
+      "amount_yuan": 113305500.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000811",
+      "name": "冰轮环境",
+      "price": 29.05,
+      "previous": 30.23,
+      "change_pct": -3.903,
+      "amount_yuan": 815040256.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000812",
+      "name": "陕西金叶",
+      "price": 3.42,
+      "previous": 3.52,
+      "change_pct": -2.841,
+      "amount_yuan": 50756918.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000813",
+      "name": "德展健康",
+      "price": 3.02,
+      "previous": 3.12,
+      "change_pct": -3.205,
+      "amount_yuan": 84737507.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000815",
+      "name": "美利云",
+      "price": 13.96,
+      "previous": 15.35,
+      "change_pct": -9.055,
+      "amount_yuan": 884200391.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000816",
+      "name": "智慧农业",
+      "price": 2.59,
+      "previous": 2.64,
+      "change_pct": -1.894,
+      "amount_yuan": 52801620.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000818",
+      "name": "航锦科技",
+      "price": 10.24,
+      "previous": 10.64,
+      "change_pct": -3.759,
+      "amount_yuan": 87241663.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000819",
+      "name": "岳阳兴长",
+      "price": 11.25,
+      "previous": 11.25,
+      "change_pct": 0.0,
+      "amount_yuan": 39811457.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000820",
+      "name": "神雾节能",
+      "price": 3.35,
+      "previous": 3.44,
+      "change_pct": -2.616,
+      "amount_yuan": 42564217.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000821",
+      "name": "ST京机",
+      "price": 6.64,
+      "previous": 6.82,
+      "change_pct": -2.639,
+      "amount_yuan": 29149620.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000822",
+      "name": "山东海化",
+      "price": 4.08,
+      "previous": 4.17,
+      "change_pct": -2.158,
+      "amount_yuan": 26051171.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000823",
+      "name": "超声电子",
+      "price": 22.03,
+      "previous": 24.07,
+      "change_pct": -8.475,
+      "amount_yuan": 2713400752.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000825",
+      "name": "太钢不锈",
+      "price": 3.31,
+      "previous": 3.33,
+      "change_pct": -0.601,
+      "amount_yuan": 79094560.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000826",
+      "name": "*ST启环",
+      "price": 1.81,
+      "previous": 1.78,
+      "change_pct": 1.685,
+      "amount_yuan": 33800646.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000828",
+      "name": "东莞控股",
+      "price": 9.7,
+      "previous": 9.92,
+      "change_pct": -2.218,
+      "amount_yuan": 70513807.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000829",
+      "name": "天音控股",
+      "price": 8.38,
+      "previous": 8.88,
+      "change_pct": -5.631,
+      "amount_yuan": 196294647.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000830",
+      "name": "鲁西化工",
+      "price": 11.08,
+      "previous": 11.25,
+      "change_pct": -1.511,
+      "amount_yuan": 124246437.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000831",
+      "name": "中国稀土",
+      "price": 49.08,
+      "previous": 49.5,
+      "change_pct": -0.848,
+      "amount_yuan": 924414273.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000833",
+      "name": "粤桂股份",
+      "price": 17.28,
+      "previous": 17.87,
+      "change_pct": -3.302,
+      "amount_yuan": 411202031.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000837",
+      "name": "秦川机床",
+      "price": 9.45,
+      "previous": 9.27,
+      "change_pct": 1.942,
+      "amount_yuan": 219833509.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000838",
+      "name": "*ST发展",
+      "price": 1.69,
+      "previous": 1.88,
+      "change_pct": -10.106,
+      "amount_yuan": 61803259.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000839",
+      "name": "国安股份",
+      "price": 2.56,
+      "previous": 2.65,
+      "change_pct": -3.396,
+      "amount_yuan": 136959338.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000848",
+      "name": "承德露露",
+      "price": 8.15,
+      "previous": 8.3,
+      "change_pct": -1.807,
+      "amount_yuan": 86922381.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000850",
+      "name": "华茂股份",
+      "price": 3.71,
+      "previous": 3.83,
+      "change_pct": -3.133,
+      "amount_yuan": 82788757.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000852",
+      "name": "石化机械",
+      "price": 5.33,
+      "previous": 5.31,
+      "change_pct": 0.377,
+      "amount_yuan": 76556143.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000856",
+      "name": "冀东装备",
+      "price": 8.54,
+      "previous": 8.68,
+      "change_pct": -1.613,
+      "amount_yuan": 33700030.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000858",
+      "name": "五 粮 液",
+      "price": 71.73,
+      "previous": 72.0,
+      "change_pct": -0.375,
+      "amount_yuan": 1556393866.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000859",
+      "name": "国风新材",
+      "price": 8.44,
+      "previous": 8.48,
+      "change_pct": -0.472,
+      "amount_yuan": 370916940.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000860",
+      "name": "顺鑫农业",
+      "price": 11.18,
+      "previous": 11.52,
+      "change_pct": -2.951,
+      "amount_yuan": 264336906.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000862",
+      "name": "银星能源",
+      "price": 4.9,
+      "previous": 5.02,
+      "change_pct": -2.39,
+      "amount_yuan": 49948395.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000863",
+      "name": "三湘印象",
+      "price": 4.05,
+      "previous": 4.19,
+      "change_pct": -3.341,
+      "amount_yuan": 55515592.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000868",
+      "name": "安凯客车",
+      "price": 3.4,
+      "previous": 3.53,
+      "change_pct": -3.683,
+      "amount_yuan": 66501151.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000869",
+      "name": "张 裕Ａ",
+      "price": 16.94,
+      "previous": 17.47,
+      "change_pct": -3.034,
+      "amount_yuan": 62287168.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000875",
+      "name": "电投绿能",
+      "price": 4.41,
+      "previous": 4.5,
+      "change_pct": -2.0,
+      "amount_yuan": 95096598.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000876",
+      "name": "新 希 望",
+      "price": 6.81,
+      "previous": 6.85,
+      "change_pct": -0.584,
+      "amount_yuan": 141148753.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000877",
+      "name": "天山股份",
+      "price": 3.54,
+      "previous": 3.58,
+      "change_pct": -1.117,
+      "amount_yuan": 29128287.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000878",
+      "name": "云南铜业",
+      "price": 14.06,
+      "previous": 14.58,
+      "change_pct": -3.567,
+      "amount_yuan": 405912492.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000880",
+      "name": "潍柴重机",
+      "price": 21.23,
+      "previous": 22.07,
+      "change_pct": -3.806,
+      "amount_yuan": 144806594.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000881",
+      "name": "中广核技",
+      "price": 6.43,
+      "previous": 6.38,
+      "change_pct": 0.784,
+      "amount_yuan": 84597713.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000882",
+      "name": "华联股份",
+      "price": 1.37,
+      "previous": 1.41,
+      "change_pct": -2.837,
+      "amount_yuan": 53478220.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000883",
+      "name": "湖北能源",
+      "price": 4.25,
+      "previous": 4.28,
+      "change_pct": -0.701,
+      "amount_yuan": 84420946.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000885",
+      "name": "城发环境",
+      "price": 11.62,
+      "previous": 11.71,
+      "change_pct": -0.769,
+      "amount_yuan": 21527333.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000886",
+      "name": "海南高速",
+      "price": 4.31,
+      "previous": 4.44,
+      "change_pct": -2.928,
+      "amount_yuan": 43679067.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000887",
+      "name": "中鼎股份",
+      "price": 16.76,
+      "previous": 17.48,
+      "change_pct": -4.119,
+      "amount_yuan": 604988427.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000888",
+      "name": "峨眉山Ａ",
+      "price": 8.9,
+      "previous": 9.02,
+      "change_pct": -1.33,
+      "amount_yuan": 41413795.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000889",
+      "name": "中嘉博创",
+      "price": 3.21,
+      "previous": 3.33,
+      "change_pct": -3.604,
+      "amount_yuan": 68165966.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000890",
+      "name": "法尔胜",
+      "price": 6.12,
+      "previous": 6.44,
+      "change_pct": -4.969,
+      "amount_yuan": 70003222.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000892",
+      "name": "欢瑞世纪",
+      "price": 4.41,
+      "previous": 4.86,
+      "change_pct": -9.259,
+      "amount_yuan": 520407331.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000893",
+      "name": "亚钾国际",
+      "price": 34.98,
+      "previous": 35.84,
+      "change_pct": -2.4,
+      "amount_yuan": 314285719.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000895",
+      "name": "双汇发展",
+      "price": 23.82,
+      "previous": 23.6,
+      "change_pct": 0.932,
+      "amount_yuan": 252730834.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000897",
+      "name": "津滨发展",
+      "price": 1.73,
+      "previous": 1.78,
+      "change_pct": -2.809,
+      "amount_yuan": 41153540.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000898",
+      "name": "鞍钢股份",
+      "price": 1.97,
+      "previous": 2.0,
+      "change_pct": -1.5,
+      "amount_yuan": 45829206.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000899",
+      "name": "赣能股份",
+      "price": 8.8,
+      "previous": 9.05,
+      "change_pct": -2.762,
+      "amount_yuan": 69819059.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000900",
+      "name": "现代投资",
+      "price": 3.45,
+      "previous": 3.5,
+      "change_pct": -1.429,
+      "amount_yuan": 29173835.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000901",
+      "name": "航天科技",
+      "price": 13.25,
+      "previous": 13.5,
+      "change_pct": -1.852,
+      "amount_yuan": 132535941.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000902",
+      "name": "新洋丰",
+      "price": 13.29,
+      "previous": 13.87,
+      "change_pct": -4.182,
+      "amount_yuan": 109089566.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000903",
+      "name": "ST云动",
+      "price": 1.77,
+      "previous": 1.81,
+      "change_pct": -2.21,
+      "amount_yuan": 26081883.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000905",
+      "name": "厦门港务",
+      "price": 8.26,
+      "previous": 8.54,
+      "change_pct": -3.279,
+      "amount_yuan": 131985986.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000906",
+      "name": "浙商中拓",
+      "price": 5.69,
+      "previous": 5.84,
+      "change_pct": -2.568,
+      "amount_yuan": 43055534.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000908",
+      "name": "石药景峰",
+      "price": 5.29,
+      "previous": 5.47,
+      "change_pct": -3.291,
+      "amount_yuan": 59275839.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000909",
+      "name": "*ST数源",
+      "price": 4.39,
+      "previous": 4.5,
+      "change_pct": -2.444,
+      "amount_yuan": 28229200.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000910",
+      "name": "大亚圣象",
+      "price": 5.29,
+      "previous": 5.47,
+      "change_pct": -3.291,
+      "amount_yuan": 64354957.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000911",
+      "name": "*ST广糖",
+      "price": 5.1,
+      "previous": 5.29,
+      "change_pct": -3.592,
+      "amount_yuan": 34628113.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000912",
+      "name": "泸天化",
+      "price": 3.56,
+      "previous": 3.66,
+      "change_pct": -2.732,
+      "amount_yuan": 48892550.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000913",
+      "name": "钱江摩托",
+      "price": 10.56,
+      "previous": 10.71,
+      "change_pct": -1.401,
+      "amount_yuan": 33007672.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000915",
+      "name": "华特达因",
+      "price": 24.21,
+      "previous": 24.73,
+      "change_pct": -2.103,
+      "amount_yuan": 27856249.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000917",
+      "name": "电广传媒",
+      "price": 6.56,
+      "previous": 6.86,
+      "change_pct": -4.373,
+      "amount_yuan": 204979876.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000919",
+      "name": "金陵药业",
+      "price": 6.16,
+      "previous": 6.31,
+      "change_pct": -2.377,
+      "amount_yuan": 66170489.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000920",
+      "name": "沃顿科技",
+      "price": 10.57,
+      "previous": 10.88,
+      "change_pct": -2.849,
+      "amount_yuan": 60626746.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000921",
+      "name": "海信家电",
+      "price": 23.32,
+      "previous": 23.71,
+      "change_pct": -1.645,
+      "amount_yuan": 139877575.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000922",
+      "name": "佳电股份",
+      "price": 10.92,
+      "previous": 11.05,
+      "change_pct": -1.176,
+      "amount_yuan": 61432801.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000923",
+      "name": "河钢资源",
+      "price": 14.38,
+      "previous": 15.02,
+      "change_pct": -4.261,
+      "amount_yuan": 146439834.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000925",
+      "name": "众合科技",
+      "price": 7.12,
+      "previous": 7.32,
+      "change_pct": -2.732,
+      "amount_yuan": 79142229.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000926",
+      "name": "福星股份",
+      "price": 1.87,
+      "previous": 1.93,
+      "change_pct": -3.109,
+      "amount_yuan": 41117581.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000927",
+      "name": "中国铁物",
+      "price": 2.4,
+      "previous": 2.43,
+      "change_pct": -1.235,
+      "amount_yuan": 94602182.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000928",
+      "name": "中钢国际",
+      "price": 5.39,
+      "previous": 5.37,
+      "change_pct": 0.372,
+      "amount_yuan": 198477469.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000929",
+      "name": "兰州黄河",
+      "price": 7.95,
+      "previous": 8.28,
+      "change_pct": -3.986,
+      "amount_yuan": 27718682.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000930",
+      "name": "中粮科技",
+      "price": 4.78,
+      "previous": 4.94,
+      "change_pct": -3.239,
+      "amount_yuan": 124436574.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000931",
+      "name": "中 关 村",
+      "price": 4.06,
+      "previous": 4.2,
+      "change_pct": -3.333,
+      "amount_yuan": 48301543.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000932",
+      "name": "华菱钢铁",
+      "price": 3.43,
+      "previous": 3.48,
+      "change_pct": -1.437,
+      "amount_yuan": 190999110.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000933",
+      "name": "神火股份",
+      "price": 24.88,
+      "previous": 25.38,
+      "change_pct": -1.97,
+      "amount_yuan": 601372849.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000935",
+      "name": "四川双马",
+      "price": 17.28,
+      "previous": 18.0,
+      "change_pct": -4.0,
+      "amount_yuan": 93762830.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000936",
+      "name": "华西股份",
+      "price": 5.14,
+      "previous": 5.29,
+      "change_pct": -2.836,
+      "amount_yuan": 39460352.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000937",
+      "name": "冀中能源",
+      "price": 4.22,
+      "previous": 4.36,
+      "change_pct": -3.211,
+      "amount_yuan": 135638833.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000938",
+      "name": "紫光股份",
+      "price": 25.25,
+      "previous": 25.98,
+      "change_pct": -2.81,
+      "amount_yuan": 2207105867.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000948",
+      "name": "南天信息",
+      "price": 14.27,
+      "previous": 13.59,
+      "change_pct": 5.004,
+      "amount_yuan": 426426577.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000949",
+      "name": "新乡化纤",
+      "price": 5.32,
+      "previous": 5.53,
+      "change_pct": -3.797,
+      "amount_yuan": 184913299.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000950",
+      "name": "重药控股",
+      "price": 5.07,
+      "previous": 5.17,
+      "change_pct": -1.934,
+      "amount_yuan": 67613885.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000951",
+      "name": "中国重汽",
+      "price": 19.92,
+      "previous": 19.93,
+      "change_pct": -0.05,
+      "amount_yuan": 103773031.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000952",
+      "name": "广济药业",
+      "price": 5.95,
+      "previous": 6.19,
+      "change_pct": -3.877,
+      "amount_yuan": 38503879.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000953",
+      "name": "中哲精化",
+      "price": 5.33,
+      "previous": 5.47,
+      "change_pct": -2.559,
+      "amount_yuan": 28990158.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000955",
+      "name": "欣龙控股",
+      "price": 3.72,
+      "previous": 3.86,
+      "change_pct": -3.627,
+      "amount_yuan": 30547245.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000957",
+      "name": "中通客车",
+      "price": 9.0,
+      "previous": 9.12,
+      "change_pct": -1.316,
+      "amount_yuan": 48139811.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000958",
+      "name": "电投产融",
+      "price": 4.81,
+      "previous": 4.93,
+      "change_pct": -2.434,
+      "amount_yuan": 75632041.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000959",
+      "name": "首钢股份",
+      "price": 3.31,
+      "previous": 3.37,
+      "change_pct": -1.78,
+      "amount_yuan": 58732531.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000960",
+      "name": "锡业股份",
+      "price": 24.85,
+      "previous": 25.87,
+      "change_pct": -3.943,
+      "amount_yuan": 553962613.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000962",
+      "name": "东方钽业",
+      "price": 41.0,
+      "previous": 42.45,
+      "change_pct": -3.416,
+      "amount_yuan": 680445738.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000963",
+      "name": "华东医药",
+      "price": 26.0,
+      "previous": 26.59,
+      "change_pct": -2.219,
+      "amount_yuan": 311926940.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000965",
+      "name": "天保基建",
+      "price": 3.05,
+      "previous": 3.13,
+      "change_pct": -2.556,
+      "amount_yuan": 43069073.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000966",
+      "name": "长源电力",
+      "price": 3.8,
+      "previous": 3.86,
+      "change_pct": -1.554,
+      "amount_yuan": 94377022.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000967",
+      "name": "盈峰环境",
+      "price": 6.7,
+      "previous": 6.97,
+      "change_pct": -3.874,
+      "amount_yuan": 209062022.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000968",
+      "name": "蓝焰控股",
+      "price": 6.59,
+      "previous": 6.84,
+      "change_pct": -3.655,
+      "amount_yuan": 117571843.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000969",
+      "name": "安泰科技",
+      "price": 14.65,
+      "previous": 14.97,
+      "change_pct": -2.138,
+      "amount_yuan": 188145222.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000970",
+      "name": "中科三环",
+      "price": 10.76,
+      "previous": 10.73,
+      "change_pct": 0.28,
+      "amount_yuan": 183709429.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000972",
+      "name": "中基健康",
+      "price": 3.69,
+      "previous": 3.85,
+      "change_pct": -4.156,
+      "amount_yuan": 47335970.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000973",
+      "name": "佛塑科技",
+      "price": 10.18,
+      "previous": 11.03,
+      "change_pct": -7.706,
+      "amount_yuan": 422060738.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000975",
+      "name": "山金国际",
+      "price": 23.5,
+      "previous": 24.31,
+      "change_pct": -3.332,
+      "amount_yuan": 891887054.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000977",
+      "name": "浪潮信息",
+      "price": 56.6,
+      "previous": 58.4,
+      "change_pct": -3.082,
+      "amount_yuan": 2041668057.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000978",
+      "name": "桂林旅游",
+      "price": 6.14,
+      "previous": 6.42,
+      "change_pct": -4.361,
+      "amount_yuan": 101614849.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000980",
+      "name": "众泰汽车",
+      "price": 1.67,
+      "previous": 1.8,
+      "change_pct": -7.222,
+      "amount_yuan": 365915912.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000981",
+      "name": "山子高科",
+      "price": 2.33,
+      "previous": 2.42,
+      "change_pct": -3.719,
+      "amount_yuan": 433377119.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000983",
+      "name": "山西焦煤",
+      "price": 6.14,
+      "previous": 6.27,
+      "change_pct": -2.073,
+      "amount_yuan": 276682629.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000985",
+      "name": "大庆华科",
+      "price": 16.15,
+      "previous": 16.58,
+      "change_pct": -2.593,
+      "amount_yuan": 22063890.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000987",
+      "name": "越秀资本",
+      "price": 6.93,
+      "previous": 7.06,
+      "change_pct": -1.841,
+      "amount_yuan": 141109001.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000988",
+      "name": "华工科技",
+      "price": 72.65,
+      "previous": 76.66,
+      "change_pct": -5.231,
+      "amount_yuan": 2085760218.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000989",
+      "name": "九芝堂",
+      "price": 8.38,
+      "previous": 8.78,
+      "change_pct": -4.556,
+      "amount_yuan": 194183625.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000990",
+      "name": "诚志股份",
+      "price": 5.62,
+      "previous": 5.8,
+      "change_pct": -3.103,
+      "amount_yuan": 157689585.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000993",
+      "name": "闽东电力",
+      "price": 13.78,
+      "previous": 15.31,
+      "change_pct": -9.993,
+      "amount_yuan": 941675094.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "000995",
+      "name": "皇台酒业",
+      "price": 12.15,
+      "previous": 13.5,
+      "change_pct": -10.0,
+      "amount_yuan": 420589967.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "000997",
+      "name": "新 大 陆",
+      "price": 18.15,
+      "previous": 18.9,
+      "change_pct": -3.968,
+      "amount_yuan": 196633595.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "000998",
+      "name": "隆平高科",
+      "price": 7.93,
+      "previous": 8.15,
+      "change_pct": -2.699,
+      "amount_yuan": 138392377.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "000999",
+      "name": "华润三九",
+      "price": 25.0,
+      "previous": 25.54,
+      "change_pct": -2.114,
+      "amount_yuan": 279611348.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001201",
+      "name": "东瑞股份",
+      "price": 15.46,
+      "previous": 15.96,
+      "change_pct": -3.133,
+      "amount_yuan": 350293200.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001202",
+      "name": "炬申股份",
+      "price": 12.88,
+      "previous": 13.3,
+      "change_pct": -3.158,
+      "amount_yuan": 30676224.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "001203",
+      "name": "大中矿业",
+      "price": 18.12,
+      "previous": 19.0,
+      "change_pct": -4.632,
+      "amount_yuan": 382328282.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "001205",
+      "name": "盛航股份",
+      "price": 13.45,
+      "previous": 13.69,
+      "change_pct": -1.753,
+      "amount_yuan": 66180370.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001206",
+      "name": "依依股份",
+      "price": 16.77,
+      "previous": 17.63,
+      "change_pct": -4.878,
+      "amount_yuan": 75698298.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001207",
+      "name": "联科科技",
+      "price": 16.45,
+      "previous": 16.77,
+      "change_pct": -1.908,
+      "amount_yuan": 39310971.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "001208",
+      "name": "华菱线缆",
+      "price": 12.16,
+      "previous": 12.42,
+      "change_pct": -2.093,
+      "amount_yuan": 69661517.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "001209",
+      "name": "洪兴股份",
+      "price": 17.19,
+      "previous": 17.71,
+      "change_pct": -2.936,
+      "amount_yuan": 28689981.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001210",
+      "name": "金房能源",
+      "price": 21.47,
+      "previous": 22.95,
+      "change_pct": -6.449,
+      "amount_yuan": 88966576.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001211",
+      "name": "双枪科技",
+      "price": 29.5,
+      "previous": 31.2,
+      "change_pct": -5.449,
+      "amount_yuan": 293418138.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "001212",
+      "name": "中旗新材",
+      "price": 29.84,
+      "previous": 31.45,
+      "change_pct": -5.119,
+      "amount_yuan": 83520112.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "001213",
+      "name": "中铁特货",
+      "price": 3.45,
+      "previous": 3.5,
+      "change_pct": -1.429,
+      "amount_yuan": 40008986.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001215",
+      "name": "千味央厨",
+      "price": 30.02,
+      "previous": 30.82,
+      "change_pct": -2.596,
+      "amount_yuan": 33143806.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001216",
+      "name": "华瓷股份",
+      "price": 25.56,
+      "previous": 25.2,
+      "change_pct": 1.429,
+      "amount_yuan": 1354752314.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "001217",
+      "name": "华尔泰",
+      "price": 10.32,
+      "previous": 10.61,
+      "change_pct": -2.733,
+      "amount_yuan": 33809927.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "001218",
+      "name": "丽臣实业",
+      "price": 20.83,
+      "previous": 21.37,
+      "change_pct": -2.527,
+      "amount_yuan": 34411846.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001219",
+      "name": "青岛食品",
+      "price": 12.2,
+      "previous": 12.47,
+      "change_pct": -2.165,
+      "amount_yuan": 24125615.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001220",
+      "name": "世盟股份",
+      "price": 28.63,
+      "previous": 29.25,
+      "change_pct": -2.12,
+      "amount_yuan": 15473286.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "001221",
+      "name": "悍高集团",
+      "price": 30.96,
+      "previous": 31.44,
+      "change_pct": -1.527,
+      "amount_yuan": 47361141.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "001222",
+      "name": "源飞宠物",
+      "price": 13.89,
+      "previous": 14.37,
+      "change_pct": -3.34,
+      "amount_yuan": 31440870.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001223",
+      "name": "欧克科技",
+      "price": 35.0,
+      "previous": 35.95,
+      "change_pct": -2.643,
+      "amount_yuan": 54724166.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001225",
+      "name": "和泰机电",
+      "price": 28.49,
+      "previous": 28.13,
+      "change_pct": 1.28,
+      "amount_yuan": 97493321.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "001226",
+      "name": "拓山重工",
+      "price": 39.04,
+      "previous": 39.34,
+      "change_pct": -0.763,
+      "amount_yuan": 26745498.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "001227",
+      "name": "兰州银行",
+      "price": 2.07,
+      "previous": 2.11,
+      "change_pct": -1.896,
+      "amount_yuan": 153105562.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001228",
+      "name": "永泰运",
+      "price": 33.72,
+      "previous": 34.57,
+      "change_pct": -2.459,
+      "amount_yuan": 55851186.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001229",
+      "name": "魅视科技",
+      "price": 38.01,
+      "previous": 42.2,
+      "change_pct": -9.929,
+      "amount_yuan": 231252630.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "001230",
+      "name": "劲旅环境",
+      "price": 17.51,
+      "previous": 18.17,
+      "change_pct": -3.632,
+      "amount_yuan": 50368938.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "001231",
+      "name": "农心科技",
+      "price": 19.15,
+      "previous": 20.21,
+      "change_pct": -5.245,
+      "amount_yuan": 89866668.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001232",
+      "name": "嘉立创",
+      "price": 161.4,
+      "previous": 173.6,
+      "change_pct": -7.028,
+      "amount_yuan": 771321450.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001233",
+      "name": "海安集团",
+      "price": 53.5,
+      "previous": 53.02,
+      "change_pct": 0.905,
+      "amount_yuan": 266129950.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "001234",
+      "name": "泰慕士",
+      "price": 20.8,
+      "previous": 21.63,
+      "change_pct": -3.837,
+      "amount_yuan": 68226123.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "001236",
+      "name": "弘业期货",
+      "price": 7.31,
+      "previous": 7.62,
+      "change_pct": -4.068,
+      "amount_yuan": 76427930.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001237",
+      "name": "惠康科技",
+      "price": 45.42,
+      "previous": 46.37,
+      "change_pct": -2.049,
+      "amount_yuan": 23350831.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001238",
+      "name": "浙江正特",
+      "price": 24.7,
+      "previous": 25.24,
+      "change_pct": -2.139,
+      "amount_yuan": 15974480.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "001239",
+      "name": "永达股份",
+      "price": 13.27,
+      "previous": 14.74,
+      "change_pct": -9.973,
+      "amount_yuan": 302936658.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "001246",
+      "name": "力勤资源",
+      "price": 29.88,
+      "previous": 31.33,
+      "change_pct": -4.628,
+      "amount_yuan": 798883376.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001248",
+      "name": "华润新能",
+      "price": 10.76,
+      "previous": 11.01,
+      "change_pct": -2.271,
+      "amount_yuan": 341585802.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001255",
+      "name": "博菲电气",
+      "price": 25.32,
+      "previous": 25.83,
+      "change_pct": -1.974,
+      "amount_yuan": 22915628.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "001256",
+      "name": "炜冈科技",
+      "price": 19.22,
+      "previous": 19.62,
+      "change_pct": -2.039,
+      "amount_yuan": 36158355.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "001257",
+      "name": "盛龙股份",
+      "price": 18.36,
+      "previous": 18.95,
+      "change_pct": -3.113,
+      "amount_yuan": 90025661.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001258",
+      "name": "立新能源",
+      "price": 8.59,
+      "previous": 9.02,
+      "change_pct": -4.767,
+      "amount_yuan": 216390056.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001259",
+      "name": "利仁科技",
+      "price": 38.4,
+      "previous": 39.6,
+      "change_pct": -3.03,
+      "amount_yuan": 27422804.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "001260",
+      "name": "坤泰股份",
+      "price": 17.16,
+      "previous": 17.63,
+      "change_pct": -2.666,
+      "amount_yuan": 18948489.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "001266",
+      "name": "宏英智能",
+      "price": 40.67,
+      "previous": 42.0,
+      "change_pct": -3.167,
+      "amount_yuan": 254243020.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001267",
+      "name": "汇绿生态",
+      "price": 25.78,
+      "previous": 27.96,
+      "change_pct": -7.797,
+      "amount_yuan": 497009126.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001268",
+      "name": "联合精密",
+      "price": 21.0,
+      "previous": 21.86,
+      "change_pct": -3.934,
+      "amount_yuan": 43596996.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "001269",
+      "name": "欧晶科技",
+      "price": 17.12,
+      "previous": 17.3,
+      "change_pct": -1.04,
+      "amount_yuan": 30044942.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "001270",
+      "name": "铖昌科技",
+      "price": 82.55,
+      "previous": 85.47,
+      "change_pct": -3.416,
+      "amount_yuan": 414780723.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001277",
+      "name": "速达股份",
+      "price": 28.03,
+      "previous": 28.55,
+      "change_pct": -1.821,
+      "amount_yuan": 24681637.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001278",
+      "name": "一彬科技",
+      "price": 15.44,
+      "previous": 16.29,
+      "change_pct": -5.218,
+      "amount_yuan": 49883243.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "001279",
+      "name": "强邦新材",
+      "price": 25.47,
+      "previous": 25.91,
+      "change_pct": -1.698,
+      "amount_yuan": 16805575.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "001280",
+      "name": "中国铀业",
+      "price": 56.49,
+      "previous": 57.67,
+      "change_pct": -2.046,
+      "amount_yuan": 142251067.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001282",
+      "name": "三联锻造",
+      "price": 16.16,
+      "previous": 16.07,
+      "change_pct": 0.56,
+      "amount_yuan": 78516621.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001283",
+      "name": "豪鹏科技",
+      "price": 52.06,
+      "previous": 51.47,
+      "change_pct": 1.146,
+      "amount_yuan": 547592513.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "001285",
+      "name": "瑞立科密",
+      "price": 28.58,
+      "previous": 28.82,
+      "change_pct": -0.833,
+      "amount_yuan": 26474907.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "001286",
+      "name": "陕西能源",
+      "price": 10.27,
+      "previous": 10.34,
+      "change_pct": -0.677,
+      "amount_yuan": 212354036.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001287",
+      "name": "中电港",
+      "price": 18.96,
+      "previous": 19.18,
+      "change_pct": -1.147,
+      "amount_yuan": 268722321.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001288",
+      "name": "运机集团",
+      "price": 29.92,
+      "previous": 29.66,
+      "change_pct": 0.877,
+      "amount_yuan": 176223063.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "001289",
+      "name": "龙源电力",
+      "price": 14.41,
+      "previous": 14.69,
+      "change_pct": -1.906,
+      "amount_yuan": 60229538.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "001296",
+      "name": "长江材料",
+      "price": 17.86,
+      "previous": 18.66,
+      "change_pct": -4.287,
+      "amount_yuan": 37108395.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001298",
+      "name": "好上好",
+      "price": 15.78,
+      "previous": 16.2,
+      "change_pct": -2.593,
+      "amount_yuan": 181979696.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001299",
+      "name": "美能能源",
+      "price": 9.87,
+      "previous": 10.55,
+      "change_pct": -6.445,
+      "amount_yuan": 141914825.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "001300",
+      "name": "三柏硕",
+      "price": 11.42,
+      "previous": 12.0,
+      "change_pct": -4.833,
+      "amount_yuan": 90536137.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "001301",
+      "name": "尚太科技",
+      "price": 41.55,
+      "previous": 43.23,
+      "change_pct": -3.886,
+      "amount_yuan": 220490228.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001306",
+      "name": "夏厦精密",
+      "price": 56.9,
+      "previous": 58.88,
+      "change_pct": -3.363,
+      "amount_yuan": 75804060.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001308",
+      "name": "康冠科技",
+      "price": 17.7,
+      "previous": 17.92,
+      "change_pct": -1.228,
+      "amount_yuan": 25548276.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "001309",
+      "name": "德明利",
+      "price": 243.17,
+      "previous": 233.81,
+      "change_pct": 4.003,
+      "amount_yuan": 6883929252.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "001311",
+      "name": "多利科技",
+      "price": 14.69,
+      "previous": 14.99,
+      "change_pct": -2.001,
+      "amount_yuan": 62736428.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001312",
+      "name": "福恩股份",
+      "price": 16.98,
+      "previous": 16.84,
+      "change_pct": 0.831,
+      "amount_yuan": 29012353.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001313",
+      "name": "粤海饲料",
+      "price": 6.98,
+      "previous": 7.43,
+      "change_pct": -6.057,
+      "amount_yuan": 143031588.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "001314",
+      "name": "亿道信息",
+      "price": 42.92,
+      "previous": 45.13,
+      "change_pct": -4.897,
+      "amount_yuan": 158926386.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "001316",
+      "name": "润贝航科",
+      "price": 24.51,
+      "previous": 25.62,
+      "change_pct": -4.333,
+      "amount_yuan": 58151729.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001317",
+      "name": "三羊马",
+      "price": 50.83,
+      "previous": 56.48,
+      "change_pct": -10.004,
+      "amount_yuan": 546787616.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001318",
+      "name": "阳光乳业",
+      "price": 11.67,
+      "previous": 12.97,
+      "change_pct": -10.023,
+      "amount_yuan": 409617807.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "001319",
+      "name": "铭科精技",
+      "price": 20.46,
+      "previous": 20.56,
+      "change_pct": -0.486,
+      "amount_yuan": 71703565.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "001322",
+      "name": "箭牌家居",
+      "price": 6.44,
+      "previous": 6.65,
+      "change_pct": -3.158,
+      "amount_yuan": 28680829.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001323",
+      "name": "慕思股份",
+      "price": 18.81,
+      "previous": 20.9,
+      "change_pct": -10.0,
+      "amount_yuan": 204939332.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001324",
+      "name": "长青科技",
+      "price": 18.95,
+      "previous": 19.43,
+      "change_pct": -2.47,
+      "amount_yuan": 44474131.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "001325",
+      "name": "元创股份",
+      "price": 36.92,
+      "previous": 36.8,
+      "change_pct": 0.326,
+      "amount_yuan": 33296875.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "001326",
+      "name": "联域股份",
+      "price": 92.7,
+      "previous": 99.74,
+      "change_pct": -7.058,
+      "amount_yuan": 165626581.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001328",
+      "name": "登康口腔",
+      "price": 29.55,
+      "previous": 29.72,
+      "change_pct": -0.572,
+      "amount_yuan": 41818178.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001330",
+      "name": "博纳影业",
+      "price": 5.9,
+      "previous": 6.55,
+      "change_pct": -9.924,
+      "amount_yuan": 925301212.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "001331",
+      "name": "胜通能源",
+      "price": 32.19,
+      "previous": 34.15,
+      "change_pct": -5.739,
+      "amount_yuan": 153047282.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "001332",
+      "name": "锡装股份",
+      "price": 23.95,
+      "previous": 24.45,
+      "change_pct": -2.045,
+      "amount_yuan": 29970868.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001333",
+      "name": "光华股份",
+      "price": 18.96,
+      "previous": 19.11,
+      "change_pct": -0.785,
+      "amount_yuan": 41322303.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001335",
+      "name": "信凯科技",
+      "price": 30.53,
+      "previous": 31.02,
+      "change_pct": -1.58,
+      "amount_yuan": 24768720.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "001336",
+      "name": "楚环科技",
+      "price": 16.53,
+      "previous": 17.01,
+      "change_pct": -2.822,
+      "amount_yuan": 57766465.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "001337",
+      "name": "四川黄金",
+      "price": 40.15,
+      "previous": 42.45,
+      "change_pct": -5.418,
+      "amount_yuan": 322069414.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001338",
+      "name": "永顺泰",
+      "price": 8.63,
+      "previous": 8.8,
+      "change_pct": -1.932,
+      "amount_yuan": 50530702.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001339",
+      "name": "智微智能",
+      "price": 60.0,
+      "previous": 63.5,
+      "change_pct": -5.512,
+      "amount_yuan": 564642076.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "001356",
+      "name": "富岭股份",
+      "price": 8.52,
+      "previous": 8.82,
+      "change_pct": -3.401,
+      "amount_yuan": 44262382.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "001358",
+      "name": "兴欣新材",
+      "price": 22.65,
+      "previous": 22.88,
+      "change_pct": -1.005,
+      "amount_yuan": 47532309.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001359",
+      "name": "平安电工",
+      "price": 68.1,
+      "previous": 72.0,
+      "change_pct": -5.417,
+      "amount_yuan": 138130635.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001360",
+      "name": "南矿集团",
+      "price": 18.58,
+      "previous": 16.89,
+      "change_pct": 10.006,
+      "amount_yuan": 23462397.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "001365",
+      "name": "天海电子",
+      "price": 30.31,
+      "previous": 31.16,
+      "change_pct": -2.728,
+      "amount_yuan": 55664208.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "001366",
+      "name": "播恩集团",
+      "price": 12.04,
+      "previous": 12.39,
+      "change_pct": -2.825,
+      "amount_yuan": 33830267.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001367",
+      "name": "海森药业",
+      "price": 19.02,
+      "previous": 19.78,
+      "change_pct": -3.842,
+      "amount_yuan": 25907036.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001368",
+      "name": "通达创智",
+      "price": 32.16,
+      "previous": 35.73,
+      "change_pct": -9.992,
+      "amount_yuan": 179907764.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "001369",
+      "name": "双欣材料",
+      "price": 11.28,
+      "previous": 11.51,
+      "change_pct": -1.998,
+      "amount_yuan": 40368471.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "001373",
+      "name": "翔腾新材",
+      "price": 28.85,
+      "previous": 29.72,
+      "change_pct": -2.927,
+      "amount_yuan": 56030968.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001376",
+      "name": "百通能源",
+      "price": 10.6,
+      "previous": 11.06,
+      "change_pct": -4.159,
+      "amount_yuan": 72867158.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001378",
+      "name": "德冠新材",
+      "price": 19.5,
+      "previous": 20.46,
+      "change_pct": -4.692,
+      "amount_yuan": 86517693.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "001379",
+      "name": "腾达科技",
+      "price": 14.78,
+      "previous": 14.88,
+      "change_pct": -0.672,
+      "amount_yuan": 21374313.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "001380",
+      "name": "华纬科技",
+      "price": 15.28,
+      "previous": 15.36,
+      "change_pct": -0.521,
+      "amount_yuan": 30333936.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001382",
+      "name": "新亚电缆",
+      "price": 15.84,
+      "previous": 15.96,
+      "change_pct": -0.752,
+      "amount_yuan": 16162502.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001386",
+      "name": "马可波罗",
+      "price": 14.66,
+      "previous": 14.91,
+      "change_pct": -1.677,
+      "amount_yuan": 36886908.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "001387",
+      "name": "雪祺电气",
+      "price": 11.4,
+      "previous": 11.61,
+      "change_pct": -1.809,
+      "amount_yuan": 25568549.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "001388",
+      "name": "信通电子",
+      "price": 22.4,
+      "previous": 21.23,
+      "change_pct": 5.511,
+      "amount_yuan": 381631562.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001389",
+      "name": "广合科技",
+      "price": 119.0,
+      "previous": 124.78,
+      "change_pct": -4.632,
+      "amount_yuan": 978238999.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001390",
+      "name": "古麒绒材",
+      "price": 15.7,
+      "previous": 16.38,
+      "change_pct": -4.151,
+      "amount_yuan": 40863286.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "001391",
+      "name": "国货航",
+      "price": 3.79,
+      "previous": 3.93,
+      "change_pct": -3.562,
+      "amount_yuan": 147839666.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "001393",
+      "name": "维通利",
+      "price": 35.54,
+      "previous": 35.77,
+      "change_pct": -0.643,
+      "amount_yuan": 34059768.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001395",
+      "name": "亚联机械",
+      "price": 27.55,
+      "previous": 28.46,
+      "change_pct": -3.197,
+      "amount_yuan": 36575007.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001396",
+      "name": "誉帆科技",
+      "price": 27.6,
+      "previous": 28.56,
+      "change_pct": -3.361,
+      "amount_yuan": 16003712.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "001399",
+      "name": "惠科股份",
+      "price": 16.92,
+      "previous": 17.38,
+      "change_pct": -2.647,
+      "amount_yuan": 268659796.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "001400",
+      "name": "江顺科技",
+      "price": 75.95,
+      "previous": 81.29,
+      "change_pct": -6.569,
+      "amount_yuan": 200621082.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001696",
+      "name": "宗申动力",
+      "price": 14.2,
+      "previous": 15.17,
+      "change_pct": -6.394,
+      "amount_yuan": 851388041.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001872",
+      "name": "招商港口",
+      "price": 23.8,
+      "previous": 24.82,
+      "change_pct": -4.11,
+      "amount_yuan": 88196160.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "001896",
+      "name": "豫能控股",
+      "price": 9.74,
+      "previous": 9.92,
+      "change_pct": -1.815,
+      "amount_yuan": 301393768.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "001914",
+      "name": "招商积余",
+      "price": 8.72,
+      "previous": 8.83,
+      "change_pct": -1.246,
+      "amount_yuan": 74755656.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "001965",
+      "name": "招商公路",
+      "price": 10.32,
+      "previous": 10.31,
+      "change_pct": 0.097,
+      "amount_yuan": 185584708.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "001979",
+      "name": "招商蛇口",
+      "price": 7.47,
+      "previous": 7.57,
+      "change_pct": -1.321,
+      "amount_yuan": 345682386.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002001",
+      "name": "新 和 成",
+      "price": 25.0,
+      "previous": 25.63,
+      "change_pct": -2.458,
+      "amount_yuan": 677291181.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002003",
+      "name": "伟星股份",
+      "price": 11.61,
+      "previous": 11.73,
+      "change_pct": -1.023,
+      "amount_yuan": 108348645.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002004",
+      "name": "华邦健康",
+      "price": 4.17,
+      "previous": 4.25,
+      "change_pct": -1.882,
+      "amount_yuan": 93919733.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002005",
+      "name": "德豪润达",
+      "price": 2.35,
+      "previous": 2.43,
+      "change_pct": -3.292,
+      "amount_yuan": 41311364.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002006",
+      "name": "精工科技",
+      "price": 13.39,
+      "previous": 13.23,
+      "change_pct": 1.209,
+      "amount_yuan": 129882849.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002007",
+      "name": "华兰生物",
+      "price": 12.81,
+      "previous": 12.99,
+      "change_pct": -1.386,
+      "amount_yuan": 100466057.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002008",
+      "name": "大族激光",
+      "price": 60.54,
+      "previous": 64.1,
+      "change_pct": -5.554,
+      "amount_yuan": 2302658980.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002009",
+      "name": "天奇股份",
+      "price": 15.73,
+      "previous": 15.94,
+      "change_pct": -1.317,
+      "amount_yuan": 467623240.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002010",
+      "name": "传化智联",
+      "price": 4.41,
+      "previous": 4.46,
+      "change_pct": -1.121,
+      "amount_yuan": 52066302.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002011",
+      "name": "盾安环境",
+      "price": 10.47,
+      "previous": 10.92,
+      "change_pct": -4.121,
+      "amount_yuan": 270419974.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002012",
+      "name": "凯恩股份",
+      "price": 6.1,
+      "previous": 6.31,
+      "change_pct": -3.328,
+      "amount_yuan": 32664257.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002014",
+      "name": "永新股份",
+      "price": 10.89,
+      "previous": 10.98,
+      "change_pct": -0.82,
+      "amount_yuan": 33537029.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002015",
+      "name": "协鑫能科",
+      "price": 13.53,
+      "previous": 13.89,
+      "change_pct": -2.592,
+      "amount_yuan": 669753168.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002016",
+      "name": "世荣兆业",
+      "price": 4.25,
+      "previous": 4.38,
+      "change_pct": -2.968,
+      "amount_yuan": 49656478.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002017",
+      "name": "东信和平",
+      "price": 13.12,
+      "previous": 13.61,
+      "change_pct": -3.6,
+      "amount_yuan": 114043869.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002019",
+      "name": "亿帆医药",
+      "price": 9.2,
+      "previous": 9.33,
+      "change_pct": -1.393,
+      "amount_yuan": 57941344.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002020",
+      "name": "京新药业",
+      "price": 11.2,
+      "previous": 11.46,
+      "change_pct": -2.269,
+      "amount_yuan": 111694172.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002021",
+      "name": "中捷资源",
+      "price": 2.35,
+      "previous": 2.43,
+      "change_pct": -3.292,
+      "amount_yuan": 51366552.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002022",
+      "name": "科华生物",
+      "price": 5.43,
+      "previous": 5.71,
+      "change_pct": -4.904,
+      "amount_yuan": 46343658.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002023",
+      "name": "海特高新",
+      "price": 9.03,
+      "previous": 8.93,
+      "change_pct": 1.12,
+      "amount_yuan": 169176414.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002024",
+      "name": "ST易购",
+      "price": 1.1,
+      "previous": 1.12,
+      "change_pct": -1.786,
+      "amount_yuan": 24440565.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002025",
+      "name": "航天电器",
+      "price": 51.25,
+      "previous": 53.12,
+      "change_pct": -3.52,
+      "amount_yuan": 319345872.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002026",
+      "name": "山东威达",
+      "price": 10.04,
+      "previous": 10.32,
+      "change_pct": -2.713,
+      "amount_yuan": 72722041.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002027",
+      "name": "分众传媒",
+      "price": 4.96,
+      "previous": 5.12,
+      "change_pct": -3.125,
+      "amount_yuan": 809263943.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002028",
+      "name": "思源电气",
+      "price": 107.9,
+      "previous": 110.81,
+      "change_pct": -2.626,
+      "amount_yuan": 1360212936.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002029",
+      "name": "七 匹 狼",
+      "price": 8.3,
+      "previous": 8.94,
+      "change_pct": -7.159,
+      "amount_yuan": 416082139.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002030",
+      "name": "达安基因",
+      "price": 5.34,
+      "previous": 5.56,
+      "change_pct": -3.957,
+      "amount_yuan": 108200470.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002031",
+      "name": "巨轮智能",
+      "price": 5.0,
+      "previous": 5.03,
+      "change_pct": -0.596,
+      "amount_yuan": 367328408.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002032",
+      "name": "苏 泊 尔",
+      "price": 42.4,
+      "previous": 42.37,
+      "change_pct": 0.071,
+      "amount_yuan": 87363805.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002033",
+      "name": "丽江股份",
+      "price": 8.01,
+      "previous": 8.12,
+      "change_pct": -1.355,
+      "amount_yuan": 88048090.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002034",
+      "name": "旺能环境",
+      "price": 13.22,
+      "previous": 13.47,
+      "change_pct": -1.856,
+      "amount_yuan": 70519552.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002035",
+      "name": "华帝股份",
+      "price": 4.39,
+      "previous": 4.51,
+      "change_pct": -2.661,
+      "amount_yuan": 52759448.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002036",
+      "name": "联创电子",
+      "price": 5.57,
+      "previous": 5.62,
+      "change_pct": -0.89,
+      "amount_yuan": 102843869.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002037",
+      "name": "保利联合",
+      "price": 6.35,
+      "previous": 6.48,
+      "change_pct": -2.006,
+      "amount_yuan": 27621934.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002038",
+      "name": "双鹭药业",
+      "price": 5.11,
+      "previous": 5.28,
+      "change_pct": -3.22,
+      "amount_yuan": 79557376.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002039",
+      "name": "黔源电力",
+      "price": 19.69,
+      "previous": 20.35,
+      "change_pct": -3.243,
+      "amount_yuan": 90075875.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002040",
+      "name": "南 京 港",
+      "price": 8.13,
+      "previous": 8.36,
+      "change_pct": -2.751,
+      "amount_yuan": 64983999.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002041",
+      "name": "登海种业",
+      "price": 8.76,
+      "previous": 9.09,
+      "change_pct": -3.63,
+      "amount_yuan": 180936202.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002042",
+      "name": "华孚时尚",
+      "price": 3.29,
+      "previous": 3.41,
+      "change_pct": -3.519,
+      "amount_yuan": 75083574.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002043",
+      "name": "兔 宝 宝",
+      "price": 12.75,
+      "previous": 12.43,
+      "change_pct": 2.574,
+      "amount_yuan": 246169645.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002044",
+      "name": "美年健康",
+      "price": 4.75,
+      "previous": 4.92,
+      "change_pct": -3.455,
+      "amount_yuan": 490485539.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002045",
+      "name": "国光电器",
+      "price": 8.61,
+      "previous": 8.87,
+      "change_pct": -2.931,
+      "amount_yuan": 120835956.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002046",
+      "name": "国机精工",
+      "price": 52.15,
+      "previous": 53.45,
+      "change_pct": -2.432,
+      "amount_yuan": 624188117.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002047",
+      "name": "宝鹰股份",
+      "price": 2.79,
+      "previous": 2.89,
+      "change_pct": -3.46,
+      "amount_yuan": 55972192.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002048",
+      "name": "宁波华翔",
+      "price": 17.55,
+      "previous": 17.67,
+      "change_pct": -0.679,
+      "amount_yuan": 226889799.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002049",
+      "name": "紫光国微",
+      "price": 53.8,
+      "previous": 54.43,
+      "change_pct": -1.157,
+      "amount_yuan": 465909794.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002050",
+      "name": "三花智控",
+      "price": 32.89,
+      "previous": 32.93,
+      "change_pct": -0.121,
+      "amount_yuan": 1740032431.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002051",
+      "name": "中工国际",
+      "price": 8.36,
+      "previous": 8.39,
+      "change_pct": -0.358,
+      "amount_yuan": 409855895.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002052",
+      "name": "同洲电子",
+      "price": 6.94,
+      "previous": 7.19,
+      "change_pct": -3.477,
+      "amount_yuan": 44464378.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002053",
+      "name": "云南能投",
+      "price": 9.02,
+      "previous": 9.22,
+      "change_pct": -2.169,
+      "amount_yuan": 40704445.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002054",
+      "name": "德美化工",
+      "price": 6.48,
+      "previous": 6.65,
+      "change_pct": -2.556,
+      "amount_yuan": 46008639.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002055",
+      "name": "ST得润",
+      "price": 5.63,
+      "previous": 5.82,
+      "change_pct": -3.265,
+      "amount_yuan": 48014897.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002056",
+      "name": "横店东磁",
+      "price": 16.98,
+      "previous": 17.21,
+      "change_pct": -1.336,
+      "amount_yuan": 267474720.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002057",
+      "name": "中钢天源",
+      "price": 8.31,
+      "previous": 8.39,
+      "change_pct": -0.954,
+      "amount_yuan": 69588341.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002058",
+      "name": "紫竹高科",
+      "price": 17.72,
+      "previous": 19.43,
+      "change_pct": -8.801,
+      "amount_yuan": 268953526.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002059",
+      "name": "云南旅游",
+      "price": 3.89,
+      "previous": 4.06,
+      "change_pct": -4.187,
+      "amount_yuan": 95314525.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002060",
+      "name": "广东建工",
+      "price": 3.06,
+      "previous": 3.09,
+      "change_pct": -0.971,
+      "amount_yuan": 42689083.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002061",
+      "name": "浙江交科",
+      "price": 3.25,
+      "previous": 3.29,
+      "change_pct": -1.216,
+      "amount_yuan": 52493095.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002062",
+      "name": "宏润建设",
+      "price": 8.25,
+      "previous": 8.59,
+      "change_pct": -3.958,
+      "amount_yuan": 122674726.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002063",
+      "name": "远光软件",
+      "price": 5.31,
+      "previous": 5.37,
+      "change_pct": -1.117,
+      "amount_yuan": 115972528.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002064",
+      "name": "华峰化学",
+      "price": 8.75,
+      "previous": 8.93,
+      "change_pct": -2.016,
+      "amount_yuan": 206938731.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002065",
+      "name": "东华软件",
+      "price": 6.38,
+      "previous": 6.55,
+      "change_pct": -2.595,
+      "amount_yuan": 142637085.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002066",
+      "name": "瑞泰科技",
+      "price": 17.0,
+      "previous": 18.11,
+      "change_pct": -6.129,
+      "amount_yuan": 43989218.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002067",
+      "name": "景兴纸业",
+      "price": 3.61,
+      "previous": 3.66,
+      "change_pct": -1.366,
+      "amount_yuan": 92857171.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002068",
+      "name": "黑猫股份",
+      "price": 7.72,
+      "previous": 8.12,
+      "change_pct": -4.926,
+      "amount_yuan": 138352221.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002069",
+      "name": "獐子岛",
+      "price": 3.39,
+      "previous": 3.51,
+      "change_pct": -3.419,
+      "amount_yuan": 37798531.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002072",
+      "name": "凯瑞德",
+      "price": 6.76,
+      "previous": 7.1,
+      "change_pct": -4.789,
+      "amount_yuan": 55213019.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002073",
+      "name": "软控股份",
+      "price": 5.49,
+      "previous": 5.48,
+      "change_pct": 0.182,
+      "amount_yuan": 60841821.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002074",
+      "name": "国轩高科",
+      "price": 25.28,
+      "previous": 25.89,
+      "change_pct": -2.356,
+      "amount_yuan": 866047832.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002075",
+      "name": "沙钢股份",
+      "price": 3.35,
+      "previous": 3.39,
+      "change_pct": -1.18,
+      "amount_yuan": 61276894.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002076",
+      "name": "星光股份",
+      "price": 2.7,
+      "previous": 2.45,
+      "change_pct": 10.204,
+      "amount_yuan": 987104557.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002077",
+      "name": "大港股份",
+      "price": 11.89,
+      "previous": 11.54,
+      "change_pct": 3.033,
+      "amount_yuan": 471560655.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002078",
+      "name": "太阳纸业",
+      "price": 12.81,
+      "previous": 13.18,
+      "change_pct": -2.807,
+      "amount_yuan": 277923082.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002079",
+      "name": "苏州固锝",
+      "price": 7.85,
+      "previous": 7.91,
+      "change_pct": -0.759,
+      "amount_yuan": 116131638.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002080",
+      "name": "中材科技",
+      "price": 40.17,
+      "previous": 42.36,
+      "change_pct": -5.17,
+      "amount_yuan": 1568460756.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002081",
+      "name": "金 螳 螂",
+      "price": 4.09,
+      "previous": 4.26,
+      "change_pct": -3.991,
+      "amount_yuan": 284232461.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002082",
+      "name": "ST万邦",
+      "price": 11.02,
+      "previous": 11.38,
+      "change_pct": -3.163,
+      "amount_yuan": 79601397.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002083",
+      "name": "孚日股份",
+      "price": 9.0,
+      "previous": 9.28,
+      "change_pct": -3.017,
+      "amount_yuan": 319948265.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002084",
+      "name": "海鸥住工",
+      "price": 4.38,
+      "previous": 4.61,
+      "change_pct": -4.989,
+      "amount_yuan": 127581196.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002085",
+      "name": "万丰奥威",
+      "price": 10.07,
+      "previous": 11.19,
+      "change_pct": -10.009,
+      "amount_yuan": 1503183659.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002086",
+      "name": "东方海洋",
+      "price": 2.23,
+      "previous": 2.39,
+      "change_pct": -6.695,
+      "amount_yuan": 1041595412.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002088",
+      "name": "鲁阳节能",
+      "price": 8.26,
+      "previous": 8.41,
+      "change_pct": -1.784,
+      "amount_yuan": 104258516.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002090",
+      "name": "金智科技",
+      "price": 8.78,
+      "previous": 8.9,
+      "change_pct": -1.348,
+      "amount_yuan": 46486173.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002091",
+      "name": "江苏国泰",
+      "price": 7.24,
+      "previous": 7.3,
+      "change_pct": -0.822,
+      "amount_yuan": 37854639.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002092",
+      "name": "中泰化学",
+      "price": 4.14,
+      "previous": 4.21,
+      "change_pct": -1.663,
+      "amount_yuan": 110654523.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002093",
+      "name": "国脉科技",
+      "price": 6.35,
+      "previous": 6.6,
+      "change_pct": -3.788,
+      "amount_yuan": 83637778.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002094",
+      "name": "青岛金王",
+      "price": 4.54,
+      "previous": 4.71,
+      "change_pct": -3.609,
+      "amount_yuan": 48687880.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002095",
+      "name": "生 意 宝",
+      "price": 14.75,
+      "previous": 15.5,
+      "change_pct": -4.839,
+      "amount_yuan": 93450201.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002096",
+      "name": "易普力",
+      "price": 9.05,
+      "previous": 9.05,
+      "change_pct": 0.0,
+      "amount_yuan": 26503866.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002097",
+      "name": "山河智能",
+      "price": 7.26,
+      "previous": 6.6,
+      "change_pct": 10.0,
+      "amount_yuan": 395478774.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002098",
+      "name": "浔兴股份",
+      "price": 7.79,
+      "previous": 8.01,
+      "change_pct": -2.747,
+      "amount_yuan": 31863275.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002099",
+      "name": "海翔药业",
+      "price": 5.76,
+      "previous": 5.88,
+      "change_pct": -2.041,
+      "amount_yuan": 82955350.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002100",
+      "name": "天康生物",
+      "price": 8.15,
+      "previous": 8.12,
+      "change_pct": 0.369,
+      "amount_yuan": 242310481.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002101",
+      "name": "广东鸿图",
+      "price": 8.25,
+      "previous": 8.49,
+      "change_pct": -2.827,
+      "amount_yuan": 66312553.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002102",
+      "name": "ST能特",
+      "price": 2.43,
+      "previous": 2.46,
+      "change_pct": -1.22,
+      "amount_yuan": 15883471.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002103",
+      "name": "广博股份",
+      "price": 6.65,
+      "previous": 7.23,
+      "change_pct": -8.022,
+      "amount_yuan": 195620073.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002104",
+      "name": "恒宝股份",
+      "price": 9.64,
+      "previous": 10.09,
+      "change_pct": -4.46,
+      "amount_yuan": 233390405.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002105",
+      "name": "信隆健康",
+      "price": 5.59,
+      "previous": 5.79,
+      "change_pct": -3.454,
+      "amount_yuan": 42954520.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002106",
+      "name": "莱宝高科",
+      "price": 10.25,
+      "previous": 10.59,
+      "change_pct": -3.211,
+      "amount_yuan": 133033977.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002107",
+      "name": "沃华医药",
+      "price": 6.12,
+      "previous": 6.38,
+      "change_pct": -4.075,
+      "amount_yuan": 63155670.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002108",
+      "name": "沧州明珠",
+      "price": 4.05,
+      "previous": 4.13,
+      "change_pct": -1.937,
+      "amount_yuan": 58570474.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002109",
+      "name": "ST兴化",
+      "price": 2.7,
+      "previous": 2.74,
+      "change_pct": -1.46,
+      "amount_yuan": 9113154.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002110",
+      "name": "三钢闽光",
+      "price": 2.76,
+      "previous": 2.8,
+      "change_pct": -1.429,
+      "amount_yuan": 45303261.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002111",
+      "name": "威海广泰",
+      "price": 9.04,
+      "previous": 9.15,
+      "change_pct": -1.202,
+      "amount_yuan": 53681554.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002112",
+      "name": "三变科技",
+      "price": 14.88,
+      "previous": 14.43,
+      "change_pct": 3.119,
+      "amount_yuan": 784636185.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002114",
+      "name": "罗平锌电",
+      "price": 6.5,
+      "previous": 6.69,
+      "change_pct": -2.84,
+      "amount_yuan": 31691197.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002115",
+      "name": "三维通信",
+      "price": 9.22,
+      "previous": 9.77,
+      "change_pct": -5.629,
+      "amount_yuan": 386980791.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002116",
+      "name": "中国海诚",
+      "price": 6.95,
+      "previous": 7.01,
+      "change_pct": -0.856,
+      "amount_yuan": 21657114.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002117",
+      "name": "东港股份",
+      "price": 7.92,
+      "previous": 8.15,
+      "change_pct": -2.822,
+      "amount_yuan": 67710031.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002119",
+      "name": "康强电子",
+      "price": 20.49,
+      "previous": 21.08,
+      "change_pct": -2.799,
+      "amount_yuan": 781776526.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002120",
+      "name": "韵达股份",
+      "price": 6.4,
+      "previous": 6.49,
+      "change_pct": -1.387,
+      "amount_yuan": 146954058.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002121",
+      "name": "科陆电子",
+      "price": 4.17,
+      "previous": 4.15,
+      "change_pct": 0.482,
+      "amount_yuan": 85651345.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002122",
+      "name": "ST汇洲",
+      "price": 2.62,
+      "previous": 2.71,
+      "change_pct": -3.321,
+      "amount_yuan": 26151694.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002123",
+      "name": "梦网科技",
+      "price": 7.33,
+      "previous": 7.67,
+      "change_pct": -4.433,
+      "amount_yuan": 115111339.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002124",
+      "name": "天邦食品",
+      "price": 1.96,
+      "previous": 2.0,
+      "change_pct": -2.0,
+      "amount_yuan": 104902622.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002125",
+      "name": "湘潭电化",
+      "price": 10.48,
+      "previous": 10.65,
+      "change_pct": -1.596,
+      "amount_yuan": 131889964.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002126",
+      "name": "银轮股份",
+      "price": 30.28,
+      "previous": 30.97,
+      "change_pct": -2.228,
+      "amount_yuan": 356926549.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002127",
+      "name": "南极电商",
+      "price": 2.77,
+      "previous": 2.93,
+      "change_pct": -5.461,
+      "amount_yuan": 191987412.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002128",
+      "name": "电投能源",
+      "price": 27.2,
+      "previous": 27.57,
+      "change_pct": -1.342,
+      "amount_yuan": 402141480.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002129",
+      "name": "TCL中环",
+      "price": 8.69,
+      "previous": 8.84,
+      "change_pct": -1.697,
+      "amount_yuan": 471611765.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002130",
+      "name": "沃尔核材",
+      "price": 14.43,
+      "previous": 14.72,
+      "change_pct": -1.97,
+      "amount_yuan": 178412897.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002131",
+      "name": "利欧股份",
+      "price": 4.05,
+      "previous": 4.23,
+      "change_pct": -4.255,
+      "amount_yuan": 758457078.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002132",
+      "name": "恒星科技",
+      "price": 3.81,
+      "previous": 3.76,
+      "change_pct": 1.33,
+      "amount_yuan": 141514687.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002133",
+      "name": "广宇集团",
+      "price": 2.67,
+      "previous": 2.75,
+      "change_pct": -2.909,
+      "amount_yuan": 19335109.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002134",
+      "name": "天津普林",
+      "price": 24.5,
+      "previous": 23.25,
+      "change_pct": 5.376,
+      "amount_yuan": 973779924.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002135",
+      "name": "东南网架",
+      "price": 5.31,
+      "previous": 5.56,
+      "change_pct": -4.496,
+      "amount_yuan": 71997151.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002136",
+      "name": "安 纳 达",
+      "price": 10.67,
+      "previous": 11.02,
+      "change_pct": -3.176,
+      "amount_yuan": 42497744.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002137",
+      "name": "实益达",
+      "price": 7.19,
+      "previous": 7.39,
+      "change_pct": -2.706,
+      "amount_yuan": 112442399.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002138",
+      "name": "顺络电子",
+      "price": 41.42,
+      "previous": 42.69,
+      "change_pct": -2.975,
+      "amount_yuan": 833179100.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002139",
+      "name": "拓邦股份",
+      "price": 9.48,
+      "previous": 9.58,
+      "change_pct": -1.044,
+      "amount_yuan": 92689537.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002140",
+      "name": "东华科技",
+      "price": 8.7,
+      "previous": 8.87,
+      "change_pct": -1.917,
+      "amount_yuan": 24444083.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002141",
+      "name": "贤丰控股",
+      "price": 5.14,
+      "previous": 5.5,
+      "change_pct": -6.545,
+      "amount_yuan": 441504865.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002142",
+      "name": "宁波银行",
+      "price": 34.06,
+      "previous": 34.65,
+      "change_pct": -1.703,
+      "amount_yuan": 1511817960.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002144",
+      "name": "宏达高科",
+      "price": 10.01,
+      "previous": 10.25,
+      "change_pct": -2.341,
+      "amount_yuan": 26905989.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002145",
+      "name": "钛能化学",
+      "price": 3.9,
+      "previous": 4.01,
+      "change_pct": -2.743,
+      "amount_yuan": 242642561.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002146",
+      "name": "荣盛发展",
+      "price": 1.08,
+      "previous": 1.12,
+      "change_pct": -3.571,
+      "amount_yuan": 107236804.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002148",
+      "name": "北纬科技",
+      "price": 5.9,
+      "previous": 6.27,
+      "change_pct": -5.901,
+      "amount_yuan": 138175761.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002149",
+      "name": "西部材料",
+      "price": 28.73,
+      "previous": 30.22,
+      "change_pct": -4.931,
+      "amount_yuan": 566613521.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002150",
+      "name": "正泰电源",
+      "price": 17.46,
+      "previous": 18.02,
+      "change_pct": -3.108,
+      "amount_yuan": 66291905.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002151",
+      "name": "北斗星通",
+      "price": 27.82,
+      "previous": 28.08,
+      "change_pct": -0.926,
+      "amount_yuan": 310548379.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002152",
+      "name": "广电运通",
+      "price": 8.92,
+      "previous": 9.01,
+      "change_pct": -0.999,
+      "amount_yuan": 137111697.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002153",
+      "name": "石基信息",
+      "price": 7.25,
+      "previous": 7.49,
+      "change_pct": -3.204,
+      "amount_yuan": 104936012.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002154",
+      "name": "报 喜 鸟",
+      "price": 3.63,
+      "previous": 3.76,
+      "change_pct": -3.457,
+      "amount_yuan": 122762949.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002155",
+      "name": "湖南黄金",
+      "price": 20.92,
+      "previous": 21.85,
+      "change_pct": -4.256,
+      "amount_yuan": 572936003.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002156",
+      "name": "通富微电",
+      "price": 47.8,
+      "previous": 47.67,
+      "change_pct": 0.273,
+      "amount_yuan": 4033294700.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002157",
+      "name": "正邦科技",
+      "price": 2.9,
+      "previous": 2.87,
+      "change_pct": 1.045,
+      "amount_yuan": 391460336.0,
+      "quote_time": "15:35:45"
+    },
+    {
+      "symbol": "002158",
+      "name": "汉钟精机",
+      "price": 21.54,
+      "previous": 22.16,
+      "change_pct": -2.798,
+      "amount_yuan": 83617005.0,
+      "quote_time": "15:36:00"
+    },
+    {
+      "symbol": "002159",
+      "name": "三特索道",
+      "price": 12.58,
+      "previous": 12.89,
+      "change_pct": -2.405,
+      "amount_yuan": 19857906.0,
+      "quote_time": "15:35:15"
+    },
+    {
+      "symbol": "002160",
+      "name": "常铝股份",
+      "price": 3.66,
+      "previous": 3.72,
+      "change_pct": -1.613,
+      "amount_yuan": 33359853.0,
+      "quote_time": "15:35:30"
+    },
+    {
+      "symbol": "002161",
+      "name": "远 望 谷",
+      "price": 5.45,
+      "previous": 5.75,
+      "change_pct": -5.217,
+      "amount_yuan": 87702176.0,
+      "quote_time": "15:35:45"
+    }
+  ]
+}
