@@ -5,7 +5,7 @@ import sys
 import tempfile
 import unittest
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
-from research_review import summarize,check_experiment,review_registry
+from research_review import summarize,check_experiment,review_registry,backtest_reference
 
 class ReviewChecks(unittest.TestCase):
     def environment(self):
@@ -31,6 +31,11 @@ class ReviewChecks(unittest.TestCase):
             r=check_experiment(root,t);self.assertEqual(r['status'],'READY_FOR_REVIEW');self.assertFalse(r['automatic_adoption'])
             p.write_text('{"changed":true}');self.assertEqual(check_experiment(root,t)['status'],'BLOCKED')
             t['holdout_start']=t['train_end'];self.assertEqual(check_experiment(root,t)['status'],'BLOCKED')
+    def test_missing_and_corrupt_backtest_reference(self):
+        with tempfile.TemporaryDirectory() as d:
+            root=Path(d);self.assertEqual(backtest_reference(root),'')
+            p=root/'state/backtests/LATEST.json';p.parent.mkdir(parents=True);p.write_text('bad')
+            self.assertIn('未能读取',backtest_reference(root))
     def test_invalid_registry_record_visible(self):
         with tempfile.TemporaryDirectory() as d:
             p=Path(d)/'state/experiments/bad.json';p.parent.mkdir(parents=True);p.write_text('bad')

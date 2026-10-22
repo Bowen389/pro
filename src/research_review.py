@@ -80,3 +80,22 @@ def render(summary,reviews):
     for r in reviews:lines.append('- '+r['version']+'：'+r['status']+'；缺少：'+','.join(r.get('missing',[]))+'；问题：'+'；'.join(r.get('issues',[])))
     lines+=['- 后续实验必须列明成本、成交模型、时间分割、失败版本、多重搜索处理和证据文件；材料齐备仍不能自动认定有效。','']
     return '\n'.join(lines)
+
+def backtest_reference(root):
+    """Expose latest frozen public experiment without treating it as an approved strategy."""
+    latest=root/'state/backtests/LATEST.json'
+    if not latest.exists():return ''
+    try:
+        pointer=json.loads(latest.read_text(encoding='utf-8'))
+        path=(root/pointer['result']).resolve()
+        if not path.is_relative_to(root.resolve()):raise ValueError('Invalid experiment path')
+        result=json.loads(path.read_text(encoding='utf-8'))
+        lines=['','### 最新公开日线回测（探索性）',f"核验信号日{len(result['verified_dates'])}个；历史信号{result['signal_count']}条；输入和协议已留档，不能据此认定策略有效。",'', '|固定方案|验证段已平仓|未平仓|已实现盈亏|含估值净值变化|','|---|---:|---:|---:|---:|']
+        for row in result['results']:
+            if row['phase']!='holdout':continue
+            pnl=sum(t['net_pnl'] for t in row['trades'])
+            lines.append(f"|{row['variant']}|{row['closed_trades']}|{row['unresolved_positions']}|{pnl:.2f}元|{row['total_return']:.2%}|")
+        report=pointer['report'].removeprefix('reports/')
+        lines+=['',f'[回测完整报告](../{report})','样本短、历史状态和成交仍有缺口；不据验证段结果选择赢家或自动改规则。','']
+        return '\n'.join(lines)
+    except (ValueError,KeyError,TypeError,OSError):return '\n### 公开回测记录缺口\n最新结果未能读取，不将其视为验证通过。\n'
