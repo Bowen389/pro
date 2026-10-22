@@ -1,8 +1,8 @@
 {
-  "run_key": "20261022T135850_evening_39731113377_1",
+  "run_key": "20261022T142044_evening_39733342951_1",
   "phase": "evening",
-  "started_at": "2026-10-22T13:58:50.611580+08:00",
-  "run_url": "https://github.com/Bowen389/pro/actions/runs/39731113377",
+  "started_at": "2026-10-22T14:20:44.254033+08:00",
+  "run_url": "https://github.com/Bowen389/pro/actions/runs/39733342951",
   "system_status": "DEVELOPMENT_VALIDATION",
   "market_status": "pending",
   "source_status": "collected_external",
@@ -15,10 +15,10 @@
   "external_market_count": 11,
   "news_source_count": 3,
   "news_event_count": 60,
-  "report_path": "reports/2026-10-22/20261022T135850_evening_39731113377_1.md",
-  "external_context_path": "state/external/2026-10-22/20261022T135850_evening_39731113377_1.json",
+  "report_path": "reports/2026-10-22/20261022T142044_evening_39733342951_1.md",
+  "external_context_path": "state/external/2026-10-22/20261022T142044_evening_39733342951_1.json",
   "result": "partial",
   "product": "evening",
   "domestic_result": "failed",
-  "finished_at": "2026-10-22T13:58:53.137313+08:00"
+  "finished_at": "2026-10-22T14:20:46.163625+08:00"
 }
