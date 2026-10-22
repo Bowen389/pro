@@ -1,0 +1,16 @@
+{
+  "run_key": "20261022T135850_close_39731113377_1",
+  "phase": "close",
+  "started_at": "2026-10-22T13:58:50.611580+08:00",
+  "run_url": "https://github.com/Bowen389/pro/actions/runs/39731113377",
+  "system_status": "DEVELOPMENT_VALIDATION",
+  "market_status": "pending",
+  "source_status": "pending",
+  "report_status": "not_generated",
+  "warnings": [],
+  "exit_code": 1,
+  "result": "failed",
+  "error_type": "ValueError",
+  "error": "Close task before final data window",
+  "finished_at": "2026-10-22T13:58:50.613078+08:00"
+}
