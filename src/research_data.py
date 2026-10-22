@@ -3,6 +3,7 @@ import concurrent.futures as cf
 import datetime as dt
 import json
 import math
+import time
 import urllib.parse
 import urllib.request
 from zoneinfo import ZoneInfo
@@ -74,9 +75,17 @@ def breadth(day):
         total=int(fetch(base+'getHQNodeStockCount?node=hs_a'))
         if not 3000<total<10000:raise ValueError('Unexpected universe')
         def page(n):
-            p=fetch(base+'getHQNodeData?node=hs_a&num=100&page='+str(n)+'&sort=symbol&asc=1')
-            if not isinstance(p,list):raise ValueError('Page schema')
-            return p
+            expected=min(100,total-(n-1)*100)
+            for attempt in range(3):
+                try:
+                    url=base+'getHQNodeData?node=hs_a&num=100&page='+str(n)+'&sort=symbol&asc=1'
+                    if attempt:url+='&_='+str(time.time_ns())
+                    p=fetch(url)
+                    if not isinstance(p,list) or len(p)!=expected:raise ValueError('Incomplete page '+str(n))
+                    return p
+                except Exception:
+                    if attempt==2:raise
+                    time.sleep(1)
         with cf.ThreadPoolExecutor(max_workers=4) as ex:pages=list(ex.map(page,range(1,(total+99)//100+1)))
         raw=[r for p in pages for r in p];unique={r['symbol']:r for r in raw}
         if len(unique)!=total or len(raw)!=total:raise ValueError('Incomplete/duplicate universe '+str(len(raw))+'/'+str(len(unique))+'/'+str(total))

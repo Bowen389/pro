@@ -8,7 +8,7 @@ import unittest
 from unittest.mock import patch
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
 from leader_study import build,apply_plan,themes,ledger,learning_summary
-from research_data import minute,daily
+from research_data import minute,daily,breadth
 from author_analysis import analyze,validate
 from l2_import import validate as validate_l2,summary
 from test_pipeline import market
@@ -37,6 +37,22 @@ class ResearchChecks(unittest.TestCase):
         data={'data':{'sz002929':{'qfqday':[['2026-10-20','10','11','12','9','100'],['2026-10-22','12','13','14','11','200']]}}}
         with patch('research_data.fetch',return_value=data):r=daily('002929','2026-10-21')
         self.assertEqual(len(r['data']),1)
+    def test_breadth_missing_page_retried(self):
+        from urllib.parse import urlsplit,parse_qs
+        calls={}
+        def source(url):
+            if 'StockCount' in url:return '3001'
+            page=int(parse_qs(urlsplit(url).query)['page'][0]);calls[page]=calls.get(page,0)+1
+            if page==31 and calls[page]==1:return []
+            return [{'symbol':'sz'+str(i).zfill(6),'code':str(i).zfill(6),'name':'test','trade':'2','settlement':'1','changepercent':'100','amount':'1','ticktime':'14:00:00'} for i in range((page-1)*100+1,min(page*100,3001)+1)]
+        with patch('research_data.fetch',side_effect=source),patch('research_data.time.sleep'):
+            r=breadth('2026-10-21')
+        self.assertEqual(r['status'],'ok');self.assertEqual(r['data']['count'],3001);self.assertEqual(calls[31],2)
+    def test_breadth_persistent_missing_page_not_complete(self):
+        def source(url):return '3001' if 'StockCount' in url else []
+        with patch('research_data.fetch',side_effect=source),patch('research_data.time.sleep'):
+            r=breadth('2026-10-21')
+        self.assertEqual(r['status'],'failed');self.assertNotIn('data',r)
     def test_model_unconfigured_explicit(self):
         with patch.dict(os.environ,{},clear=True):r=analyze([],'2026-10-21T20:17:00+08:00')
         self.assertEqual(r['status'],'not_configured')
