@@ -48,12 +48,22 @@ class PipelineChecks(unittest.TestCase):
         nextday=market('2026-10-22','close','2026-10-22T16:00:00+08:00');nextday['rows']=[]
         results=evaluate(self.root,nextday,'2026-10-22T17:00:00+08:00')
         self.assertEqual(len(results[0]['outcomes']),1);self.assertFalse(results[0]['outcomes'][0]['in_today_limit_pool']);self.assertIsNone(results[0]['pnl'])
-    def test_evening_only_external(self):
-        def forbidden(*args):raise AssertionError('domestic collection must not run')
-        r=perform(self.root,'evening',dt.datetime(2026,10,21,20,tzinfo=TZ),forbidden,forbidden,external)
+    def test_evening_combines_close_and_external(self):
+        r=perform(self.root,'evening',dt.datetime(2026,10,21,20,tzinfo=TZ),sources,market,external)
         self.assertEqual(r['exit_code'],0)
+        text=(self.root/r['report_path']).read_text()
+        self.assertIn('收盘复盘',text);self.assertIn('晚间外盘与事件补充',text)
+        self.assertEqual(len(list((self.root/'reports/2026-10-21').glob('*.md'))),1)
+        self.assertEqual(load_snapshots(self.root)[0]['phase'],'close')
         self.assertFalse((self.root/'state/plans').exists())
-        self.assertIn('晚间外盘与事件补充',(self.root/r['report_path']).read_text())
+    def test_evening_domestic_failure_preserves_external(self):
+        def broken(*a):raise ValueError('market unavailable')
+        r=perform(self.root,'evening',dt.datetime(2026,10,21,20,tzinfo=TZ),sources,broken,external)
+        self.assertEqual(r['result'],'partial');self.assertIn('收盘复盘缺失',(self.root/r['report_path']).read_text())
+    def test_evening_external_failure_preserves_close(self):
+        def broken(*a):raise ValueError('external unavailable')
+        r=perform(self.root,'evening',dt.datetime(2026,10,21,20,tzinfo=TZ),sources,market,broken)
+        self.assertEqual(r['result'],'partial');self.assertIn('外盘与事件补充失败',(self.root/r['report_path']).read_text())
     def test_delayed_midday_and_phase_index(self):
         r=perform(self.root,'midday',dt.datetime(2026,10,21,12,10,31,tzinfo=TZ),sources,market)
         self.assertEqual(r['exit_code'],0)

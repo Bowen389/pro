@@ -60,9 +60,9 @@ def publish_latest(root,status):
     latest=json.loads(manifest.read_text(encoding='utf-8')) if manifest.exists() else {}
     latest[status['phase']]={k:status.get(k) for k in ('run_key','report_path','market_date','phase','result','started_at')}
     write_json(manifest,latest)
-    labels={'morning':'盘前修订预案','midday':'午间盘内观察','close':'收盘复盘','evening':'晚间外盘与事件'}
+    labels={'morning':'盘前修订预案','midday':'午间盘内观察','close':'手动收盘记录','evening':'晚间综合复盘'}
     lines=['# 各时段最新报告','','|时段|最新报告|','|---|---|']
-    for phase in ('morning','midday','close','evening'):
+    for phase in ('morning','midday','evening'):
         record=latest.get(phase)
         if record and record.get('report_path'):
             lines.append(f"|{labels[phase]}|[{record['run_key']}]({record['report_path'].removeprefix('reports/')})|")
@@ -112,6 +112,41 @@ def external_run(root,phase,now,run_key,status,history,loader):
     return status
 
 
+def evening_run(root,now,run_key,status,source_loader,market_loader,external_loader):
+    # Reuse close collection/validation, then publish one combined evening product.
+    domestic=perform(root,'close',now,source_loader,market_loader,external_loader)
+    domestic_text=None
+    if domestic.get('report_path'):
+        path=root/domestic['report_path']
+        domestic_text=path.read_text(encoding='utf-8')
+        path.unlink()
+    manifest=root/'state/latest_by_phase.json'
+    if manifest.exists():
+        latest=json.loads(manifest.read_text(encoding='utf-8'))
+        latest.pop('close',None);write_json(manifest,latest)
+    try:
+        external_run(root,'evening',now,run_key,status,load_snapshots(root),external_loader)
+        external_text=(root/status['report_path']).read_text(encoding='utf-8')
+        external_ok=True
+    except Exception as exc:
+        external_ok=False
+        external_text='## 外盘与事件补充失败\n\n'+type(exc).__name__+': '+str(exc)[:250]+'\n'
+        status['warnings'].append('外盘采补失败；不能据此认定没有隔夜事件')
+    if not domestic_text and not external_ok:raise ValueError('Both close review and external collection failed')
+    if not domestic_text:
+        domestic_text='## 收盘复盘缺失\n\n'+domestic.get('error','收盘数据未取得')+'\n'
+    report_path=root/'reports'/now.date().isoformat()/(run_key+'.md')
+    report_path.parent.mkdir(parents=True,exist_ok=True)
+    report_path.write_text('# 晚间综合复盘：A股收盘、外盘与事件\n\n'+domestic_text+'\n---\n\n'+external_text,encoding='utf-8')
+    for key in ('market_date','market_count','source_posts','source_readable','plans_checked'):
+        if key in domestic:status[key]=domestic[key]
+    partial=domestic.get('result')!='success' or not external_ok or status.get('result')=='partial'
+    status.update({'result':'partial' if partial else 'success','report_path':str(report_path.relative_to(root)),'report_status':'combined_evening_review','market_status':domestic['market_status'],'domestic_result':domestic['result'],'product':'evening'})
+    status['warnings']+=domestic.get('warnings',[])
+    publish_latest(root,status)
+    return status
+
+
 def perform(root,phase,now=None,source_loader=collect_sources,market_loader=None,external_loader=collect_external):
     now=now or dt.datetime.now(TZ);observed=now.isoformat();day=now.date().isoformat()
     phase=phase if phase!='auto' else 'morning' if now.hour<10 else 'midday' if now.hour<13 else 'evening' if now.hour>=18 else 'close'
@@ -122,7 +157,9 @@ def perform(root,phase,now=None,source_loader=collect_sources,market_loader=None
             status.update({'market_status':'skipped_weekend','source_status':'skipped','report_status':'skipped','result':'skipped'})
             return status
         history=load_snapshots(root)
-        if phase in ('evening','morning'):
+        if phase=='evening':
+            return evening_run(root,now,run_key,status,source_loader,market_loader,external_loader)
+        if phase=='morning':
             return external_run(root,phase,now,run_key,status,history,external_loader)
         if phase=='midday' and not dt.time(11,30)<=now.time()<dt.time(12,30):raise ValueError('Missed midday capture window; will not label close data as midday')
         if phase=='close' and now.time()<dt.time(15,10):raise ValueError('Close task before final data window')

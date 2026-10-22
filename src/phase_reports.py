@@ -21,5 +21,5 @@ def render_close(snapshot,history,batch,observation_plan,evaluations):
     for e in evaluations:
         lines+=['',f"预案：{e['plan_file']}；时序：{e['timing']}。"]
         for r in e['outcomes']:lines.append(f"- {r['name']} {r['symbol']}：{'收盘在涨停池' if r['in_today_limit_pool'] else '未出现在涨停池'}；盘中条件是否触发仍待分钟数据核验。")
-    lines+=['','## 九、交接给晚间与盘前','- 晚间只补充外盘与新闻事件，不再次生成本收盘复盘。','- 明日盘前依据隔夜信息形成正式条件预案，保存相对基础观察池的修订理由。','- 留待验证：早封稳定性、板块扩散与次日持续性的关系；保留所有失败样本。']
+    lines+=['','## 九、交接给晚间与盘前','- 本收盘复盘在20:17生成，与外盘和新闻事件合并发布。','- 明日盘前依据隔夜信息形成正式条件预案，保存相对基础观察池的修订理由。','- 留待验证：早封稳定性、板块扩散与次日持续性的关系；保留所有失败样本。']
     return '\n'.join(lines)+'\n'

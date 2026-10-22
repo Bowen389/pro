@@ -17,7 +17,6 @@ on:
   schedule:
     - cron: '5 1 * * 1-5'
     - cron: '37 3 * * 1-5'
-    - cron: '37 7 * * 1-5'
     - cron: '17 12 * * 1-5'
 permissions:
   contents: write
@@ -50,7 +49,6 @@ jobs:
           case "$EVENT_SCHEDULE" in
             '5 1 * * 1-5') phase=morning ;;
             '37 3 * * 1-5') phase=midday ;;
-            '37 7 * * 1-5') phase=close ;;
             '17 12 * * 1-5') phase=evening ;;
           esac
           echo "phase=$phase" >> "$GITHUB_OUTPUT"

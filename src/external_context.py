@@ -167,7 +167,7 @@ def market_table(context,baseline=None):
 def render_external(context,phase,base=None,plan=None,revision=None,evening=None):
     morning=phase=='morning'
     lines=['# '+('盘前预案修订' if morning else '晚间外盘与事件补充'),'',f"编制时点：{context['observed_at']}；新闻窗口起点：{context['news_window_start']}",'', '## 外盘状态与时点','']+market_table(context,evening)
-    if not morning:lines+=['','本报告只补充盘外信息，不重写收盘复盘、不生成另一份股票排行榜。美股尚未开盘时显示上一交易日报价；当晚最终收盘留待次日盘前更新。']
+    if not morning:lines+=['','本节补充盘外信息，与前面的A股收盘复盘合并为同一份晚间报告。美股尚未开盘时显示上一交易日报价；当晚最终收盘留待次日盘前更新。']
     lines+=['','## 新闻源覆盖','']
     for s in context['news_sources']:lines.append(f"- {s['source']}：{s['status']}（{s['url']}）")
     lines+=['','## '+('较晚间新增/更新的事件线索' if morning else '盘后至晚间的事件线索'),'']
