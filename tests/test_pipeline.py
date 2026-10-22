@@ -15,6 +15,8 @@ def market(date,phase,observed):
     return {'date':date,'source_updated_at':date+('T11:35:00+08:00' if phase=='midday' else 'T15:35:00+08:00'),'observed_at':observed,'rows':[ROW.copy()],'count':1,'scope':'test','phase':phase}
 def sources(config,observed):
     return {'collected_at':observed,'catalogues':[],'posts':[{'author':'测试','url':'https://www.tgb.cn/a/test','title':'测试','status':'partial_login_required','published_at':None}]}
+def external(phase,observed,start):
+    return {'phase':phase,'observed_at':observed,'news_window_start':start,'markets':[], 'events':[], 'news_sources':[{'source':'test','url':'https://example.com','status':'ok'}]}
 class PipelineChecks(unittest.TestCase):
     def setUp(self):
         self.tmp=tempfile.TemporaryDirectory();self.root=Path(self.tmp.name);(self.root/'config').mkdir();write_json(self.root/'config/sources.json',{'authors':[]})
@@ -23,11 +25,11 @@ class PipelineChecks(unittest.TestCase):
         r=perform(self.root,'close',dt.datetime(2026,10,21,16,tzinfo=TZ),sources,market)
         self.assertEqual(r['exit_code'],0);self.assertTrue((self.root/r['report_path']).is_file());self.assertEqual(len(load_snapshots(self.root)),1)
     def test_morning_without_history_fails_visible(self):
-        r=perform(self.root,'morning',dt.datetime(2026,10,22,9,tzinfo=TZ),sources,market)
+        r=perform(self.root,'morning',dt.datetime(2026,10,22,9,tzinfo=TZ),sources,market,external)
         self.assertEqual(r['exit_code'],1);self.assertEqual(r['report_status'],'not_generated');self.assertTrue((self.root/'state/status.json').is_file())
     def test_morning_uses_previous(self):
         write_json(self.root/'state/snapshots/2026-10-21/close.json',market('2026-10-21','close','2026-10-21T16:00:00+08:00'))
-        r=perform(self.root,'morning',dt.datetime(2026,10,22,9,tzinfo=TZ),sources,market)
+        r=perform(self.root,'morning',dt.datetime(2026,10,22,9,tzinfo=TZ),sources,market,external)
         self.assertEqual(r['market_date'],'2026-10-21');self.assertEqual(r['exit_code'],0)
     def test_late_midday_rejected(self):
         r=perform(self.root,'midday',dt.datetime(2026,10,21,15,tzinfo=TZ),sources,market)
@@ -46,4 +48,29 @@ class PipelineChecks(unittest.TestCase):
         nextday=market('2026-10-22','close','2026-10-22T16:00:00+08:00');nextday['rows']=[]
         results=evaluate(self.root,nextday,'2026-10-22T17:00:00+08:00')
         self.assertEqual(len(results[0]['outcomes']),1);self.assertFalse(results[0]['outcomes'][0]['in_today_limit_pool']);self.assertIsNone(results[0]['pnl'])
+    def test_evening_only_external(self):
+        def forbidden(*args):raise AssertionError('domestic collection must not run')
+        r=perform(self.root,'evening',dt.datetime(2026,10,21,20,tzinfo=TZ),forbidden,forbidden,external)
+        self.assertEqual(r['exit_code'],0)
+        self.assertFalse((self.root/'state/plans').exists())
+        self.assertIn('晚间外盘与事件补充',(self.root/r['report_path']).read_text())
+    def test_delayed_midday_and_phase_index(self):
+        r=perform(self.root,'midday',dt.datetime(2026,10,21,12,10,31,tzinfo=TZ),sources,market)
+        self.assertEqual(r['exit_code'],0)
+        self.assertIn('午间盘内观察',(self.root/r['report_path']).read_text())
+        perform(self.root,'evening',dt.datetime(2026,10,21,20,tzinfo=TZ),sources,market,external)
+        index=(self.root/'reports/LATEST.md').read_text()
+        self.assertIn(r['run_key'],index)
+        self.assertIn('evening',index)
+    def test_morning_uses_evening_news_boundary(self):
+        write_json(self.root/'state/snapshots/2026-10-21/close.json',market('2026-10-21','close','2026-10-21T16:00:00+08:00'))
+        perform(self.root,'evening',dt.datetime(2026,10,21,20,tzinfo=TZ),sources,market,external)
+        seen=[]
+        def capture(phase,observed,start):
+            seen.append(start);return external(phase,observed,start)
+        r=perform(self.root,'morning',dt.datetime(2026,10,22,9,tzinfo=TZ),sources,market,capture)
+        self.assertEqual(seen,['2026-10-21T20:00:00+08:00'])
+        plan=json.loads((self.root/r['plan_path']).read_text())
+        self.assertIsNotNone(plan['evening_context_path'])
+        self.assertIn('external_revision',plan)
 if __name__=='__main__':unittest.main()
