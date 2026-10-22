@@ -13,8 +13,8 @@ def rank(snapshot):
     from leader_study import build
     study=build(snapshot,[],{})
     result=[]
-    for row in study['roles']:
-        r=dict(row);r['research_score']='不再使用';r['early_low_turnover']=r['first_limit_time']=='09:25:00' and r['turnover_pct']<3
+    for row in study['baseline_ranking']:
+        r=dict(row);r['early_low_turnover']=r['first_limit_time']=='09:25:00' and r['turnover_pct']<3
         result.append(r)
     return result
 
@@ -30,7 +30,7 @@ def render(snapshot,history,source_batch,plan,phase):
     midday=max(same,key=lambda x:x['source_updated_at']) if same else None
     earlier=[x for x in history if x['date']<snapshot['date'] and x.get('phase')=='close']
     previous=max(earlier,key=lambda x:x['source_updated_at']) if earlier else None
-    lines=[f"# {snapshot['date']} 龙头研究 · {phase}",'',f"采集：{snapshot.get('observed_at')}；数据源更新：{snapshot['source_updated_at']}",'','**状态：真实公开涨停池已采集；报告为待验证研究稿，尚未通过完整交付验收。**','','## 一、数据覆盖与缺口','',f"本次涨停池 {len(rows)} 只。未取得全市场涨跌分布、指数、炸板池及完整分钟序列，不能单独以此判定市场情绪。",'封单比与封单留存率不同；09:25早封不能证明全天一字、也不能证明买不到。以下角色排序只用于观察，不是经验证的收益预测。','','## 二、快照比较','','|时点|涨停池数量|数据状态|','|---|---:|---|',f"|前一交易日收盘|{previous['count'] if previous else '缺失'}|{'已保存' if previous else '尚未积累同源快照'}|",f"|本日午间|{midday['count'] if midday else '缺失'}|{'已保存' if midday else '没有当时采集，不能拿收盘倒推'}|",f"|本次|{len(rows)}|本次公开数据|"]
+    lines=[f"# {snapshot['date']} 龙头研究 · {phase}",'',f"采集：{snapshot.get('observed_at')}；数据源更新：{snapshot['source_updated_at']}",'','**状态：真实公开涨停池已采集；报告为待验证研究稿，尚未通过完整交付验收。**','','## 一、数据覆盖与缺口','',f"本次涨停池 {len(rows)} 只。未取得全市场涨跌分布、指数、炸板池及完整分钟序列，不能单独以此判定市场情绪。",'封单比与封单留存率不同；09:25早封不能证明全天一字、也不能证明买不到。以下基线强度排序只用于观察，不是经验证的收益预测。','','## 二、快照比较','','|时点|涨停池数量|数据状态|','|---|---:|---|',f"|前一交易日收盘|{previous['count'] if previous else '缺失'}|{'已保存' if previous else '尚未积累同源快照'}|",f"|本日午间|{midday['count'] if midday else '缺失'}|{'已保存' if midday else '没有当时采集，不能拿收盘倒推'}|",f"|本次|{len(rows)}|本次公开数据|"]
     lines+=['','## 三、梯队及晋级','','|连续板数|当前数量|','|---|---:|']
     for n,c in sorted(heights.items(),reverse=True):lines.append(f'|{n}|{c}|')
     if previous:
@@ -48,13 +48,13 @@ def render(snapshot,history,source_batch,plan,phase):
     lines+=['','## 四、题材结构','','|来源标签|涨停样本数|最高板|样本|','|---|---:|---:|---|']
     for theme,items in sorted(themes.items(),key=lambda kv:(-len(kv[1]),kv[0]))[:12]:
         lines.append(f"|{esc(theme)}|{len(items)}|{max(r['streak'] for r in items)}|{esc('、'.join(r['name'] for r in items[:5]))}|")
-    lines+=['','标签存在交叉及归类误差，不能把行数相加作为市场总数。没有题材全量成交占比与连续多日扩散证据，暂不宣布唯一主线。','','## 五、观察池与反证','','|标的|板数|首封|开板|封单比|换手|旧研究分已停用|定位|','|---|---:|---|---:|---:|---:|---:|---|']
+    lines+=['','标签存在交叉及归类误差，不能把行数相加作为市场总数。没有题材全量成交占比与连续多日扩散证据，暂不宣布唯一主线。','','## 五、观察池与反证','','|标的|板数|首封|开板|封单比|换手|基线强度分/55|定位|','|---|---:|---|---:|---:|---:|---:|---|']
     for r in pool[:10]:lines.append(f"|{esc(r['name'])} {r['symbol']}|{r['streak']}|{r['first_limit_time']}|{r['break_count']}|{r['seal_ratio_pct']:.2f}%|{r['turnover_pct']:.2f}%|{r['research_score']}|{r['classification']}|")
     for c in plan['candidates']:
         lines+=['',f"### {c['name']} {c['symbol']}",'依据：'+'；'.join(c['support']),'反证/缺口：'+'；'.join(c['counterevidence']),'待验证：'+c['expected'],'失效：'+c['invalid']]
     excluded=[r for r in pool if r['break_count']>=3 or r['first_limit_time']>='14:00:00']
     lines+=['','## 六、暂缓优先的样本及原因']
-    for r in excluded[:10]:lines.append(f"- {r['name']}："+'；'.join(r['counterevidence'][2:]))
+    for r in excluded[:10]:lines.append(f"- {r['name']}："+'；'.join((['反复开板'+str(r['break_count'])+'次，需验证承接'] if r['break_count']>=3 else [])+(['首次封板较晚'] if r['first_limit_time']>='14:00:00' else [])))
     if not excluded:lines.append('没有触发本版晚封/反复开板标记的样本，不能解释为全池可买。')
     lines+=['','## 七、公开作者材料','','|作者|文章|发表时间|可读性|','|---|---|---|']
     for post in source_batch.get('posts',[]):lines.append(f"|{esc(post['author'])}|[{esc(post.get('title') or '待核实标题')}]({post['url']})|{post.get('published_at') or '未解析'}|{post['status']}|")

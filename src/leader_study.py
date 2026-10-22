@@ -5,7 +5,9 @@ import hashlib
 import json
 import re
 
-VERSION='leader-evidence-v1.1'
+from scoring import ranked, VERSION as SCORE_VERSION
+
+VERSION='leader-evidence-v1.2'
 ALIASES={'AI应用':'AI应用','AI短剧':'传媒/短剧','短剧':'传媒/短剧','AI':'AI综合','算力租赁':'算力','端侧AI':'端侧AI'}
 def themes(text):return sorted(set(ALIASES.get(x.strip(),x.strip()) for x in re.split(r'[+、,，/]',text) if x.strip()))
 def build(snapshot,history,enrichment):
@@ -36,11 +38,16 @@ def build(snapshot,history,enrichment):
         invalid=('高度锚走弱且后排无接替；缺分钟数据时不判触发' if anchor else '题材高度优势丧失且跟随减少' if theme_core else '核心走弱或自身反复开板，原跟随假设失效')
         roles.append({**r,'role':role,'themes':themes(r['theme_label']),'breadth':max((g['count'] for g in own),default=1),'return20_pct':ret20,'liquidity_warning':'早封低换手，成交能力待核验' if r['first_limit_time']=='09:25:00' and r['turnover_pct']<3 else '成交能力仍待核验','support':['连续'+str(r['streak'])+'板','同题材池内最多'+str(max((g['count'] for g in own),default=1))+'只','首封'+r['first_limit_time']],'invalid':invalid,'expected':expected,'classification':role,'counterevidence':['缺少全题材非涨停样本与因果验证']})
     roles.sort(key=lambda r:(-int(r['role']=='市场高度锚'),-int(r['role']=='题材高度核心'),-r['streak'],-r['breadth'],r['first_limit_time'],r['symbol']))
-    return {'version':VERSION,'date':snapshot['date'],'prior_date':prior['date'] if prior else None,'groups':groups,'roles':roles,'rule_status':'UNVALIDATED_ROLE_RULES','note':'角色优先级不是收益预测，题材统计仅限本涨停池'}
+    baseline=ranked(roles)
+    scores={r['symbol']:r for r in baseline}
+    roles=[scores[r['symbol']] for r in roles]
+    return {'baseline_ranking':baseline,'baseline_score_version':SCORE_VERSION,'version':VERSION,'date':snapshot['date'],'prior_date':prior['date'] if prior else None,'groups':groups,'roles':roles,'rule_status':'UNVALIDATED_ROLE_RULES','note':'角色优先级不是收益预测，题材统计仅限本涨停池'}
 
 def apply_plan(plan,study):
     plan['version']=VERSION
-    plan['candidates']=[{k:r[k] for k in ('symbol','name','support','counterevidence','classification','expected','invalid')}|{'buy_signal':False} for r in study['roles'][:6]]
+    plan['selection_basis']='legacy_strength_baseline_with_role_context'
+    plan['baseline_score_version']=SCORE_VERSION
+    plan['candidates']=[{k:r[k] for k in ('symbol','name','support','counterevidence','classification','expected','invalid','research_score','score_components','score_status','score_version','baseline_rank')}|{'buy_signal':False} for r in study['baseline_ranking'] if r['research_score'] is not None][:6]
     return plan
 
 def ledger(root,snapshot,observed,enrichment=None):
@@ -79,7 +86,7 @@ def learning_summary(root,current):
 
 def esc(s):return str(s).replace('|','／').replace('\n',' ')
 def render(study,enrichment,analysis,learning):
-    ds=enrichment.get('datasets',{});lines=['## 市场环境、龙头角色与验证进度','','规则版本：'+study['version']+'；尚未校准收益。角色排序取代单一研究分，不能据榜首确认龙头。','','### 市场环境']
+    ds=enrichment.get('datasets',{});lines=['## 市场环境、龙头角色与验证进度','','规则版本：'+study['version']+'；尚未校准收益。恢复旧公式作为基线强度分（满分55，未经收益验证），评分排序与角色定位同时保留；不能据榜首确认龙头。','','### 市场环境']
     index=ds.get('indices',{})
     for r in index.get('data',[]) if index.get('status')=='ok' else []:lines.append(f"- {r['name']}：{r['change_pct']:+.2f}%；报价：{r['quote_at']}")
     b=ds.get('breadth',{})
@@ -95,10 +102,13 @@ def render(study,enrichment,analysis,learning):
         if ratio is not None:lines.append('- 广度观察：'+('多数股票下跌，先观察修复与亏钱效应' if ratio<=0.25 else '多数股票上涨，检查题材持续扩散' if ratio>=0.65 else '涨跌分化，需比较核心与后排')+'。这是未校准描述规则，不是开仓信号。')
     lines+=['','### 题材扩散（仅本涨停池）','','|题材|池内数量|前收盘数量|高度|','|---|---:|---:|---:|']
     for g in study['groups'][:12]:lines.append(f"|{esc(g['theme'])}|{g['count']}|{g['prior_count'] if g['prior_count'] is not None else '缺失'}|{g['height']}|")
-    lines+=['','### 角色观察池','','|标的|定位|板数|同题材数量|20日涨幅|成交约束|','|---|---|---:|---:|---:|---|']
+    lines+=['','### 基线强度排序（旧公式原样保留）','','分项依次为早封（0/10/20）、封板稳定（0—15）、封单比（0—10）、1至3板加分（0/10）。分数不是胜率；不计市场环境、公告及真实成交能力。缺失输入不计零分，单列为缺失。同分按代码排序，不代表强弱差异。','','|名次|标的|基线分/55|早封|稳定|封单|低板加分|角色|','|---:|---|---:|---:|---:|---:|---:|---|']
+    for r in study.get('baseline_ranking',[])[:12]:
+        c=r.get('score_components') or {};lines.append('|'+str(r['baseline_rank'])+'|'+esc(r['name'])+' '+r['symbol']+'|'+str(r['research_score'])+'|'+str(c.get('early_seal','缺失'))+'|'+str(c.get('seal_stability','缺失'))+'|'+str(c.get('seal_ratio','缺失'))+'|'+str(c.get('low_board_bonus','缺失'))+'|'+r['role']+'|')
+    lines+=['','### 角色观察池（独立补充，不替代基线分）','','|标的|定位|板数|同题材数量|20日涨幅|成交约束|','|---|---|---:|---:|---:|---|']
     for r in study['roles'][:12]:lines.append(f"|{esc(r['name'])} {r['symbol']}|{r['role']}|{r['streak']}|{r['breadth']}|{round(r['return20_pct'],2) if r['return20_pct'] is not None else '缺失'}|{r['liquidity_warning']}|")
     lines+=['','### 候选分支与失效条件']
-    for r in study['roles'][:6]:lines.append('- '+r['name']+' '+r['symbol']+'（'+r['role']+'）：'+r['expected']+'；失效：'+r['invalid']+'；已知开板'+str(r['break_count'])+'次。')
+    for r in study.get('baseline_ranking',study['roles'])[:6]:lines.append('- '+r['name']+' '+r['symbol']+'（'+r['role']+'）：'+r['expected']+'；失效：'+r['invalid']+'；已知开板'+str(r['break_count'])+'次。')
     lines+=['','### 作者观点与分歧','', '分析状态：'+analysis['status']+'。']
     for c in analysis.get('claims',[]):lines.append('- '+esc(c['author'])+'：'+esc(c['view'])+'；对象：'+esc(c['subject'])+'；条件：'+esc(c['condition'])+'；失效：'+esc(c['invalid'])+'；[出处]('+c['url']+')')
     if not analysis.get('claims'):lines.append('未生成有正文依据的观点，不以标题猜测立场。')
