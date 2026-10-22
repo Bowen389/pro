@@ -21,6 +21,12 @@ class ResearchChecks(unittest.TestCase):
         study=build(s,[],{})
         self.assertEqual(study['roles'][0]['symbol'],'002929');self.assertEqual(study['roles'][0]['role'],'市场高度锚')
         self.assertIsNone(study['groups'][0]['prior_count'])
+    def test_first_board_theme_not_proven_core(self):
+        s=market('2026-10-21','close','2026-10-21T16:00:00+08:00')
+        s['rows']=[dict(s['rows'][0],symbol=str(600001+i),streak=1,theme_label='主题A') for i in range(3)]+[dict(s['rows'][0],symbol='002929',streak=3,theme_label='主题B')]
+        study=build(s,[],{})
+        for r in study['roles']:
+            if r['streak']==1:self.assertNotEqual(r['role'],'题材高度核心')
     def test_alias_and_plan_version(self):
         self.assertEqual(themes('AI短剧+短剧'),['传媒/短剧'])
         study=build(market('2026-10-21','close','2026-10-21T16:00:00+08:00'),[],{})

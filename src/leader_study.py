@@ -5,7 +5,7 @@ import hashlib
 import json
 import re
 
-VERSION='leader-evidence-v1'
+VERSION='leader-evidence-v1.1'
 ALIASES={'AI应用':'AI应用','AI短剧':'传媒/短剧','短剧':'传媒/短剧','AI':'AI综合','算力租赁':'算力','端侧AI':'端侧AI'}
 def themes(text):return sorted(set(ALIASES.get(x.strip(),x.strip()) for x in re.split(r'[+、,，/]',text) if x.strip()))
 def build(snapshot,history,enrichment):
@@ -27,12 +27,15 @@ def build(snapshot,history,enrichment):
     for r in snapshot['rows']:
         own=[g for g in groups if r['symbol'] in {x['symbol'] for x in grouped[g['theme']]}]
         anchor=r['streak']==maxheight
-        theme_core=any(g['count']>=3 and r['streak']==g['height'] for g in own)
+        theme_core=any(g['count']>=3 and r['streak']>=2 and r['streak']==g['height'] for g in own)
         role='市场高度锚' if anchor else '题材高度核心' if theme_core else '同题材跟随观察' if any(g['count']>=3 for g in own) else '独立强势观察'
         bars=dailies.get(r['symbol'],[]);past=[b for b in bars if b['date']<snapshot['date']]
         ret20=(r['close']/past[-20]['close']-1)*100 if len(past)>=20 else None
-        roles.append({**r,'role':role,'themes':themes(r['theme_label']),'breadth':max((g['count'] for g in own),default=1),'return20_pct':ret20,'liquidity_warning':'早封低换手，成交能力待核验' if r['first_limit_time']=='09:25:00' and r['turnover_pct']<3 else '成交能力仍待核验','support':['连续'+str(r['streak'])+'板','同题材池内最多'+str(max((g['count'] for g in own),default=1))+'只','首封'+r['first_limit_time']],'invalid':'自身失去相对强势且题材跟随减少；待分钟数据核验','expected':'观察自身承接与同题材跟随是否同时维持','classification':role,'counterevidence':['缺少全题材非涨停样本与因果验证']})
-    roles.sort(key=lambda r:(-int(r['role']=='市场高度锚'),-int(r['role']=='题材高度核心'),-r['breadth'],-r['streak'],r['first_limit_time'],r['symbol']))
+        follow=max((g['count'] for g in own),default=1)
+        expected=('高度锚保持相对强势，观察同题材'+str(follow)+'只样本是否继续跟随' if anchor else '题材高度优势保持，比较同方向其他高度股的承接' if theme_core else '等待题材核心保持强势后，再观察自身能否维持强度')
+        invalid=('高度锚走弱且后排无接替；缺分钟数据时不判触发' if anchor else '题材高度优势丧失且跟随减少' if theme_core else '核心走弱或自身反复开板，原跟随假设失效')
+        roles.append({**r,'role':role,'themes':themes(r['theme_label']),'breadth':max((g['count'] for g in own),default=1),'return20_pct':ret20,'liquidity_warning':'早封低换手，成交能力待核验' if r['first_limit_time']=='09:25:00' and r['turnover_pct']<3 else '成交能力仍待核验','support':['连续'+str(r['streak'])+'板','同题材池内最多'+str(max((g['count'] for g in own),default=1))+'只','首封'+r['first_limit_time']],'invalid':invalid,'expected':expected,'classification':role,'counterevidence':['缺少全题材非涨停样本与因果验证']})
+    roles.sort(key=lambda r:(-int(r['role']=='市场高度锚'),-int(r['role']=='题材高度核心'),-r['streak'],-r['breadth'],r['first_limit_time'],r['symbol']))
     return {'version':VERSION,'date':snapshot['date'],'prior_date':prior['date'] if prior else None,'groups':groups,'roles':roles,'rule_status':'UNVALIDATED_ROLE_RULES','note':'角色优先级不是收益预测，题材统计仅限本涨停池'}
 
 def apply_plan(plan,study):
@@ -84,10 +87,18 @@ def render(study,enrichment,analysis,learning):
         d=b['data'];lines.append(f"- 广度：上涨{d['up']}、下跌{d['down']}、平盘{d['flat']}；有效样本{d['count']}；成交额{d['amount_yuan']/1e8:.1f}亿元。日期仅为请求日，源不含交易日期；休市日不可用于判断当日变化。")
     for name,label in [('indices','主要指数'),('breadth','全市场广度'),('broken','炸板池'),('down_limit','跌停池')]:
         r=ds.get(name,{});lines.append('- '+label+'：'+r.get('status','missing')+'；来源：'+r.get('source','无'))
+    for key,label in [('broken','炸板'),('down_limit','跌停')]:
+        r=ds.get(key,{})
+        if r.get('status')=='ok':lines.append('- '+label+'池：'+str(r['data']['tc'])+'只；仅按该源池口径。')
+    if b.get('status')=='ok':
+        data=b['data'];ratio=data['up']/data['count'] if data['count'] else None
+        if ratio is not None:lines.append('- 广度观察：'+('多数股票下跌，先观察修复与亏钱效应' if ratio<=0.25 else '多数股票上涨，检查题材持续扩散' if ratio>=0.65 else '涨跌分化，需比较核心与后排')+'。这是未校准描述规则，不是开仓信号。')
     lines+=['','### 题材扩散（仅本涨停池）','','|题材|池内数量|前收盘数量|高度|','|---|---:|---:|---:|']
     for g in study['groups'][:12]:lines.append(f"|{esc(g['theme'])}|{g['count']}|{g['prior_count'] if g['prior_count'] is not None else '缺失'}|{g['height']}|")
     lines+=['','### 角色观察池','','|标的|定位|板数|同题材数量|20日涨幅|成交约束|','|---|---|---:|---:|---:|---|']
     for r in study['roles'][:12]:lines.append(f"|{esc(r['name'])} {r['symbol']}|{r['role']}|{r['streak']}|{r['breadth']}|{round(r['return20_pct'],2) if r['return20_pct'] is not None else '缺失'}|{r['liquidity_warning']}|")
+    lines+=['','### 候选分支与失效条件']
+    for r in study['roles'][:6]:lines.append('- '+r['name']+' '+r['symbol']+'（'+r['role']+'）：'+r['expected']+'；失效：'+r['invalid']+'；已知开板'+str(r['break_count'])+'次。')
     lines+=['','### 作者观点与分歧','', '分析状态：'+analysis['status']+'。']
     for c in analysis.get('claims',[]):lines.append('- '+esc(c['author'])+'：'+esc(c['view'])+'；对象：'+esc(c['subject'])+'；条件：'+esc(c['condition'])+'；失效：'+esc(c['invalid'])+'；[出处]('+c['url']+')')
     if not analysis.get('claims'):lines.append('未生成有正文依据的观点，不以标题猜测立场。')
