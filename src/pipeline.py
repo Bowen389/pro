@@ -14,6 +14,7 @@ from quant import database
 from public_sources import collect_sources
 from research_report import condition_plan
 from research_data import collect as collect_research,minute
+from research_review import summarize,review_registry,render as render_review
 from author_analysis import analyze as analyze_authors
 from leader_study import build as build_study,apply_plan,ledger,learning_summary,render as render_study
 from phase_reports import render_midday,render_close
@@ -244,7 +245,9 @@ def perform(root,phase,now=None,source_loader=collect_sources,market_loader=None
         study=build_study(snapshot,history,enrichment)
         learning=ledger(root,snapshot,observed,enrichment)
         learning['iteration']=learning_summary(root,learning)
-        write_json(root/'state/research'/day/(run_key+'.json'),{'observed_at':observed,'enrichment':enrichment,'study':study,'author_analysis':analysis})
+        synthesis=summarize(study,enrichment,analysis)
+        research_reviews=review_registry(root)
+        write_json(root/'state/research'/day/(run_key+'.json'),{'observed_at':observed,'enrichment':enrichment,'study':study,'author_analysis':analysis,'synthesis':synthesis,'experiment_reviews':research_reviews})
         write_json(root/'state/learning'/day/(run_key+'.json'),learning)
         plan=apply_plan(condition_plan(snapshot,target,dt.datetime.now(TZ).isoformat()),study)
         evaluations=evaluate(root,snapshot,observed) if phase=='close' else []
@@ -259,6 +262,8 @@ def perform(root,phase,now=None,source_loader=collect_sources,market_loader=None
             write_json(root/'state/close_observations'/day/(run_key+'.json'),plan)
             report=render_close(snapshot,history,batch,plan,evaluations)
         report=report.replace('未取得全市场涨跌分布、指数、炸板池及完整分钟序列，不能单独以此判定市场情绪。','市场环境补充、数据可用性及分钟覆盖见下文研究记录；仅用本涨停池不能判定市场情绪。').replace('尚未完成模型语义分析，不根据标题或摘录自动给作者贴看多/看空标签。','作者语义分析的本次状态见下文；不根据标题猜测看多/看空。').replace('模型接口可选；当前未配置时仅有确定性研究稿。','模型运行状态见本次作者分析记录。')
+        heading,_,body=report.partition('\n')
+        report=heading+'\n\n'+render_review(synthesis,research_reviews)+'\n'+body
         report+='\n'+render_study(study,enrichment,analysis,learning)
         status['research_datasets']={k:(v.get('status') if isinstance(v,dict) else str(sum(x.get('status')=='ok' for x in v))+'/'+str(len(v))) for k,v in enrichment.get('datasets',{}).items()}
         research_partial=any(v.get('status')!='ok' if isinstance(v,dict) else any(x.get('status')!='ok' for x in v) for v in enrichment.get('datasets',{}).values())
