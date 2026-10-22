@@ -238,7 +238,9 @@ def perform(root,phase,now=None,source_loader=collect_sources,market_loader=None
         write_json(root/'state/learning'/day/(run_key+'.json'),learning)
         plan=apply_plan(condition_plan(snapshot,target,dt.datetime.now(TZ).isoformat()),study)
         evaluations=evaluate(root,snapshot,observed) if phase=='close' else []
-        if phase=='midday':
+        if phase=='validation':
+            report='# 当前研究采样验证（非收盘复盘、非盘前预案）\n\n实际采集时间：'+observed+'；源更新时间：'+snapshot['source_updated_at']+'。\n\n此任务用于验证新增数据链路，不将盘中数据标为收盘终值。\n'
+        elif phase=='midday':
             plan['status']='INTRADAY_DRAFT_NOT_FROZEN_PREMARKET'
             write_json(root/'state/intraday_drafts'/day/(run_key+'.json'),plan)
             report=render_midday(snapshot,history)
@@ -266,7 +268,7 @@ def perform(root,phase,now=None,source_loader=collect_sources,market_loader=None
 
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--phase',choices=['auto','morning','midday','close','evening','track'],default='auto');a=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('--phase',choices=['auto','morning','midday','close','evening','track','validation'],default='auto');a=p.parse_args()
     root=Path(__file__).resolve().parents[1];status=perform(root,a.phase)
     print(json.dumps(status,ensure_ascii=False,indent=2))
     summary=os.environ.get('GITHUB_STEP_SUMMARY')

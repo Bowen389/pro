@@ -26,6 +26,12 @@ class PipelineChecks(unittest.TestCase):
     def test_real_state_paths(self):
         r=perform(self.root,'close',dt.datetime(2026,10,21,16,tzinfo=TZ),sources,market)
         self.assertEqual(r['exit_code'],0);self.assertTrue((self.root/r['report_path']).is_file());self.assertEqual(len(load_snapshots(self.root)),1)
+    def test_validation_does_not_fake_close(self):
+        r=perform(self.root,'validation',dt.datetime(2026,10,22,14,tzinfo=TZ),sources,market,external)
+        self.assertEqual(r['exit_code'],0)
+        self.assertIn('非收盘复盘',(self.root/r['report_path']).read_text())
+        self.assertEqual(load_snapshots(self.root)[0]['phase'],'validation')
+        self.assertFalse((self.root/'state/plans').exists())
     def test_morning_without_history_fails_visible(self):
         r=perform(self.root,'morning',dt.datetime(2026,10,22,9,tzinfo=TZ),sources,market,external)
         self.assertEqual(r['exit_code'],1);self.assertEqual(r['report_status'],'not_generated');self.assertTrue((self.root/'state/status.json').is_file())

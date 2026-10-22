@@ -12,7 +12,7 @@ on:
       phase:
         description: 采集阶段
         type: choice
-        options: [auto, morning, midday, close, evening, track]
+        options: [auto, morning, midday, close, evening, track, validation]
         default: auto
   schedule:
     - cron: '5 1 * * 1-5'
@@ -46,7 +46,7 @@ jobs:
           EVENT_SCHEDULE: ${{ github.event.schedule }}
         run: |
           phase="${REQUESTED_PHASE:-auto}"
-          if [ "$EVENT_NAME" = push ]; then phase=evening; fi
+          if [ "$EVENT_NAME" = push ]; then phase=validation; fi
           case "$EVENT_SCHEDULE" in
             '5 1 * * 1-5') phase=morning ;;
             '37 3 * * 1-5') phase=midday ;;
