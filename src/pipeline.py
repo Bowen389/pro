@@ -15,7 +15,7 @@ from public_sources import collect_sources
 from research_report import condition_plan
 from research_data import collect as collect_research,minute
 from author_analysis import analyze as analyze_authors
-from leader_study import build as build_study,apply_plan,ledger,render as render_study
+from leader_study import build as build_study,apply_plan,ledger,learning_summary,render as render_study
 from phase_reports import render_midday,render_close
 from external_context import collect_external,overlay,render_external
 
@@ -234,6 +234,7 @@ def perform(root,phase,now=None,source_loader=collect_sources,market_loader=None
         enrichment['l2_imports']=l2_records
         study=build_study(snapshot,history,enrichment)
         learning=ledger(root,snapshot,observed,enrichment)
+        learning['iteration']=learning_summary(root,learning)
         write_json(root/'state/research'/day/(run_key+'.json'),{'observed_at':observed,'enrichment':enrichment,'study':study,'author_analysis':analysis})
         write_json(root/'state/learning'/day/(run_key+'.json'),learning)
         plan=apply_plan(condition_plan(snapshot,target,dt.datetime.now(TZ).isoformat()),study)

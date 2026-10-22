@@ -51,10 +51,28 @@ def ledger(root,snapshot,observed,enrichment=None):
             previous=[b for b in bars if b['date']<snapshot['date']]
             target=next((b for b in bars if b['date']==snapshot['date']),None)
             benchmark={'open_change_pct':(target['open']/previous[-1]['close']-1)*100,'close_change_pct':(target['close']/previous[-1]['close']-1)*100,'kind':'quote_benchmark_not_strategy_return'} if previous and target and snapshot.get('phase')=='close' else None
-            records.append({'benchmark':benchmark,'plan':str(path.relative_to(root)),'symbol':c['symbol'],'name':c['name'],'rule_version':plan['version'],'prospective':timely,'in_close_limit_pool':c['symbol'] in today,'trigger_status':'unknown_without_validated_intraday_rule','fill_status':'unknown','net_return':None,'outcome_status':'pool_membership_only'})
+            records.append({'benchmark':benchmark,'plan':str(path.relative_to(root)),'symbol':c['symbol'],'name':c['name'],'rule_version':plan['version'],'role':c.get('classification','unknown'),'early_stable':any(x.startswith('首封') and x[2:]<'10:00:00' for x in c.get('support',[])) and '开板0次' in c.get('support',[]),'prospective':timely,'in_close_limit_pool':c['symbol'] in today,'trigger_status':'unknown_without_validated_intraday_rule','fill_status':'unknown','net_return':None,'outcome_status':'pool_membership_only'})
     measured=[r for r in records if r['prospective'] and r['benchmark']]
     summary={'measured_count':len(measured),'mean_open_change_pct':sum(r['benchmark']['open_change_pct'] for r in measured)/len(measured) if measured else None,'mean_close_change_pct':sum(r['benchmark']['close_change_pct'] for r in measured)/len(measured) if measured else None,'interpretation':'行情基准，不是交易收益或策略胜率'}
     return {'benchmark_summary':summary,'date':snapshot['date'],'observed_at':observed,'records':records,'sample_count':len(records),'eligible_prospective':sum(r['prospective'] for r in records),'automatic_rule_change':False,'note':'全部候选保留；不在涨停池不等于亏损，不将池内出现率称作交易胜率'}
+
+def learning_summary(root,current):
+    records={}
+    for path in sorted((root/'state/learning').glob('*/*.json')):
+        data=json.loads(path.read_text(encoding='utf-8'))
+        for r in data.get('records',[]):records[(r['plan'],r['symbol'])]=r
+    for r in current['records']:records[(r['plan'],r['symbol'])]=r
+    groups=defaultdict(list)
+    for r in records.values():
+        if r['prospective']:
+            groups[(r['rule_version'],'早封稳定' if r.get('early_stable') else '其他候选')].append(r)
+    results=[]
+    for (version,cohort),rows in sorted(groups.items()):
+        measured=[r for r in rows if r.get('benchmark')]
+        dates={r['plan'].split('/')[-2] for r in measured}
+        results.append({'version':version,'cohort':cohort,'total_candidates':len(rows),'missing_benchmark':len(rows)-len(measured),'measured':len(measured),'distinct_dates':len(dates),'mean_close_change_pct':sum(r['benchmark']['close_change_pct'] for r in measured)/len(measured) if measured else None,'research_action':'人工复核并另开样本外实验' if len(measured)>=30 and len(dates)>=10 else '继续收集；样本不足不改规则'})
+    return {'hypothesis':'H01 早封且稳定候选的次日行情持续性；非交易收益检验','groups':results,'automatic_rule_change':False,'minimum_review_samples':30,'minimum_review_dates':10,'note':'阈值只决定何时人工复核，不代表统计显著；没有成交收益核算'}
+
 
 def esc(s):return str(s).replace('|','／').replace('\n',' ')
 def render(study,enrichment,analysis,learning):
@@ -81,5 +99,8 @@ def render(study,enrichment,analysis,learning):
             for n in r['data'][:2]:lines.append(f"- {r['name']} {n['date']} [{esc(n['title'])}]({n['url']})")
     lines+=['- 有日线价格基准的真实盘前样本：'+str(learning.get('benchmark_summary',{}).get('measured_count',0))+'；只比较开收盘相对前收盘变化，不代表策略成交收益。']
     lines+=['- 已导入当日券商L2快照批次：'+str(len(enrichment.get('l2_imports',[])))+'；仅快照封单留存，非撤单率或成交保证。']
+    lines+=['','### 跨日假设台账','']
+    for g in learning.get('iteration',{}).get('groups',[]):lines.append('- '+g['version']+' / '+g['cohort']+'：候选'+str(g['total_candidates'])+'，价格基准可用'+str(g['measured'])+'，缺失'+str(g['missing_benchmark'])+'，覆盖'+str(g['distinct_dates'])+'日；'+g['research_action'])
+    if not learning.get('iteration',{}).get('groups'):lines.append('尚无可用的真实盘前样本；不由历史回填制造预测记录。')
     lines+=['- 当日冻结候选核对：'+str(learning['sample_count'])+'条，真正盘前记录'+str(learning['eligible_prospective'])+'条。','- 当前核对范围为收盘池出现情况；分钟条件与真实成交尚未验证，不公布胜率或虚构盈亏。','- 券商快照由独立导入提供；无导入时L2缺失。真实撤单和排队成交仍待队列数据。','- 每次保存规则版本与全部候选结果；规则改动作为新实验，禁止回写旧预案。']
     return '\n'.join(lines)+'\n'

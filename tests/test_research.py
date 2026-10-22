@@ -7,7 +7,7 @@ import sys
 import unittest
 from unittest.mock import patch
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
-from leader_study import build,apply_plan,themes,ledger
+from leader_study import build,apply_plan,themes,ledger,learning_summary
 from research_data import minute,daily
 from author_analysis import analyze,validate
 from l2_import import validate as validate_l2,summary
@@ -61,6 +61,15 @@ class ResearchChecks(unittest.TestCase):
             self.assertEqual(r['sample_count'],2);self.assertIsNone(r['records'][1]['benchmark'])
             self.assertFalse(r['records'][0]['in_close_limit_pool']);self.assertAlmostEqual(r['records'][0]['benchmark']['close_change_pct'],-10)
             self.assertIsNone(r['records'][0]['net_return'])
+    def test_iteration_deduplicates_and_keeps_failures(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);p=root/'state/learning/2026-10-21/a.json';p.parent.mkdir(parents=True)
+            r={'plan':'state/plans/2026-10-21/a.json','symbol':'002929','rule_version':'v1','prospective':True,'early_stable':True,'benchmark':None}
+            p.write_text(json.dumps({'records':[r]}))
+            result=learning_summary(root,{'records':[r]})
+            self.assertEqual(result['groups'][0]['total_candidates'],1)
+            self.assertEqual(result['groups'][0]['missing_benchmark'],1)
+            self.assertFalse(result['automatic_rule_change'])
     def test_workflow_has_three_reports_and_data_only_track(self):
         w=(Path(__file__).resolve().parents[1]/'.github/workflows/research.yml').read_text()
         self.assertNotIn("cron: '37 7",w);self.assertIn("cron: '17 12",w);self.assertIn("phase=track",w)
