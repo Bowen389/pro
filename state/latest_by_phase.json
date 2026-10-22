@@ -6,5 +6,13 @@
     "phase": "evening",
     "result": "partial",
     "started_at": "2026-10-22T14:20:44.254033+08:00"
+  },
+  "validation": {
+    "run_key": "20261022T142212_validation_39733493197_1",
+    "report_path": "reports/2026-10-22/20261022T142212_validation_39733493197_1.md",
+    "market_date": "2026-10-22",
+    "phase": "validation",
+    "result": "partial",
+    "started_at": "2026-10-22T14:22:12.671745+08:00"
   }
 }
