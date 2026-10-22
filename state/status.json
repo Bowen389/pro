@@ -1,13 +1,14 @@
 {
-  "run_key": "20261021T205834_close_39603936846_1",
-  "phase": "close",
-  "started_at": "2026-10-21T20:58:34.519966+08:00",
-  "run_url": "https://github.com/Bowen389/pro/actions/runs/39603936846",
+  "run_key": "20261022T093745_morning_39706773738_1",
+  "phase": "morning",
+  "started_at": "2026-10-22T09:37:45.175883+08:00",
+  "run_url": "https://github.com/Bowen389/pro/actions/runs/39706773738",
   "system_status": "DEVELOPMENT_VALIDATION",
-  "market_status": "collected_public_limit_pool",
+  "market_status": "saved_prior_close",
   "source_status": "collected_public_excerpts",
   "report_status": "generated_research_draft",
   "warnings": [
+    "盘前任务迟到，不能宣称开盘前已给出计划",
     "仅有涨停池；全市场指数、炸板池、历史分钟和L2未接通",
     "自动研究分未验证；模型未配置时不进行语义观点提炼",
     "工作日为近似交易日历；节假日数据可能陈旧并报错"
@@ -17,9 +18,9 @@
   "market_count": 50,
   "source_posts": 9,
   "source_readable": 9,
-  "report_path": "reports/2026-10-21/20261021T205834_close_39603936846_1.md",
-  "plan_path": "state/plans/2026-10-22/20261021T205834_close_39603936846_1.json",
+  "report_path": "reports/2026-10-22/20261022T093745_morning_39706773738_1.md",
+  "plan_path": "state/plans/2026-10-22/20261022T093745_morning_39706773738_1.json",
   "plans_checked": 0,
   "result": "success",
-  "finished_at": "2026-10-21T20:58:48.872815+08:00"
+  "finished_at": "2026-10-22T09:37:59.389450+08:00"
 }
