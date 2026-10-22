@@ -1,8 +1,8 @@
 {
-  "run_key": "20261022T142512_validation_39733798464_1",
+  "run_key": "20261022T142640_validation_39733954449_1",
   "phase": "validation",
-  "started_at": "2026-10-22T14:25:12.169157+08:00",
-  "run_url": "https://github.com/Bowen389/pro/actions/runs/39733798464",
+  "started_at": "2026-10-22T14:26:40.676594+08:00",
+  "run_url": "https://github.com/Bowen389/pro/actions/runs/39733954449",
   "system_status": "DEVELOPMENT_VALIDATION",
   "market_status": "collected_public_limit_pool",
   "source_status": "collected_public_excerpts",
@@ -19,18 +19,18 @@
   "source_posts": 9,
   "source_readable": 9,
   "research_datasets": {
-    "indices": "ok",
+    "indices": "failed",
     "breadth": "ok",
-    "broken": "ok",
+    "broken": "failed",
     "down_limit": "ok",
     "daily": "16/16",
     "minutes": "16/16",
     "notices": "16/16"
   },
   "author_analysis_status": "not_configured",
-  "report_path": "reports/2026-10-22/20261022T142512_validation_39733798464_1.md",
+  "report_path": "reports/2026-10-22/20261022T142640_validation_39733954449_1.md",
   "plan_path": null,
   "plans_checked": 0,
   "result": "partial",
-  "finished_at": "2026-10-22T14:26:06.762121+08:00"
+  "finished_at": "2026-10-22T14:27:38.324892+08:00"
 }
