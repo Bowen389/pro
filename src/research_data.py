@@ -17,8 +17,17 @@ def fetch(url):
     return json.loads(raw)
 
 def safe(name,url,parser):
-    try:return {'name':name,'status':'ok','source':url,'data':parser(fetch(url))}
-    except Exception as e:return {'name':name,'status':'failed','source':url,'error':type(e).__name__}
+    errors=[]
+    for attempt in range(3):
+        try:
+            request_url=url+('&_='+str(time.time_ns()) if attempt else '')
+            data=parser(fetch(request_url))
+            return {'name':name,'status':'ok','source':url,'data':data,'attempts':attempt+1,'observed_at':dt.datetime.now(TZ).isoformat()}
+        except Exception as e:
+            errors.append(type(e).__name__)
+            if attempt<2:time.sleep(1)
+    return {'name':name,'status':'failed','source':url,'error':errors[-1],'attempts':3,'attempt_errors':errors,'observed_at':dt.datetime.now(TZ).isoformat()}
+
 
 def exchange(symbol):return ('sh' if symbol.startswith('6') else 'sz')+symbol
 

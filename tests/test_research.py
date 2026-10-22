@@ -8,12 +8,24 @@ import unittest
 from unittest.mock import patch
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))
 from leader_study import build,apply_plan,themes,ledger,learning_summary
-from research_data import minute,daily,breadth
+from research_data import minute,daily,breadth,safe
 from author_analysis import analyze,validate
 from l2_import import validate as validate_l2,summary
 from test_pipeline import market
 
 class ResearchChecks(unittest.TestCase):
+    def setUp(self):
+        self.sleep=patch('research_data.time.sleep');self.sleep.start()
+    def tearDown(self):self.sleep.stop()
+    def test_transient_dataset_failure_is_retried(self):
+        with patch('research_data.fetch',side_effect=[OSError('temporary'),{'value':1}]):
+            r=safe('test','https://example.com/?a=1',lambda p:p['value'])
+        self.assertEqual(r['status'],'ok');self.assertEqual(r['attempts'],2)
+    def test_persistent_dataset_failure_keeps_history(self):
+        with patch('research_data.fetch',side_effect=OSError('unavailable')):
+            r=safe('test','https://example.com/?a=1',lambda p:p)
+        self.assertEqual(r['status'],'failed');self.assertEqual(len(r['attempt_errors']),3)
+        self.assertNotIn('data',r)
     def test_height_core_not_old_seal_score(self):
         s=market('2026-10-21','close','2026-10-21T16:00:00+08:00')
         low=dict(s['rows'][0],symbol='600001',streak=1,seal_ratio_pct=99)
