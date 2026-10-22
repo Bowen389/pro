@@ -1,0 +1,10 @@
+{
+  "evening": {
+    "run_key": "20261022T134751_evening_39730061605_1",
+    "report_path": "reports/2026-10-22/20261022T134751_evening_39730061605_1.md",
+    "market_date": null,
+    "phase": "evening",
+    "result": "success",
+    "started_at": "2026-10-22T13:47:51.501219+08:00"
+  }
+}
