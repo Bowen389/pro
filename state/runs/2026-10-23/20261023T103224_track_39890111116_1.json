@@ -1,0 +1,15 @@
+{
+  "run_key": "20261023T103224_track_39890111116_1",
+  "phase": "track",
+  "started_at": "2026-10-23T10:32:24.036525+08:00",
+  "run_url": "https://github.com/Bowen389/pro/actions/runs/39890111116",
+  "system_status": "DEVELOPMENT_VALIDATION",
+  "market_status": "minute_capture",
+  "source_status": "pending",
+  "report_status": "no_report_data_capture_only",
+  "warnings": [],
+  "exit_code": 0,
+  "result": "success",
+  "market_count": 6,
+  "finished_at": "2026-10-23T10:32:26.030244+08:00"
+}
