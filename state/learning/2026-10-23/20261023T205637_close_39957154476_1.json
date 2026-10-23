@@ -1,0 +1,159 @@
+{
+  "benchmark_summary": {
+    "measured_count": 0,
+    "mean_open_change_pct": null,
+    "mean_close_change_pct": null,
+    "interpretation": "行情基准，不是交易收益或策略胜率"
+  },
+  "date": "2026-10-23",
+  "observed_at": "2026-10-23T20:56:37.099927+08:00",
+  "records": [
+    {
+      "benchmark": {
+        "open_change_pct": 10.01076426264802,
+        "close_change_pct": -3.7674919268030127,
+        "kind": "quote_benchmark_not_strategy_return"
+      },
+      "plan": "state/plans/2026-10-23/20261023T094105_morning_39885374924_1.json",
+      "symbol": "001360",
+      "name": "南矿集团",
+      "rule_version": "leader-evidence-v1.2",
+      "role": "同题材跟随观察",
+      "early_stable": false,
+      "prospective": false,
+      "in_close_limit_pool": false,
+      "trigger_status": "unknown_without_validated_intraday_rule",
+      "fill_status": "unknown",
+      "net_return": null,
+      "outcome_status": "pool_membership_only"
+    },
+    {
+      "benchmark": {
+        "open_change_pct": 9.94263862332696,
+        "close_change_pct": -6.118546845124284,
+        "kind": "quote_benchmark_not_strategy_return"
+      },
+      "plan": "state/plans/2026-10-23/20261023T094105_morning_39885374924_1.json",
+      "symbol": "600293",
+      "name": "三峡新材",
+      "rule_version": "leader-evidence-v1.2",
+      "role": "独立强势观察",
+      "early_stable": false,
+      "prospective": false,
+      "in_close_limit_pool": false,
+      "trigger_status": "unknown_without_validated_intraday_rule",
+      "fill_status": "unknown",
+      "net_return": null,
+      "outcome_status": "pool_membership_only"
+    },
+    {
+      "benchmark": {
+        "open_change_pct": 0.0,
+        "close_change_pct": 3.1207598371777445,
+        "kind": "quote_benchmark_not_strategy_return"
+      },
+      "plan": "state/plans/2026-10-23/20261023T094105_morning_39885374924_1.json",
+      "symbol": "603350",
+      "name": "安乃达",
+      "rule_version": "leader-evidence-v1.2",
+      "role": "同题材跟随观察",
+      "early_stable": false,
+      "prospective": false,
+      "in_close_limit_pool": false,
+      "trigger_status": "unknown_without_validated_intraday_rule",
+      "fill_status": "unknown",
+      "net_return": null,
+      "outcome_status": "pool_membership_only"
+    },
+    {
+      "benchmark": {
+        "open_change_pct": 10.051546391752563,
+        "close_change_pct": 10.051546391752563,
+        "kind": "quote_benchmark_not_strategy_return"
+      },
+      "plan": "state/plans/2026-10-23/20261023T094105_morning_39885374924_1.json",
+      "symbol": "603028",
+      "name": "赛福天",
+      "rule_version": "leader-evidence-v1.2",
+      "role": "同题材跟随观察",
+      "early_stable": false,
+      "prospective": false,
+      "in_close_limit_pool": true,
+      "trigger_status": "unknown_without_validated_intraday_rule",
+      "fill_status": "unknown",
+      "net_return": null,
+      "outcome_status": "pool_membership_only"
+    },
+    {
+      "benchmark": {
+        "open_change_pct": 0.0,
+        "close_change_pct": 7.365439093484416,
+        "kind": "quote_benchmark_not_strategy_return"
+      },
+      "plan": "state/plans/2026-10-23/20261023T094105_morning_39885374924_1.json",
+      "symbol": "002249",
+      "name": "大洋电机",
+      "rule_version": "leader-evidence-v1.2",
+      "role": "同题材跟随观察",
+      "early_stable": false,
+      "prospective": false,
+      "in_close_limit_pool": false,
+      "trigger_status": "unknown_without_validated_intraday_rule",
+      "fill_status": "unknown",
+      "net_return": null,
+      "outcome_status": "pool_membership_only"
+    },
+    {
+      "benchmark": {
+        "open_change_pct": 9.45454545454545,
+        "close_change_pct": 10.18181818181818,
+        "kind": "quote_benchmark_not_strategy_return"
+      },
+      "plan": "state/plans/2026-10-23/20261023T094105_morning_39885374924_1.json",
+      "symbol": "002535",
+      "name": "林州重机",
+      "rule_version": "leader-evidence-v1.2",
+      "role": "同题材跟随观察",
+      "early_stable": false,
+      "prospective": false,
+      "in_close_limit_pool": true,
+      "trigger_status": "unknown_without_validated_intraday_rule",
+      "fill_status": "unknown",
+      "net_return": null,
+      "outcome_status": "pool_membership_only"
+    }
+  ],
+  "sample_count": 6,
+  "eligible_prospective": 0,
+  "automatic_rule_change": false,
+  "note": "全部候选保留；不在涨停池不等于亏损，不将池内出现率称作交易胜率",
+  "iteration": {
+    "hypothesis": "H01 早封且稳定候选的次日行情持续性；非交易收益检验",
+    "groups": [
+      {
+        "version": "leader-backend-v0.2",
+        "cohort": "其他候选",
+        "total_candidates": 2,
+        "missing_benchmark": 0,
+        "measured": 2,
+        "distinct_dates": 1,
+        "mean_close_change_pct": -10.01283697047497,
+        "research_action": "继续收集；样本不足不改规则"
+      },
+      {
+        "version": "leader-backend-v0.2",
+        "cohort": "早封稳定",
+        "total_candidates": 10,
+        "missing_benchmark": 0,
+        "measured": 10,
+        "distinct_dates": 1,
+        "mean_close_change_pct": -0.45321881612101683,
+        "research_action": "继续收集；样本不足不改规则"
+      }
+    ],
+    "automatic_rule_change": false,
+    "minimum_review_samples": 30,
+    "minimum_review_dates": 10,
+    "note": "阈值只决定何时人工复核，不代表统计显著；没有成交收益核算"
+  }
+}
