@@ -3,12 +3,21 @@ from collections import Counter
 from research_report import render,rank
 
 
-def render_midday(snapshot,history):
+def render_midday(snapshot,history,enrichment=None):
     prior=[s for s in history if s['date']<snapshot['date'] and s.get('phase')=='close']
     previous=max(prior,key=lambda s:s['source_updated_at']) if prior else None
     rows=snapshot['rows'];heights=Counter(r['streak'] for r in rows)
     lines=[f"# {snapshot['date']} 午间盘内观察",'',f"源时间：{snapshot['source_updated_at']}；采集时间：{snapshot['observed_at']}",'','本报告只记录上午盘内状态与下午待验证事项。午间数据不作为收盘终值。','',f"涨停池：{len(rows)}只；前一保存收盘：{previous['count'] if previous else '缺失'}只。",'梯队：'+'；'.join(f'{n}板{c}只' for n,c in sorted(heights.items(),reverse=True)),'','## 上午强度观察','','|标的|板数|首封|开板|下午待验证|','|---|---:|---|---:|---|']
     for r in rank(snapshot)[:8]:lines.append(f"|{r['name']} {r['symbol']}|{r['streak']}|{r['first_limit_time']}|{r['break_count']}|午后能否维持封板及同题材跟随|")
+    ds=(enrichment or {}).get('datasets',{})
+    lines+=['','## 午间市场环境']
+    for r in ds.get('indices',{}).get('data',[]):
+        lines.append('- '+r['name']+'：'+str(r['change_pct'])+'%；报价：'+r['quote_at'])
+    b=ds.get('breadth',{})
+    if b.get('status')=='ok':
+        d=b['data'];lines.append('- 上涨'+str(d['up'])+'、下跌'+str(d['down'])+'、平盘'+str(d['flat'])+'；有效样本'+str(d['count'])+'。源无交易日期，需结合当日指数核验。')
+    for key,label in [('indices','指数'),('breadth','广度'),('broken','炸板池'),('down_limit','跌停池')]:
+        r=ds.get(key,{});lines.append('- '+label+'：'+r.get('status','missing')+('；数量'+str(r['data']['tc']) if key in ('broken','down_limit') and r.get('status')=='ok' else '')+'；来源：'+r.get('source','无'))
     lines+=['','## 下午重点核验','- 上午强核心是否仍有承接，午后新方向是否有新增扩散。','- 新增炸板、退潮风险需独立数据源确认，不能仅从现存涨停池推断。','- 收盘任务会对照本快照；缺少上午实时记录时不补写成当时已知判断。']
     return '\n'.join(lines)+'\n'
 

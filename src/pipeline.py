@@ -14,7 +14,7 @@ from quant import database
 from public_sources import collect_sources
 from research_report import condition_plan
 from research_data import collect as collect_research,minute
-from research_review import summarize,review_registry,backtest_reference,render as render_review
+from research_review import summarize,render as render_review
 from author_analysis import analyze as analyze_authors
 from leader_study import build as build_study,apply_plan,ledger,learning_summary,render as render_study
 from phase_reports import render_midday,render_close
@@ -202,9 +202,9 @@ def perform(root,phase,now=None,source_loader=collect_sources,market_loader=None
         if now.weekday()>4:
             status.update({'market_status':'skipped_weekend','source_status':'skipped','report_status':'skipped','result':'skipped'})
             return status
-        history=load_snapshots(root)
         if phase=='track':
             return track_run(root,now,run_key,status)
+        history=load_snapshots(root)
         if phase=='evening':
             return evening_run(root,now,run_key,status,source_loader,market_loader,external_loader)
         if phase=='morning':
@@ -231,6 +231,16 @@ def perform(root,phase,now=None,source_loader=collect_sources,market_loader=None
         status['market_status']='collected_public_limit_pool'
         target=next_weekday(now.date())
         status['market_date']=snapshot['date'];status['market_count']=snapshot['count']
+        if phase=='midday':
+            enrichment=collect_research(snapshot,dt.datetime.now(TZ).isoformat(),environment_only=True)
+            write_json(root/'state/research'/day/(run_key+'.json'),{'observed_at':observed,'enrichment':enrichment,'profile':'midday_core'})
+            report=render_midday(snapshot,history,enrichment)
+            report_path=root/'reports'/day/(run_key+'.md');report_path.parent.mkdir(parents=True,exist_ok=True);report_path.write_text(report,encoding='utf-8')
+            datasets=enrichment.get('datasets',{})
+            partial=any(datasets.get(k,{}).get('status')!='ok' for k in ('indices','breadth','broken','down_limit'))
+            status.update({'result':'partial' if partial else 'success','report_status':'midday_core_observation','report_path':str(report_path.relative_to(root)),'source_status':'not_requested_midday','research_datasets':{k:v.get('status') for k,v in datasets.items()}})
+            publish_latest(root,status)
+            return status
         source_config=json.loads((root/'config/sources.json').read_text(encoding='utf-8'))
         try:batch=source_loader(source_config,observed)
         except Exception as exc:
@@ -265,24 +275,19 @@ def perform(root,phase,now=None,source_loader=collect_sources,market_loader=None
         learning=ledger(root,snapshot,observed,enrichment)
         learning['iteration']=learning_summary(root,learning)
         synthesis=summarize(study,enrichment,analysis)
-        research_reviews=review_registry(root)
-        write_json(root/'state/research'/day/(run_key+'.json'),{'observed_at':observed,'enrichment':enrichment,'study':study,'author_analysis':analysis,'synthesis':synthesis,'experiment_reviews':research_reviews})
+        write_json(root/'state/research'/day/(run_key+'.json'),{'observed_at':observed,'enrichment':enrichment,'study':study,'author_analysis':analysis,'synthesis':synthesis})
         write_json(root/'state/learning'/day/(run_key+'.json'),learning)
         plan=apply_plan(condition_plan(snapshot,target,dt.datetime.now(TZ).isoformat()),study)
         evaluations=evaluate(root,snapshot,observed) if phase=='close' else []
         if phase=='validation':
             report='# 当前研究采样验证（非收盘复盘、非盘前预案）\n\n实际采集时间：'+observed+'；源更新时间：'+snapshot['source_updated_at']+'。\n\n此任务用于验证新增数据链路，不将盘中数据标为收盘终值。\n'
-        elif phase=='midday':
-            plan['status']='INTRADAY_DRAFT_NOT_FROZEN_PREMARKET'
-            write_json(root/'state/intraday_drafts'/day/(run_key+'.json'),plan)
-            report=render_midday(snapshot,history)
         else:
             plan['status']='CLOSE_OBSERVATION_POOL_NOT_PREMARKET_PLAN'
             write_json(root/'state/close_observations'/day/(run_key+'.json'),plan)
             report=render_close(snapshot,history,batch,plan,evaluations)
         report=report.replace('未取得全市场涨跌分布、指数、炸板池及完整分钟序列，不能单独以此判定市场情绪。','市场环境补充、数据可用性及分钟覆盖见下文研究记录；仅用本涨停池不能判定市场情绪。').replace('尚未完成模型语义分析，不根据标题或摘录自动给作者贴看多/看空标签。','作者语义分析的本次状态见下文；不根据标题猜测看多/看空。').replace('模型接口可选；当前未配置时仅有确定性研究稿。','模型运行状态见本次作者分析记录。')
         heading,_,body=report.partition('\n')
-        report=heading+'\n\n'+render_review(synthesis,research_reviews)+backtest_reference(root)+'\n'+body
+        report=heading+'\n\n'+render_review(synthesis,None)+'\n'+body
         report+='\n'+render_study(study,enrichment,analysis,learning)
         status['research_datasets']={k:(v.get('status') if isinstance(v,dict) else str(sum(x.get('status')=='ok' for x in v))+'/'+str(len(v))) for k,v in enrichment.get('datasets',{}).items()}
         research_partial=any(v.get('status')!='ok' if isinstance(v,dict) else any(x.get('status')!='ok' for x in v) for v in enrichment.get('datasets',{}).values())
@@ -307,6 +312,11 @@ def main():
     p=argparse.ArgumentParser();p.add_argument('--phase',choices=['auto','morning','midday','close','evening','track','validation'],default='auto');a=p.parse_args()
     root=Path(__file__).resolve().parents[1];status=perform(root,a.phase)
     print(json.dumps(status,ensure_ascii=False,indent=2))
+    output=os.environ.get('GITHUB_OUTPUT')
+    if output:
+        with open(output,'a',encoding='utf-8') as f:
+            f.write('report_path='+str(status.get('report_path') or '')+'\n')
+            f.write('run_record_path=state/runs/'+status['started_at'][:10]+'/'+status['run_key']+'.json\n')
     summary=os.environ.get('GITHUB_STEP_SUMMARY')
     if summary:
         with open(summary,'a',encoding='utf-8') as f:

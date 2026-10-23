@@ -123,12 +123,14 @@ def notices(symbol,day):
         return result
     return safe(symbol,url,parse)
 
-def collect(snapshot,observed,extra_symbols=()):
+def collect(snapshot,observed,extra_symbols=(),environment_only=False):
     day=snapshot['date'];symbols=[r['symbol'] for r in sorted(snapshot['rows'],key=lambda r:(-r['streak'],r['first_limit_time']))[:12]]
     symbols=list(dict.fromkeys(list(extra_symbols)+symbols))[:24]
     with cf.ThreadPoolExecutor(max_workers=6) as ex:
         jobs={'indices':ex.submit(indices,day),'breadth':ex.submit(breadth,day),'broken':ex.submit(pool,'ZBPool',day),'down_limit':ex.submit(pool,'DTPool',day)}
         result={k:f.result() for k,f in jobs.items()}
+    if environment_only:
+        return {'date':day,'observed_at':observed,'capture_type':'live_environment_only','datasets':result,'limitations':['午间仅采集指数、广度、炸板与跌停池；逐股日线、分钟、公告集中在晚间采集']}
     for name,fn in [('daily',lambda s:daily(s,day)),('minutes',lambda s:minute(s,day,observed)),('notices',lambda s:notices(s,day))]:
         with cf.ThreadPoolExecutor(max_workers=4) as ex:result[name]=list(ex.map(fn,symbols))
     return {'date':day,'observed_at':observed,'capture_type':'live_collection','datasets':result,'limitations':['当日候选及待核对预案合计最多24只，不代表全市场分钟覆盖','公开分钟价格与累计量不是逐笔订单流','公告仅最近5条，不代表完整风险筛查','实时广度源无日期字段，不能用于历史回填或独立确认交易日']}

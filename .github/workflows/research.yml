@@ -20,7 +20,6 @@ on:
     - cron: '3 1 * * 1-5'
     - cron: '37 3 * * 1-5'
     - cron: '17 12 * * 1-5'
-    - cron: '5 2,3,6 * * 1-5'
 permissions:
   contents: write
 concurrency:
@@ -33,7 +32,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
           ref: main
       - uses: actions/setup-python@v5
         with:
@@ -53,10 +52,10 @@ jobs:
             '13,43 0 * * 1-5'|'3 1 * * 1-5') phase=morning ;;
             '37 3 * * 1-5') phase=midday ;;
             '17 12 * * 1-5') phase=evening ;;
-            '5 2,3,6 * * 1-5') phase=track ;;
           esac
           echo "phase=$phase" >> "$GITHUB_OUTPUT"
       - name: Capture public data and create research records
+        if: github.event_name != 'push'
         id: capture
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -64,7 +63,7 @@ jobs:
           RESEARCH_PHASE: ${{ steps.phase.outputs.phase }}
         run: python src/pipeline.py --phase "$RESEARCH_PHASE"
       - name: Persist snapshots and reports, including failures
-        if: always()
+        if: always() && github.event_name != 'push'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
@@ -75,12 +74,13 @@ jobs:
             git push origin HEAD:main
           fi
       - name: Retain downloadable run outputs
-        if: always()
+        if: always() && github.event_name != 'push'
         uses: actions/upload-artifact@v4
         with:
           name: research-run-${{ github.run_id }}-${{ github.run_attempt }}
           path: |
-            state/
-            reports/
+            state/status.json
+            ${{ steps.capture.outputs.run_record_path }}
+            ${{ steps.capture.outputs.report_path }}
           retention-days: 90
           if-no-files-found: warn

@@ -75,10 +75,11 @@ def render(summary,reviews):
     lines+=['','|观察对象|定位|仍未满足|确认与失效|','|---|---|---|---|']
     def esc(s):return str(s).replace('|','／').replace('\n',' ')
     for c in summary['candidates']:lines.append('|'+esc(c['name']+' '+c['symbol'])+'|'+esc(c['role'])+'|'+esc('；'.join(c['unmet_conditions']))+'|'+esc(c['confirmation']+'；失效：'+c['invalid'])+'|')
-    lines+=['','### 下一时段的三种分支','- 若核心保持强势且同题材跟随增加：继续核验扩散与自身承接，不把高开直接当买点。','- 若仅高度股维持、后排继续减少：按局部抱团观察，不将其推广为全市场转强。','- 若核心与后排共同走弱或关键数据缺失：原确认条件不成立，记录失败及缺口。','','### 研究变更检查']
-    if not reviews:lines.append('尚无登记并附证据的完整策略实验；当前假设台账不等于完成回测或自主进化。')
-    for r in reviews:lines.append('- '+r['version']+'：'+r['status']+'；缺少：'+','.join(r.get('missing',[]))+'；问题：'+'；'.join(r.get('issues',[])))
-    lines+=['- 后续实验必须列明成本、成交模型、时间分割、失败版本、多重搜索处理和证据文件；材料齐备仍不能自动认定有效。','']
+    lines+=['','### 下一时段的三种分支','- 若核心保持强势且同题材跟随增加：继续核验扩散与自身承接，不把高开直接当买点。','- 若仅高度股维持、后排继续减少：按局部抱团观察，不将其推广为全市场转强。','- 若核心与后排共同走弱或关键数据缺失：原确认条件不成立，记录失败及缺口。']
+    if reviews is not None:lines+=['','### 研究变更检查']
+    if reviews is not None and not reviews:lines.append('尚无登记并附证据的完整策略实验；当前假设台账不等于完成回测或自主进化。')
+    for r in reviews or []:lines.append('- '+r['version']+'：'+r['status']+'；缺少：'+','.join(r.get('missing',[]))+'；问题：'+'；'.join(r.get('issues',[])))
+    if reviews is not None:lines+=['- 后续实验必须列明成本、成交模型、时间分割、失败版本、多重搜索处理和证据文件；材料齐备仍不能自动认定有效。','']
     return '\n'.join(lines)
 
 def backtest_reference(root):

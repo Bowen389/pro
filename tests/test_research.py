@@ -104,7 +104,13 @@ class ResearchChecks(unittest.TestCase):
             self.assertEqual(result['groups'][0]['total_candidates'],1)
             self.assertEqual(result['groups'][0]['missing_benchmark'],1)
             self.assertFalse(result['automatic_rule_change'])
+    def test_environment_profile_does_not_fetch_stock_details(self):
+        from research_data import collect
+        with patch('research_data.indices',return_value={}),patch('research_data.breadth',return_value={}),patch('research_data.pool',return_value={}),patch('research_data.daily') as daily,patch('research_data.minute') as minute,patch('research_data.notices') as notices:
+            r=collect(market('2026-10-23','midday','2026-10-23T11:37:00+08:00'),'2026-10-23T11:37:00+08:00',environment_only=True)
+        daily.assert_not_called();minute.assert_not_called();notices.assert_not_called()
+        self.assertEqual(set(r['datasets']),{'indices','breadth','broken','down_limit'})
     def test_workflow_has_three_reports_and_data_only_track(self):
         w=(Path(__file__).resolve().parents[1]/'.github/workflows/research.yml').read_text()
-        self.assertNotIn("cron: '37 7",w);self.assertIn("cron: '17 12",w);self.assertIn("phase=track",w)
+        self.assertNotIn("cron: '37 7",w);self.assertIn("cron: '17 12",w);self.assertNotIn("cron: '5 2,3,6",w)
 if __name__=='__main__':unittest.main()

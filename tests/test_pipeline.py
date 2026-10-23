@@ -62,6 +62,23 @@ class PipelineChecks(unittest.TestCase):
         with patch('pipeline.minute') as fetch:
             r=perform(self.root,'track',dt.datetime(2026,10,23,10,5,tzinfo=TZ),sources,market,external)
         fetch.assert_not_called();self.assertEqual(r['market_status'],'no_frozen_plan')
+    def test_midday_skips_deep_research_and_learning(self):
+        with patch('pipeline.analyze_authors') as analyze, patch('pipeline.ledger') as ledger, patch('pipeline.learning_summary') as learning:
+            def no_author_fetch(*args):raise AssertionError('midday must not fetch author articles')
+            r=perform(self.root,'midday',dt.datetime(2026,10,23,11,37,tzinfo=TZ),no_author_fetch,market)
+        self.assertEqual(r['exit_code'],0)
+        self.patch.target.collect_research.assert_called_once()
+        self.assertTrue(self.patch.target.collect_research.call_args.kwargs['environment_only'])
+        analyze.assert_not_called();ledger.assert_not_called();learning.assert_not_called()
+        self.assertFalse((self.root/'state/learning').exists())
+        self.assertIn('午间市场环境',(self.root/r['report_path']).read_text())
+    def test_push_checks_do_not_capture_public_data(self):
+        workflow=(Path(__file__).resolve().parents[1]/'.github/workflows/research.yml').read_text()
+        self.assertIn("if: github.event_name != 'push'",workflow)
+        self.assertNotIn("cron: '5 2,3,6",workflow)
+        self.assertNotIn('            state/\n',workflow)
+        backtest=(Path(__file__).resolve().parents[1]/'.github/workflows/public-backtest.yml').read_text()
+        self.assertIn('workflow_dispatch:',backtest);self.assertNotIn('  push:',backtest)
     def test_late_midday_rejected(self):
         r=perform(self.root,'midday',dt.datetime(2026,10,21,15,tzinfo=TZ),sources,market)
         self.assertEqual(r['exit_code'],1);self.assertEqual(load_snapshots(self.root),[])

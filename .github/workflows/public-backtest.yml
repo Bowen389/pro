@@ -1,13 +1,6 @@
 name: 公开数据日线研究回测
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - 'src/public_backtest.py'
-      - 'tests/test_public_backtest.py'
-      - 'config/public_backtest.json'
-      - '.github/workflows/public-backtest.yml'
 permissions:
   contents: write
 concurrency:
