@@ -8,12 +8,14 @@
     "started_at": "2026-10-22T20:58:34.475520+08:00"
   },
   "validation": {
-    "run_key": "20261022T202646_validation_39778380184_1",
-    "report_path": "reports/2026-10-22/20261022T202646_validation_39778380184_1.md",
-    "market_date": "2026-10-22",
+    "run_key": "20261023T114057_validation_39896297665_1",
+    "report_path": "reports/2026-10-23/20261023T114057_validation_39896297665_1.md",
+    "market_date": "2026-10-23",
     "phase": "validation",
     "result": "partial",
-    "started_at": "2026-10-22T20:26:46.857999+08:00"
+    "started_at": "2026-10-23T11:40:57.178593+08:00",
+    "delivery_status": null,
+    "deadline_at": null
   },
   "morning": {
     "run_key": "20261023T094105_morning_39885374924_1",

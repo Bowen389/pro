@@ -1,15 +1,36 @@
 {
-  "run_key": "20261023T113350_track_39895672721_1",
-  "phase": "track",
-  "started_at": "2026-10-23T11:33:50.824084+08:00",
-  "run_url": "https://github.com/Bowen389/pro/actions/runs/39895672721",
+  "run_key": "20261023T114057_validation_39896297665_1",
+  "phase": "validation",
+  "started_at": "2026-10-23T11:40:57.178593+08:00",
+  "run_url": "https://github.com/Bowen389/pro/actions/runs/39896297665",
   "system_status": "DEVELOPMENT_VALIDATION",
-  "market_status": "minute_capture",
-  "source_status": "pending",
-  "report_status": "no_report_data_capture_only",
-  "warnings": [],
+  "market_status": "collected_public_limit_pool",
+  "source_status": "collected_public_excerpts",
+  "report_status": "generated_research_draft",
+  "warnings": [
+    "作者语义分析：not_configured",
+    "研究数据覆盖以research_datasets及归档记录为准；L2尚未实接",
+    "角色排序未验证收益；模型未配置时不进行语义观点提炼",
+    "工作日为近似交易日历；节假日数据可能陈旧并报错"
+  ],
   "exit_code": 0,
-  "result": "success",
-  "market_count": 6,
-  "finished_at": "2026-10-23T11:33:52.565998+08:00"
+  "market_date": "2026-10-23",
+  "market_count": 19,
+  "source_posts": 9,
+  "source_readable": 9,
+  "research_datasets": {
+    "indices": "ok",
+    "breadth": "ok",
+    "broken": "ok",
+    "down_limit": "ok",
+    "daily": "16/16",
+    "minutes": "16/16",
+    "notices": "16/16"
+  },
+  "author_analysis_status": "not_configured",
+  "report_path": "reports/2026-10-23/20261023T114057_validation_39896297665_1.md",
+  "plan_path": null,
+  "plans_checked": 0,
+  "result": "partial",
+  "finished_at": "2026-10-23T11:41:46.023220+08:00"
 }
