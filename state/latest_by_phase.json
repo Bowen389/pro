@@ -20,7 +20,9 @@
     "report_path": "reports/2026-10-23/20261023T094105_morning_39885374924_1.md",
     "market_date": "2026-10-22",
     "phase": "morning",
-    "result": "success",
-    "started_at": "2026-10-23T09:41:05.717943+08:00"
+    "result": "late_not_premarket",
+    "started_at": "2026-10-23T09:41:05.717943+08:00",
+    "delivery_status": "late",
+    "deadline_at": "2026-10-23T09:15:00+08:00"
   }
 }

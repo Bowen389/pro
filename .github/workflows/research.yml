@@ -15,14 +15,16 @@ on:
         options: [auto, morning, midday, close, evening, track, validation]
         default: auto
   schedule:
-    - cron: '5 1 * * 1-5'
+    # Beijing 08:13 initial, 08:43 refresh, 09:03 final retry. Actions is best effort.
+    - cron: '13,43 0 * * 1-5'
+    - cron: '3 1 * * 1-5'
     - cron: '37 3 * * 1-5'
     - cron: '17 12 * * 1-5'
     - cron: '5 2,3,6 * * 1-5'
 permissions:
   contents: write
 concurrency:
-  group: leader-research-main
+  group: leader-research-${{ (github.event.schedule == '13,43 0 * * 1-5' || github.event.schedule == '3 1 * * 1-5' || inputs.phase == 'morning') && 'morning' || 'other' }}
   cancel-in-progress: false
 jobs:
   collect-and-review:
@@ -48,7 +50,7 @@ jobs:
           phase="${REQUESTED_PHASE:-auto}"
           if [ "$EVENT_NAME" = push ]; then phase=validation; fi
           case "$EVENT_SCHEDULE" in
-            '5 1 * * 1-5') phase=morning ;;
+            '13,43 0 * * 1-5'|'3 1 * * 1-5') phase=morning ;;
             '37 3 * * 1-5') phase=midday ;;
             '17 12 * * 1-5') phase=evening ;;
             '5 2,3,6 * * 1-5') phase=track ;;

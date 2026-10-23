@@ -21,6 +21,14 @@ from phase_reports import render_midday,render_close
 from external_context import collect_external,overlay,render_external
 
 TZ=ZoneInfo('Asia/Shanghai')
+MORNING_DEADLINE=dt.time(9,15)
+
+class MorningDeadlineMissed(ValueError):
+    pass
+
+def check_morning_deadline(now):
+    if now.astimezone(TZ).time()>=MORNING_DEADLINE:
+        raise MorningDeadlineMissed('盘前交付已超过北京时间09:15截止；不生成有效盘前预案')
 
 
 def write_json(path,data):
@@ -48,7 +56,7 @@ def evaluate(root,snapshot,observed):
     for path in (root/'state/plans'/snapshot['date']).glob('*.json'):
         plan=json.loads(path.read_text(encoding='utf-8'))
         created=dt.datetime.fromisoformat(plan['created_at'])
-        start=dt.datetime.fromisoformat(snapshot['date']+'T09:25:00+08:00')
+        start=dt.datetime.fromisoformat(snapshot['date']+'T09:15:00+08:00')
         outcomes=[]
         for c in plan['candidates']:
             item=today.get(c['symbol'])
@@ -62,14 +70,17 @@ def evaluate(root,snapshot,observed):
 def publish_latest(root,status):
     manifest=root/'state/latest_by_phase.json'
     latest=json.loads(manifest.read_text(encoding='utf-8')) if manifest.exists() else {}
-    latest[status['phase']]={k:status.get(k) for k in ('run_key','report_path','market_date','phase','result','started_at')}
+    latest[status['phase']]={k:status.get(k) for k in ('run_key','report_path','market_date','phase','result','started_at','delivery_status','deadline_at')}
     write_json(manifest,latest)
     labels={'morning':'盘前修订预案','midday':'午间盘内观察','close':'手动收盘记录','evening':'晚间综合复盘'}
     lines=['# 各时段最新报告','','|时段|最新报告|','|---|---|']
     for phase in ('morning','midday','evening'):
         record=latest.get(phase)
         if record and record.get('report_path'):
-            lines.append(f"|{labels[phase]}|[{record['run_key']}]({record['report_path'].removeprefix('reports/')})|")
+            label=labels[phase]
+            if phase=='morning':
+                label+='（'+record['run_key'][:8]+'；'+('已迟到，非有效盘前预案' if record.get('delivery_status')=='late' else '核对报告日期与编制时点')+'）'
+            lines.append(f"|{label}|[{record['run_key']}]({record['report_path'].removeprefix('reports/')})|")
         else:lines.append(f"|{labels[phase]}|尚未生成|")
     lines+=['','[最新运行状态](../state/status.json)','系统处于开发验证阶段。各阶段只生成对应产物，不重复发布同一份复盘。']
     (root/'reports').mkdir(exist_ok=True)
@@ -78,6 +89,10 @@ def publish_latest(root,status):
 
 def external_run(root,phase,now,run_key,status,history,loader):
     day=now.date().isoformat();observed=now.isoformat()
+    collection_started=time.monotonic()
+    if phase=='morning':
+        status['deadline_at']=day+'T09:15:00+08:00'
+        check_morning_deadline(now)
     saved=[]
     for path in (root/'state/external').glob('*/*.json'):
         c=json.loads(path.read_text(encoding='utf-8'))
@@ -99,7 +114,10 @@ def external_run(root,phase,now,run_key,status,history,loader):
         if not closes:raise ValueError('No prior saved close snapshot; morning plan cannot be created')
         snapshot=max(closes,key=lambda s:s['source_updated_at'])
         if (now.date()-dt.date.fromisoformat(snapshot['date'])).days>4:raise ValueError('Prior close snapshot stale')
-        created_at=dt.datetime.now(TZ).isoformat()
+        completed=now+dt.timedelta(seconds=time.monotonic()-collection_started)
+        check_morning_deadline(completed)
+        created_at=completed.isoformat()
+        status['delivery_status']='on_time'
         plan=condition_plan(snapshot,day,created_at)
         studies=[]
         for p in (root/'state/research'/snapshot['date']).glob('*.json'):
@@ -107,11 +125,11 @@ def external_run(root,phase,now,run_key,status,history,loader):
             if saved_study.get('study'):studies.append(saved_study)
         if studies:apply_plan(plan,max(studies,key=lambda x:x['observed_at'])['study'])
         revision=overlay(plan,context,evening)
+        plan['delivery_status']='on_time';plan['deadline_at']=status['deadline_at']
         plan['external_revision']=revision;plan['external_context_path']=str(context_path.relative_to(root))
         plan['evening_context_path']=str(evening_path.relative_to(root)) if evening_path else None
         plan_path=root/'state/plans'/day/(run_key+'.json');write_json(plan_path,plan)
         status.update({'plan_path':str(plan_path.relative_to(root)),'market_date':snapshot['date'],'market_count':snapshot['count']})
-        if now.time()>=dt.time(9,25):status['warnings'].append('本次盘前任务迟到，预案按实际生成时间留档')
     text=render_external(context,phase,plan=plan,revision=revision,evening=evening if phase=='morning' else None)
     path=root/'reports'/day/(run_key+'.md');path.parent.mkdir(parents=True,exist_ok=True);path.write_text(text,encoding='utf-8')
     partial=ok<len(context.get('markets',[])) or feed_ok<len(context.get('news_sources',[]))
@@ -160,7 +178,8 @@ def track_run(root,now,run_key,status):
     day=now.date().isoformat();plans=[]
     for path in (root/'state/plans'/day).glob('*.json'):
         p=json.loads(path.read_text(encoding='utf-8'))
-        if dt.datetime.fromisoformat(p['created_at'])<=now:plans.append(p)
+        created=dt.datetime.fromisoformat(p['created_at']).astimezone(TZ)
+        if created<=now and created.date()==now.date() and created.time()<MORNING_DEADLINE and p.get('delivery_status')!='late':plans.append(p)
     if not plans:
         status.update({'result':'skipped','market_status':'no_frozen_plan','report_status':'no_report_data_capture_only'})
         return status
@@ -274,6 +293,8 @@ def perform(root,phase,now=None,source_loader=collect_sources,market_loader=None
         publish_latest(root,status)
         status['warnings']+=['研究数据覆盖以research_datasets及归档记录为准；L2尚未实接','角色排序未验证收益；模型未配置时不进行语义观点提炼','工作日为近似交易日历；节假日数据可能陈旧并报错']
     except Exception as exc:
+        if isinstance(exc,MorningDeadlineMissed):
+            status.update({'delivery_status':'missed_deadline','deadline_at':day+'T09:15:00+08:00'})
         status.update({'result':'failed','exit_code':1,'error_type':type(exc).__name__,'error':str(exc)[:400],'report_status':'not_generated'})
     finally:
         status['finished_at']=dt.datetime.now(TZ).isoformat()

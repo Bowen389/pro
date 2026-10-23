@@ -55,7 +55,7 @@ def ledger(root,snapshot,observed,enrichment=None):
     bars_by_symbol={r['name']:r['data'] for r in (enrichment or {}).get('datasets',{}).get('daily',[]) if r['status']=='ok'}
     records=[];today={r['symbol']:r for r in snapshot['rows']}
     for path in (root/'state/plans'/snapshot['date']).glob('*.json'):
-        plan=json.loads(path.read_text());timely=dt.datetime.fromisoformat(plan['created_at'])<dt.datetime.fromisoformat(snapshot['date']+'T09:25:00+08:00')
+        plan=json.loads(path.read_text());timely=dt.datetime.fromisoformat(plan['created_at'])<dt.datetime.fromisoformat(snapshot['date']+'T09:15:00+08:00')
         for c in plan['candidates']:
             bars=bars_by_symbol.get(c['symbol'],[])
             previous=[b for b in bars if b['date']<snapshot['date']]

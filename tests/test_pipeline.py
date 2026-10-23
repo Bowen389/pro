@@ -39,6 +39,29 @@ class PipelineChecks(unittest.TestCase):
         write_json(self.root/'state/snapshots/2026-10-21/close.json',market('2026-10-21','close','2026-10-21T16:00:00+08:00'))
         r=perform(self.root,'morning',dt.datetime(2026,10,22,9,tzinfo=TZ),sources,market,external)
         self.assertEqual(r['market_date'],'2026-10-21');self.assertEqual(r['exit_code'],0)
+    def test_late_morning_never_fetches_or_freezes(self):
+        with patch('pipeline.collect_external') as loader:
+            r=perform(self.root,'morning',dt.datetime(2026,10,23,9,41,tzinfo=TZ),sources,market,loader)
+        loader.assert_not_called()
+        self.assertEqual(r['delivery_status'],'missed_deadline')
+        self.assertEqual(r['result'],'failed')
+        self.assertFalse((self.root/'state/plans').exists())
+        self.assertFalse((self.root/'state/latest_by_phase.json').exists())
+    def test_morning_fetch_crossing_deadline_never_freezes(self):
+        write_json(self.root/'state/snapshots/2026-10-22/close.json',market('2026-10-22','close','2026-10-22T16:00:00+08:00'))
+        with patch('pipeline.time.monotonic',side_effect=[0,61]):
+            r=perform(self.root,'morning',dt.datetime(2026,10,23,9,14,tzinfo=TZ),sources,market,external)
+        self.assertEqual(r['delivery_status'],'missed_deadline')
+        self.assertFalse((self.root/'state/plans').exists())
+    def test_deadline_exact_boundary(self):
+        from pipeline import check_morning_deadline,MorningDeadlineMissed
+        check_morning_deadline(dt.datetime(2026,10,23,9,14,59,tzinfo=TZ))
+        with self.assertRaises(MorningDeadlineMissed):check_morning_deadline(dt.datetime(2026,10,23,9,15,tzinfo=TZ))
+    def test_late_plan_excluded_from_tracking(self):
+        write_json(self.root/'state/plans/2026-10-23/late.json',{'created_at':'2026-10-23T09:41:00+08:00','candidates':[{'symbol':'002929'}]})
+        with patch('pipeline.minute') as fetch:
+            r=perform(self.root,'track',dt.datetime(2026,10,23,10,5,tzinfo=TZ),sources,market,external)
+        fetch.assert_not_called();self.assertEqual(r['market_status'],'no_frozen_plan')
     def test_late_midday_rejected(self):
         r=perform(self.root,'midday',dt.datetime(2026,10,21,15,tzinfo=TZ),sources,market)
         self.assertEqual(r['exit_code'],1);self.assertEqual(load_snapshots(self.root),[])

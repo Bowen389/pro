@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-23",
+  "run_key": "20261023T094105_morning_39885374924_1",
+  "scheduled_at": "2026-10-23T09:05:00+08:00",
+  "actions_created_at": "2026-10-23T09:40:58+08:00",
+  "pipeline_started_at": "2026-10-23T09:41:05.717943+08:00",
+  "pipeline_finished_at": "2026-10-23T09:41:08.073301+08:00",
+  "actions_finished_at": "2026-10-23T09:41:14+08:00",
+  "assessment": "LATE_NOT_VALID_PREMARKET",
+  "reason": "Actions scheduled event created 35m58s after nominal trigger; old code warned but published success.",
+  "original_plan_preserved": true,
+  "eligible_prospective": false,
+  "deadline_policy": "09:15 Asia/Shanghai; check before fetch and before freeze",
+  "remediation": "08:13/08:43/09:03 best-effort triggers; separate morning concurrency; reject overdue plans and exclude late records from minute tracking and prospective evaluation."
+}
