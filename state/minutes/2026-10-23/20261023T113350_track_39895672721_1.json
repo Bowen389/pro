@@ -1,0 +1,3714 @@
+{
+  "observed_at": "2026-10-23T11:33:50.824084+08:00",
+  "plan_created_at": "2026-10-23T09:41:07.912514+08:00",
+  "records": [
+    {
+      "name": "001360",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/minute/query?code=sz001360",
+      "data": {
+        "date": "2026-10-23",
+        "bars": [
+          {
+            "time": "2026-10-23T09:30:00+08:00",
+            "price": 20.44,
+            "cumulative_volume_lots": 3797.0
+          },
+          {
+            "time": "2026-10-23T09:31:00+08:00",
+            "price": 20.44,
+            "cumulative_volume_lots": 5617.0
+          },
+          {
+            "time": "2026-10-23T09:32:00+08:00",
+            "price": 20.44,
+            "cumulative_volume_lots": 5931.0
+          },
+          {
+            "time": "2026-10-23T09:33:00+08:00",
+            "price": 20.44,
+            "cumulative_volume_lots": 6505.0
+          },
+          {
+            "time": "2026-10-23T09:34:00+08:00",
+            "price": 20.44,
+            "cumulative_volume_lots": 19286.0
+          },
+          {
+            "time": "2026-10-23T09:35:00+08:00",
+            "price": 20.44,
+            "cumulative_volume_lots": 46462.0
+          },
+          {
+            "time": "2026-10-23T09:36:00+08:00",
+            "price": 18.78,
+            "cumulative_volume_lots": 63468.0
+          },
+          {
+            "time": "2026-10-23T09:37:00+08:00",
+            "price": 18.14,
+            "cumulative_volume_lots": 75248.0
+          },
+          {
+            "time": "2026-10-23T09:38:00+08:00",
+            "price": 17.95,
+            "cumulative_volume_lots": 86119.0
+          },
+          {
+            "time": "2026-10-23T09:39:00+08:00",
+            "price": 17.69,
+            "cumulative_volume_lots": 92652.0
+          },
+          {
+            "time": "2026-10-23T09:40:00+08:00",
+            "price": 17.85,
+            "cumulative_volume_lots": 101284.0
+          },
+          {
+            "time": "2026-10-23T09:41:00+08:00",
+            "price": 17.53,
+            "cumulative_volume_lots": 104482.0
+          },
+          {
+            "time": "2026-10-23T09:42:00+08:00",
+            "price": 17.44,
+            "cumulative_volume_lots": 107666.0
+          },
+          {
+            "time": "2026-10-23T09:43:00+08:00",
+            "price": 17.25,
+            "cumulative_volume_lots": 111882.0
+          },
+          {
+            "time": "2026-10-23T09:44:00+08:00",
+            "price": 17.09,
+            "cumulative_volume_lots": 117793.0
+          },
+          {
+            "time": "2026-10-23T09:45:00+08:00",
+            "price": 17.03,
+            "cumulative_volume_lots": 124325.0
+          },
+          {
+            "time": "2026-10-23T09:46:00+08:00",
+            "price": 16.97,
+            "cumulative_volume_lots": 127772.0
+          },
+          {
+            "time": "2026-10-23T09:47:00+08:00",
+            "price": 17.16,
+            "cumulative_volume_lots": 131561.0
+          },
+          {
+            "time": "2026-10-23T09:48:00+08:00",
+            "price": 17.12,
+            "cumulative_volume_lots": 133002.0
+          },
+          {
+            "time": "2026-10-23T09:49:00+08:00",
+            "price": 17.13,
+            "cumulative_volume_lots": 136406.0
+          },
+          {
+            "time": "2026-10-23T09:50:00+08:00",
+            "price": 17.03,
+            "cumulative_volume_lots": 138011.0
+          },
+          {
+            "time": "2026-10-23T09:51:00+08:00",
+            "price": 17.01,
+            "cumulative_volume_lots": 139500.0
+          },
+          {
+            "time": "2026-10-23T09:52:00+08:00",
+            "price": 16.93,
+            "cumulative_volume_lots": 141798.0
+          },
+          {
+            "time": "2026-10-23T09:53:00+08:00",
+            "price": 16.97,
+            "cumulative_volume_lots": 143549.0
+          },
+          {
+            "time": "2026-10-23T09:54:00+08:00",
+            "price": 16.89,
+            "cumulative_volume_lots": 145020.0
+          },
+          {
+            "time": "2026-10-23T09:55:00+08:00",
+            "price": 16.87,
+            "cumulative_volume_lots": 146087.0
+          },
+          {
+            "time": "2026-10-23T09:56:00+08:00",
+            "price": 16.8,
+            "cumulative_volume_lots": 148434.0
+          },
+          {
+            "time": "2026-10-23T09:57:00+08:00",
+            "price": 16.87,
+            "cumulative_volume_lots": 149357.0
+          },
+          {
+            "time": "2026-10-23T09:58:00+08:00",
+            "price": 16.83,
+            "cumulative_volume_lots": 150121.0
+          },
+          {
+            "time": "2026-10-23T09:59:00+08:00",
+            "price": 16.79,
+            "cumulative_volume_lots": 151191.0
+          },
+          {
+            "time": "2026-10-23T10:00:00+08:00",
+            "price": 16.83,
+            "cumulative_volume_lots": 151918.0
+          },
+          {
+            "time": "2026-10-23T10:01:00+08:00",
+            "price": 16.85,
+            "cumulative_volume_lots": 152725.0
+          },
+          {
+            "time": "2026-10-23T10:02:00+08:00",
+            "price": 16.93,
+            "cumulative_volume_lots": 153543.0
+          },
+          {
+            "time": "2026-10-23T10:03:00+08:00",
+            "price": 17.0,
+            "cumulative_volume_lots": 154910.0
+          },
+          {
+            "time": "2026-10-23T10:04:00+08:00",
+            "price": 16.88,
+            "cumulative_volume_lots": 156133.0
+          },
+          {
+            "time": "2026-10-23T10:05:00+08:00",
+            "price": 16.9,
+            "cumulative_volume_lots": 156803.0
+          },
+          {
+            "time": "2026-10-23T10:06:00+08:00",
+            "price": 16.84,
+            "cumulative_volume_lots": 157906.0
+          },
+          {
+            "time": "2026-10-23T10:07:00+08:00",
+            "price": 16.86,
+            "cumulative_volume_lots": 158321.0
+          },
+          {
+            "time": "2026-10-23T10:08:00+08:00",
+            "price": 16.82,
+            "cumulative_volume_lots": 159192.0
+          },
+          {
+            "time": "2026-10-23T10:09:00+08:00",
+            "price": 16.8,
+            "cumulative_volume_lots": 160367.0
+          },
+          {
+            "time": "2026-10-23T10:10:00+08:00",
+            "price": 16.81,
+            "cumulative_volume_lots": 160931.0
+          },
+          {
+            "time": "2026-10-23T10:11:00+08:00",
+            "price": 16.86,
+            "cumulative_volume_lots": 161396.0
+          },
+          {
+            "time": "2026-10-23T10:12:00+08:00",
+            "price": 16.88,
+            "cumulative_volume_lots": 161727.0
+          },
+          {
+            "time": "2026-10-23T10:13:00+08:00",
+            "price": 16.85,
+            "cumulative_volume_lots": 162643.0
+          },
+          {
+            "time": "2026-10-23T10:14:00+08:00",
+            "price": 16.82,
+            "cumulative_volume_lots": 163795.0
+          },
+          {
+            "time": "2026-10-23T10:15:00+08:00",
+            "price": 16.86,
+            "cumulative_volume_lots": 164345.0
+          },
+          {
+            "time": "2026-10-23T10:16:00+08:00",
+            "price": 16.83,
+            "cumulative_volume_lots": 164858.0
+          },
+          {
+            "time": "2026-10-23T10:17:00+08:00",
+            "price": 16.81,
+            "cumulative_volume_lots": 165532.0
+          },
+          {
+            "time": "2026-10-23T10:18:00+08:00",
+            "price": 16.86,
+            "cumulative_volume_lots": 165932.0
+          },
+          {
+            "time": "2026-10-23T10:19:00+08:00",
+            "price": 16.96,
+            "cumulative_volume_lots": 166594.0
+          },
+          {
+            "time": "2026-10-23T10:20:00+08:00",
+            "price": 16.98,
+            "cumulative_volume_lots": 167256.0
+          },
+          {
+            "time": "2026-10-23T10:21:00+08:00",
+            "price": 17.37,
+            "cumulative_volume_lots": 168644.0
+          },
+          {
+            "time": "2026-10-23T10:22:00+08:00",
+            "price": 17.46,
+            "cumulative_volume_lots": 172283.0
+          },
+          {
+            "time": "2026-10-23T10:23:00+08:00",
+            "price": 17.63,
+            "cumulative_volume_lots": 175686.0
+          },
+          {
+            "time": "2026-10-23T10:24:00+08:00",
+            "price": 18.26,
+            "cumulative_volume_lots": 180568.0
+          },
+          {
+            "time": "2026-10-23T10:25:00+08:00",
+            "price": 17.77,
+            "cumulative_volume_lots": 181792.0
+          },
+          {
+            "time": "2026-10-23T10:26:00+08:00",
+            "price": 17.55,
+            "cumulative_volume_lots": 183322.0
+          },
+          {
+            "time": "2026-10-23T10:27:00+08:00",
+            "price": 17.43,
+            "cumulative_volume_lots": 185075.0
+          },
+          {
+            "time": "2026-10-23T10:28:00+08:00",
+            "price": 17.58,
+            "cumulative_volume_lots": 186713.0
+          },
+          {
+            "time": "2026-10-23T10:29:00+08:00",
+            "price": 17.5,
+            "cumulative_volume_lots": 187606.0
+          },
+          {
+            "time": "2026-10-23T10:30:00+08:00",
+            "price": 17.49,
+            "cumulative_volume_lots": 188142.0
+          },
+          {
+            "time": "2026-10-23T10:31:00+08:00",
+            "price": 17.44,
+            "cumulative_volume_lots": 189422.0
+          },
+          {
+            "time": "2026-10-23T10:32:00+08:00",
+            "price": 17.67,
+            "cumulative_volume_lots": 190618.0
+          },
+          {
+            "time": "2026-10-23T10:33:00+08:00",
+            "price": 17.54,
+            "cumulative_volume_lots": 191547.0
+          },
+          {
+            "time": "2026-10-23T10:34:00+08:00",
+            "price": 17.46,
+            "cumulative_volume_lots": 192245.0
+          },
+          {
+            "time": "2026-10-23T10:35:00+08:00",
+            "price": 17.31,
+            "cumulative_volume_lots": 192785.0
+          },
+          {
+            "time": "2026-10-23T10:36:00+08:00",
+            "price": 17.36,
+            "cumulative_volume_lots": 193309.0
+          },
+          {
+            "time": "2026-10-23T10:37:00+08:00",
+            "price": 17.3,
+            "cumulative_volume_lots": 193779.0
+          },
+          {
+            "time": "2026-10-23T10:38:00+08:00",
+            "price": 17.23,
+            "cumulative_volume_lots": 194488.0
+          },
+          {
+            "time": "2026-10-23T10:39:00+08:00",
+            "price": 17.13,
+            "cumulative_volume_lots": 194730.0
+          },
+          {
+            "time": "2026-10-23T10:40:00+08:00",
+            "price": 17.1,
+            "cumulative_volume_lots": 194835.0
+          },
+          {
+            "time": "2026-10-23T10:41:00+08:00",
+            "price": 17.15,
+            "cumulative_volume_lots": 195007.0
+          },
+          {
+            "time": "2026-10-23T10:42:00+08:00",
+            "price": 17.02,
+            "cumulative_volume_lots": 195941.0
+          },
+          {
+            "time": "2026-10-23T10:43:00+08:00",
+            "price": 16.97,
+            "cumulative_volume_lots": 196409.0
+          },
+          {
+            "time": "2026-10-23T10:44:00+08:00",
+            "price": 17.09,
+            "cumulative_volume_lots": 196613.0
+          },
+          {
+            "time": "2026-10-23T10:45:00+08:00",
+            "price": 17.05,
+            "cumulative_volume_lots": 197085.0
+          },
+          {
+            "time": "2026-10-23T10:46:00+08:00",
+            "price": 16.97,
+            "cumulative_volume_lots": 197438.0
+          },
+          {
+            "time": "2026-10-23T10:47:00+08:00",
+            "price": 16.96,
+            "cumulative_volume_lots": 198135.0
+          },
+          {
+            "time": "2026-10-23T10:48:00+08:00",
+            "price": 16.98,
+            "cumulative_volume_lots": 198313.0
+          },
+          {
+            "time": "2026-10-23T10:49:00+08:00",
+            "price": 16.92,
+            "cumulative_volume_lots": 198812.0
+          },
+          {
+            "time": "2026-10-23T10:50:00+08:00",
+            "price": 16.94,
+            "cumulative_volume_lots": 198961.0
+          },
+          {
+            "time": "2026-10-23T10:51:00+08:00",
+            "price": 17.0,
+            "cumulative_volume_lots": 199156.0
+          },
+          {
+            "time": "2026-10-23T10:52:00+08:00",
+            "price": 17.11,
+            "cumulative_volume_lots": 199383.0
+          },
+          {
+            "time": "2026-10-23T10:53:00+08:00",
+            "price": 17.14,
+            "cumulative_volume_lots": 199846.0
+          },
+          {
+            "time": "2026-10-23T10:54:00+08:00",
+            "price": 17.17,
+            "cumulative_volume_lots": 200158.0
+          },
+          {
+            "time": "2026-10-23T10:55:00+08:00",
+            "price": 17.16,
+            "cumulative_volume_lots": 200735.0
+          },
+          {
+            "time": "2026-10-23T10:56:00+08:00",
+            "price": 17.06,
+            "cumulative_volume_lots": 201086.0
+          },
+          {
+            "time": "2026-10-23T10:57:00+08:00",
+            "price": 17.04,
+            "cumulative_volume_lots": 201450.0
+          },
+          {
+            "time": "2026-10-23T10:58:00+08:00",
+            "price": 17.01,
+            "cumulative_volume_lots": 201600.0
+          },
+          {
+            "time": "2026-10-23T10:59:00+08:00",
+            "price": 17.02,
+            "cumulative_volume_lots": 201971.0
+          },
+          {
+            "time": "2026-10-23T11:00:00+08:00",
+            "price": 17.03,
+            "cumulative_volume_lots": 202243.0
+          },
+          {
+            "time": "2026-10-23T11:01:00+08:00",
+            "price": 16.94,
+            "cumulative_volume_lots": 203035.0
+          },
+          {
+            "time": "2026-10-23T11:02:00+08:00",
+            "price": 16.97,
+            "cumulative_volume_lots": 203467.0
+          },
+          {
+            "time": "2026-10-23T11:03:00+08:00",
+            "price": 17.04,
+            "cumulative_volume_lots": 203581.0
+          },
+          {
+            "time": "2026-10-23T11:04:00+08:00",
+            "price": 16.98,
+            "cumulative_volume_lots": 203895.0
+          },
+          {
+            "time": "2026-10-23T11:05:00+08:00",
+            "price": 16.98,
+            "cumulative_volume_lots": 204186.0
+          },
+          {
+            "time": "2026-10-23T11:06:00+08:00",
+            "price": 16.95,
+            "cumulative_volume_lots": 204518.0
+          },
+          {
+            "time": "2026-10-23T11:07:00+08:00",
+            "price": 16.94,
+            "cumulative_volume_lots": 204721.0
+          },
+          {
+            "time": "2026-10-23T11:08:00+08:00",
+            "price": 16.9,
+            "cumulative_volume_lots": 204991.0
+          },
+          {
+            "time": "2026-10-23T11:09:00+08:00",
+            "price": 16.94,
+            "cumulative_volume_lots": 205113.0
+          },
+          {
+            "time": "2026-10-23T11:10:00+08:00",
+            "price": 16.86,
+            "cumulative_volume_lots": 205742.0
+          },
+          {
+            "time": "2026-10-23T11:11:00+08:00",
+            "price": 16.87,
+            "cumulative_volume_lots": 205963.0
+          },
+          {
+            "time": "2026-10-23T11:12:00+08:00",
+            "price": 16.86,
+            "cumulative_volume_lots": 206067.0
+          },
+          {
+            "time": "2026-10-23T11:13:00+08:00",
+            "price": 16.89,
+            "cumulative_volume_lots": 206296.0
+          },
+          {
+            "time": "2026-10-23T11:14:00+08:00",
+            "price": 16.95,
+            "cumulative_volume_lots": 206543.0
+          },
+          {
+            "time": "2026-10-23T11:15:00+08:00",
+            "price": 17.18,
+            "cumulative_volume_lots": 206746.0
+          },
+          {
+            "time": "2026-10-23T11:16:00+08:00",
+            "price": 17.14,
+            "cumulative_volume_lots": 207439.0
+          },
+          {
+            "time": "2026-10-23T11:17:00+08:00",
+            "price": 17.05,
+            "cumulative_volume_lots": 207574.0
+          },
+          {
+            "time": "2026-10-23T11:18:00+08:00",
+            "price": 17.01,
+            "cumulative_volume_lots": 207967.0
+          },
+          {
+            "time": "2026-10-23T11:19:00+08:00",
+            "price": 17.01,
+            "cumulative_volume_lots": 208166.0
+          },
+          {
+            "time": "2026-10-23T11:20:00+08:00",
+            "price": 16.98,
+            "cumulative_volume_lots": 208332.0
+          },
+          {
+            "time": "2026-10-23T11:21:00+08:00",
+            "price": 16.97,
+            "cumulative_volume_lots": 208544.0
+          },
+          {
+            "time": "2026-10-23T11:22:00+08:00",
+            "price": 16.99,
+            "cumulative_volume_lots": 208769.0
+          },
+          {
+            "time": "2026-10-23T11:23:00+08:00",
+            "price": 17.08,
+            "cumulative_volume_lots": 209047.0
+          },
+          {
+            "time": "2026-10-23T11:24:00+08:00",
+            "price": 17.13,
+            "cumulative_volume_lots": 209240.0
+          },
+          {
+            "time": "2026-10-23T11:25:00+08:00",
+            "price": 17.2,
+            "cumulative_volume_lots": 209691.0
+          },
+          {
+            "time": "2026-10-23T11:26:00+08:00",
+            "price": 17.08,
+            "cumulative_volume_lots": 209792.0
+          },
+          {
+            "time": "2026-10-23T11:27:00+08:00",
+            "price": 17.06,
+            "cumulative_volume_lots": 209869.0
+          },
+          {
+            "time": "2026-10-23T11:28:00+08:00",
+            "price": 17.09,
+            "cumulative_volume_lots": 210249.0
+          },
+          {
+            "time": "2026-10-23T11:29:00+08:00",
+            "price": 17.24,
+            "cumulative_volume_lots": 210329.0
+          },
+          {
+            "time": "2026-10-23T11:30:00+08:00",
+            "price": 17.16,
+            "cumulative_volume_lots": 210854.0
+          }
+        ],
+        "kind": "public_price_and_cumulative_volume_not_L2"
+      },
+      "attempts": 1,
+      "observed_at": "2026-10-23T11:33:51.947772+08:00"
+    },
+    {
+      "name": "600293",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/minute/query?code=sh600293",
+      "data": {
+        "date": "2026-10-23",
+        "bars": [
+          {
+            "time": "2026-10-23T09:30:00+08:00",
+            "price": 5.75,
+            "cumulative_volume_lots": 507929.0
+          },
+          {
+            "time": "2026-10-23T09:31:00+08:00",
+            "price": 4.72,
+            "cumulative_volume_lots": 827561.0
+          },
+          {
+            "time": "2026-10-23T09:32:00+08:00",
+            "price": 5.41,
+            "cumulative_volume_lots": 1063041.0
+          },
+          {
+            "time": "2026-10-23T09:33:00+08:00",
+            "price": 5.73,
+            "cumulative_volume_lots": 1277674.0
+          },
+          {
+            "time": "2026-10-23T09:34:00+08:00",
+            "price": 5.04,
+            "cumulative_volume_lots": 1403269.0
+          },
+          {
+            "time": "2026-10-23T09:35:00+08:00",
+            "price": 5.63,
+            "cumulative_volume_lots": 1518852.0
+          },
+          {
+            "time": "2026-10-23T09:36:00+08:00",
+            "price": 5.4,
+            "cumulative_volume_lots": 1642637.0
+          },
+          {
+            "time": "2026-10-23T09:37:00+08:00",
+            "price": 5.45,
+            "cumulative_volume_lots": 1730297.0
+          },
+          {
+            "time": "2026-10-23T09:38:00+08:00",
+            "price": 5.47,
+            "cumulative_volume_lots": 1798432.0
+          },
+          {
+            "time": "2026-10-23T09:39:00+08:00",
+            "price": 5.43,
+            "cumulative_volume_lots": 1854890.0
+          },
+          {
+            "time": "2026-10-23T09:40:00+08:00",
+            "price": 5.42,
+            "cumulative_volume_lots": 1900644.0
+          },
+          {
+            "time": "2026-10-23T09:41:00+08:00",
+            "price": 5.31,
+            "cumulative_volume_lots": 1934487.0
+          },
+          {
+            "time": "2026-10-23T09:42:00+08:00",
+            "price": 5.25,
+            "cumulative_volume_lots": 1988667.0
+          },
+          {
+            "time": "2026-10-23T09:43:00+08:00",
+            "price": 5.12,
+            "cumulative_volume_lots": 2030237.0
+          },
+          {
+            "time": "2026-10-23T09:44:00+08:00",
+            "price": 5.17,
+            "cumulative_volume_lots": 2100024.0
+          },
+          {
+            "time": "2026-10-23T09:45:00+08:00",
+            "price": 5.4,
+            "cumulative_volume_lots": 2143790.0
+          },
+          {
+            "time": "2026-10-23T09:46:00+08:00",
+            "price": 5.28,
+            "cumulative_volume_lots": 2178064.0
+          },
+          {
+            "time": "2026-10-23T09:47:00+08:00",
+            "price": 5.35,
+            "cumulative_volume_lots": 2203096.0
+          },
+          {
+            "time": "2026-10-23T09:48:00+08:00",
+            "price": 5.28,
+            "cumulative_volume_lots": 2223362.0
+          },
+          {
+            "time": "2026-10-23T09:49:00+08:00",
+            "price": 5.29,
+            "cumulative_volume_lots": 2243024.0
+          },
+          {
+            "time": "2026-10-23T09:50:00+08:00",
+            "price": 5.3,
+            "cumulative_volume_lots": 2262105.0
+          },
+          {
+            "time": "2026-10-23T09:51:00+08:00",
+            "price": 5.27,
+            "cumulative_volume_lots": 2277750.0
+          },
+          {
+            "time": "2026-10-23T09:52:00+08:00",
+            "price": 5.22,
+            "cumulative_volume_lots": 2291014.0
+          },
+          {
+            "time": "2026-10-23T09:53:00+08:00",
+            "price": 5.27,
+            "cumulative_volume_lots": 2304180.0
+          },
+          {
+            "time": "2026-10-23T09:54:00+08:00",
+            "price": 5.28,
+            "cumulative_volume_lots": 2317952.0
+          },
+          {
+            "time": "2026-10-23T09:55:00+08:00",
+            "price": 5.27,
+            "cumulative_volume_lots": 2329562.0
+          },
+          {
+            "time": "2026-10-23T09:56:00+08:00",
+            "price": 5.24,
+            "cumulative_volume_lots": 2340261.0
+          },
+          {
+            "time": "2026-10-23T09:57:00+08:00",
+            "price": 5.18,
+            "cumulative_volume_lots": 2356676.0
+          },
+          {
+            "time": "2026-10-23T09:58:00+08:00",
+            "price": 5.08,
+            "cumulative_volume_lots": 2371094.0
+          },
+          {
+            "time": "2026-10-23T09:59:00+08:00",
+            "price": 5.2,
+            "cumulative_volume_lots": 2399542.0
+          },
+          {
+            "time": "2026-10-23T10:00:00+08:00",
+            "price": 5.2,
+            "cumulative_volume_lots": 2414521.0
+          },
+          {
+            "time": "2026-10-23T10:01:00+08:00",
+            "price": 5.12,
+            "cumulative_volume_lots": 2422731.0
+          },
+          {
+            "time": "2026-10-23T10:02:00+08:00",
+            "price": 5.2,
+            "cumulative_volume_lots": 2436216.0
+          },
+          {
+            "time": "2026-10-23T10:03:00+08:00",
+            "price": 5.2,
+            "cumulative_volume_lots": 2443893.0
+          },
+          {
+            "time": "2026-10-23T10:04:00+08:00",
+            "price": 5.18,
+            "cumulative_volume_lots": 2450442.0
+          },
+          {
+            "time": "2026-10-23T10:05:00+08:00",
+            "price": 5.16,
+            "cumulative_volume_lots": 2458350.0
+          },
+          {
+            "time": "2026-10-23T10:06:00+08:00",
+            "price": 5.17,
+            "cumulative_volume_lots": 2467491.0
+          },
+          {
+            "time": "2026-10-23T10:07:00+08:00",
+            "price": 5.16,
+            "cumulative_volume_lots": 2474148.0
+          },
+          {
+            "time": "2026-10-23T10:08:00+08:00",
+            "price": 5.16,
+            "cumulative_volume_lots": 2480844.0
+          },
+          {
+            "time": "2026-10-23T10:09:00+08:00",
+            "price": 5.13,
+            "cumulative_volume_lots": 2491075.0
+          },
+          {
+            "time": "2026-10-23T10:10:00+08:00",
+            "price": 5.07,
+            "cumulative_volume_lots": 2503922.0
+          },
+          {
+            "time": "2026-10-23T10:11:00+08:00",
+            "price": 5.0,
+            "cumulative_volume_lots": 2529793.0
+          },
+          {
+            "time": "2026-10-23T10:12:00+08:00",
+            "price": 5.13,
+            "cumulative_volume_lots": 2558782.0
+          },
+          {
+            "time": "2026-10-23T10:13:00+08:00",
+            "price": 5.07,
+            "cumulative_volume_lots": 2572110.0
+          },
+          {
+            "time": "2026-10-23T10:14:00+08:00",
+            "price": 5.02,
+            "cumulative_volume_lots": 2584906.0
+          },
+          {
+            "time": "2026-10-23T10:15:00+08:00",
+            "price": 5.06,
+            "cumulative_volume_lots": 2598184.0
+          },
+          {
+            "time": "2026-10-23T10:16:00+08:00",
+            "price": 5.07,
+            "cumulative_volume_lots": 2605196.0
+          },
+          {
+            "time": "2026-10-23T10:17:00+08:00",
+            "price": 5.03,
+            "cumulative_volume_lots": 2612683.0
+          },
+          {
+            "time": "2026-10-23T10:18:00+08:00",
+            "price": 5.03,
+            "cumulative_volume_lots": 2623152.0
+          },
+          {
+            "time": "2026-10-23T10:19:00+08:00",
+            "price": 5.03,
+            "cumulative_volume_lots": 2629886.0
+          },
+          {
+            "time": "2026-10-23T10:20:00+08:00",
+            "price": 5.06,
+            "cumulative_volume_lots": 2636303.0
+          },
+          {
+            "time": "2026-10-23T10:21:00+08:00",
+            "price": 5.12,
+            "cumulative_volume_lots": 2649038.0
+          },
+          {
+            "time": "2026-10-23T10:22:00+08:00",
+            "price": 5.2,
+            "cumulative_volume_lots": 2659652.0
+          },
+          {
+            "time": "2026-10-23T10:23:00+08:00",
+            "price": 5.23,
+            "cumulative_volume_lots": 2678054.0
+          },
+          {
+            "time": "2026-10-23T10:24:00+08:00",
+            "price": 5.29,
+            "cumulative_volume_lots": 2701209.0
+          },
+          {
+            "time": "2026-10-23T10:25:00+08:00",
+            "price": 5.34,
+            "cumulative_volume_lots": 2741729.0
+          },
+          {
+            "time": "2026-10-23T10:26:00+08:00",
+            "price": 5.25,
+            "cumulative_volume_lots": 2761262.0
+          },
+          {
+            "time": "2026-10-23T10:27:00+08:00",
+            "price": 5.34,
+            "cumulative_volume_lots": 2784356.0
+          },
+          {
+            "time": "2026-10-23T10:28:00+08:00",
+            "price": 5.31,
+            "cumulative_volume_lots": 2797995.0
+          },
+          {
+            "time": "2026-10-23T10:29:00+08:00",
+            "price": 5.28,
+            "cumulative_volume_lots": 2803194.0
+          },
+          {
+            "time": "2026-10-23T10:30:00+08:00",
+            "price": 5.25,
+            "cumulative_volume_lots": 2811681.0
+          },
+          {
+            "time": "2026-10-23T10:31:00+08:00",
+            "price": 5.28,
+            "cumulative_volume_lots": 2821677.0
+          },
+          {
+            "time": "2026-10-23T10:32:00+08:00",
+            "price": 5.31,
+            "cumulative_volume_lots": 2832268.0
+          },
+          {
+            "time": "2026-10-23T10:33:00+08:00",
+            "price": 5.32,
+            "cumulative_volume_lots": 2843032.0
+          },
+          {
+            "time": "2026-10-23T10:34:00+08:00",
+            "price": 5.31,
+            "cumulative_volume_lots": 2849811.0
+          },
+          {
+            "time": "2026-10-23T10:35:00+08:00",
+            "price": 5.3,
+            "cumulative_volume_lots": 2855336.0
+          },
+          {
+            "time": "2026-10-23T10:36:00+08:00",
+            "price": 5.27,
+            "cumulative_volume_lots": 2859880.0
+          },
+          {
+            "time": "2026-10-23T10:37:00+08:00",
+            "price": 5.26,
+            "cumulative_volume_lots": 2864813.0
+          },
+          {
+            "time": "2026-10-23T10:38:00+08:00",
+            "price": 5.26,
+            "cumulative_volume_lots": 2870881.0
+          },
+          {
+            "time": "2026-10-23T10:39:00+08:00",
+            "price": 5.22,
+            "cumulative_volume_lots": 2875151.0
+          },
+          {
+            "time": "2026-10-23T10:40:00+08:00",
+            "price": 5.19,
+            "cumulative_volume_lots": 2879671.0
+          },
+          {
+            "time": "2026-10-23T10:41:00+08:00",
+            "price": 5.19,
+            "cumulative_volume_lots": 2884329.0
+          },
+          {
+            "time": "2026-10-23T10:42:00+08:00",
+            "price": 5.2,
+            "cumulative_volume_lots": 2889328.0
+          },
+          {
+            "time": "2026-10-23T10:43:00+08:00",
+            "price": 5.2,
+            "cumulative_volume_lots": 2892269.0
+          },
+          {
+            "time": "2026-10-23T10:44:00+08:00",
+            "price": 5.19,
+            "cumulative_volume_lots": 2894482.0
+          },
+          {
+            "time": "2026-10-23T10:45:00+08:00",
+            "price": 5.19,
+            "cumulative_volume_lots": 2896870.0
+          },
+          {
+            "time": "2026-10-23T10:46:00+08:00",
+            "price": 5.2,
+            "cumulative_volume_lots": 2899289.0
+          },
+          {
+            "time": "2026-10-23T10:47:00+08:00",
+            "price": 5.2,
+            "cumulative_volume_lots": 2902988.0
+          },
+          {
+            "time": "2026-10-23T10:48:00+08:00",
+            "price": 5.25,
+            "cumulative_volume_lots": 2906265.0
+          },
+          {
+            "time": "2026-10-23T10:49:00+08:00",
+            "price": 5.3,
+            "cumulative_volume_lots": 2916929.0
+          },
+          {
+            "time": "2026-10-23T10:50:00+08:00",
+            "price": 5.29,
+            "cumulative_volume_lots": 2923385.0
+          },
+          {
+            "time": "2026-10-23T10:51:00+08:00",
+            "price": 5.29,
+            "cumulative_volume_lots": 2927843.0
+          },
+          {
+            "time": "2026-10-23T10:52:00+08:00",
+            "price": 5.27,
+            "cumulative_volume_lots": 2930670.0
+          },
+          {
+            "time": "2026-10-23T10:53:00+08:00",
+            "price": 5.28,
+            "cumulative_volume_lots": 2934730.0
+          },
+          {
+            "time": "2026-10-23T10:54:00+08:00",
+            "price": 5.28,
+            "cumulative_volume_lots": 2936722.0
+          },
+          {
+            "time": "2026-10-23T10:55:00+08:00",
+            "price": 5.28,
+            "cumulative_volume_lots": 2941678.0
+          },
+          {
+            "time": "2026-10-23T10:56:00+08:00",
+            "price": 5.27,
+            "cumulative_volume_lots": 2944323.0
+          },
+          {
+            "time": "2026-10-23T10:57:00+08:00",
+            "price": 5.26,
+            "cumulative_volume_lots": 2945636.0
+          },
+          {
+            "time": "2026-10-23T10:58:00+08:00",
+            "price": 5.26,
+            "cumulative_volume_lots": 2947410.0
+          },
+          {
+            "time": "2026-10-23T10:59:00+08:00",
+            "price": 5.26,
+            "cumulative_volume_lots": 2948956.0
+          },
+          {
+            "time": "2026-10-23T11:00:00+08:00",
+            "price": 5.23,
+            "cumulative_volume_lots": 2952275.0
+          },
+          {
+            "time": "2026-10-23T11:01:00+08:00",
+            "price": 5.21,
+            "cumulative_volume_lots": 2954667.0
+          },
+          {
+            "time": "2026-10-23T11:02:00+08:00",
+            "price": 5.18,
+            "cumulative_volume_lots": 2958536.0
+          },
+          {
+            "time": "2026-10-23T11:03:00+08:00",
+            "price": 5.21,
+            "cumulative_volume_lots": 2961290.0
+          },
+          {
+            "time": "2026-10-23T11:04:00+08:00",
+            "price": 5.23,
+            "cumulative_volume_lots": 2964137.0
+          },
+          {
+            "time": "2026-10-23T11:05:00+08:00",
+            "price": 5.2,
+            "cumulative_volume_lots": 2966628.0
+          },
+          {
+            "time": "2026-10-23T11:06:00+08:00",
+            "price": 5.2,
+            "cumulative_volume_lots": 2968560.0
+          },
+          {
+            "time": "2026-10-23T11:07:00+08:00",
+            "price": 5.21,
+            "cumulative_volume_lots": 2971352.0
+          },
+          {
+            "time": "2026-10-23T11:08:00+08:00",
+            "price": 5.21,
+            "cumulative_volume_lots": 2972412.0
+          },
+          {
+            "time": "2026-10-23T11:09:00+08:00",
+            "price": 5.2,
+            "cumulative_volume_lots": 2974123.0
+          },
+          {
+            "time": "2026-10-23T11:10:00+08:00",
+            "price": 5.2,
+            "cumulative_volume_lots": 2976466.0
+          },
+          {
+            "time": "2026-10-23T11:11:00+08:00",
+            "price": 5.21,
+            "cumulative_volume_lots": 2978695.0
+          },
+          {
+            "time": "2026-10-23T11:12:00+08:00",
+            "price": 5.19,
+            "cumulative_volume_lots": 2980969.0
+          },
+          {
+            "time": "2026-10-23T11:13:00+08:00",
+            "price": 5.2,
+            "cumulative_volume_lots": 2983096.0
+          },
+          {
+            "time": "2026-10-23T11:14:00+08:00",
+            "price": 5.19,
+            "cumulative_volume_lots": 2984649.0
+          },
+          {
+            "time": "2026-10-23T11:15:00+08:00",
+            "price": 5.19,
+            "cumulative_volume_lots": 2985901.0
+          },
+          {
+            "time": "2026-10-23T11:16:00+08:00",
+            "price": 5.2,
+            "cumulative_volume_lots": 2988073.0
+          },
+          {
+            "time": "2026-10-23T11:17:00+08:00",
+            "price": 5.2,
+            "cumulative_volume_lots": 2990218.0
+          },
+          {
+            "time": "2026-10-23T11:18:00+08:00",
+            "price": 5.19,
+            "cumulative_volume_lots": 2993454.0
+          },
+          {
+            "time": "2026-10-23T11:19:00+08:00",
+            "price": 5.18,
+            "cumulative_volume_lots": 2994458.0
+          },
+          {
+            "time": "2026-10-23T11:20:00+08:00",
+            "price": 5.17,
+            "cumulative_volume_lots": 2999118.0
+          },
+          {
+            "time": "2026-10-23T11:21:00+08:00",
+            "price": 5.15,
+            "cumulative_volume_lots": 3002206.0
+          },
+          {
+            "time": "2026-10-23T11:22:00+08:00",
+            "price": 5.14,
+            "cumulative_volume_lots": 3004618.0
+          },
+          {
+            "time": "2026-10-23T11:23:00+08:00",
+            "price": 5.16,
+            "cumulative_volume_lots": 3006796.0
+          },
+          {
+            "time": "2026-10-23T11:24:00+08:00",
+            "price": 5.16,
+            "cumulative_volume_lots": 3009890.0
+          },
+          {
+            "time": "2026-10-23T11:25:00+08:00",
+            "price": 5.19,
+            "cumulative_volume_lots": 3011713.0
+          },
+          {
+            "time": "2026-10-23T11:26:00+08:00",
+            "price": 5.2,
+            "cumulative_volume_lots": 3014914.0
+          },
+          {
+            "time": "2026-10-23T11:27:00+08:00",
+            "price": 5.2,
+            "cumulative_volume_lots": 3015747.0
+          },
+          {
+            "time": "2026-10-23T11:28:00+08:00",
+            "price": 5.2,
+            "cumulative_volume_lots": 3016551.0
+          },
+          {
+            "time": "2026-10-23T11:29:00+08:00",
+            "price": 5.19,
+            "cumulative_volume_lots": 3018987.0
+          },
+          {
+            "time": "2026-10-23T11:30:00+08:00",
+            "price": 5.22,
+            "cumulative_volume_lots": 3024852.0
+          }
+        ],
+        "kind": "public_price_and_cumulative_volume_not_L2"
+      },
+      "attempts": 1,
+      "observed_at": "2026-10-23T11:33:51.953306+08:00"
+    },
+    {
+      "name": "603350",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/minute/query?code=sh603350",
+      "data": {
+        "date": "2026-10-23",
+        "bars": [
+          {
+            "time": "2026-10-23T09:30:00+08:00",
+            "price": 29.48,
+            "cumulative_volume_lots": 3251.0
+          },
+          {
+            "time": "2026-10-23T09:31:00+08:00",
+            "price": 29.76,
+            "cumulative_volume_lots": 10609.0
+          },
+          {
+            "time": "2026-10-23T09:32:00+08:00",
+            "price": 30.47,
+            "cumulative_volume_lots": 15601.0
+          },
+          {
+            "time": "2026-10-23T09:33:00+08:00",
+            "price": 30.0,
+            "cumulative_volume_lots": 17684.0
+          },
+          {
+            "time": "2026-10-23T09:34:00+08:00",
+            "price": 30.08,
+            "cumulative_volume_lots": 18826.0
+          },
+          {
+            "time": "2026-10-23T09:35:00+08:00",
+            "price": 30.48,
+            "cumulative_volume_lots": 20561.0
+          },
+          {
+            "time": "2026-10-23T09:36:00+08:00",
+            "price": 30.99,
+            "cumulative_volume_lots": 23248.0
+          },
+          {
+            "time": "2026-10-23T09:37:00+08:00",
+            "price": 31.58,
+            "cumulative_volume_lots": 28116.0
+          },
+          {
+            "time": "2026-10-23T09:38:00+08:00",
+            "price": 31.35,
+            "cumulative_volume_lots": 30637.0
+          },
+          {
+            "time": "2026-10-23T09:39:00+08:00",
+            "price": 31.3,
+            "cumulative_volume_lots": 31739.0
+          },
+          {
+            "time": "2026-10-23T09:40:00+08:00",
+            "price": 31.02,
+            "cumulative_volume_lots": 32325.0
+          },
+          {
+            "time": "2026-10-23T09:41:00+08:00",
+            "price": 30.83,
+            "cumulative_volume_lots": 33394.0
+          },
+          {
+            "time": "2026-10-23T09:42:00+08:00",
+            "price": 31.12,
+            "cumulative_volume_lots": 34059.0
+          },
+          {
+            "time": "2026-10-23T09:43:00+08:00",
+            "price": 31.35,
+            "cumulative_volume_lots": 34895.0
+          },
+          {
+            "time": "2026-10-23T09:44:00+08:00",
+            "price": 31.2,
+            "cumulative_volume_lots": 35936.0
+          },
+          {
+            "time": "2026-10-23T09:45:00+08:00",
+            "price": 31.2,
+            "cumulative_volume_lots": 36525.0
+          },
+          {
+            "time": "2026-10-23T09:46:00+08:00",
+            "price": 31.0,
+            "cumulative_volume_lots": 37376.0
+          },
+          {
+            "time": "2026-10-23T09:47:00+08:00",
+            "price": 30.95,
+            "cumulative_volume_lots": 37630.0
+          },
+          {
+            "time": "2026-10-23T09:48:00+08:00",
+            "price": 30.88,
+            "cumulative_volume_lots": 37920.0
+          },
+          {
+            "time": "2026-10-23T09:49:00+08:00",
+            "price": 30.95,
+            "cumulative_volume_lots": 38227.0
+          },
+          {
+            "time": "2026-10-23T09:50:00+08:00",
+            "price": 31.19,
+            "cumulative_volume_lots": 38538.0
+          },
+          {
+            "time": "2026-10-23T09:51:00+08:00",
+            "price": 31.35,
+            "cumulative_volume_lots": 38991.0
+          },
+          {
+            "time": "2026-10-23T09:52:00+08:00",
+            "price": 31.52,
+            "cumulative_volume_lots": 39649.0
+          },
+          {
+            "time": "2026-10-23T09:53:00+08:00",
+            "price": 31.34,
+            "cumulative_volume_lots": 40088.0
+          },
+          {
+            "time": "2026-10-23T09:54:00+08:00",
+            "price": 31.19,
+            "cumulative_volume_lots": 40405.0
+          },
+          {
+            "time": "2026-10-23T09:55:00+08:00",
+            "price": 31.3,
+            "cumulative_volume_lots": 40589.0
+          },
+          {
+            "time": "2026-10-23T09:56:00+08:00",
+            "price": 31.45,
+            "cumulative_volume_lots": 40833.0
+          },
+          {
+            "time": "2026-10-23T09:57:00+08:00",
+            "price": 31.37,
+            "cumulative_volume_lots": 41203.0
+          },
+          {
+            "time": "2026-10-23T09:58:00+08:00",
+            "price": 31.37,
+            "cumulative_volume_lots": 41468.0
+          },
+          {
+            "time": "2026-10-23T09:59:00+08:00",
+            "price": 31.37,
+            "cumulative_volume_lots": 41808.0
+          },
+          {
+            "time": "2026-10-23T10:00:00+08:00",
+            "price": 31.4,
+            "cumulative_volume_lots": 42103.0
+          },
+          {
+            "time": "2026-10-23T10:01:00+08:00",
+            "price": 31.25,
+            "cumulative_volume_lots": 42487.0
+          },
+          {
+            "time": "2026-10-23T10:02:00+08:00",
+            "price": 31.14,
+            "cumulative_volume_lots": 42724.0
+          },
+          {
+            "time": "2026-10-23T10:03:00+08:00",
+            "price": 31.13,
+            "cumulative_volume_lots": 42915.0
+          },
+          {
+            "time": "2026-10-23T10:04:00+08:00",
+            "price": 30.99,
+            "cumulative_volume_lots": 43149.0
+          },
+          {
+            "time": "2026-10-23T10:05:00+08:00",
+            "price": 30.99,
+            "cumulative_volume_lots": 43283.0
+          },
+          {
+            "time": "2026-10-23T10:06:00+08:00",
+            "price": 31.02,
+            "cumulative_volume_lots": 43512.0
+          },
+          {
+            "time": "2026-10-23T10:07:00+08:00",
+            "price": 31.09,
+            "cumulative_volume_lots": 43588.0
+          },
+          {
+            "time": "2026-10-23T10:08:00+08:00",
+            "price": 31.08,
+            "cumulative_volume_lots": 43823.0
+          },
+          {
+            "time": "2026-10-23T10:09:00+08:00",
+            "price": 31.02,
+            "cumulative_volume_lots": 44020.0
+          },
+          {
+            "time": "2026-10-23T10:10:00+08:00",
+            "price": 30.95,
+            "cumulative_volume_lots": 44136.0
+          },
+          {
+            "time": "2026-10-23T10:11:00+08:00",
+            "price": 31.04,
+            "cumulative_volume_lots": 44388.0
+          },
+          {
+            "time": "2026-10-23T10:12:00+08:00",
+            "price": 31.1,
+            "cumulative_volume_lots": 44576.0
+          },
+          {
+            "time": "2026-10-23T10:13:00+08:00",
+            "price": 31.11,
+            "cumulative_volume_lots": 44675.0
+          },
+          {
+            "time": "2026-10-23T10:14:00+08:00",
+            "price": 31.0,
+            "cumulative_volume_lots": 44953.0
+          },
+          {
+            "time": "2026-10-23T10:15:00+08:00",
+            "price": 31.04,
+            "cumulative_volume_lots": 44996.0
+          },
+          {
+            "time": "2026-10-23T10:16:00+08:00",
+            "price": 31.01,
+            "cumulative_volume_lots": 45079.0
+          },
+          {
+            "time": "2026-10-23T10:17:00+08:00",
+            "price": 31.08,
+            "cumulative_volume_lots": 45191.0
+          },
+          {
+            "time": "2026-10-23T10:18:00+08:00",
+            "price": 31.07,
+            "cumulative_volume_lots": 45338.0
+          },
+          {
+            "time": "2026-10-23T10:19:00+08:00",
+            "price": 31.04,
+            "cumulative_volume_lots": 45396.0
+          },
+          {
+            "time": "2026-10-23T10:20:00+08:00",
+            "price": 31.14,
+            "cumulative_volume_lots": 45618.0
+          },
+          {
+            "time": "2026-10-23T10:21:00+08:00",
+            "price": 31.19,
+            "cumulative_volume_lots": 45777.0
+          },
+          {
+            "time": "2026-10-23T10:22:00+08:00",
+            "price": 31.17,
+            "cumulative_volume_lots": 45872.0
+          },
+          {
+            "time": "2026-10-23T10:23:00+08:00",
+            "price": 31.1,
+            "cumulative_volume_lots": 46176.0
+          },
+          {
+            "time": "2026-10-23T10:24:00+08:00",
+            "price": 31.01,
+            "cumulative_volume_lots": 46378.0
+          },
+          {
+            "time": "2026-10-23T10:25:00+08:00",
+            "price": 31.02,
+            "cumulative_volume_lots": 46438.0
+          },
+          {
+            "time": "2026-10-23T10:26:00+08:00",
+            "price": 31.02,
+            "cumulative_volume_lots": 46495.0
+          },
+          {
+            "time": "2026-10-23T10:27:00+08:00",
+            "price": 31.0,
+            "cumulative_volume_lots": 46654.0
+          },
+          {
+            "time": "2026-10-23T10:28:00+08:00",
+            "price": 31.0,
+            "cumulative_volume_lots": 46677.0
+          },
+          {
+            "time": "2026-10-23T10:29:00+08:00",
+            "price": 31.01,
+            "cumulative_volume_lots": 46873.0
+          },
+          {
+            "time": "2026-10-23T10:30:00+08:00",
+            "price": 30.9,
+            "cumulative_volume_lots": 46985.0
+          },
+          {
+            "time": "2026-10-23T10:31:00+08:00",
+            "price": 30.87,
+            "cumulative_volume_lots": 47260.0
+          },
+          {
+            "time": "2026-10-23T10:32:00+08:00",
+            "price": 30.83,
+            "cumulative_volume_lots": 47331.0
+          },
+          {
+            "time": "2026-10-23T10:33:00+08:00",
+            "price": 30.77,
+            "cumulative_volume_lots": 47464.0
+          },
+          {
+            "time": "2026-10-23T10:34:00+08:00",
+            "price": 30.8,
+            "cumulative_volume_lots": 47558.0
+          },
+          {
+            "time": "2026-10-23T10:35:00+08:00",
+            "price": 30.8,
+            "cumulative_volume_lots": 47721.0
+          },
+          {
+            "time": "2026-10-23T10:36:00+08:00",
+            "price": 30.79,
+            "cumulative_volume_lots": 47825.0
+          },
+          {
+            "time": "2026-10-23T10:37:00+08:00",
+            "price": 30.81,
+            "cumulative_volume_lots": 47896.0
+          },
+          {
+            "time": "2026-10-23T10:38:00+08:00",
+            "price": 30.84,
+            "cumulative_volume_lots": 47955.0
+          },
+          {
+            "time": "2026-10-23T10:39:00+08:00",
+            "price": 30.84,
+            "cumulative_volume_lots": 48042.0
+          },
+          {
+            "time": "2026-10-23T10:40:00+08:00",
+            "price": 30.78,
+            "cumulative_volume_lots": 48147.0
+          },
+          {
+            "time": "2026-10-23T10:41:00+08:00",
+            "price": 30.8,
+            "cumulative_volume_lots": 48196.0
+          },
+          {
+            "time": "2026-10-23T10:42:00+08:00",
+            "price": 30.77,
+            "cumulative_volume_lots": 48301.0
+          },
+          {
+            "time": "2026-10-23T10:43:00+08:00",
+            "price": 30.76,
+            "cumulative_volume_lots": 48361.0
+          },
+          {
+            "time": "2026-10-23T10:44:00+08:00",
+            "price": 30.76,
+            "cumulative_volume_lots": 48375.0
+          },
+          {
+            "time": "2026-10-23T10:45:00+08:00",
+            "price": 30.7,
+            "cumulative_volume_lots": 48494.0
+          },
+          {
+            "time": "2026-10-23T10:46:00+08:00",
+            "price": 30.56,
+            "cumulative_volume_lots": 48629.0
+          },
+          {
+            "time": "2026-10-23T10:47:00+08:00",
+            "price": 30.46,
+            "cumulative_volume_lots": 48842.0
+          },
+          {
+            "time": "2026-10-23T10:48:00+08:00",
+            "price": 30.36,
+            "cumulative_volume_lots": 48965.0
+          },
+          {
+            "time": "2026-10-23T10:49:00+08:00",
+            "price": 30.27,
+            "cumulative_volume_lots": 49261.0
+          },
+          {
+            "time": "2026-10-23T10:50:00+08:00",
+            "price": 30.29,
+            "cumulative_volume_lots": 49333.0
+          },
+          {
+            "time": "2026-10-23T10:51:00+08:00",
+            "price": 30.34,
+            "cumulative_volume_lots": 49439.0
+          },
+          {
+            "time": "2026-10-23T10:52:00+08:00",
+            "price": 30.35,
+            "cumulative_volume_lots": 49492.0
+          },
+          {
+            "time": "2026-10-23T10:53:00+08:00",
+            "price": 30.5,
+            "cumulative_volume_lots": 49536.0
+          },
+          {
+            "time": "2026-10-23T10:54:00+08:00",
+            "price": 30.65,
+            "cumulative_volume_lots": 49675.0
+          },
+          {
+            "time": "2026-10-23T10:55:00+08:00",
+            "price": 30.61,
+            "cumulative_volume_lots": 49739.0
+          },
+          {
+            "time": "2026-10-23T10:56:00+08:00",
+            "price": 30.52,
+            "cumulative_volume_lots": 49812.0
+          },
+          {
+            "time": "2026-10-23T10:57:00+08:00",
+            "price": 30.53,
+            "cumulative_volume_lots": 49817.0
+          },
+          {
+            "time": "2026-10-23T10:58:00+08:00",
+            "price": 30.45,
+            "cumulative_volume_lots": 49971.0
+          },
+          {
+            "time": "2026-10-23T10:59:00+08:00",
+            "price": 30.41,
+            "cumulative_volume_lots": 50015.0
+          },
+          {
+            "time": "2026-10-23T11:00:00+08:00",
+            "price": 30.39,
+            "cumulative_volume_lots": 50042.0
+          },
+          {
+            "time": "2026-10-23T11:01:00+08:00",
+            "price": 30.4,
+            "cumulative_volume_lots": 50076.0
+          },
+          {
+            "time": "2026-10-23T11:02:00+08:00",
+            "price": 30.4,
+            "cumulative_volume_lots": 50151.0
+          },
+          {
+            "time": "2026-10-23T11:03:00+08:00",
+            "price": 30.38,
+            "cumulative_volume_lots": 50159.0
+          },
+          {
+            "time": "2026-10-23T11:04:00+08:00",
+            "price": 30.36,
+            "cumulative_volume_lots": 50224.0
+          },
+          {
+            "time": "2026-10-23T11:05:00+08:00",
+            "price": 30.33,
+            "cumulative_volume_lots": 50277.0
+          },
+          {
+            "time": "2026-10-23T11:06:00+08:00",
+            "price": 30.31,
+            "cumulative_volume_lots": 50302.0
+          },
+          {
+            "time": "2026-10-23T11:07:00+08:00",
+            "price": 30.31,
+            "cumulative_volume_lots": 50318.0
+          },
+          {
+            "time": "2026-10-23T11:08:00+08:00",
+            "price": 30.33,
+            "cumulative_volume_lots": 50346.0
+          },
+          {
+            "time": "2026-10-23T11:09:00+08:00",
+            "price": 30.33,
+            "cumulative_volume_lots": 50381.0
+          },
+          {
+            "time": "2026-10-23T11:10:00+08:00",
+            "price": 30.34,
+            "cumulative_volume_lots": 50427.0
+          },
+          {
+            "time": "2026-10-23T11:11:00+08:00",
+            "price": 30.34,
+            "cumulative_volume_lots": 50451.0
+          },
+          {
+            "time": "2026-10-23T11:12:00+08:00",
+            "price": 30.34,
+            "cumulative_volume_lots": 50461.0
+          },
+          {
+            "time": "2026-10-23T11:13:00+08:00",
+            "price": 30.35,
+            "cumulative_volume_lots": 50475.0
+          },
+          {
+            "time": "2026-10-23T11:14:00+08:00",
+            "price": 30.36,
+            "cumulative_volume_lots": 50515.0
+          },
+          {
+            "time": "2026-10-23T11:15:00+08:00",
+            "price": 30.34,
+            "cumulative_volume_lots": 50539.0
+          },
+          {
+            "time": "2026-10-23T11:16:00+08:00",
+            "price": 30.38,
+            "cumulative_volume_lots": 50577.0
+          },
+          {
+            "time": "2026-10-23T11:17:00+08:00",
+            "price": 30.39,
+            "cumulative_volume_lots": 50611.0
+          },
+          {
+            "time": "2026-10-23T11:18:00+08:00",
+            "price": 30.5,
+            "cumulative_volume_lots": 50623.0
+          },
+          {
+            "time": "2026-10-23T11:19:00+08:00",
+            "price": 30.5,
+            "cumulative_volume_lots": 50665.0
+          },
+          {
+            "time": "2026-10-23T11:20:00+08:00",
+            "price": 30.42,
+            "cumulative_volume_lots": 50711.0
+          },
+          {
+            "time": "2026-10-23T11:21:00+08:00",
+            "price": 30.55,
+            "cumulative_volume_lots": 50769.0
+          },
+          {
+            "time": "2026-10-23T11:22:00+08:00",
+            "price": 30.51,
+            "cumulative_volume_lots": 50796.0
+          },
+          {
+            "time": "2026-10-23T11:23:00+08:00",
+            "price": 30.55,
+            "cumulative_volume_lots": 50875.0
+          },
+          {
+            "time": "2026-10-23T11:24:00+08:00",
+            "price": 30.66,
+            "cumulative_volume_lots": 50975.0
+          },
+          {
+            "time": "2026-10-23T11:25:00+08:00",
+            "price": 30.68,
+            "cumulative_volume_lots": 51027.0
+          },
+          {
+            "time": "2026-10-23T11:26:00+08:00",
+            "price": 30.57,
+            "cumulative_volume_lots": 51039.0
+          },
+          {
+            "time": "2026-10-23T11:27:00+08:00",
+            "price": 30.59,
+            "cumulative_volume_lots": 51051.0
+          },
+          {
+            "time": "2026-10-23T11:28:00+08:00",
+            "price": 30.63,
+            "cumulative_volume_lots": 51062.0
+          },
+          {
+            "time": "2026-10-23T11:29:00+08:00",
+            "price": 30.7,
+            "cumulative_volume_lots": 51101.0
+          },
+          {
+            "time": "2026-10-23T11:30:00+08:00",
+            "price": 30.82,
+            "cumulative_volume_lots": 51198.0
+          }
+        ],
+        "kind": "public_price_and_cumulative_volume_not_L2"
+      },
+      "attempts": 1,
+      "observed_at": "2026-10-23T11:33:51.945196+08:00"
+    },
+    {
+      "name": "603028",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/minute/query?code=sh603028",
+      "data": {
+        "date": "2026-10-23",
+        "bars": [
+          {
+            "time": "2026-10-23T09:30:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 9837.0
+          },
+          {
+            "time": "2026-10-23T09:31:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 26098.0
+          },
+          {
+            "time": "2026-10-23T09:32:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 27653.0
+          },
+          {
+            "time": "2026-10-23T09:33:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 29289.0
+          },
+          {
+            "time": "2026-10-23T09:34:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 30962.0
+          },
+          {
+            "time": "2026-10-23T09:35:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 32238.0
+          },
+          {
+            "time": "2026-10-23T09:36:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 34633.0
+          },
+          {
+            "time": "2026-10-23T09:37:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 35301.0
+          },
+          {
+            "time": "2026-10-23T09:38:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 35806.0
+          },
+          {
+            "time": "2026-10-23T09:39:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 36497.0
+          },
+          {
+            "time": "2026-10-23T09:40:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 36775.0
+          },
+          {
+            "time": "2026-10-23T09:41:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 37059.0
+          },
+          {
+            "time": "2026-10-23T09:42:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 37207.0
+          },
+          {
+            "time": "2026-10-23T09:43:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 37285.0
+          },
+          {
+            "time": "2026-10-23T09:44:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 37396.0
+          },
+          {
+            "time": "2026-10-23T09:45:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 37698.0
+          },
+          {
+            "time": "2026-10-23T09:46:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 38068.0
+          },
+          {
+            "time": "2026-10-23T09:47:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 38330.0
+          },
+          {
+            "time": "2026-10-23T09:48:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 38409.0
+          },
+          {
+            "time": "2026-10-23T09:49:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 38452.0
+          },
+          {
+            "time": "2026-10-23T09:50:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 38486.0
+          },
+          {
+            "time": "2026-10-23T09:51:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 38521.0
+          },
+          {
+            "time": "2026-10-23T09:52:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 38613.0
+          },
+          {
+            "time": "2026-10-23T09:53:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 38628.0
+          },
+          {
+            "time": "2026-10-23T09:54:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 38786.0
+          },
+          {
+            "time": "2026-10-23T09:55:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 39002.0
+          },
+          {
+            "time": "2026-10-23T09:56:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 39104.0
+          },
+          {
+            "time": "2026-10-23T09:57:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 39228.0
+          },
+          {
+            "time": "2026-10-23T09:58:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 39504.0
+          },
+          {
+            "time": "2026-10-23T09:59:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 39638.0
+          },
+          {
+            "time": "2026-10-23T10:00:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 39704.0
+          },
+          {
+            "time": "2026-10-23T10:01:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 39804.0
+          },
+          {
+            "time": "2026-10-23T10:02:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 39830.0
+          },
+          {
+            "time": "2026-10-23T10:03:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 40240.0
+          },
+          {
+            "time": "2026-10-23T10:04:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 40406.0
+          },
+          {
+            "time": "2026-10-23T10:05:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 40498.0
+          },
+          {
+            "time": "2026-10-23T10:06:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 40508.0
+          },
+          {
+            "time": "2026-10-23T10:07:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 40526.0
+          },
+          {
+            "time": "2026-10-23T10:08:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 40530.0
+          },
+          {
+            "time": "2026-10-23T10:09:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 40798.0
+          },
+          {
+            "time": "2026-10-23T10:10:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 41114.0
+          },
+          {
+            "time": "2026-10-23T10:11:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 41276.0
+          },
+          {
+            "time": "2026-10-23T10:12:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 41280.0
+          },
+          {
+            "time": "2026-10-23T10:13:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 41735.0
+          },
+          {
+            "time": "2026-10-23T10:14:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 41755.0
+          },
+          {
+            "time": "2026-10-23T10:15:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 41894.0
+          },
+          {
+            "time": "2026-10-23T10:16:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 41915.0
+          },
+          {
+            "time": "2026-10-23T10:17:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 41922.0
+          },
+          {
+            "time": "2026-10-23T10:18:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 41937.0
+          },
+          {
+            "time": "2026-10-23T10:19:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 41968.0
+          },
+          {
+            "time": "2026-10-23T10:20:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 41984.0
+          },
+          {
+            "time": "2026-10-23T10:21:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 42042.0
+          },
+          {
+            "time": "2026-10-23T10:22:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 42070.0
+          },
+          {
+            "time": "2026-10-23T10:23:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 42078.0
+          },
+          {
+            "time": "2026-10-23T10:24:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 42099.0
+          },
+          {
+            "time": "2026-10-23T10:25:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 42109.0
+          },
+          {
+            "time": "2026-10-23T10:26:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 42161.0
+          },
+          {
+            "time": "2026-10-23T10:27:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 42171.0
+          },
+          {
+            "time": "2026-10-23T10:28:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 42176.0
+          },
+          {
+            "time": "2026-10-23T10:29:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 42186.0
+          },
+          {
+            "time": "2026-10-23T10:30:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 42241.0
+          },
+          {
+            "time": "2026-10-23T10:31:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 42579.0
+          },
+          {
+            "time": "2026-10-23T10:32:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 42586.0
+          },
+          {
+            "time": "2026-10-23T10:33:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 42634.0
+          },
+          {
+            "time": "2026-10-23T10:34:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 42868.0
+          },
+          {
+            "time": "2026-10-23T10:35:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 42900.0
+          },
+          {
+            "time": "2026-10-23T10:36:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 42908.0
+          },
+          {
+            "time": "2026-10-23T10:37:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 42936.0
+          },
+          {
+            "time": "2026-10-23T10:38:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 42947.0
+          },
+          {
+            "time": "2026-10-23T10:39:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 42954.0
+          },
+          {
+            "time": "2026-10-23T10:40:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 42970.0
+          },
+          {
+            "time": "2026-10-23T10:41:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 42978.0
+          },
+          {
+            "time": "2026-10-23T10:42:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 43055.0
+          },
+          {
+            "time": "2026-10-23T10:43:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 43155.0
+          },
+          {
+            "time": "2026-10-23T10:44:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 43177.0
+          },
+          {
+            "time": "2026-10-23T10:45:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 43773.0
+          },
+          {
+            "time": "2026-10-23T10:46:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 43811.0
+          },
+          {
+            "time": "2026-10-23T10:47:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 44070.0
+          },
+          {
+            "time": "2026-10-23T10:48:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 44141.0
+          },
+          {
+            "time": "2026-10-23T10:49:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 44351.0
+          },
+          {
+            "time": "2026-10-23T10:50:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 44426.0
+          },
+          {
+            "time": "2026-10-23T10:51:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 44447.0
+          },
+          {
+            "time": "2026-10-23T10:52:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 44461.0
+          },
+          {
+            "time": "2026-10-23T10:53:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 44806.0
+          },
+          {
+            "time": "2026-10-23T10:54:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 44812.0
+          },
+          {
+            "time": "2026-10-23T10:55:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 44825.0
+          },
+          {
+            "time": "2026-10-23T10:56:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 44834.0
+          },
+          {
+            "time": "2026-10-23T10:57:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 44961.0
+          },
+          {
+            "time": "2026-10-23T10:58:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 44978.0
+          },
+          {
+            "time": "2026-10-23T10:59:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 44988.0
+          },
+          {
+            "time": "2026-10-23T11:00:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45004.0
+          },
+          {
+            "time": "2026-10-23T11:01:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45140.0
+          },
+          {
+            "time": "2026-10-23T11:02:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45148.0
+          },
+          {
+            "time": "2026-10-23T11:03:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45164.0
+          },
+          {
+            "time": "2026-10-23T11:04:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45172.0
+          },
+          {
+            "time": "2026-10-23T11:05:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45191.0
+          },
+          {
+            "time": "2026-10-23T11:06:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45225.0
+          },
+          {
+            "time": "2026-10-23T11:07:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45234.0
+          },
+          {
+            "time": "2026-10-23T11:08:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45242.0
+          },
+          {
+            "time": "2026-10-23T11:09:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45252.0
+          },
+          {
+            "time": "2026-10-23T11:10:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45261.0
+          },
+          {
+            "time": "2026-10-23T11:11:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45272.0
+          },
+          {
+            "time": "2026-10-23T11:12:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45277.0
+          },
+          {
+            "time": "2026-10-23T11:13:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45348.0
+          },
+          {
+            "time": "2026-10-23T11:14:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45367.0
+          },
+          {
+            "time": "2026-10-23T11:15:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45377.0
+          },
+          {
+            "time": "2026-10-23T11:16:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45383.0
+          },
+          {
+            "time": "2026-10-23T11:17:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45508.0
+          },
+          {
+            "time": "2026-10-23T11:18:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45521.0
+          },
+          {
+            "time": "2026-10-23T11:19:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45545.0
+          },
+          {
+            "time": "2026-10-23T11:20:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45612.0
+          },
+          {
+            "time": "2026-10-23T11:21:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45626.0
+          },
+          {
+            "time": "2026-10-23T11:22:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45636.0
+          },
+          {
+            "time": "2026-10-23T11:23:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45698.0
+          },
+          {
+            "time": "2026-10-23T11:24:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45708.0
+          },
+          {
+            "time": "2026-10-23T11:25:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45737.0
+          },
+          {
+            "time": "2026-10-23T11:26:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45745.0
+          },
+          {
+            "time": "2026-10-23T11:27:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45788.0
+          },
+          {
+            "time": "2026-10-23T11:28:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45857.0
+          },
+          {
+            "time": "2026-10-23T11:29:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45864.0
+          },
+          {
+            "time": "2026-10-23T11:30:00+08:00",
+            "price": 8.54,
+            "cumulative_volume_lots": 45879.0
+          }
+        ],
+        "kind": "public_price_and_cumulative_volume_not_L2"
+      },
+      "attempts": 1,
+      "observed_at": "2026-10-23T11:33:51.946696+08:00"
+    },
+    {
+      "name": "002249",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/minute/query?code=sz002249",
+      "data": {
+        "date": "2026-10-23",
+        "bars": [
+          {
+            "time": "2026-10-23T09:30:00+08:00",
+            "price": 7.06,
+            "cumulative_volume_lots": 101127.0
+          },
+          {
+            "time": "2026-10-23T09:31:00+08:00",
+            "price": 7.27,
+            "cumulative_volume_lots": 371618.0
+          },
+          {
+            "time": "2026-10-23T09:32:00+08:00",
+            "price": 7.09,
+            "cumulative_volume_lots": 542283.0
+          },
+          {
+            "time": "2026-10-23T09:33:00+08:00",
+            "price": 7.19,
+            "cumulative_volume_lots": 648692.0
+          },
+          {
+            "time": "2026-10-23T09:34:00+08:00",
+            "price": 7.18,
+            "cumulative_volume_lots": 729289.0
+          },
+          {
+            "time": "2026-10-23T09:35:00+08:00",
+            "price": 7.25,
+            "cumulative_volume_lots": 837261.0
+          },
+          {
+            "time": "2026-10-23T09:36:00+08:00",
+            "price": 7.26,
+            "cumulative_volume_lots": 906596.0
+          },
+          {
+            "time": "2026-10-23T09:37:00+08:00",
+            "price": 7.36,
+            "cumulative_volume_lots": 1015289.0
+          },
+          {
+            "time": "2026-10-23T09:38:00+08:00",
+            "price": 7.48,
+            "cumulative_volume_lots": 1126182.0
+          },
+          {
+            "time": "2026-10-23T09:39:00+08:00",
+            "price": 7.42,
+            "cumulative_volume_lots": 1235061.0
+          },
+          {
+            "time": "2026-10-23T09:40:00+08:00",
+            "price": 7.47,
+            "cumulative_volume_lots": 1288187.0
+          },
+          {
+            "time": "2026-10-23T09:41:00+08:00",
+            "price": 7.63,
+            "cumulative_volume_lots": 1349335.0
+          },
+          {
+            "time": "2026-10-23T09:42:00+08:00",
+            "price": 7.56,
+            "cumulative_volume_lots": 1413611.0
+          },
+          {
+            "time": "2026-10-23T09:43:00+08:00",
+            "price": 7.45,
+            "cumulative_volume_lots": 1448348.0
+          },
+          {
+            "time": "2026-10-23T09:44:00+08:00",
+            "price": 7.58,
+            "cumulative_volume_lots": 1479855.0
+          },
+          {
+            "time": "2026-10-23T09:45:00+08:00",
+            "price": 7.47,
+            "cumulative_volume_lots": 1503444.0
+          },
+          {
+            "time": "2026-10-23T09:46:00+08:00",
+            "price": 7.52,
+            "cumulative_volume_lots": 1523589.0
+          },
+          {
+            "time": "2026-10-23T09:47:00+08:00",
+            "price": 7.46,
+            "cumulative_volume_lots": 1543507.0
+          },
+          {
+            "time": "2026-10-23T09:48:00+08:00",
+            "price": 7.39,
+            "cumulative_volume_lots": 1565072.0
+          },
+          {
+            "time": "2026-10-23T09:49:00+08:00",
+            "price": 7.4,
+            "cumulative_volume_lots": 1586922.0
+          },
+          {
+            "time": "2026-10-23T09:50:00+08:00",
+            "price": 7.37,
+            "cumulative_volume_lots": 1603846.0
+          },
+          {
+            "time": "2026-10-23T09:51:00+08:00",
+            "price": 7.48,
+            "cumulative_volume_lots": 1626756.0
+          },
+          {
+            "time": "2026-10-23T09:52:00+08:00",
+            "price": 7.49,
+            "cumulative_volume_lots": 1646894.0
+          },
+          {
+            "time": "2026-10-23T09:53:00+08:00",
+            "price": 7.44,
+            "cumulative_volume_lots": 1657932.0
+          },
+          {
+            "time": "2026-10-23T09:54:00+08:00",
+            "price": 7.44,
+            "cumulative_volume_lots": 1668334.0
+          },
+          {
+            "time": "2026-10-23T09:55:00+08:00",
+            "price": 7.42,
+            "cumulative_volume_lots": 1678687.0
+          },
+          {
+            "time": "2026-10-23T09:56:00+08:00",
+            "price": 7.39,
+            "cumulative_volume_lots": 1688178.0
+          },
+          {
+            "time": "2026-10-23T09:57:00+08:00",
+            "price": 7.36,
+            "cumulative_volume_lots": 1697825.0
+          },
+          {
+            "time": "2026-10-23T09:58:00+08:00",
+            "price": 7.33,
+            "cumulative_volume_lots": 1713756.0
+          },
+          {
+            "time": "2026-10-23T09:59:00+08:00",
+            "price": 7.34,
+            "cumulative_volume_lots": 1726232.0
+          },
+          {
+            "time": "2026-10-23T10:00:00+08:00",
+            "price": 7.4,
+            "cumulative_volume_lots": 1739351.0
+          },
+          {
+            "time": "2026-10-23T10:01:00+08:00",
+            "price": 7.38,
+            "cumulative_volume_lots": 1752269.0
+          },
+          {
+            "time": "2026-10-23T10:02:00+08:00",
+            "price": 7.35,
+            "cumulative_volume_lots": 1761197.0
+          },
+          {
+            "time": "2026-10-23T10:03:00+08:00",
+            "price": 7.31,
+            "cumulative_volume_lots": 1773040.0
+          },
+          {
+            "time": "2026-10-23T10:04:00+08:00",
+            "price": 7.28,
+            "cumulative_volume_lots": 1787819.0
+          },
+          {
+            "time": "2026-10-23T10:05:00+08:00",
+            "price": 7.27,
+            "cumulative_volume_lots": 1805594.0
+          },
+          {
+            "time": "2026-10-23T10:06:00+08:00",
+            "price": 7.25,
+            "cumulative_volume_lots": 1815965.0
+          },
+          {
+            "time": "2026-10-23T10:07:00+08:00",
+            "price": 7.26,
+            "cumulative_volume_lots": 1829526.0
+          },
+          {
+            "time": "2026-10-23T10:08:00+08:00",
+            "price": 7.29,
+            "cumulative_volume_lots": 1838918.0
+          },
+          {
+            "time": "2026-10-23T10:09:00+08:00",
+            "price": 7.31,
+            "cumulative_volume_lots": 1849546.0
+          },
+          {
+            "time": "2026-10-23T10:10:00+08:00",
+            "price": 7.37,
+            "cumulative_volume_lots": 1865142.0
+          },
+          {
+            "time": "2026-10-23T10:11:00+08:00",
+            "price": 7.31,
+            "cumulative_volume_lots": 1874624.0
+          },
+          {
+            "time": "2026-10-23T10:12:00+08:00",
+            "price": 7.34,
+            "cumulative_volume_lots": 1882050.0
+          },
+          {
+            "time": "2026-10-23T10:13:00+08:00",
+            "price": 7.38,
+            "cumulative_volume_lots": 1893478.0
+          },
+          {
+            "time": "2026-10-23T10:14:00+08:00",
+            "price": 7.35,
+            "cumulative_volume_lots": 1902272.0
+          },
+          {
+            "time": "2026-10-23T10:15:00+08:00",
+            "price": 7.36,
+            "cumulative_volume_lots": 1909174.0
+          },
+          {
+            "time": "2026-10-23T10:16:00+08:00",
+            "price": 7.34,
+            "cumulative_volume_lots": 1915951.0
+          },
+          {
+            "time": "2026-10-23T10:17:00+08:00",
+            "price": 7.34,
+            "cumulative_volume_lots": 1922309.0
+          },
+          {
+            "time": "2026-10-23T10:18:00+08:00",
+            "price": 7.3,
+            "cumulative_volume_lots": 1927886.0
+          },
+          {
+            "time": "2026-10-23T10:19:00+08:00",
+            "price": 7.31,
+            "cumulative_volume_lots": 1933282.0
+          },
+          {
+            "time": "2026-10-23T10:20:00+08:00",
+            "price": 7.32,
+            "cumulative_volume_lots": 1938740.0
+          },
+          {
+            "time": "2026-10-23T10:21:00+08:00",
+            "price": 7.33,
+            "cumulative_volume_lots": 1944687.0
+          },
+          {
+            "time": "2026-10-23T10:22:00+08:00",
+            "price": 7.35,
+            "cumulative_volume_lots": 1951082.0
+          },
+          {
+            "time": "2026-10-23T10:23:00+08:00",
+            "price": 7.34,
+            "cumulative_volume_lots": 1957165.0
+          },
+          {
+            "time": "2026-10-23T10:24:00+08:00",
+            "price": 7.34,
+            "cumulative_volume_lots": 1962614.0
+          },
+          {
+            "time": "2026-10-23T10:25:00+08:00",
+            "price": 7.34,
+            "cumulative_volume_lots": 1968159.0
+          },
+          {
+            "time": "2026-10-23T10:26:00+08:00",
+            "price": 7.35,
+            "cumulative_volume_lots": 1973630.0
+          },
+          {
+            "time": "2026-10-23T10:27:00+08:00",
+            "price": 7.35,
+            "cumulative_volume_lots": 1977416.0
+          },
+          {
+            "time": "2026-10-23T10:28:00+08:00",
+            "price": 7.34,
+            "cumulative_volume_lots": 1980938.0
+          },
+          {
+            "time": "2026-10-23T10:29:00+08:00",
+            "price": 7.31,
+            "cumulative_volume_lots": 1988010.0
+          },
+          {
+            "time": "2026-10-23T10:30:00+08:00",
+            "price": 7.3,
+            "cumulative_volume_lots": 1994652.0
+          },
+          {
+            "time": "2026-10-23T10:31:00+08:00",
+            "price": 7.3,
+            "cumulative_volume_lots": 1999711.0
+          },
+          {
+            "time": "2026-10-23T10:32:00+08:00",
+            "price": 7.28,
+            "cumulative_volume_lots": 2004270.0
+          },
+          {
+            "time": "2026-10-23T10:33:00+08:00",
+            "price": 7.27,
+            "cumulative_volume_lots": 2010199.0
+          },
+          {
+            "time": "2026-10-23T10:34:00+08:00",
+            "price": 7.29,
+            "cumulative_volume_lots": 2014309.0
+          },
+          {
+            "time": "2026-10-23T10:35:00+08:00",
+            "price": 7.29,
+            "cumulative_volume_lots": 2018328.0
+          },
+          {
+            "time": "2026-10-23T10:36:00+08:00",
+            "price": 7.31,
+            "cumulative_volume_lots": 2022338.0
+          },
+          {
+            "time": "2026-10-23T10:37:00+08:00",
+            "price": 7.33,
+            "cumulative_volume_lots": 2026022.0
+          },
+          {
+            "time": "2026-10-23T10:38:00+08:00",
+            "price": 7.31,
+            "cumulative_volume_lots": 2029366.0
+          },
+          {
+            "time": "2026-10-23T10:39:00+08:00",
+            "price": 7.32,
+            "cumulative_volume_lots": 2032098.0
+          },
+          {
+            "time": "2026-10-23T10:40:00+08:00",
+            "price": 7.31,
+            "cumulative_volume_lots": 2035789.0
+          },
+          {
+            "time": "2026-10-23T10:41:00+08:00",
+            "price": 7.31,
+            "cumulative_volume_lots": 2038837.0
+          },
+          {
+            "time": "2026-10-23T10:42:00+08:00",
+            "price": 7.28,
+            "cumulative_volume_lots": 2042218.0
+          },
+          {
+            "time": "2026-10-23T10:43:00+08:00",
+            "price": 7.27,
+            "cumulative_volume_lots": 2045794.0
+          },
+          {
+            "time": "2026-10-23T10:44:00+08:00",
+            "price": 7.28,
+            "cumulative_volume_lots": 2050376.0
+          },
+          {
+            "time": "2026-10-23T10:45:00+08:00",
+            "price": 7.27,
+            "cumulative_volume_lots": 2058932.0
+          },
+          {
+            "time": "2026-10-23T10:46:00+08:00",
+            "price": 7.26,
+            "cumulative_volume_lots": 2062246.0
+          },
+          {
+            "time": "2026-10-23T10:47:00+08:00",
+            "price": 7.22,
+            "cumulative_volume_lots": 2069526.0
+          },
+          {
+            "time": "2026-10-23T10:48:00+08:00",
+            "price": 7.2,
+            "cumulative_volume_lots": 2076467.0
+          },
+          {
+            "time": "2026-10-23T10:49:00+08:00",
+            "price": 7.17,
+            "cumulative_volume_lots": 2086106.0
+          },
+          {
+            "time": "2026-10-23T10:50:00+08:00",
+            "price": 7.16,
+            "cumulative_volume_lots": 2095217.0
+          },
+          {
+            "time": "2026-10-23T10:51:00+08:00",
+            "price": 7.2,
+            "cumulative_volume_lots": 2103040.0
+          },
+          {
+            "time": "2026-10-23T10:52:00+08:00",
+            "price": 7.22,
+            "cumulative_volume_lots": 2107683.0
+          },
+          {
+            "time": "2026-10-23T10:53:00+08:00",
+            "price": 7.25,
+            "cumulative_volume_lots": 2112679.0
+          },
+          {
+            "time": "2026-10-23T10:54:00+08:00",
+            "price": 7.24,
+            "cumulative_volume_lots": 2118097.0
+          },
+          {
+            "time": "2026-10-23T10:55:00+08:00",
+            "price": 7.21,
+            "cumulative_volume_lots": 2120647.0
+          },
+          {
+            "time": "2026-10-23T10:56:00+08:00",
+            "price": 7.2,
+            "cumulative_volume_lots": 2123172.0
+          },
+          {
+            "time": "2026-10-23T10:57:00+08:00",
+            "price": 7.18,
+            "cumulative_volume_lots": 2126700.0
+          },
+          {
+            "time": "2026-10-23T10:58:00+08:00",
+            "price": 7.22,
+            "cumulative_volume_lots": 2133232.0
+          },
+          {
+            "time": "2026-10-23T10:59:00+08:00",
+            "price": 7.21,
+            "cumulative_volume_lots": 2135996.0
+          },
+          {
+            "time": "2026-10-23T11:00:00+08:00",
+            "price": 7.22,
+            "cumulative_volume_lots": 2138694.0
+          },
+          {
+            "time": "2026-10-23T11:01:00+08:00",
+            "price": 7.22,
+            "cumulative_volume_lots": 2140208.0
+          },
+          {
+            "time": "2026-10-23T11:02:00+08:00",
+            "price": 7.23,
+            "cumulative_volume_lots": 2141602.0
+          },
+          {
+            "time": "2026-10-23T11:03:00+08:00",
+            "price": 7.24,
+            "cumulative_volume_lots": 2143889.0
+          },
+          {
+            "time": "2026-10-23T11:04:00+08:00",
+            "price": 7.27,
+            "cumulative_volume_lots": 2147764.0
+          },
+          {
+            "time": "2026-10-23T11:05:00+08:00",
+            "price": 7.27,
+            "cumulative_volume_lots": 2151174.0
+          },
+          {
+            "time": "2026-10-23T11:06:00+08:00",
+            "price": 7.28,
+            "cumulative_volume_lots": 2153337.0
+          },
+          {
+            "time": "2026-10-23T11:07:00+08:00",
+            "price": 7.27,
+            "cumulative_volume_lots": 2156478.0
+          },
+          {
+            "time": "2026-10-23T11:08:00+08:00",
+            "price": 7.28,
+            "cumulative_volume_lots": 2158403.0
+          },
+          {
+            "time": "2026-10-23T11:09:00+08:00",
+            "price": 7.26,
+            "cumulative_volume_lots": 2160388.0
+          },
+          {
+            "time": "2026-10-23T11:10:00+08:00",
+            "price": 7.27,
+            "cumulative_volume_lots": 2162898.0
+          },
+          {
+            "time": "2026-10-23T11:11:00+08:00",
+            "price": 7.27,
+            "cumulative_volume_lots": 2164766.0
+          },
+          {
+            "time": "2026-10-23T11:12:00+08:00",
+            "price": 7.26,
+            "cumulative_volume_lots": 2166403.0
+          },
+          {
+            "time": "2026-10-23T11:13:00+08:00",
+            "price": 7.26,
+            "cumulative_volume_lots": 2167848.0
+          },
+          {
+            "time": "2026-10-23T11:14:00+08:00",
+            "price": 7.28,
+            "cumulative_volume_lots": 2170012.0
+          },
+          {
+            "time": "2026-10-23T11:15:00+08:00",
+            "price": 7.28,
+            "cumulative_volume_lots": 2171857.0
+          },
+          {
+            "time": "2026-10-23T11:16:00+08:00",
+            "price": 7.29,
+            "cumulative_volume_lots": 2175115.0
+          },
+          {
+            "time": "2026-10-23T11:17:00+08:00",
+            "price": 7.29,
+            "cumulative_volume_lots": 2176624.0
+          },
+          {
+            "time": "2026-10-23T11:18:00+08:00",
+            "price": 7.29,
+            "cumulative_volume_lots": 2178001.0
+          },
+          {
+            "time": "2026-10-23T11:19:00+08:00",
+            "price": 7.28,
+            "cumulative_volume_lots": 2179080.0
+          },
+          {
+            "time": "2026-10-23T11:20:00+08:00",
+            "price": 7.28,
+            "cumulative_volume_lots": 2180134.0
+          },
+          {
+            "time": "2026-10-23T11:21:00+08:00",
+            "price": 7.28,
+            "cumulative_volume_lots": 2181723.0
+          },
+          {
+            "time": "2026-10-23T11:22:00+08:00",
+            "price": 7.27,
+            "cumulative_volume_lots": 2182528.0
+          },
+          {
+            "time": "2026-10-23T11:23:00+08:00",
+            "price": 7.28,
+            "cumulative_volume_lots": 2185841.0
+          },
+          {
+            "time": "2026-10-23T11:24:00+08:00",
+            "price": 7.27,
+            "cumulative_volume_lots": 2186568.0
+          },
+          {
+            "time": "2026-10-23T11:25:00+08:00",
+            "price": 7.28,
+            "cumulative_volume_lots": 2187405.0
+          },
+          {
+            "time": "2026-10-23T11:26:00+08:00",
+            "price": 7.28,
+            "cumulative_volume_lots": 2187977.0
+          },
+          {
+            "time": "2026-10-23T11:27:00+08:00",
+            "price": 7.28,
+            "cumulative_volume_lots": 2189363.0
+          },
+          {
+            "time": "2026-10-23T11:28:00+08:00",
+            "price": 7.28,
+            "cumulative_volume_lots": 2191053.0
+          },
+          {
+            "time": "2026-10-23T11:29:00+08:00",
+            "price": 7.28,
+            "cumulative_volume_lots": 2193991.0
+          },
+          {
+            "time": "2026-10-23T11:30:00+08:00",
+            "price": 7.3,
+            "cumulative_volume_lots": 2195591.0
+          }
+        ],
+        "kind": "public_price_and_cumulative_volume_not_L2"
+      },
+      "attempts": 1,
+      "observed_at": "2026-10-23T11:33:52.561275+08:00"
+    },
+    {
+      "name": "002535",
+      "status": "ok",
+      "source": "https://web.ifzq.gtimg.cn/appstock/app/minute/query?code=sz002535",
+      "data": {
+        "date": "2026-10-23",
+        "bars": [
+          {
+            "time": "2026-10-23T09:30:00+08:00",
+            "price": 3.01,
+            "cumulative_volume_lots": 87607.0
+          },
+          {
+            "time": "2026-10-23T09:31:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 275815.0
+          },
+          {
+            "time": "2026-10-23T09:32:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 281660.0
+          },
+          {
+            "time": "2026-10-23T09:33:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 285168.0
+          },
+          {
+            "time": "2026-10-23T09:34:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 287971.0
+          },
+          {
+            "time": "2026-10-23T09:35:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 292299.0
+          },
+          {
+            "time": "2026-10-23T09:36:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 296662.0
+          },
+          {
+            "time": "2026-10-23T09:37:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 308430.0
+          },
+          {
+            "time": "2026-10-23T09:38:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 316440.0
+          },
+          {
+            "time": "2026-10-23T09:39:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 320774.0
+          },
+          {
+            "time": "2026-10-23T09:40:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 342441.0
+          },
+          {
+            "time": "2026-10-23T09:41:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 403908.0
+          },
+          {
+            "time": "2026-10-23T09:42:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 408987.0
+          },
+          {
+            "time": "2026-10-23T09:43:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 418987.0
+          },
+          {
+            "time": "2026-10-23T09:44:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 426658.0
+          },
+          {
+            "time": "2026-10-23T09:45:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 430483.0
+          },
+          {
+            "time": "2026-10-23T09:46:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 436070.0
+          },
+          {
+            "time": "2026-10-23T09:47:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 437952.0
+          },
+          {
+            "time": "2026-10-23T09:48:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 439371.0
+          },
+          {
+            "time": "2026-10-23T09:49:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 439983.0
+          },
+          {
+            "time": "2026-10-23T09:50:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 440661.0
+          },
+          {
+            "time": "2026-10-23T09:51:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 444789.0
+          },
+          {
+            "time": "2026-10-23T09:52:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 446530.0
+          },
+          {
+            "time": "2026-10-23T09:53:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 447720.0
+          },
+          {
+            "time": "2026-10-23T09:54:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 448885.0
+          },
+          {
+            "time": "2026-10-23T09:55:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 449118.0
+          },
+          {
+            "time": "2026-10-23T09:56:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 449574.0
+          },
+          {
+            "time": "2026-10-23T09:57:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 450564.0
+          },
+          {
+            "time": "2026-10-23T09:58:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 452905.0
+          },
+          {
+            "time": "2026-10-23T09:59:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 454634.0
+          },
+          {
+            "time": "2026-10-23T10:00:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 455034.0
+          },
+          {
+            "time": "2026-10-23T10:01:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 456644.0
+          },
+          {
+            "time": "2026-10-23T10:02:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 458186.0
+          },
+          {
+            "time": "2026-10-23T10:03:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 459548.0
+          },
+          {
+            "time": "2026-10-23T10:04:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 467944.0
+          },
+          {
+            "time": "2026-10-23T10:05:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 469038.0
+          },
+          {
+            "time": "2026-10-23T10:06:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 470671.0
+          },
+          {
+            "time": "2026-10-23T10:07:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 472271.0
+          },
+          {
+            "time": "2026-10-23T10:08:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 473131.0
+          },
+          {
+            "time": "2026-10-23T10:09:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 473511.0
+          },
+          {
+            "time": "2026-10-23T10:10:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 473647.0
+          },
+          {
+            "time": "2026-10-23T10:11:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 473973.0
+          },
+          {
+            "time": "2026-10-23T10:12:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 474315.0
+          },
+          {
+            "time": "2026-10-23T10:13:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 474660.0
+          },
+          {
+            "time": "2026-10-23T10:14:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 474997.0
+          },
+          {
+            "time": "2026-10-23T10:15:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 475759.0
+          },
+          {
+            "time": "2026-10-23T10:16:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 475998.0
+          },
+          {
+            "time": "2026-10-23T10:17:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 476980.0
+          },
+          {
+            "time": "2026-10-23T10:18:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 477115.0
+          },
+          {
+            "time": "2026-10-23T10:19:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 477364.0
+          },
+          {
+            "time": "2026-10-23T10:20:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 478739.0
+          },
+          {
+            "time": "2026-10-23T10:21:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 479560.0
+          },
+          {
+            "time": "2026-10-23T10:22:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 480288.0
+          },
+          {
+            "time": "2026-10-23T10:23:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 481721.0
+          },
+          {
+            "time": "2026-10-23T10:24:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 483794.0
+          },
+          {
+            "time": "2026-10-23T10:25:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 486897.0
+          },
+          {
+            "time": "2026-10-23T10:26:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 487156.0
+          },
+          {
+            "time": "2026-10-23T10:27:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 487742.0
+          },
+          {
+            "time": "2026-10-23T10:28:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 488395.0
+          },
+          {
+            "time": "2026-10-23T10:29:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 488614.0
+          },
+          {
+            "time": "2026-10-23T10:30:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 488974.0
+          },
+          {
+            "time": "2026-10-23T10:31:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 490270.0
+          },
+          {
+            "time": "2026-10-23T10:32:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 490686.0
+          },
+          {
+            "time": "2026-10-23T10:33:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 491853.0
+          },
+          {
+            "time": "2026-10-23T10:34:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 495260.0
+          },
+          {
+            "time": "2026-10-23T10:35:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 495676.0
+          },
+          {
+            "time": "2026-10-23T10:36:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 495924.0
+          },
+          {
+            "time": "2026-10-23T10:37:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 496252.0
+          },
+          {
+            "time": "2026-10-23T10:38:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 496520.0
+          },
+          {
+            "time": "2026-10-23T10:39:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 496932.0
+          },
+          {
+            "time": "2026-10-23T10:40:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 497101.0
+          },
+          {
+            "time": "2026-10-23T10:41:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 497600.0
+          },
+          {
+            "time": "2026-10-23T10:42:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 497763.0
+          },
+          {
+            "time": "2026-10-23T10:43:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 497875.0
+          },
+          {
+            "time": "2026-10-23T10:44:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 497933.0
+          },
+          {
+            "time": "2026-10-23T10:45:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 498067.0
+          },
+          {
+            "time": "2026-10-23T10:46:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 498114.0
+          },
+          {
+            "time": "2026-10-23T10:47:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 498359.0
+          },
+          {
+            "time": "2026-10-23T10:48:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 498722.0
+          },
+          {
+            "time": "2026-10-23T10:49:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 498902.0
+          },
+          {
+            "time": "2026-10-23T10:50:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 498905.0
+          },
+          {
+            "time": "2026-10-23T10:51:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 498938.0
+          },
+          {
+            "time": "2026-10-23T10:52:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 499118.0
+          },
+          {
+            "time": "2026-10-23T10:53:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 499803.0
+          },
+          {
+            "time": "2026-10-23T10:54:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 499886.0
+          },
+          {
+            "time": "2026-10-23T10:55:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 499967.0
+          },
+          {
+            "time": "2026-10-23T10:56:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 500066.0
+          },
+          {
+            "time": "2026-10-23T10:57:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 500388.0
+          },
+          {
+            "time": "2026-10-23T10:58:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 500418.0
+          },
+          {
+            "time": "2026-10-23T10:59:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 500520.0
+          },
+          {
+            "time": "2026-10-23T11:00:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 500827.0
+          },
+          {
+            "time": "2026-10-23T11:01:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 500840.0
+          },
+          {
+            "time": "2026-10-23T11:02:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 500857.0
+          },
+          {
+            "time": "2026-10-23T11:03:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 501201.0
+          },
+          {
+            "time": "2026-10-23T11:04:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 501292.0
+          },
+          {
+            "time": "2026-10-23T11:05:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 501309.0
+          },
+          {
+            "time": "2026-10-23T11:06:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 501620.0
+          },
+          {
+            "time": "2026-10-23T11:07:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 501692.0
+          },
+          {
+            "time": "2026-10-23T11:08:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 501842.0
+          },
+          {
+            "time": "2026-10-23T11:09:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 502243.0
+          },
+          {
+            "time": "2026-10-23T11:10:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 502267.0
+          },
+          {
+            "time": "2026-10-23T11:11:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 502483.0
+          },
+          {
+            "time": "2026-10-23T11:12:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 502483.0
+          },
+          {
+            "time": "2026-10-23T11:13:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 502527.0
+          },
+          {
+            "time": "2026-10-23T11:14:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 502634.0
+          },
+          {
+            "time": "2026-10-23T11:15:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 502672.0
+          },
+          {
+            "time": "2026-10-23T11:16:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 502684.0
+          },
+          {
+            "time": "2026-10-23T11:17:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 502731.0
+          },
+          {
+            "time": "2026-10-23T11:18:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 502788.0
+          },
+          {
+            "time": "2026-10-23T11:19:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 502815.0
+          },
+          {
+            "time": "2026-10-23T11:20:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 502881.0
+          },
+          {
+            "time": "2026-10-23T11:21:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 502898.0
+          },
+          {
+            "time": "2026-10-23T11:22:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 502924.0
+          },
+          {
+            "time": "2026-10-23T11:23:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 502937.0
+          },
+          {
+            "time": "2026-10-23T11:24:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 502947.0
+          },
+          {
+            "time": "2026-10-23T11:25:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 503022.0
+          },
+          {
+            "time": "2026-10-23T11:26:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 503053.0
+          },
+          {
+            "time": "2026-10-23T11:27:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 503241.0
+          },
+          {
+            "time": "2026-10-23T11:28:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 503499.0
+          },
+          {
+            "time": "2026-10-23T11:29:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 503550.0
+          },
+          {
+            "time": "2026-10-23T11:30:00+08:00",
+            "price": 3.03,
+            "cumulative_volume_lots": 503581.0
+          }
+        ],
+        "kind": "public_price_and_cumulative_volume_not_L2"
+      },
+      "attempts": 1,
+      "observed_at": "2026-10-23T11:33:52.555867+08:00"
+    }
+  ]
+}
