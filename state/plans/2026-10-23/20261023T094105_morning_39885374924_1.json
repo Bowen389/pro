@@ -1,0 +1,309 @@
+{
+  "version": "leader-evidence-v1.2",
+  "market_date": "2026-10-22",
+  "target_date": "2026-10-23",
+  "created_at": "2026-10-23T09:41:07.912514+08:00",
+  "data_scope": "source_limit_up_pool_only",
+  "source_updated_at": "2026-10-22 20:54:04+08:00",
+  "status": "RESEARCH_ONLY",
+  "rule_status": "UNVALIDATED_HEURISTICS",
+  "source_snapshot_hash": "79c67d58fa6464686ea7e1664b20cae59d6c48e5da8d34acb3b63e66dd51a86c",
+  "candidates": [
+    {
+      "symbol": "001360",
+      "name": "南矿集团",
+      "support": [
+        "连续1板",
+        "同题材池内最多4只",
+        "首封09:25:00"
+      ],
+      "counterevidence": [
+        "缺少全题材非涨停样本与因果验证"
+      ],
+      "classification": "同题材跟随观察",
+      "expected": "等待题材核心保持强势后，再观察自身能否维持强度",
+      "invalid": "核心走弱或自身反复开板，原跟随假设失效",
+      "research_score": 55.0,
+      "score_components": {
+        "early_seal": 20,
+        "seal_stability": 15.0,
+        "seal_ratio": 10,
+        "low_board_bonus": 10
+      },
+      "score_status": "unvalidated_baseline",
+      "score_version": "legacy-strength-v1",
+      "baseline_rank": 1,
+      "buy_signal": false
+    },
+    {
+      "symbol": "600293",
+      "name": "三峡新材",
+      "support": [
+        "连续3板",
+        "同题材池内最多2只",
+        "首封09:25:00"
+      ],
+      "counterevidence": [
+        "缺少全题材非涨停样本与因果验证"
+      ],
+      "classification": "独立强势观察",
+      "expected": "等待题材核心保持强势后，再观察自身能否维持强度",
+      "invalid": "核心走弱或自身反复开板，原跟随假设失效",
+      "research_score": 55.0,
+      "score_components": {
+        "early_seal": 20,
+        "seal_stability": 15.0,
+        "seal_ratio": 10,
+        "low_board_bonus": 10
+      },
+      "score_status": "unvalidated_baseline",
+      "score_version": "legacy-strength-v1",
+      "baseline_rank": 2,
+      "buy_signal": false
+    },
+    {
+      "symbol": "603350",
+      "name": "安乃达",
+      "support": [
+        "连续1板",
+        "同题材池内最多15只",
+        "首封09:34:45"
+      ],
+      "counterevidence": [
+        "缺少全题材非涨停样本与因果验证"
+      ],
+      "classification": "同题材跟随观察",
+      "expected": "等待题材核心保持强势后，再观察自身能否维持强度",
+      "invalid": "核心走弱或自身反复开板，原跟随假设失效",
+      "research_score": 52.84,
+      "score_components": {
+        "early_seal": 20,
+        "seal_stability": 14.0,
+        "seal_ratio": 8.84,
+        "low_board_bonus": 10
+      },
+      "score_status": "unvalidated_baseline",
+      "score_version": "legacy-strength-v1",
+      "baseline_rank": 3,
+      "buy_signal": false
+    },
+    {
+      "symbol": "603028",
+      "name": "赛福天",
+      "support": [
+        "连续1板",
+        "同题材池内最多15只",
+        "首封09:32:16"
+      ],
+      "counterevidence": [
+        "缺少全题材非涨停样本与因果验证"
+      ],
+      "classification": "同题材跟随观察",
+      "expected": "等待题材核心保持强势后，再观察自身能否维持强度",
+      "invalid": "核心走弱或自身反复开板，原跟随假设失效",
+      "research_score": 48.94,
+      "score_components": {
+        "early_seal": 20,
+        "seal_stability": 15.0,
+        "seal_ratio": 3.94,
+        "low_board_bonus": 10
+      },
+      "score_status": "unvalidated_baseline",
+      "score_version": "legacy-strength-v1",
+      "baseline_rank": 4,
+      "buy_signal": false
+    },
+    {
+      "symbol": "002249",
+      "name": "大洋电机",
+      "support": [
+        "连续1板",
+        "同题材池内最多15只",
+        "首封09:36:00"
+      ],
+      "counterevidence": [
+        "缺少全题材非涨停样本与因果验证"
+      ],
+      "classification": "同题材跟随观察",
+      "expected": "等待题材核心保持强势后，再观察自身能否维持强度",
+      "invalid": "核心走弱或自身反复开板，原跟随假设失效",
+      "research_score": 48.3,
+      "score_components": {
+        "early_seal": 20,
+        "seal_stability": 15.0,
+        "seal_ratio": 3.3,
+        "low_board_bonus": 10
+      },
+      "score_status": "unvalidated_baseline",
+      "score_version": "legacy-strength-v1",
+      "baseline_rank": 5,
+      "buy_signal": false
+    },
+    {
+      "symbol": "002535",
+      "name": "林州重机",
+      "support": [
+        "连续1板",
+        "同题材池内最多15只",
+        "首封09:31:48"
+      ],
+      "counterevidence": [
+        "缺少全题材非涨停样本与因果验证"
+      ],
+      "classification": "同题材跟随观察",
+      "expected": "等待题材核心保持强势后，再观察自身能否维持强度",
+      "invalid": "核心走弱或自身反复开板，原跟随假设失效",
+      "research_score": 48.22,
+      "score_components": {
+        "early_seal": 20,
+        "seal_stability": 14.0,
+        "seal_ratio": 4.22,
+        "low_board_bonus": 10
+      },
+      "score_status": "unvalidated_baseline",
+      "score_version": "legacy-strength-v1",
+      "baseline_rank": 6,
+      "buy_signal": false
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H01",
+      "claim": "早封且封板稳定的标的能否获得次日持续性",
+      "status": "pending",
+      "evaluation": "次日收盘与开盘表现，分组记录失败样本，不假设涨停可成交"
+    },
+    {
+      "id": "H02",
+      "claim": "强度锚与板块扩散是否共同出现",
+      "status": "pending",
+      "evaluation": "缺分钟数据，当前只能对照题材标签与存续数量，不能宣称因果带动"
+    }
+  ],
+  "calendar_status": "weekday_estimate_not_exchange_calendar",
+  "auto_orders": false,
+  "selection_basis": "legacy_strength_baseline_with_role_context",
+  "baseline_score_version": "legacy-strength-v1",
+  "external_revision": {
+    "base_snapshot_hash": "79c67d58fa6464686ea7e1664b20cae59d6c48e5da8d34acb3b63e66dd51a86c",
+    "risk_posture": "risk_watch",
+    "candidate_order_changed": false,
+    "changes": [
+      {
+        "type": "market_risk",
+        "action": "降低进攻预期，等待盘内确认",
+        "reason": "至少两项美国主要指数跌幅达到1%；仅为未校准风险提示",
+        "evidence": [
+          "https://finance.yahoo.com/quote/%5EGSPC/",
+          "https://finance.yahoo.com/quote/%5EDJI/",
+          "https://finance.yahoo.com/quote/%5EIXIC/"
+        ]
+      },
+      {
+        "type": "sector_watch",
+        "action": "半导体映射需谨慎确认",
+        "reason": "费城半导体指数变化；不能直接外推A股个股",
+        "evidence": [
+          "https://finance.yahoo.com/quote/%5ESOX/"
+        ]
+      },
+      {
+        "type": "reported_event",
+        "action": "加入盘前待核验事项",
+        "reason": "机器人/AI：云迹早盘高开逾5% 1000台机器人订单已进入持续交付阶段",
+        "evidence": [
+          "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-23/doc-iniweiyu8130983.shtml"
+        ],
+        "event_id": "a0861e498b9efa15"
+      },
+      {
+        "type": "reported_event",
+        "action": "加入盘前待核验事项",
+        "reason": "能源/地缘：快讯：恒指高开0.41% 恒科指涨0.51% 科网股、石油股活跃",
+        "evidence": [
+          "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-23/doc-iniweiyt5674564.shtml"
+        ],
+        "event_id": "c863a47a0d10f387"
+      },
+      {
+        "type": "reported_event",
+        "action": "加入盘前待核验事项",
+        "reason": "利率/汇率：人民币兑美元中间价报6.7180，上调15点",
+        "evidence": [
+          "https://finance.sina.com.cn/money/forex/rmb/2026-10-23/doc-iniweiyw4877302.shtml"
+        ],
+        "event_id": "f7ffb4291a7b1fd8"
+      },
+      {
+        "type": "reported_event",
+        "action": "加入盘前待核验事项",
+        "reason": "机器人/AI：乐动机器人建议采纳H股购股权计划及H股股份奖励计划",
+        "evidence": [
+          "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-23/doc-iniweiyr4925512.shtml"
+        ],
+        "event_id": "d0af0e2d3d106959"
+      }
+    ],
+    "new_event_ids": [
+      "8a81d13a3d603538",
+      "34c8ecf3a0b76c68",
+      "96ea4d080591305a",
+      "a0861e498b9efa15",
+      "70d07a406056d20b",
+      "fa1ad66a7c11b250",
+      "87324101b36147ae",
+      "b24d8249bb2cef6e",
+      "6ecff3e7fb0e0bd4",
+      "55100cfa0a1244c6",
+      "357cfb0b96f247cb",
+      "27923d1c738b7c2d",
+      "2aa9e154720d03fa",
+      "9ae2d5dfb187237b",
+      "91a608d1d9f76c81",
+      "0710d80212f93f9c",
+      "b257f58ba2c487e4",
+      "b6f08da097801ae4",
+      "d1c69f17b891bc0b",
+      "d15e7f8e0ada1417",
+      "498ef71e93d61c19",
+      "6b7f5bb60c1ef939",
+      "c863a47a0d10f387",
+      "c4f24d64515edffc",
+      "5e1a28e0c6b627e8",
+      "162d2a32c5c32e42",
+      "f7ffb4291a7b1fd8",
+      "93741b3032e7cae6",
+      "3fd4bde919be780a",
+      "9688cfe6ee2a5da9",
+      "4f6565e0b67b80c9",
+      "f252f58a223418c6",
+      "4ce77b5f6e54d532",
+      "71372375a9ae15e9",
+      "9b5bb85752f80b3f",
+      "4223964b0ae1866e",
+      "ac2837e5f7d6c702",
+      "cb72df2e7427f68d",
+      "b60eeefaa30e2caf",
+      "baf1b9f5403204c9",
+      "b39b2f020c03d61a",
+      "d0af0e2d3d106959",
+      "935d2be1f57d6add",
+      "d69a337ec7ddfd6d",
+      "6cfe369258e6b1e1",
+      "4d5e024f9753c007",
+      "a3c4acb60edd4c6a",
+      "978e362547793dd7",
+      "4d5254f219ddc409",
+      "4470d6f219568cff",
+      "d6343a3ed632f2b9",
+      "d10e12898a7dcdc2",
+      "427e3cb97a3ba5bf",
+      "7c58a8022432ce5e",
+      "2e265f10eeaddda9",
+      "74f92c2bb6a5b741"
+    ],
+    "note": "保留盘内基础观察池；只追加有来源的风险/题材条件，不把标题直接变成交易指令"
+  },
+  "external_context_path": "state/external/2026-10-23/20261023T094105_morning_39885374924_1.json",
+  "evening_context_path": "state/external/2026-10-22/20261022T205834_evening_39782801165_1.json"
+}

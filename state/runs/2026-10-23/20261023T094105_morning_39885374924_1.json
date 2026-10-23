@@ -1,0 +1,27 @@
+{
+  "run_key": "20261023T094105_morning_39885374924_1",
+  "phase": "morning",
+  "started_at": "2026-10-23T09:41:05.717943+08:00",
+  "run_url": "https://github.com/Bowen389/pro/actions/runs/39885374924",
+  "system_status": "DEVELOPMENT_VALIDATION",
+  "market_status": "prior_close_plus_external",
+  "source_status": "collected_external",
+  "report_status": "morning_revised_plan",
+  "warnings": [
+    "本次盘前任务迟到，预案按实际生成时间留档",
+    "外盘可能延迟，按报价时间及当地交易状态解读",
+    "新闻源有限，标题事件与A股映射仍待核验"
+  ],
+  "exit_code": 0,
+  "plan_path": "state/plans/2026-10-23/20261023T094105_morning_39885374924_1.json",
+  "market_date": "2026-10-22",
+  "market_count": 33,
+  "external_market_count": 11,
+  "news_source_count": 3,
+  "news_event_count": 58,
+  "report_path": "reports/2026-10-23/20261023T094105_morning_39885374924_1.md",
+  "external_context_path": "state/external/2026-10-23/20261023T094105_morning_39885374924_1.json",
+  "result": "success",
+  "product": "morning",
+  "finished_at": "2026-10-23T09:41:08.073301+08:00"
+}
