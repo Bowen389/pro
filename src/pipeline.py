@@ -17,8 +17,9 @@ from research_data import collect as collect_research,minute
 from research_review import summarize,render as render_review
 from author_analysis import analyze as analyze_authors
 from leader_study import build as build_study,apply_plan,ledger,learning_summary,render as render_study
-from phase_reports import render_midday,render_close
+from phase_reports import render_midday
 from external_context import collect_external,overlay,render_external
+from report_v2 import render as render_decision,to_html
 
 TZ=ZoneInfo('Asia/Shanghai')
 MORNING_DEADLINE=dt.time(9,15)
@@ -42,6 +43,16 @@ def load_snapshots(root):
     for path in (root/'state/snapshots').glob('*/*.json'):
         result.append(json.loads(path.read_text(encoding='utf-8')))
     return result
+
+
+def attach_evidence(root,enrichment,day,observed):
+    evidence_dir=root/'state/verified_evidence'
+    for path in evidence_dir.glob('*.json'):
+        record=json.loads(path.read_text(encoding='utf-8'))
+        if record.get('date','')>day or dt.datetime.fromisoformat(record['observed_at'])>dt.datetime.fromisoformat(observed):continue
+        enrichment.setdefault('security_status_by_date',{})[record['date']]=record.get('security_status',{})
+        if record['date']==day:enrichment['score_evidence']=record.get('score_evidence',{})
+    return enrichment
 
 
 def next_weekday(day):
@@ -122,8 +133,11 @@ def external_run(root,phase,now,run_key,status,history,loader):
         studies=[]
         for p in (root/'state/research'/snapshot['date']).glob('*.json'):
             saved_study=json.loads(p.read_text(encoding='utf-8'))
-            if saved_study.get('study'):studies.append(saved_study)
-        if studies:apply_plan(plan,max(studies,key=lambda x:x['observed_at'])['study'])
+            if saved_study.get('study') and dt.datetime.fromisoformat(saved_study['observed_at'])<=now:studies.append(saved_study)
+        if studies:
+            saved=max(studies,key=lambda x:x['observed_at'])
+            apply_plan(plan,build_study(snapshot,history,attach_evidence(root,saved.get('enrichment',{}),snapshot['date'],observed)))
+        else:apply_plan(plan,build_study(snapshot,history,{}))
         revision=overlay(plan,context,evening)
         plan['delivery_status']='on_time';plan['deadline_at']=status['deadline_at']
         plan['external_revision']=revision;plan['external_context_path']=str(context_path.relative_to(root))
@@ -164,7 +178,9 @@ def evening_run(root,now,run_key,status,source_loader,market_loader,external_loa
         domestic_text='## 收盘复盘缺失\n\n'+domestic.get('error','收盘数据未取得')+'\n'
     report_path=root/'reports'/now.date().isoformat()/(run_key+'.md')
     report_path.parent.mkdir(parents=True,exist_ok=True)
-    report_path.write_text('# 晚间综合复盘：A股收盘、外盘与事件\n\n'+domestic_text+'\n---\n\n'+external_text,encoding='utf-8')
+    combined=domestic_text.replace('<!-- EXTERNAL_CONTEXT -->',external_text) if '<!-- EXTERNAL_CONTEXT -->' in domestic_text else domestic_text+'\n---\n\n'+external_text
+    report_path.write_text('# 晚间综合复盘：A股收盘、外盘与事件\n\n'+combined,encoding='utf-8')
+    report_path.with_suffix('.html').write_text(to_html(report_path.read_text(encoding='utf-8')),encoding='utf-8')
     for key in ('market_date','market_count','source_posts','source_readable','plans_checked','research_datasets','author_analysis_status'):
         if key in domestic:status[key]=domestic[key]
     partial=domestic.get('result')!='success' or not external_ok or status.get('result')=='partial'
@@ -257,6 +273,7 @@ def perform(root,phase,now=None,source_loader=collect_sources,market_loader=None
         for frozen in (root/'state/plans'/day).glob('*.json'):
             frozen_symbols.extend(c['symbol'] for c in json.loads(frozen.read_text(encoding='utf-8'))['candidates'])
         enrichment=collect_research(snapshot,dt.datetime.now(TZ).isoformat(),frozen_symbols)
+        attach_evidence(root,enrichment,day,observed)
         l2_records=[]
         for l2 in (root/'state/l2'/day).glob('*.json'):
             data=json.loads(l2.read_text(encoding='utf-8'))
@@ -277,23 +294,25 @@ def perform(root,phase,now=None,source_loader=collect_sources,market_loader=None
         synthesis=summarize(study,enrichment,analysis)
         write_json(root/'state/research'/day/(run_key+'.json'),{'observed_at':observed,'enrichment':enrichment,'study':study,'author_analysis':analysis,'synthesis':synthesis})
         write_json(root/'state/learning'/day/(run_key+'.json'),learning)
-        plan=apply_plan(condition_plan(snapshot,target,dt.datetime.now(TZ).isoformat()),study)
+        plan=apply_plan(condition_plan(snapshot,target,dt.datetime.now(TZ).isoformat(),study=study),study)
         evaluations=evaluate(root,snapshot,observed) if phase=='close' else []
         if phase=='validation':
             report='# 当前研究采样验证（非收盘复盘、非盘前预案）\n\n实际采集时间：'+observed+'；源更新时间：'+snapshot['source_updated_at']+'。\n\n此任务用于验证新增数据链路，不将盘中数据标为收盘终值。\n'
         else:
             plan['status']='CLOSE_OBSERVATION_POOL_NOT_PREMARKET_PLAN'
             write_json(root/'state/close_observations'/day/(run_key+'.json'),plan)
-            report=render_close(snapshot,history,batch,plan,evaluations)
-        report=report.replace('未取得全市场涨跌分布、指数、炸板池及完整分钟序列，不能单独以此判定市场情绪。','市场环境补充、数据可用性及分钟覆盖见下文研究记录；仅用本涨停池不能判定市场情绪。').replace('尚未完成模型语义分析，不根据标题或摘录自动给作者贴看多/看空标签。','作者语义分析的本次状态见下文；不根据标题猜测看多/看空。').replace('模型接口可选；当前未配置时仅有确定性研究稿。','模型运行状态见本次作者分析记录。')
-        heading,_,body=report.partition('\n')
-        report=heading+'\n\n'+render_review(synthesis,None)+'\n'+body
-        report+='\n'+render_study(study,enrichment,analysis,learning)
+            report=render_decision(snapshot,history,study,enrichment,analysis,learning,evaluations)
+        if phase=='validation':
+            report+='\n'+render_review(synthesis,None)+'\n'+render_study(study,enrichment,analysis,learning)
         status['research_datasets']={k:(v.get('status') if isinstance(v,dict) else str(sum(x.get('status')=='ok' for x in v))+'/'+str(len(v))) for k,v in enrichment.get('datasets',{}).items()}
         research_partial=any(v.get('status')!='ok' if isinstance(v,dict) else any(x.get('status')!='ok' for x in v) for v in enrichment.get('datasets',{}).values())
+        research_partial=research_partial or not study['risk_audit']['complete']
+        status['report_version']='decision-report-v2'
+        status['risk_status']='verified_sample' if study['risk_audit']['complete'] else 'incomplete'
         status['author_analysis_status']=analysis['status']
         if analysis['status']!='analyzed':status['warnings'].append('作者语义分析：'+analysis['status'])
         report_path=root/'reports'/day/(run_key+'.md');report_path.parent.mkdir(parents=True,exist_ok=True);report_path.write_text(report,encoding='utf-8')
+        report_path.with_suffix('.html').write_text(to_html(report.replace('<!-- EXTERNAL_CONTEXT -->','外盘与新闻由晚间合并阶段补充；手动收盘任务尚未采集。')),encoding='utf-8')
         status.update({'report_status':'generated_research_draft','report_path':str(report_path.relative_to(root)),'plan_path':None,'plans_checked':len(evaluations),'result':'partial' if status['source_status']=='partial' or analysis['status']!='analyzed' or research_partial else 'success'})
         publish_latest(root,status)
         status['warnings']+=['研究数据覆盖以research_datasets及归档记录为准；L2尚未实接','角色排序未验证收益；模型未配置时不进行语义观点提炼','工作日为近似交易日历；节假日数据可能陈旧并报错']

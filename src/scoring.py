@@ -1,31 +1,29 @@
-"""Original strength heuristic, retained as an unvalidated comparison baseline."""
-import datetime as dt
+"""Evidence-bound ten-dimensional research cards; no legacy strength formula."""
 import math
 
-VERSION = 'legacy-strength-v1'
+VERSION='leader-card-v2'
+DIMENSIONS=('逻辑硬度','板块地位','人气热度','资金强度','筹码结构','主动性','带动性','空间高度','监管安全','接力性价比')
 
-def score(row):
-    result = {'score_version': VERSION, 'research_score': None, 'score_components': None,
-              'score_status': 'missing_or_invalid', 'score_max': 55}
-    try:
-        time = row['first_limit_time']
-        if dt.datetime.strptime(time, '%H:%M:%S').strftime('%H:%M:%S') != time:
-            return result
-        breaks, seal, streak = (float(row[k]) for k in ('break_count', 'seal_ratio_pct', 'streak'))
-        if not all(math.isfinite(x) for x in (breaks, seal, streak)) or breaks < 0 or seal < 0 or streak < 1 or not breaks.is_integer() or not streak.is_integer():
-            return result
-    except (KeyError, ValueError, TypeError):
-        return result
-    components = {'early_seal': 20 if time < '10:00:00' else 10 if time < '11:30:00' else 0,
-                  'seal_stability': max(0, 15-min(breaks, 15)),
-                  'seal_ratio': min(seal, 5)*2,
-                  'low_board_bonus': 10 if streak in (1, 2, 3) else 0}
-    return result | {'research_score': round(sum(components.values()), 2),
-                     'score_components': components, 'score_status': 'unvalidated_baseline'}
+def score(row, evidence=None, asof=None):
+    """Only dated, sourced research assessments are accepted; missing is never zero.
+    Pool-relative height/position are transparent descriptive proxies, not causal claims.
+    """
+    evidence=evidence or {};items={}
+    for name in DIMENSIONS:
+        e=evidence.get(name,{})
+        try:
+            value=float(e['value'])
+            valid=math.isfinite(value) and 0<=value<=10 and bool(e['basis']) and e['source'].startswith(('https://','http://')) and bool(e['observed_at'])
+            from datetime import datetime
+            stamp=datetime.fromisoformat(e['observed_at'])
+            valid=valid and stamp.tzinfo is not None
+            if asof:valid=valid and stamp<=datetime.fromisoformat(asof)
+        except (ValueError,KeyError,TypeError,AttributeError):valid=False
+        items[name]={'value':round(value,2),'basis':e['basis'],'source':e['source'],'observed_at':e['observed_at'],'kind':'sourced_research_assessment'} if valid else {'value':None,'basis':'缺失：需要该维度的独立证据','source':None}
+    count=sum(e['value'] is not None for e in items.values());subtotal=round(sum(e['value'] or 0 for e in items.values()),2)
+    return {'score_version':VERSION,'score_components':items,'score_coverage':count,'score_observed_max':count*10,'score_subtotal':subtotal,'research_score':subtotal if count==10 else None,'score_max':100,'score_status':'complete_unvalidated' if count==10 else 'partial_evidence','score_note':'各项0—10；监管安全越高风险越低；缺项不补零、不折算百分制；未经收益校准'}
 
 def ranked(rows):
-    result = [dict(r) | score(r) for r in rows]
-    result.sort(key=lambda r: (r['research_score'] is None, -(r['research_score'] or 0), r['symbol']))
-    for i, row in enumerate(result):
-        row['baseline_rank'] = i+1 if row['research_score'] is not None else None
-    return result
+    # Incomplete cards cannot be ranked against complete cards by an artificial total.
+    result=[dict(r)|score(r) for r in rows]
+    return sorted(result,key=lambda r:(-int(r.get('role')=='市场高度锚'),-int(r.get('role')=='题材高度核心'),-r.get('streak',0),-r.get('breadth',0),r.get('first_limit_time','99:99:99'),r['symbol']))

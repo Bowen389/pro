@@ -167,6 +167,10 @@ def market_table(context,baseline=None):
 def render_external(context,phase,base=None,plan=None,revision=None,evening=None):
     morning=phase=='morning'
     lines=['# '+('盘前预案修订' if morning else '晚间外盘与事件补充'),'',f"编制时点：{context['observed_at']}；新闻窗口起点：{context['news_window_start']}",'', '## 外盘状态与时点','']+market_table(context,evening)
+    if morning:
+        names='、'.join(c['name']+' '+c['symbol'] for c in plan['candidates'][:3]) or '缺失：无可用候选'
+        dashboard=['## 次日作战仪表盘','','基础行情：'+plan['market_date']+'；目标交易日：'+plan['target_date']+'；盘前截止09:15。','优先观察锚：'+names,'研究倾向：'+revision['risk_posture']+'；情绪周期与严格市场统计沿用晚间已核验证据，不依据外盘单独判定。','核心核验：题材是否扩散、核心承接是否保持、公告是否出现负面反证。风险未完整核验者仅观察，不升级重点接力。','模块结论：先对照晚间假设核验隔夜变化，再等待盘内确认。','']
+        lines=lines[:4]+dashboard+lines[4:]
     if not morning:lines+=['','本节补充盘外信息，与前面的A股收盘复盘合并为同一份晚间报告。美股尚未开盘时显示上一交易日报价；当晚最终收盘留待次日盘前更新。']
     lines+=['','## 新闻源覆盖','']
     for s in context['news_sources']:lines.append(f"- {s['source']}：{s['status']}（{s['url']}）")
@@ -182,6 +186,8 @@ def render_external(context,phase,base=None,plan=None,revision=None,evening=None
         if not revision['changes']:lines.append('未取得足够、可用的新证据来修改观察条件；保留基础预案。')
         lines+=['','### 今日候选及验证条件','','|候选|盘内依据|盘前修订|失效条件|','|---|---|---|---|']
         for c in plan['candidates']:lines.append(f"|{c['name']} {c['symbol']}|{'；'.join(c['support'])}|{revision['risk_posture']}；等待自身及同题材盘中确认|{c['invalid']}|")
+        from report_v2 import card_table
+        lines+=['','### 十维龙头研究卡','',card_table(plan['candidates']) if plan['candidates'] and 'score_coverage' in plan['candidates'][0] else '缺失：需要按新版证据规则重建评分卡。']
         lines+=['','### 开盘前仍待核验','- 港股未开盘时不能据昨收判断今早强弱；日韩盘中数据会变化。','- 确认公司公告、除权除息、停复牌、监管与新闻原始出处；相关信息未覆盖时明确缺口。','- 外盘映射、新闻关联和风险阈值均未完成收益验证，不据此认定买点成立。']
     else:lines+=['','## 交给次日盘前的待办','- 美股完成当晚交易后，更新主要指数与半导体表现。','- 补充晚报之后的新新闻，核对报道时间和原始出处。','- 更新日韩早盘，标明港股开盘前状态；逐条说明是否调整预案。']
     lines+=['','信息来自有限公开源，新闻标题只作为研究线索；缺失数据和未核实事件不会自动变为利好或利空。']
