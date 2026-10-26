@@ -1,0 +1,169 @@
+{
+  "benchmark_summary": {
+    "measured_count": 6,
+    "mean_open_change_pct": 6.655718817249678,
+    "mean_close_change_pct": 5.296206039693252,
+    "interpretation": "行情基准，不是交易收益或策略胜率"
+  },
+  "date": "2026-10-26",
+  "observed_at": "2026-10-26T22:56:00.441455+08:00",
+  "records": [
+    {
+      "benchmark": {
+        "open_change_pct": 10.02506265664158,
+        "close_change_pct": 8.08270676691729,
+        "kind": "quote_benchmark_not_strategy_return"
+      },
+      "plan": "state/plans/2026-10-26/20261026T090555_morning_40252508335_1.json",
+      "symbol": "603278",
+      "name": "大业股份",
+      "rule_version": "leader-evidence-v2",
+      "role": "市场高度锚",
+      "early_stable": false,
+      "prospective": true,
+      "in_close_limit_pool": false,
+      "trigger_status": "unknown_without_validated_intraday_rule",
+      "fill_status": "unknown",
+      "net_return": null,
+      "outcome_status": "pool_membership_only"
+    },
+    {
+      "benchmark": {
+        "open_change_pct": -9.97566909975669,
+        "close_change_pct": -3.48742903487429,
+        "kind": "quote_benchmark_not_strategy_return"
+      },
+      "plan": "state/plans/2026-10-26/20261026T090555_morning_40252508335_1.json",
+      "symbol": "002724",
+      "name": "海洋王",
+      "rule_version": "leader-evidence-v2",
+      "role": "市场高度锚",
+      "early_stable": false,
+      "prospective": true,
+      "in_close_limit_pool": false,
+      "trigger_status": "unknown_without_validated_intraday_rule",
+      "fill_status": "unknown",
+      "net_return": null,
+      "outcome_status": "pool_membership_only"
+    },
+    {
+      "benchmark": {
+        "open_change_pct": 9.999999999999986,
+        "close_change_pct": 9.999999999999986,
+        "kind": "quote_benchmark_not_strategy_return"
+      },
+      "plan": "state/plans/2026-10-26/20261026T090555_morning_40252508335_1.json",
+      "symbol": "600838",
+      "name": "上海九百",
+      "rule_version": "leader-evidence-v2",
+      "role": "题材高度核心",
+      "early_stable": false,
+      "prospective": true,
+      "in_close_limit_pool": true,
+      "trigger_status": "unknown_without_validated_intraday_rule",
+      "fill_status": "unknown",
+      "net_return": null,
+      "outcome_status": "pool_membership_only"
+    },
+    {
+      "benchmark": {
+        "open_change_pct": 9.98089780324738,
+        "close_change_pct": -2.7220630372492893,
+        "kind": "quote_benchmark_not_strategy_return"
+      },
+      "plan": "state/plans/2026-10-26/20261026T090555_morning_40252508335_1.json",
+      "symbol": "603933",
+      "name": "睿能科技",
+      "rule_version": "leader-evidence-v2",
+      "role": "题材高度核心",
+      "early_stable": false,
+      "prospective": true,
+      "in_close_limit_pool": false,
+      "trigger_status": "unknown_without_validated_intraday_rule",
+      "fill_status": "unknown",
+      "net_return": null,
+      "outcome_status": "pool_membership_only"
+    },
+    {
+      "benchmark": {
+        "open_change_pct": 9.950859950859936,
+        "close_change_pct": 9.950859950859936,
+        "kind": "quote_benchmark_not_strategy_return"
+      },
+      "plan": "state/plans/2026-10-26/20261026T090555_morning_40252508335_1.json",
+      "symbol": "603528",
+      "name": "多伦科技",
+      "rule_version": "leader-evidence-v2",
+      "role": "题材高度核心",
+      "early_stable": false,
+      "prospective": true,
+      "in_close_limit_pool": true,
+      "trigger_status": "unknown_without_validated_intraday_rule",
+      "fill_status": "unknown",
+      "net_return": null,
+      "outcome_status": "pool_membership_only"
+    },
+    {
+      "benchmark": {
+        "open_change_pct": 9.953161592505877,
+        "close_change_pct": 9.953161592505877,
+        "kind": "quote_benchmark_not_strategy_return"
+      },
+      "plan": "state/plans/2026-10-26/20261026T090555_morning_40252508335_1.json",
+      "symbol": "603028",
+      "name": "赛福天",
+      "rule_version": "leader-evidence-v2",
+      "role": "同题材跟随观察",
+      "early_stable": false,
+      "prospective": true,
+      "in_close_limit_pool": true,
+      "trigger_status": "unknown_without_validated_intraday_rule",
+      "fill_status": "unknown",
+      "net_return": null,
+      "outcome_status": "pool_membership_only"
+    }
+  ],
+  "sample_count": 6,
+  "eligible_prospective": 6,
+  "automatic_rule_change": false,
+  "note": "全部候选保留；不在涨停池不等于亏损，不将池内出现率称作交易胜率",
+  "iteration": {
+    "hypothesis": "H01 早封且稳定候选的次日行情持续性；非交易收益检验",
+    "groups": [
+      {
+        "version": "leader-backend-v0.2",
+        "cohort": "其他候选",
+        "total_candidates": 2,
+        "missing_benchmark": 0,
+        "measured": 2,
+        "distinct_dates": 1,
+        "mean_close_change_pct": -10.01283697047497,
+        "research_action": "继续收集；样本不足不改规则"
+      },
+      {
+        "version": "leader-backend-v0.2",
+        "cohort": "早封稳定",
+        "total_candidates": 10,
+        "missing_benchmark": 0,
+        "measured": 10,
+        "distinct_dates": 1,
+        "mean_close_change_pct": -0.45321881612101683,
+        "research_action": "继续收集；样本不足不改规则"
+      },
+      {
+        "version": "leader-evidence-v2",
+        "cohort": "其他候选",
+        "total_candidates": 6,
+        "missing_benchmark": 0,
+        "measured": 6,
+        "distinct_dates": 1,
+        "mean_close_change_pct": 5.296206039693252,
+        "research_action": "继续收集；样本不足不改规则"
+      }
+    ],
+    "automatic_rule_change": false,
+    "minimum_review_samples": 30,
+    "minimum_review_dates": 10,
+    "note": "阈值只决定何时人工复核，不代表统计显著；没有成交收益核算"
+  }
+}
