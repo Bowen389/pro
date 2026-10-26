@@ -1,0 +1,23 @@
+{
+  "run_key": "20261026T121240_midday_40267870518_1",
+  "phase": "midday",
+  "started_at": "2026-10-26T12:12:40.689673+08:00",
+  "run_url": "https://github.com/Bowen389/pro/actions/runs/40267870518",
+  "system_status": "DEVELOPMENT_VALIDATION",
+  "market_status": "collected_public_limit_pool",
+  "source_status": "not_requested_midday",
+  "report_status": "midday_core_observation",
+  "warnings": [],
+  "exit_code": 0,
+  "market_date": "2026-10-26",
+  "market_count": 42,
+  "result": "success",
+  "report_path": "reports/2026-10-26/20261026T121240_midday_40267870518_1.md",
+  "research_datasets": {
+    "indices": "ok",
+    "breadth": "ok",
+    "broken": "ok",
+    "down_limit": "ok"
+  },
+  "finished_at": "2026-10-26T12:13:03.012982+08:00"
+}
