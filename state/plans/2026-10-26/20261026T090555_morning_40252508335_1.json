@@ -1,0 +1,770 @@
+{
+  "version": "leader-evidence-v2",
+  "market_date": "2026-10-23",
+  "target_date": "2026-10-26",
+  "created_at": "2026-10-26T09:05:57.505267+08:00",
+  "data_scope": "source_limit_up_pool_only",
+  "source_updated_at": "2026-10-23 20:56:28+08:00",
+  "status": "RESEARCH_ONLY",
+  "rule_status": "UNVALIDATED_HEURISTICS",
+  "source_snapshot_hash": "767306c880d660bab0b7b5b65edc022c25c7a55a0e8d9495cba39e25cefe77ac",
+  "candidates": [
+    {
+      "symbol": "603278",
+      "name": "大业股份",
+      "support": [
+        "连续6板",
+        "同题材池内最多33只",
+        "首封13:09:45"
+      ],
+      "counterevidence": [
+        "缺少全题材非涨停样本与因果验证"
+      ],
+      "classification": "市场高度锚",
+      "expected": "高度锚保持相对强势，观察同题材33只样本是否继续跟随",
+      "invalid": "高度锚走弱且后排无接替；缺分钟数据时不判触发",
+      "research_score": null,
+      "score_components": {
+        "逻辑硬度": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "板块地位": {
+          "value": 10.0,
+          "basis": "本源题材样本数：高度锚/题材核心取min(10,2×数量)，其余min(5,数量)；标签地位代理，非全市场地位或带动性",
+          "source": "https://www.jikefupan.com/",
+          "observed_at": "2026-10-23 20:56:28+08:00",
+          "kind": "sourced_research_assessment"
+        },
+        "人气热度": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "资金强度": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "筹码结构": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "主动性": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "带动性": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "空间高度": {
+          "value": 6.0,
+          "basis": "连续板数逐板计1分，上限10；仅空间代理，不是收益或晋级概率",
+          "source": "https://www.jikefupan.com/",
+          "observed_at": "2026-10-23 20:56:28+08:00",
+          "kind": "sourced_research_assessment"
+        },
+        "监管安全": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "接力性价比": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        }
+      },
+      "score_status": "partial_evidence",
+      "score_version": "leader-card-v2",
+      "score_subtotal": 16.0,
+      "score_coverage": 2,
+      "score_observed_max": 20,
+      "risk_status": "缺失：退市风险未完整核验",
+      "relay_verdict": "观察：先补风险与业务证据",
+      "buy_signal": false
+    },
+    {
+      "symbol": "002724",
+      "name": "海洋王",
+      "support": [
+        "连续6板",
+        "同题材池内最多2只",
+        "首封14:25:45"
+      ],
+      "counterevidence": [
+        "缺少全题材非涨停样本与因果验证"
+      ],
+      "classification": "市场高度锚",
+      "expected": "高度锚保持相对强势，观察同题材2只样本是否继续跟随",
+      "invalid": "高度锚走弱且后排无接替；缺分钟数据时不判触发",
+      "research_score": null,
+      "score_components": {
+        "逻辑硬度": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "板块地位": {
+          "value": 4.0,
+          "basis": "本源题材样本数：高度锚/题材核心取min(10,2×数量)，其余min(5,数量)；标签地位代理，非全市场地位或带动性",
+          "source": "https://www.jikefupan.com/",
+          "observed_at": "2026-10-23 20:56:28+08:00",
+          "kind": "sourced_research_assessment"
+        },
+        "人气热度": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "资金强度": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "筹码结构": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "主动性": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "带动性": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "空间高度": {
+          "value": 6.0,
+          "basis": "连续板数逐板计1分，上限10；仅空间代理，不是收益或晋级概率",
+          "source": "https://www.jikefupan.com/",
+          "observed_at": "2026-10-23 20:56:28+08:00",
+          "kind": "sourced_research_assessment"
+        },
+        "监管安全": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "接力性价比": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        }
+      },
+      "score_status": "partial_evidence",
+      "score_version": "leader-card-v2",
+      "score_subtotal": 10.0,
+      "score_coverage": 2,
+      "score_observed_max": 20,
+      "risk_status": "缺失：退市风险未完整核验",
+      "relay_verdict": "观察：先补风险与业务证据",
+      "buy_signal": false
+    },
+    {
+      "symbol": "600838",
+      "name": "上海九百",
+      "support": [
+        "连续3板",
+        "同题材池内最多3只",
+        "首封09:25:00"
+      ],
+      "counterevidence": [
+        "缺少全题材非涨停样本与因果验证"
+      ],
+      "classification": "题材高度核心",
+      "expected": "题材高度优势保持，比较同方向其他高度股的承接",
+      "invalid": "题材高度优势丧失且跟随减少",
+      "research_score": null,
+      "score_components": {
+        "逻辑硬度": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "板块地位": {
+          "value": 6.0,
+          "basis": "本源题材样本数：高度锚/题材核心取min(10,2×数量)，其余min(5,数量)；标签地位代理，非全市场地位或带动性",
+          "source": "https://www.jikefupan.com/",
+          "observed_at": "2026-10-23 20:56:28+08:00",
+          "kind": "sourced_research_assessment"
+        },
+        "人气热度": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "资金强度": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "筹码结构": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "主动性": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "带动性": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "空间高度": {
+          "value": 3.0,
+          "basis": "连续板数逐板计1分，上限10；仅空间代理，不是收益或晋级概率",
+          "source": "https://www.jikefupan.com/",
+          "observed_at": "2026-10-23 20:56:28+08:00",
+          "kind": "sourced_research_assessment"
+        },
+        "监管安全": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "接力性价比": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        }
+      },
+      "score_status": "partial_evidence",
+      "score_version": "leader-card-v2",
+      "score_subtotal": 9.0,
+      "score_coverage": 2,
+      "score_observed_max": 20,
+      "risk_status": "缺失：退市风险未完整核验",
+      "relay_verdict": "观察：先补风险与业务证据",
+      "buy_signal": false
+    },
+    {
+      "symbol": "603933",
+      "name": "睿能科技",
+      "support": [
+        "连续2板",
+        "同题材池内最多33只",
+        "首封09:25:00"
+      ],
+      "counterevidence": [
+        "缺少全题材非涨停样本与因果验证"
+      ],
+      "classification": "题材高度核心",
+      "expected": "题材高度优势保持，比较同方向其他高度股的承接",
+      "invalid": "题材高度优势丧失且跟随减少",
+      "research_score": null,
+      "score_components": {
+        "逻辑硬度": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "板块地位": {
+          "value": 10.0,
+          "basis": "本源题材样本数：高度锚/题材核心取min(10,2×数量)，其余min(5,数量)；标签地位代理，非全市场地位或带动性",
+          "source": "https://www.jikefupan.com/",
+          "observed_at": "2026-10-23 20:56:28+08:00",
+          "kind": "sourced_research_assessment"
+        },
+        "人气热度": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "资金强度": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "筹码结构": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "主动性": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "带动性": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "空间高度": {
+          "value": 2.0,
+          "basis": "连续板数逐板计1分，上限10；仅空间代理，不是收益或晋级概率",
+          "source": "https://www.jikefupan.com/",
+          "observed_at": "2026-10-23 20:56:28+08:00",
+          "kind": "sourced_research_assessment"
+        },
+        "监管安全": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "接力性价比": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        }
+      },
+      "score_status": "partial_evidence",
+      "score_version": "leader-card-v2",
+      "score_subtotal": 12.0,
+      "score_coverage": 2,
+      "score_observed_max": 20,
+      "risk_status": "缺失：退市风险未完整核验",
+      "relay_verdict": "观察：先补风险与业务证据",
+      "buy_signal": false
+    },
+    {
+      "symbol": "603528",
+      "name": "多伦科技",
+      "support": [
+        "连续2板",
+        "同题材池内最多33只",
+        "首封13:19:24"
+      ],
+      "counterevidence": [
+        "缺少全题材非涨停样本与因果验证"
+      ],
+      "classification": "题材高度核心",
+      "expected": "题材高度优势保持，比较同方向其他高度股的承接",
+      "invalid": "题材高度优势丧失且跟随减少",
+      "research_score": null,
+      "score_components": {
+        "逻辑硬度": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "板块地位": {
+          "value": 10.0,
+          "basis": "本源题材样本数：高度锚/题材核心取min(10,2×数量)，其余min(5,数量)；标签地位代理，非全市场地位或带动性",
+          "source": "https://www.jikefupan.com/",
+          "observed_at": "2026-10-23 20:56:28+08:00",
+          "kind": "sourced_research_assessment"
+        },
+        "人气热度": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "资金强度": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "筹码结构": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "主动性": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "带动性": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "空间高度": {
+          "value": 2.0,
+          "basis": "连续板数逐板计1分，上限10；仅空间代理，不是收益或晋级概率",
+          "source": "https://www.jikefupan.com/",
+          "observed_at": "2026-10-23 20:56:28+08:00",
+          "kind": "sourced_research_assessment"
+        },
+        "监管安全": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "接力性价比": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        }
+      },
+      "score_status": "partial_evidence",
+      "score_version": "leader-card-v2",
+      "score_subtotal": 12.0,
+      "score_coverage": 2,
+      "score_observed_max": 20,
+      "risk_status": "缺失：退市风险未完整核验",
+      "relay_verdict": "观察：先补风险与业务证据",
+      "buy_signal": false
+    },
+    {
+      "symbol": "603028",
+      "name": "赛福天",
+      "support": [
+        "连续2板",
+        "同题材池内最多33只",
+        "首封09:25:00"
+      ],
+      "counterevidence": [
+        "缺少全题材非涨停样本与因果验证"
+      ],
+      "classification": "同题材跟随观察",
+      "expected": "等待题材核心保持强势后，再观察自身能否维持强度",
+      "invalid": "核心走弱或自身反复开板，原跟随假设失效",
+      "research_score": null,
+      "score_components": {
+        "逻辑硬度": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "板块地位": {
+          "value": 5.0,
+          "basis": "本源题材样本数：高度锚/题材核心取min(10,2×数量)，其余min(5,数量)；标签地位代理，非全市场地位或带动性",
+          "source": "https://www.jikefupan.com/",
+          "observed_at": "2026-10-23 20:56:28+08:00",
+          "kind": "sourced_research_assessment"
+        },
+        "人气热度": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "资金强度": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "筹码结构": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "主动性": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "带动性": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "空间高度": {
+          "value": 2.0,
+          "basis": "连续板数逐板计1分，上限10；仅空间代理，不是收益或晋级概率",
+          "source": "https://www.jikefupan.com/",
+          "observed_at": "2026-10-23 20:56:28+08:00",
+          "kind": "sourced_research_assessment"
+        },
+        "监管安全": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        },
+        "接力性价比": {
+          "value": null,
+          "basis": "缺失：需要该维度的独立证据",
+          "source": null
+        }
+      },
+      "score_status": "partial_evidence",
+      "score_version": "leader-card-v2",
+      "score_subtotal": 7.0,
+      "score_coverage": 2,
+      "score_observed_max": 20,
+      "risk_status": "缺失：退市风险未完整核验",
+      "relay_verdict": "观察：先补风险与业务证据",
+      "buy_signal": false
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H01",
+      "claim": "早封且封板稳定的标的能否获得次日持续性",
+      "status": "pending",
+      "evaluation": "次日收盘与开盘表现，分组记录失败样本，不假设涨停可成交"
+    },
+    {
+      "id": "H02",
+      "claim": "强度锚与板块扩散是否共同出现",
+      "status": "pending",
+      "evaluation": "缺分钟数据，当前只能对照题材标签与存续数量，不能宣称因果带动"
+    }
+  ],
+  "calendar_status": "weekday_estimate_not_exchange_calendar",
+  "auto_orders": false,
+  "selection_basis": "role_observation_order_not_incomplete_score_ranking",
+  "score_version": "leader-card-v2",
+  "risk_audit": {
+    "excluded": [],
+    "unverified_symbols": [
+      "002724",
+      "000156",
+      "001283",
+      "000559",
+      "002354",
+      "002380",
+      "300561",
+      "000810",
+      "600215",
+      "603933",
+      "003021",
+      "603286",
+      "603901",
+      "301313",
+      "002931",
+      "603278",
+      "300369",
+      "301699",
+      "603280",
+      "603160",
+      "600785",
+      "002421",
+      "603838",
+      "600094",
+      "300296",
+      "002979",
+      "603028",
+      "603859",
+      "002439",
+      "603466",
+      "002612",
+      "001359",
+      "002747",
+      "001298",
+      "688686",
+      "603721",
+      "000972",
+      "002982",
+      "002474",
+      "600865",
+      "301101",
+      "603337",
+      "601519",
+      "603677",
+      "688071",
+      "605488",
+      "001301",
+      "001328",
+      "603528",
+      "603081",
+      "603341",
+      "300307",
+      "002343",
+      "002009",
+      "688368",
+      "002241",
+      "603713",
+      "002812",
+      "301428",
+      "002322",
+      "603089",
+      "000678",
+      "002945",
+      "600838",
+      "688787",
+      "002687",
+      "002026",
+      "000700",
+      "002988",
+      "301502",
+      "002077",
+      "001216",
+      "600506",
+      "603448",
+      "603171",
+      "300584",
+      "002535",
+      "600303"
+    ],
+    "complete": false,
+    "scope": "仅本源涨停样本；全市场覆盖仍需单独验证",
+    "note": "未检出风险不等于证明无风险；状态缺失时不发布严格剔除口径统计"
+  },
+  "delivery_status": "on_time",
+  "deadline_at": "2026-10-26T09:15:00+08:00",
+  "external_revision": {
+    "base_snapshot_hash": "767306c880d660bab0b7b5b65edc022c25c7a55a0e8d9495cba39e25cefe77ac",
+    "risk_posture": "conditional_watch",
+    "candidate_order_changed": false,
+    "changes": [
+      {
+        "type": "reported_event",
+        "action": "加入盘前待核验事项",
+        "reason": "机器人/AI：量化派与车无界(北京)签署实体AI导购机器人框架采购及场景赋能战略合作协议",
+        "evidence": [
+          "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-26/doc-iniwpfmz5649106.shtml"
+        ],
+        "event_id": "8d9b66bb76137118"
+      },
+      {
+        "type": "reported_event",
+        "action": "加入盘前待核验事项",
+        "reason": "利率/汇率：通胀数据与官员措辞矛盾，美联储本周究竟会不会加息？华尔街热议中……",
+        "evidence": [
+          "https://finance.sina.com.cn/roll/2026-10-26/doc-iniwpfmz5646789.shtml"
+        ],
+        "event_id": "bb2c83ef51c20776"
+      },
+      {
+        "type": "reported_event",
+        "action": "加入盘前待核验事项",
+        "reason": "政策/监管：Simba 收到新加坡监管通知，Tuas 股价大跌 40%",
+        "evidence": [
+          "https://finance.sina.com.cn/stock/usstock/c/2026-10-26/doc-iniwnzcy2571062.shtml"
+        ],
+        "event_id": "b975f1c413d8b372"
+      },
+      {
+        "type": "reported_event",
+        "action": "加入盘前待核验事项",
+        "reason": "利率/汇率：美团-W：建议发行人民币优先票据",
+        "evidence": [
+          "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-26/doc-iniwnzec5770817.shtml"
+        ],
+        "event_id": "5d43cb3421f85568"
+      },
+      {
+        "type": "reported_event",
+        "action": "加入盘前待核验事项",
+        "reason": "利率/汇率 / 政策/监管：加拿大央行前瞻：81%概率加息至2.50%，报告与指引将主导加元走势",
+        "evidence": [
+          "https://finance.sina.com.cn/money/forex/hbfx/2026-10-26/doc-iniwnzef2548493.shtml"
+        ],
+        "event_id": "e3a34610ce6d0c2e"
+      },
+      {
+        "type": "reported_event",
+        "action": "加入盘前待核验事项",
+        "reason": "利率/汇率 / 政策/监管：日本央行本周或按兵不动，但政策思路已悄然转向，12月加息悬念犹存",
+        "evidence": [
+          "https://finance.sina.com.cn/money/forex/hbfx/2026-10-26/doc-iniwnzcz9338379.shtml"
+        ],
+        "event_id": "c9af8a949ce0d106"
+      },
+      {
+        "type": "reported_event",
+        "action": "加入盘前待核验事项",
+        "reason": "半导体/算力：韩国存储双雄业绩持续激增但股价走弱 市场亟待景气信号",
+        "evidence": [
+          "https://finance.sina.com.cn/stock/usstock/c/2026-10-26/doc-iniwnzcz9320844.shtml"
+        ],
+        "event_id": "f8473845e9d8009a"
+      },
+      {
+        "type": "reported_event",
+        "action": "加入盘前待核验事项",
+        "reason": "半导体/算力：马斯克称SpaceX完成400亿美元债务融资 用于购买英伟达AI芯片",
+        "evidence": [
+          "https://finance.sina.com.cn/stock/usstock/c/2026-10-26/doc-iniwnzcz9316310.shtml"
+        ],
+        "event_id": "767426703be6598a"
+      },
+      {
+        "type": "reported_event",
+        "action": "加入盘前待核验事项",
+        "reason": "能源/地缘：Rosebank: Life on the oil field at the centre of a political storm",
+        "evidence": [
+          "https://www.bbc.co.uk/news/articles/cqy8ljkle97ro?at_medium=RSS&at_campaign=rss"
+        ],
+        "event_id": "d3761838d2ffdb0b"
+      },
+      {
+        "type": "reported_event",
+        "action": "加入盘前待核验事项",
+        "reason": "能源/地缘：Heating oil costs 'more than double' ahead of winter",
+        "evidence": [
+          "https://www.bbc.co.uk/news/articles/c6n8de1jgrdvo?at_medium=RSS&at_campaign=rss"
+        ],
+        "event_id": "935463ec05f273aa"
+      },
+      {
+        "type": "reported_event",
+        "action": "加入盘前待核验事项",
+        "reason": "能源/地缘：White House lifts tariffs on some Canadian goods as midterm elections loom",
+        "evidence": [
+          "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss"
+        ],
+        "event_id": "4a0e7c636d8f3eed"
+      }
+    ],
+    "new_event_ids": [
+      "9806398c54977e12",
+      "c0abea4710e7b13d",
+      "d5f3d9b5ecda620f",
+      "2c188e539dd379d9",
+      "d9f18262a5c12c16",
+      "2c95b368959c0ea9",
+      "9c03c8f52d6507ea",
+      "e92d29df8f6c031a",
+      "499f394a8e9a94fd",
+      "ca241cd939660848",
+      "8d9b66bb76137118",
+      "39f4a973fcf00eae",
+      "b2f5b834e1ee0f8b",
+      "16228f63a5793069",
+      "0b7b2d307c0d758c",
+      "c48681e9090df224",
+      "9ed174ab7a6e1ebb",
+      "3bcfa00cd788042c",
+      "26a07b67934a2633",
+      "bb2c83ef51c20776",
+      "32a72bd0a4cfab0e",
+      "b975f1c413d8b372",
+      "bfe23b9bd6d78efe",
+      "786425f5ebf46c88",
+      "cccfddb5e3047b58",
+      "91efb793c99efe56",
+      "5d43cb3421f85568",
+      "e3a34610ce6d0c2e",
+      "a779088d785db2ab",
+      "455281c61a3f37c4",
+      "36f51e4f7335ebb5",
+      "aa7b5d52e88662bc",
+      "1f721321e4951276",
+      "62ac4c6f7b94004f",
+      "b30138dbbb913c9c",
+      "09b71c517cbbbab0",
+      "e4208ca68c99c97e",
+      "6878d33ff3d3470c",
+      "c9af8a949ce0d106",
+      "730d26e300a25b75",
+      "d25590d44b628b07",
+      "689403e83cdf73b1",
+      "66a4c44e91f676ca",
+      "f8473845e9d8009a",
+      "efa32edceffe1b32",
+      "7882f22b0f9f87b2",
+      "767426703be6598a",
+      "ae3964ccd6b24c54",
+      "0b01bc95787b6ec8",
+      "9241850dc8e77f3b",
+      "ec76cc67b2452779",
+      "d3761838d2ffdb0b",
+      "935463ec05f273aa",
+      "6af171380d5b7e7c",
+      "9a27ad726f25222b",
+      "e129c43f5ea435de",
+      "3a85dad03c4624de",
+      "959105e5a6629aac",
+      "3ced0c674d3f7aae",
+      "4a0e7c636d8f3eed"
+    ],
+    "note": "保留盘内基础观察池；只追加有来源的风险/题材条件，不把标题直接变成交易指令"
+  },
+  "external_context_path": "state/external/2026-10-26/20261026T090555_morning_40252508335_1.json",
+  "evening_context_path": "state/external/2026-10-23/20261023T205637_evening_39957154476_1.json"
+}
