@@ -1,0 +1,16 @@
+{
+  "run_key": "20261028T175913_midday_40668487842_1",
+  "phase": "midday",
+  "started_at": "2026-10-28T17:59:13.453355+08:00",
+  "run_url": "https://github.com/Bowen389/pro/actions/runs/40668487842",
+  "system_status": "DEVELOPMENT_VALIDATION",
+  "market_status": "pending",
+  "source_status": "pending",
+  "report_status": "not_generated",
+  "warnings": [],
+  "exit_code": 1,
+  "result": "failed",
+  "error_type": "ValueError",
+  "error": "Missed midday capture window; will not label close data as midday",
+  "finished_at": "2026-10-28T17:59:13.458353+08:00"
+}
