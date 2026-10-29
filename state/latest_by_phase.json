@@ -30,13 +30,15 @@
     "deadline_at": "2026-10-27T09:15:00+08:00"
   },
   "midday": {
-    "run_key": "20261027T121051_midday_40448295426_1",
-    "report_path": "reports/2026-10-27/20261027T121051_midday_40448295426_1.md",
-    "market_date": "2026-10-27",
+    "run_key": "20261029T182229_midday_40857031303_1",
+    "report_path": null,
+    "market_date": null,
     "phase": "midday",
-    "result": "success",
-    "started_at": "2026-10-27T12:10:51.924927+08:00",
-    "delivery_status": null,
-    "deadline_at": null
+    "result": "skipped",
+    "started_at": "2026-10-29T18:22:29.816160+08:00",
+    "delivery_status": "missed_window",
+    "deadline_at": null,
+    "skip_reason": "午间任务已过期，不将其他时段数据标为午间",
+    "warnings": []
   }
 }
