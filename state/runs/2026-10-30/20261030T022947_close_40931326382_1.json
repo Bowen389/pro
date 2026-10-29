@@ -1,0 +1,16 @@
+{
+  "run_key": "20261030T022947_close_40931326382_1",
+  "phase": "close",
+  "started_at": "2026-10-30T02:29:47.549941+08:00",
+  "run_url": "https://github.com/Bowen389/pro/actions/runs/40931326382",
+  "system_status": "DEVELOPMENT_VALIDATION",
+  "market_status": "pending",
+  "source_status": "pending",
+  "report_status": "not_generated",
+  "warnings": [],
+  "exit_code": 1,
+  "result": "failed",
+  "error_type": "ValueError",
+  "error": "梯队日期与目标不一致",
+  "finished_at": "2026-10-30T02:29:59.939576+08:00"
+}
