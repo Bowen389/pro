@@ -44,9 +44,9 @@ class PipelineChecks(unittest.TestCase):
             r=perform(self.root,'morning',dt.datetime(2026,10,23,9,41,tzinfo=TZ),sources,market,loader)
         loader.assert_not_called()
         self.assertEqual(r['delivery_status'],'missed_deadline')
-        self.assertEqual(r['result'],'failed')
+        self.assertEqual(r['result'],'skipped')
         self.assertFalse((self.root/'state/plans').exists())
-        self.assertFalse((self.root/'state/latest_by_phase.json').exists())
+        self.assertIn('未交付',(self.root/'reports/LATEST.md').read_text())
     def test_morning_fetch_crossing_deadline_never_freezes(self):
         write_json(self.root/'state/snapshots/2026-10-22/close.json',market('2026-10-22','close','2026-10-22T16:00:00+08:00'))
         with patch('pipeline.time.monotonic',side_effect=[0,61]):
@@ -81,7 +81,7 @@ class PipelineChecks(unittest.TestCase):
         self.assertIn('workflow_dispatch:',backtest);self.assertNotIn('  push:',backtest)
     def test_late_midday_rejected(self):
         r=perform(self.root,'midday',dt.datetime(2026,10,21,15,tzinfo=TZ),sources,market)
-        self.assertEqual(r['exit_code'],1);self.assertEqual(load_snapshots(self.root),[])
+        self.assertEqual(r['exit_code'],0);self.assertEqual(r['result'],'skipped');self.assertEqual(load_snapshots(self.root),[])
     def test_source_failure_does_not_fake_complete(self):
         def broken(*a):raise ValueError('source unavailable')
         r=perform(self.root,'close',dt.datetime(2026,10,21,16,tzinfo=TZ),broken,market)
@@ -131,4 +131,21 @@ class PipelineChecks(unittest.TestCase):
         plan=json.loads((self.root/r['plan_path']).read_text())
         self.assertIsNotNone(plan['evening_context_path'])
         self.assertIn('external_revision',plan)
+    def test_cross_midnight_evening_uses_prior_close(self):
+        seen=[]
+        def capture(day,phase,observed):
+            seen.append((day,observed))
+            return market(day,phase,observed)
+        r=perform(self.root,'evening',dt.datetime(2026,10,29,2,21,tzinfo=TZ),sources,capture,external)
+        self.assertEqual(seen[0][0],'2026-10-28')
+        self.assertIn('2026-10-29T02:21',seen[0][1])
+        self.assertEqual(r['market_date'],'2026-10-28')
+        self.assertNotEqual(r['domestic_result'],'failed')
+    def test_missing_domestic_warning_visible(self):
+        def broken(*a):raise ValueError('market unavailable')
+        r=perform(self.root,'evening',dt.datetime(2026,10,29,2,tzinfo=TZ),sources,broken,external)
+        self.assertEqual(r['delivery_status'],'incomplete')
+        self.assertTrue(any('收盘复盘缺失' in w for w in r['warnings']))
+        self.assertIn('partial',(self.root/'reports/LATEST.md').read_text())
 if __name__=='__main__':unittest.main()
+

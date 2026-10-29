@@ -81,18 +81,20 @@ def evaluate(root,snapshot,observed):
 def publish_latest(root,status):
     manifest=root/'state/latest_by_phase.json'
     latest=json.loads(manifest.read_text(encoding='utf-8')) if manifest.exists() else {}
-    latest[status['phase']]={k:status.get(k) for k in ('run_key','report_path','market_date','phase','result','started_at','delivery_status','deadline_at')}
+    latest[status['phase']]={k:status.get(k) for k in ('run_key','report_path','market_date','phase','result','started_at','delivery_status','deadline_at','skip_reason','warnings')}
     write_json(manifest,latest)
     labels={'morning':'盘前修订预案','midday':'午间盘内观察','close':'手动收盘记录','evening':'晚间综合复盘'}
-    lines=['# 各时段最新报告','','|时段|最新报告|','|---|---|']
+    lines=['# 各时段最新报告','','更新时间：'+status['started_at']+'。旧报告不代表今日已交付。','','|时段|最新报告与状态|','|---|---|']
     for phase in ('morning','midday','evening'):
         record=latest.get(phase)
         if record and record.get('report_path'):
-            label=labels[phase]
+            label=labels[phase]+'（'+str(record.get('result'))+'；编制 '+str(record.get('started_at'))+'；行情 '+str(record.get('market_date') or '缺失')+'）'
             if phase=='morning':
                 label+='（'+record['run_key'][:8]+'；'+('已迟到，非有效盘前预案' if record.get('delivery_status')=='late' else '核对报告日期与编制时点')+'）'
             lines.append(f"|{label}|[{record['run_key']}]({record['report_path'].removeprefix('reports/')})|")
-        else:lines.append(f"|{labels[phase]}|尚未生成|")
+        else:
+            detail=(record.get('skip_reason') or record.get('result') or '尚未生成') if record else '尚未生成'
+            lines.append(f"|{labels[phase]}|未交付：{detail}|")
     lines+=['','[最新运行状态](../state/status.json)','系统处于开发验证阶段。各阶段只生成对应产物，不重复发布同一份复盘。']
     (root/'reports').mkdir(exist_ok=True)
     (root/'reports/LATEST.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
@@ -155,7 +157,12 @@ def external_run(root,phase,now,run_key,status,history,loader):
 
 def evening_run(root,now,run_key,status,source_loader,market_loader,external_loader):
     # Reuse close collection/validation, then publish one combined evening product.
-    domestic=perform(root,'close',now,source_loader,market_loader,external_loader)
+    target=now.date()
+    if now.time()<dt.time(15,10):
+        target-=dt.timedelta(days=1)
+    while target.weekday()>4:target-=dt.timedelta(days=1)
+    status['target_market_date']=target.isoformat()
+    domestic=perform(root,'close',now,source_loader,market_loader,external_loader,target_day=target.isoformat())
     domestic_text=None
     if domestic.get('report_path'):
         path=root/domestic['report_path']
@@ -186,6 +193,12 @@ def evening_run(root,now,run_key,status,source_loader,market_loader,external_loa
     partial=domestic.get('result')!='success' or not external_ok or status.get('result')=='partial'
     status.update({'result':'partial' if partial else 'success','report_path':str(report_path.relative_to(root)),'report_status':'combined_evening_review','market_status':domestic['market_status'],'domestic_result':domestic['result'],'product':'evening'})
     status['warnings']+=domestic.get('warnings',[])
+    if domestic.get('result')=='failed':
+        status['warnings'].append('A股收盘复盘缺失：'+domestic.get('error','未知原因'))
+    if partial:
+        status['delivery_status']='incomplete'
+        report_path.write_text('> ⚠ 部分完成：请检查收盘复盘与外盘数据缺失项。目标A股日期：'+target.isoformat()+'；实际采集：'+now.isoformat()+'。\n\n'+report_path.read_text(encoding='utf-8'),encoding='utf-8')
+        report_path.with_suffix('.html').write_text(to_html(report_path.read_text(encoding='utf-8')),encoding='utf-8')
     publish_latest(root,status)
     return status
 
@@ -209,13 +222,14 @@ def track_run(root,now,run_key,status):
     return status
 
 
-def perform(root,phase,now=None,source_loader=collect_sources,market_loader=None,external_loader=collect_external):
+def perform(root,phase,now=None,source_loader=collect_sources,market_loader=None,external_loader=collect_external,target_day=None):
     now=now or dt.datetime.now(TZ);observed=now.isoformat();day=now.date().isoformat()
+    day=target_day or day
     phase=phase if phase!='auto' else 'morning' if now.hour<10 else 'midday' if now.hour<13 else 'evening' if now.hour>=18 else 'close'
     run_key=now.strftime('%Y%m%dT%H%M%S')+'_'+phase+'_'+os.environ.get('GITHUB_RUN_ID','local')+'_'+os.environ.get('GITHUB_RUN_ATTEMPT','1')
     status={'run_key':run_key,'phase':phase,'started_at':observed,'run_url':f"https://github.com/{os.environ.get('GITHUB_REPOSITORY','Bowen389/pro')}/actions/runs/{os.environ.get('GITHUB_RUN_ID','')}" ,'system_status':'DEVELOPMENT_VALIDATION','market_status':'pending','source_status':'pending','report_status':'pending','warnings':[],'exit_code':0}
     try:
-        if now.weekday()>4:
+        if dt.date.fromisoformat(day).weekday()>4 and phase!='evening':
             status.update({'market_status':'skipped_weekend','source_status':'skipped','report_status':'skipped','result':'skipped'})
             return status
         if phase=='track':
@@ -225,8 +239,11 @@ def perform(root,phase,now=None,source_loader=collect_sources,market_loader=None
             return evening_run(root,now,run_key,status,source_loader,market_loader,external_loader)
         if phase=='morning':
             return external_run(root,phase,now,run_key,status,history,external_loader)
-        if phase=='midday' and not dt.time(11,30)<=now.time()<dt.time(12,30):raise ValueError('Missed midday capture window; will not label close data as midday')
-        if phase=='close' and now.time()<dt.time(15,10):raise ValueError('Close task before final data window')
+        if phase=='midday' and not dt.time(11,30)<=now.time()<dt.time(12,30):
+            status.update({'result':'skipped','delivery_status':'missed_window','report_status':'not_generated','skip_reason':'午间任务已过期，不将其他时段数据标为午间'})
+            publish_latest(root,status)
+            return status
+        if phase=='close' and day==now.date().isoformat() and now.time()<dt.time(15,10):raise ValueError('Close task before final data window')
         if market_loader is None:
             db=database(root/'runtime.sqlite')
             try:
@@ -245,7 +262,7 @@ def perform(root,phase,now=None,source_loader=collect_sources,market_loader=None
         key=hashlib.sha256(json.dumps(snapshot,sort_keys=True,ensure_ascii=False).encode()).hexdigest()[:16]
         write_json(root/'state/snapshots'/day/(phase+'_'+key+'.json'),snapshot)
         status['market_status']='collected_public_limit_pool'
-        target=next_weekday(now.date())
+        target=next_weekday(dt.date.fromisoformat(day))
         status['market_date']=snapshot['date'];status['market_count']=snapshot['count']
         if phase=='midday':
             enrichment=collect_research(snapshot,dt.datetime.now(TZ).isoformat(),environment_only=True)
@@ -318,12 +335,16 @@ def perform(root,phase,now=None,source_loader=collect_sources,market_loader=None
         status['warnings']+=['研究数据覆盖以research_datasets及归档记录为准；L2尚未实接','角色排序未验证收益；模型未配置时不进行语义观点提炼','工作日为近似交易日历；节假日数据可能陈旧并报错']
     except Exception as exc:
         if isinstance(exc,MorningDeadlineMissed):
-            status.update({'delivery_status':'missed_deadline','deadline_at':day+'T09:15:00+08:00'})
+            status.update({'delivery_status':'missed_deadline','deadline_at':day+'T09:15:00+08:00','result':'skipped','exit_code':0,'skip_reason':str(exc),'report_status':'not_generated'})
+            publish_latest(root,status)
+            return status
         status.update({'result':'failed','exit_code':1,'error_type':type(exc).__name__,'error':str(exc)[:400],'report_status':'not_generated'})
     finally:
         status['finished_at']=dt.datetime.now(TZ).isoformat()
+        if status.get('result')=='failed':
+            publish_latest(root,status)
         write_json(root/'state/status.json',status)
-        write_json(root/'state/runs'/day/(run_key+'.json'),status)
+        write_json(root/'state/runs'/now.date().isoformat()/(run_key+'.json'),status)
     return status
 
 
@@ -331,6 +352,9 @@ def main():
     p=argparse.ArgumentParser();p.add_argument('--phase',choices=['auto','morning','midday','close','evening','track','validation'],default='auto');a=p.parse_args()
     root=Path(__file__).resolve().parents[1];status=perform(root,a.phase)
     print(json.dumps(status,ensure_ascii=False,indent=2))
+    if status.get('result') in ('skipped','partial'):
+        message=status.get('skip_reason') or '报告部分完成，请检查缺失项：'+'；'.join(status.get('warnings',[]))
+        print('::warning::'+message.replace('\n',' ').replace('\r',' '))
     output=os.environ.get('GITHUB_OUTPUT')
     if output:
         with open(output,'a',encoding='utf-8') as f:
@@ -345,3 +369,4 @@ def main():
 
 
 if __name__=='__main__':main()
+
