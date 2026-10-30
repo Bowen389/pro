@@ -1,8 +1,8 @@
 {
-  "run_key": "20261030T134902_morning_41010509129_1",
+  "run_key": "20261030T145936_morning_41017308038_1",
   "phase": "morning",
-  "started_at": "2026-10-30T13:49:02.356514+08:00",
-  "run_url": "https://github.com/Bowen389/pro/actions/runs/41010509129",
+  "started_at": "2026-10-30T14:59:36.497154+08:00",
+  "run_url": "https://github.com/Bowen389/pro/actions/runs/41017308038",
   "system_status": "DEVELOPMENT_VALIDATION",
   "market_status": "pending",
   "source_status": "pending",
@@ -13,5 +13,5 @@
   "delivery_status": "missed_deadline",
   "result": "skipped",
   "skip_reason": "盘前交付已超过北京时间09:15截止；不生成有效盘前预案",
-  "finished_at": "2026-10-30T13:49:02.361936+08:00"
+  "finished_at": "2026-10-30T14:59:36.501769+08:00"
 }
