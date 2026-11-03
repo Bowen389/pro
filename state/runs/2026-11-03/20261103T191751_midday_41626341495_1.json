@@ -1,0 +1,16 @@
+{
+  "run_key": "20261103T191751_midday_41626341495_1",
+  "phase": "midday",
+  "started_at": "2026-11-03T19:17:51.805782+08:00",
+  "run_url": "https://github.com/Bowen389/pro/actions/runs/41626341495",
+  "system_status": "DEVELOPMENT_VALIDATION",
+  "market_status": "pending",
+  "source_status": "pending",
+  "report_status": "not_generated",
+  "warnings": [],
+  "exit_code": 0,
+  "result": "skipped",
+  "delivery_status": "missed_window",
+  "skip_reason": "午间任务已过期，不将其他时段数据标为午间",
+  "finished_at": "2026-11-03T19:17:51.811165+08:00"
+}
