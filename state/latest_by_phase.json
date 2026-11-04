@@ -1,11 +1,11 @@
 {
   "evening": {
-    "run_key": "20261104T033032_evening_41703824912_1",
-    "report_path": "reports/2026-11-04/20261104T033032_evening_41703824912_1.md",
+    "run_key": "20261105T034811_evening_41900440091_1",
+    "report_path": "reports/2026-11-05/20261105T034811_evening_41900440091_1.md",
     "market_date": null,
     "phase": "evening",
     "result": "partial",
-    "started_at": "2026-11-04T03:30:32.852477+08:00",
+    "started_at": "2026-11-05T03:48:11.027038+08:00",
     "delivery_status": "incomplete",
     "deadline_at": null,
     "skip_reason": null,
