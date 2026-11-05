@@ -38,12 +38,12 @@
     "warnings": []
   },
   "midday": {
-    "run_key": "20261104T192958_midday_41821335095_1",
+    "run_key": "20261105T192734_midday_42019102292_1",
     "report_path": null,
     "market_date": null,
     "phase": "midday",
     "result": "skipped",
-    "started_at": "2026-11-04T19:29:58.034892+08:00",
+    "started_at": "2026-11-05T19:27:34.795932+08:00",
     "delivery_status": "missed_window",
     "deadline_at": null,
     "skip_reason": "午间任务已过期，不将其他时段数据标为午间",
