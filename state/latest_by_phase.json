@@ -26,14 +26,14 @@
     "deadline_at": null
   },
   "morning": {
-    "run_key": "20261104T152646_morning_41792309291_1",
+    "run_key": "20261105T144613_morning_41982635791_1",
     "report_path": null,
     "market_date": null,
     "phase": "morning",
     "result": "skipped",
-    "started_at": "2026-11-04T15:26:46.612917+08:00",
+    "started_at": "2026-11-05T14:46:13.337221+08:00",
     "delivery_status": "missed_deadline",
-    "deadline_at": "2026-11-04T09:15:00+08:00",
+    "deadline_at": "2026-11-05T09:15:00+08:00",
     "skip_reason": "盘前交付已超过北京时间09:15截止；不生成有效盘前预案",
     "warnings": []
   },
